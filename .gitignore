@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+models/*.pt
+models/*.pkl
+memory/stock_context/*.json
+memory/eval_logs/*.json
+memory/prompt_history/*.json
+results/*.json
+results/*.csv
+.DS_Store
