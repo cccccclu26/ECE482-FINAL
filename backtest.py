@@ -19,7 +19,6 @@ import pandas as pd
 import config
 from data_fetcher import fetch_all_price_data
 from llm_predictor import LLMPredictor, predictions_to_weights
-from lstm_model import LSTMTrainer
 from memory import update_prediction_actuals, append_prediction_to_context
 
 
@@ -186,6 +185,7 @@ def run_lstm_backtest(start_date, end_date, tickers=None,
     print(f"Period:     {start_date} to {end_date}")
     print(f"{'='*65}\n")
 
+    from lstm_model import LSTMTrainer
     trainer = LSTMTrainer()
 
     print("Fetching price data...")

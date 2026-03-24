@@ -20,63 +20,64 @@ from datetime import datetime
 
 import numpy as np
 import pandas as pd
-import torch
-import torch.nn as nn
-from torch.utils.data import Dataset, DataLoader
 from sklearn.preprocessing import StandardScaler
+
+try:
+    import torch
+    import torch.nn as nn
+    from torch.utils.data import Dataset, DataLoader
+    TORCH_AVAILABLE = True
+except ImportError:
+    TORCH_AVAILABLE = False
 
 import config
 from technical import compute_ema, compute_rsi
 
 
 # ============================================================
-# Dataset
+# Dataset & LSTM Network (requires PyTorch)
 # ============================================================
 
-class StockSequenceDataset(Dataset):
-    """PyTorch dataset: sequences of daily features -> binary label."""
+if TORCH_AVAILABLE:
+    class StockSequenceDataset(Dataset):
+        """PyTorch dataset: sequences of daily features -> binary label."""
 
-    def __init__(self, sequences, labels):
-        self.sequences = torch.FloatTensor(sequences)
-        self.labels = torch.FloatTensor(labels)
+        def __init__(self, sequences, labels):
+            self.sequences = torch.FloatTensor(sequences)
+            self.labels = torch.FloatTensor(labels)
 
-    def __len__(self):
-        return len(self.labels)
+        def __len__(self):
+            return len(self.labels)
 
-    def __getitem__(self, idx):
-        return self.sequences[idx], self.labels[idx]
+        def __getitem__(self, idx):
+            return self.sequences[idx], self.labels[idx]
 
+    class StockLSTM(nn.Module):
+        """LSTM for binary stock direction prediction."""
 
-# ============================================================
-# LSTM Network
-# ============================================================
+        def __init__(self, input_size=7, hidden_size=64, num_layers=2, dropout=0.3):
+            super().__init__()
+            self.lstm = nn.LSTM(
+                input_size=input_size,
+                hidden_size=hidden_size,
+                num_layers=num_layers,
+                batch_first=True,
+                dropout=dropout if num_layers > 1 else 0,
+            )
+            self.fc = nn.Sequential(
+                nn.Linear(hidden_size, 32),
+                nn.ReLU(),
+                nn.Dropout(dropout),
+                nn.Linear(32, 1),
+                nn.Sigmoid(),
+            )
 
-class StockLSTM(nn.Module):
-    """LSTM for binary stock direction prediction."""
-
-    def __init__(self, input_size=7, hidden_size=64, num_layers=2, dropout=0.3):
-        super().__init__()
-        self.lstm = nn.LSTM(
-            input_size=input_size,
-            hidden_size=hidden_size,
-            num_layers=num_layers,
-            batch_first=True,
-            dropout=dropout if num_layers > 1 else 0,
-        )
-        self.fc = nn.Sequential(
-            nn.Linear(hidden_size, 32),
-            nn.ReLU(),
-            nn.Dropout(dropout),
-            nn.Linear(32, 1),
-            nn.Sigmoid(),
-        )
-
-    def forward(self, x):
-        # x shape: (batch, seq_len, input_size)
-        lstm_out, _ = self.lstm(x)
-        # Use last timestep output
-        last_hidden = lstm_out[:, -1, :]
-        return self.fc(last_hidden).squeeze(-1)
+        def forward(self, x):
+            # x shape: (batch, seq_len, input_size)
+            lstm_out, _ = self.lstm(x)
+            # Use last timestep output
+            last_hidden = lstm_out[:, -1, :]
+            return self.fc(last_hidden).squeeze(-1)
 
 
 # ============================================================
@@ -181,9 +182,14 @@ def create_sequences(features_df, price_df, seq_len, horizon):
 # ============================================================
 
 class LSTMTrainer:
-    """Train and manage per-stock LSTM models."""
+    """Train and manage per-stock LSTM models. Requires PyTorch."""
 
     def __init__(self):
+        if not TORCH_AVAILABLE:
+            raise ImportError(
+                "PyTorch is required for LSTM training/prediction. "
+                "Install with: pip install torch (requires standard CPython, not MSYS2)"
+            )
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         os.makedirs(config.MODELS_DIR, exist_ok=True)
 
