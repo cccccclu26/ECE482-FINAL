@@ -133,7 +133,7 @@ def build_daily_features(price_df):
     return features.dropna()
 
 
-def create_sequences(features_df, price_df, seq_len, horizon):
+def create_sequences(features_df, price_df, seq_len, horizon, sample_interval=None):
     """
     Create input sequences and binary labels.
 
@@ -142,12 +142,15 @@ def create_sequences(features_df, price_df, seq_len, horizon):
         price_df: Price DataFrame (for computing forward returns)
         seq_len: Number of past days in each sequence
         horizon: Forward days for label computation
+        sample_interval: Take a sample every N days (default: config.SAMPLE_INTERVAL_DAYS)
 
     Returns:
         sequences: np.array (N, seq_len, n_features)
         labels: np.array (N,) binary 0/1
         dates: list of prediction dates
     """
+    sample_interval = sample_interval or config.SAMPLE_INTERVAL_DAYS
+
     close = price_df["Close"]
     feature_vals = features_df.values
     feature_dates = features_df.index
@@ -156,7 +159,7 @@ def create_sequences(features_df, price_df, seq_len, horizon):
     labels = []
     dates = []
 
-    for i in range(seq_len, len(feature_vals)):
+    for i in range(seq_len, len(feature_vals), sample_interval):
         current_date = feature_dates[i]
 
         # Find the price horizon days forward
@@ -373,14 +376,14 @@ class LSTMTrainer:
 
         return prob_up
 
-    def train_all(self, tickers, price_data_dict, train_start, train_end):
+    def train_all(self, tickers, price_data_dict, train_start, train_end, **kwargs):
         """Train LSTM models for all tickers."""
         results = {}
         for ticker in tickers:
             if ticker not in price_data_dict:
                 print(f"  {ticker}: No price data available")
                 continue
-            meta = self.train(ticker, price_data_dict[ticker], train_start, train_end)
+            meta = self.train(ticker, price_data_dict[ticker], train_start, train_end, **kwargs)
             if meta:
                 results[ticker] = meta
         return results
