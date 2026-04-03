@@ -1,0 +1,3228 @@
+{
+  "method": "LLM",
+  "portfolio_value": 130907.64,
+  "spy_value": 17133.33,
+  "total_return": 1209.08,
+  "spy_return": 71.33,
+  "alpha": 1137.74,
+  "cagr": 90.58,
+  "spy_cagr": 14.46,
+  "history": [
+    {
+      "date": "2021-01-04",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 3.87,
+      "spy_return": 2.68,
+      "portfolio_value": 10387.39,
+      "spy_value": 10268.44
+    },
+    {
+      "date": "2021-01-11",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 68
+        }
+      },
+      "period_return": -4.38,
+      "spy_return": -0.01,
+      "portfolio_value": 9932.7,
+      "spy_value": 10267.36
+    },
+    {
+      "date": "2021-01-19",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 58
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 1.36,
+      "portfolio_value": 9932.7,
+      "spy_value": 10406.73
+    },
+    {
+      "date": "2021-01-26",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 0.9,
+      "spy_return": -0.58,
+      "portfolio_value": 10022.53,
+      "spy_value": 10346.0
+    },
+    {
+      "date": "2021-02-02",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 5.21,
+      "spy_return": 2.28,
+      "portfolio_value": 10544.85,
+      "spy_value": 10581.9
+    },
+    {
+      "date": "2021-02-09",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 4.51,
+      "spy_return": 0.55,
+      "portfolio_value": 11020.03,
+      "spy_value": 10639.93
+    },
+    {
+      "date": "2021-02-17",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 66
+        }
+      },
+      "period_return": -2.73,
+      "spy_return": -0.16,
+      "portfolio_value": 10719.14,
+      "spy_value": 10623.12
+    },
+    {
+      "date": "2021-02-24",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": -11.69,
+      "spy_return": -2.64,
+      "portfolio_value": 9466.58,
+      "spy_value": 10342.47
+    },
+    {
+      "date": "2021-03-03",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 63
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 2.14,
+      "portfolio_value": 9466.58,
+      "spy_value": 10563.73
+    },
+    {
+      "date": "2021-03-10",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 66
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 1.97,
+      "portfolio_value": 9466.58,
+      "spy_value": 10771.98
+    },
+    {
+      "date": "2021-03-17",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 56
+        }
+      },
+      "period_return": -5.23,
+      "spy_return": -2.13,
+      "portfolio_value": 8971.12,
+      "spy_value": 10542.29
+    },
+    {
+      "date": "2021-03-24",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 58
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 2.27,
+      "portfolio_value": 8971.12,
+      "spy_value": 10781.96
+    },
+    {
+      "date": "2021-03-31",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 7.53,
+      "spy_return": 10.36,
+      "portfolio_value": 9646.45,
+      "spy_value": 11899.13
+    },
+    {
+      "date": "2021-04-08",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": 12.71,
+      "spy_return": 1.8,
+      "portfolio_value": 10872.92,
+      "spy_value": 12113.22
+    },
+    {
+      "date": "2021-04-15",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": -7.98,
+      "spy_return": -0.87,
+      "portfolio_value": 10005.77,
+      "spy_value": 12008.36
+    },
+    {
+      "date": "2021-04-22",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 3.2,
+      "spy_return": 1.89,
+      "portfolio_value": 10325.48,
+      "spy_value": 12235.26
+    },
+    {
+      "date": "2021-04-29",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": -5.23,
+      "spy_return": -0.24,
+      "portfolio_value": 9785.24,
+      "spy_value": 12206.42
+    },
+    {
+      "date": "2021-05-06",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 61
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -2.1,
+      "portfolio_value": 9785.24,
+      "spy_value": 11950.39
+    },
+    {
+      "date": "2021-05-13",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 63
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 1.22,
+      "portfolio_value": 9785.24,
+      "spy_value": 12096.03
+    },
+    {
+      "date": "2021-05-20",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 5.99,
+      "spy_return": 0.97,
+      "portfolio_value": 10371.52,
+      "spy_value": 12212.83
+    },
+    {
+      "date": "2021-05-27",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 66
+        }
+      },
+      "period_return": 13.5,
+      "spy_return": 0.79,
+      "portfolio_value": 11771.29,
+      "spy_value": 12309.24
+    },
+    {
+      "date": "2021-06-04",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": 1.41,
+      "spy_return": 0.4,
+      "portfolio_value": 11936.69,
+      "spy_value": 12359.05
+    },
+    {
+      "date": "2021-06-11",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 68
+        }
+      },
+      "period_return": 4.56,
+      "spy_return": -2.21,
+      "portfolio_value": 12481.45,
+      "spy_value": 12085.55
+    },
+    {
+      "date": "2021-06-18",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": 2.1,
+      "spy_return": 2.82,
+      "portfolio_value": 12744.09,
+      "spy_value": 12426.04
+    },
+    {
+      "date": "2021-06-25",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 66
+        }
+      },
+      "period_return": 7.65,
+      "spy_return": 1.67,
+      "portfolio_value": 13719.1,
+      "spy_value": 12633.14
+    },
+    {
+      "date": "2021-07-02",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": 0.12,
+      "spy_return": 0.77,
+      "portfolio_value": 13736.17,
+      "spy_value": 12731.01
+    },
+    {
+      "date": "2021-07-12",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": -8.45,
+      "spy_return": -2.77,
+      "portfolio_value": 12575.87,
+      "spy_value": 12378.28
+    },
+    {
+      "date": "2021-07-19",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 2.74,
+      "spy_return": 3.78,
+      "portfolio_value": 12920.2,
+      "spy_value": 12845.77
+    },
+    {
+      "date": "2021-07-26",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 2.36,
+      "spy_return": -0.78,
+      "portfolio_value": 13225.56,
+      "spy_value": 12745.86
+    },
+    {
+      "date": "2021-08-02",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": 2.76,
+      "spy_return": 1.04,
+      "portfolio_value": 13590.52,
+      "spy_value": 12878.1
+    },
+    {
+      "date": "2021-08-09",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 66
+        }
+      },
+      "period_return": -1.7,
+      "spy_return": 1.09,
+      "portfolio_value": 13359.49,
+      "spy_value": 13019.08
+    },
+    {
+      "date": "2021-08-16",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 10.07,
+      "spy_return": 0.06,
+      "portfolio_value": 14704.15,
+      "spy_value": 13027.53
+    },
+    {
+      "date": "2021-08-23",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": 3.32,
+      "spy_return": 1.11,
+      "portfolio_value": 15192.99,
+      "spy_value": 13172.29
+    },
+    {
+      "date": "2021-08-30",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 66
+        }
+      },
+      "period_return": -0.11,
+      "spy_return": -0.17,
+      "portfolio_value": 15175.58,
+      "spy_value": 13149.86
+    },
+    {
+      "date": "2021-09-07",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": -1.85,
+      "spy_return": -1.61,
+      "portfolio_value": 14894.33,
+      "spy_value": 12937.52
+    },
+    {
+      "date": "2021-09-14",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": -4.48,
+      "spy_return": -2.37,
+      "portfolio_value": 14227.36,
+      "spy_value": 12630.52
+    },
+    {
+      "date": "2021-09-21",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 63
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 0.02,
+      "portfolio_value": 14227.36,
+      "spy_value": 12633.14
+    },
+    {
+      "date": "2021-09-28",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 66
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -0.14,
+      "portfolio_value": 14227.36,
+      "spy_value": 12615.08
+    },
+    {
+      "date": "2021-10-05",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 64
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 0.12,
+      "portfolio_value": 14227.36,
+      "spy_value": 12630.23
+    },
+    {
+      "date": "2021-10-12",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 61
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 3.93,
+      "portfolio_value": 14227.36,
+      "spy_value": 13125.98
+    },
+    {
+      "date": "2021-10-19",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 63
+        }
+      },
+      "period_return": 10.89,
+      "spy_return": 1.18,
+      "portfolio_value": 15776.48,
+      "spy_value": 13280.93
+    },
+    {
+      "date": "2021-10-26",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 68
+        }
+      },
+      "period_return": 6.81,
+      "spy_return": 1.3,
+      "portfolio_value": 16851.35,
+      "spy_value": 13453.95
+    },
+    {
+      "date": "2021-11-02",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 16.12,
+      "spy_return": 1.19,
+      "portfolio_value": 19567.88,
+      "spy_value": 13613.57
+    },
+    {
+      "date": "2021-11-09",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": -1.48,
+      "spy_return": 0.41,
+      "portfolio_value": 19278.1,
+      "spy_value": 13668.91
+    },
+    {
+      "date": "2021-11-16",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": 5.11,
+      "spy_return": -0.23,
+      "portfolio_value": 20262.98,
+      "spy_value": 13637.16
+    },
+    {
+      "date": "2021-11-23",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 66
+        }
+      },
+      "period_return": -0.98,
+      "spy_return": -3.78,
+      "portfolio_value": 20064.47,
+      "spy_value": 13121.9
+    },
+    {
+      "date": "2021-12-01",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 1.24,
+      "spy_return": 4.22,
+      "portfolio_value": 20314.04,
+      "spy_value": 13675.9
+    },
+    {
+      "date": "2021-12-08",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 63
+        }
+      },
+      "period_return": -4.3,
+      "spy_return": 0.23,
+      "portfolio_value": 19441.5,
+      "spy_value": 13707.36
+    },
+    {
+      "date": "2021-12-15",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 58
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -0.62,
+      "portfolio_value": 19441.5,
+      "spy_value": 13622.6
+    },
+    {
+      "date": "2021-12-22",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 58
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 1.81,
+      "portfolio_value": 19441.5,
+      "spy_value": 13869.31
+    },
+    {
+      "date": "2021-12-30",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 58
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -1.73,
+      "portfolio_value": 19441.5,
+      "spy_value": 13629.88
+    },
+    {
+      "date": "2022-01-06",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 62
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -0.73,
+      "portfolio_value": 19441.5,
+      "spy_value": 13530.56
+    },
+    {
+      "date": "2022-01-13",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 61
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -5.72,
+      "portfolio_value": 19441.5,
+      "spy_value": 12757.22
+    },
+    {
+      "date": "2022-01-21",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 67
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 0.91,
+      "portfolio_value": 19441.5,
+      "spy_value": 12872.86
+    },
+    {
+      "date": "2022-01-28",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 66
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 1.53,
+      "portfolio_value": 19441.5,
+      "spy_value": 13069.47
+    },
+    {
+      "date": "2022-02-04",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 58
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -1.84,
+      "portfolio_value": 19441.5,
+      "spy_value": 12829.46
+    },
+    {
+      "date": "2022-02-11",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 58
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -1.41,
+      "portfolio_value": 19441.5,
+      "spy_value": 12648.0
+    },
+    {
+      "date": "2022-02-18",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 3.14,
+      "spy_return": 0.55,
+      "portfolio_value": 20052.5,
+      "spy_value": 12717.9
+    },
+    {
+      "date": "2022-02-28",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": -12.44,
+      "spy_return": -3.94,
+      "portfolio_value": 17558.37,
+      "spy_value": 12216.91
+    },
+    {
+      "date": "2022-03-07",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 63
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -0.58,
+      "portfolio_value": 17558.37,
+      "spy_value": 12146.13
+    },
+    {
+      "date": "2022-03-14",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 66
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 6.57,
+      "portfolio_value": 17558.37,
+      "spy_value": 12943.93
+    },
+    {
+      "date": "2022-03-21",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 5.55,
+      "spy_return": 2.59,
+      "portfolio_value": 18533.69,
+      "spy_value": 13279.48
+    },
+    {
+      "date": "2022-03-28",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": -3.04,
+      "spy_return": 0.2,
+      "portfolio_value": 17969.52,
+      "spy_value": 13305.4
+    },
+    {
+      "date": "2022-04-04",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": -19.89,
+      "spy_return": -3.7,
+      "portfolio_value": 14394.66,
+      "spy_value": 12813.73
+    },
+    {
+      "date": "2022-04-11",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 72
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 1.16,
+      "portfolio_value": 14394.66,
+      "spy_value": 12962.86
+    },
+    {
+      "date": "2022-04-19",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 67
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -6.5,
+      "portfolio_value": 14394.66,
+      "spy_value": 12119.92
+    },
+    {
+      "date": "2022-04-26",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 68
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 0.07,
+      "portfolio_value": 14394.66,
+      "spy_value": 12128.07
+    },
+    {
+      "date": "2022-05-03",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 68
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -4.15,
+      "portfolio_value": 14394.66,
+      "spy_value": 11624.46
+    },
+    {
+      "date": "2022-05-10",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 68
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 2.31,
+      "portfolio_value": 14394.66,
+      "spy_value": 11893.3
+    },
+    {
+      "date": "2022-05-17",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 63
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -3.53,
+      "portfolio_value": 14394.66,
+      "spy_value": 11473.0
+    },
+    {
+      "date": "2022-05-24",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 64
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 3.99,
+      "portfolio_value": 14394.66,
+      "spy_value": 11930.3
+    },
+    {
+      "date": "2022-06-01",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 1.79,
+      "spy_return": 0.4,
+      "portfolio_value": 14652.38,
+      "spy_value": 11977.77
+    },
+    {
+      "date": "2022-06-08",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": -11.37,
+      "spy_return": -7.79,
+      "portfolio_value": 12985.84,
+      "spy_value": 11045.11
+    },
+    {
+      "date": "2022-06-15",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 62
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -0.3,
+      "portfolio_value": 12985.84,
+      "spy_value": 11011.91
+    },
+    {
+      "date": "2022-06-23",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 64
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -0.21,
+      "portfolio_value": 12985.84,
+      "spy_value": 10988.32
+    },
+    {
+      "date": "2022-06-30",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 63
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 3.03,
+      "portfolio_value": 12985.84,
+      "spy_value": 11320.95
+    },
+    {
+      "date": "2022-07-08",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 61
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -0.91,
+      "portfolio_value": 12985.84,
+      "spy_value": 11217.84
+    },
+    {
+      "date": "2022-07-15",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 62
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 2.59,
+      "portfolio_value": 12985.84,
+      "spy_value": 11507.95
+    },
+    {
+      "date": "2022-07-22",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 4.87,
+      "spy_return": 4.28,
+      "portfolio_value": 13618.67,
+      "spy_value": 12000.2
+    },
+    {
+      "date": "2022-07-29",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 58
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 0.36,
+      "portfolio_value": 13618.67,
+      "spy_value": 12043.31
+    },
+    {
+      "date": "2022-08-05",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": -1.47,
+      "spy_return": 3.3,
+      "portfolio_value": 13417.86,
+      "spy_value": 12440.32
+    },
+    {
+      "date": "2022-08-12",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 58
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -1.16,
+      "portfolio_value": 13417.86,
+      "spy_value": 12295.85
+    },
+    {
+      "date": "2022-08-19",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 62
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -3.99,
+      "portfolio_value": 13417.86,
+      "spy_value": 11805.63
+    },
+    {
+      "date": "2022-08-26",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 67
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -3.22,
+      "portfolio_value": 13417.86,
+      "spy_value": 11424.94
+    },
+    {
+      "date": "2022-09-02",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 68
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 4.78,
+      "portfolio_value": 13417.86,
+      "spy_value": 11970.49
+    },
+    {
+      "date": "2022-09-12",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 67
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -5.46,
+      "portfolio_value": 13417.86,
+      "spy_value": 11317.46
+    },
+    {
+      "date": "2022-09-19",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 68
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -6.24,
+      "portfolio_value": 13417.86,
+      "spy_value": 10611.41
+    },
+    {
+      "date": "2022-09-26",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 61
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 0.63,
+      "portfolio_value": 13417.86,
+      "spy_value": 10678.4
+    },
+    {
+      "date": "2022-10-03",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 64
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -1.8,
+      "portfolio_value": 13417.86,
+      "spy_value": 10486.45
+    },
+    {
+      "date": "2022-10-10",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 67
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 1.89,
+      "portfolio_value": 13417.86,
+      "spy_value": 10684.52
+    },
+    {
+      "date": "2022-10-17",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 61
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 3.28,
+      "portfolio_value": 13417.86,
+      "spy_value": 11035.5
+    },
+    {
+      "date": "2022-10-24",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 7.13,
+      "spy_return": 1.94,
+      "portfolio_value": 14374.22,
+      "spy_value": 11249.3
+    },
+    {
+      "date": "2022-10-31",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": 5.96,
+      "spy_return": -1.62,
+      "portfolio_value": 15230.48,
+      "spy_value": 11066.96
+    },
+    {
+      "date": "2022-11-07",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": 13.94,
+      "spy_return": 3.99,
+      "portfolio_value": 17354.08,
+      "spy_value": 11508.82
+    },
+    {
+      "date": "2022-11-14",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": -6.0,
+      "spy_return": -0.13,
+      "portfolio_value": 16312.51,
+      "spy_value": 11493.39
+    },
+    {
+      "date": "2022-11-21",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 2.1,
+      "spy_return": 0.16,
+      "portfolio_value": 16655.44,
+      "spy_value": 11512.03
+    },
+    {
+      "date": "2022-11-29",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 2.23,
+      "spy_return": -0.35,
+      "portfolio_value": 17026.06,
+      "spy_value": 11471.25
+    },
+    {
+      "date": "2022-12-06",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 13.04,
+      "spy_return": 2.07,
+      "portfolio_value": 19246.57,
+      "spy_value": 11708.35
+    },
+    {
+      "date": "2022-12-13",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": -10.99,
+      "spy_return": -5.33,
+      "portfolio_value": 17130.43,
+      "spy_value": 11084.15
+    },
+    {
+      "date": "2022-12-20",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 61
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -1.02,
+      "portfolio_value": 17130.43,
+      "spy_value": 10971.13
+    },
+    {
+      "date": "2022-12-28",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 1.63,
+      "spy_return": 0.72,
+      "portfolio_value": 17409.91,
+      "spy_value": 11050.36
+    },
+    {
+      "date": "2023-01-05",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 15.74,
+      "spy_return": 4.63,
+      "portfolio_value": 20151.07,
+      "spy_value": 11562.42
+    },
+    {
+      "date": "2023-01-12",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": 8.04,
+      "spy_return": -0.27,
+      "portfolio_value": 21771.85,
+      "spy_value": 11530.96
+    },
+    {
+      "date": "2023-01-20",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": 14.16,
+      "spy_return": 2.48,
+      "portfolio_value": 24854.74,
+      "spy_value": 11816.41
+    },
+    {
+      "date": "2023-01-27",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 68
+        }
+      },
+      "period_return": 3.61,
+      "spy_return": 1.64,
+      "portfolio_value": 25751.78,
+      "spy_value": 12010.69
+    },
+    {
+      "date": "2023-02-03",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 66
+        }
+      },
+      "period_return": 0.78,
+      "spy_return": -1.05,
+      "portfolio_value": 25953.16,
+      "spy_value": 11885.15
+    },
+    {
+      "date": "2023-02-10",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 69
+        }
+      },
+      "period_return": 0.58,
+      "spy_return": -0.19,
+      "portfolio_value": 26103.28,
+      "spy_value": 11862.43
+    },
+    {
+      "date": "2023-02-17",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": 9.88,
+      "spy_return": -2.34,
+      "portfolio_value": 28682.11,
+      "spy_value": 11584.85
+    },
+    {
+      "date": "2023-02-27",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": 0.23,
+      "spy_return": 1.69,
+      "portfolio_value": 28746.8,
+      "spy_value": 11781.16
+    },
+    {
+      "date": "2023-03-06",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 63
+        }
+      },
+      "period_return": -2.5,
+      "spy_return": -4.72,
+      "portfolio_value": 28029.17,
+      "spy_value": 11224.54
+    },
+    {
+      "date": "2023-03-13",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 12.78,
+      "spy_return": 2.17,
+      "portfolio_value": 31610.01,
+      "spy_value": 11468.63
+    },
+    {
+      "date": "2023-03-20",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 2.44,
+      "spy_return": 0.7,
+      "portfolio_value": 32380.12,
+      "spy_value": 11548.73
+    },
+    {
+      "date": "2023-03-27",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 66
+        }
+      },
+      "period_return": 5.4,
+      "spy_return": 3.65,
+      "portfolio_value": 34130.26,
+      "spy_value": 11969.91
+    },
+    {
+      "date": "2023-04-03",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": -2.85,
+      "spy_return": -0.3,
+      "portfolio_value": 33158.77,
+      "spy_value": 11934.08
+    },
+    {
+      "date": "2023-04-11",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": 1.83,
+      "spy_return": 1.1,
+      "portfolio_value": 33766.57,
+      "spy_value": 12064.87
+    },
+    {
+      "date": "2023-04-18",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": -5.15,
+      "spy_return": -1.96,
+      "portfolio_value": 32026.18,
+      "spy_value": 11828.06
+    },
+    {
+      "date": "2023-04-25",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 7.5,
+      "spy_return": 1.17,
+      "portfolio_value": 34429.28,
+      "spy_value": 11966.71
+    },
+    {
+      "date": "2023-05-02",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": 1.28,
+      "spy_return": 0.02,
+      "portfolio_value": 34869.86,
+      "spy_value": 11969.33
+    },
+    {
+      "date": "2023-05-09",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 66
+        }
+      },
+      "period_return": 2.25,
+      "spy_return": -0.17,
+      "portfolio_value": 35653.4,
+      "spy_value": 11949.52
+    },
+    {
+      "date": "2023-05-16",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 72
+        }
+      },
+      "period_return": 5.05,
+      "spy_return": 0.94,
+      "portfolio_value": 37453.59,
+      "spy_value": 12061.37
+    },
+    {
+      "date": "2023-05-23",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 74
+        }
+      },
+      "period_return": 23.29,
+      "spy_return": 0.91,
+      "portfolio_value": 46175.02,
+      "spy_value": 12170.89
+    },
+    {
+      "date": "2023-05-31",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 68
+        }
+      },
+      "period_return": -0.95,
+      "spy_return": 2.08,
+      "portfolio_value": 45736.87,
+      "spy_value": 12424.3
+    },
+    {
+      "date": "2023-06-07",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": 14.74,
+      "spy_return": 2.49,
+      "portfolio_value": 52476.27,
+      "spy_value": 12733.92
+    },
+    {
+      "date": "2023-06-14",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 0.07,
+      "spy_return": -0.15,
+      "portfolio_value": 52510.45,
+      "spy_value": 12714.41
+    },
+    {
+      "date": "2023-06-22",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": -5.12,
+      "spy_return": 0.37,
+      "portfolio_value": 49821.76,
+      "spy_value": 12761.01
+    },
+    {
+      "date": "2023-06-29",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 4.12,
+      "spy_return": 0.1,
+      "portfolio_value": 51873.36,
+      "spy_value": 12773.83
+    },
+    {
+      "date": "2023-07-07",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 6.98,
+      "spy_return": 2.45,
+      "portfolio_value": 55493.26,
+      "spy_value": 13086.36
+    },
+    {
+      "date": "2023-07-14",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": -2.55,
+      "spy_return": 0.65,
+      "portfolio_value": 54077.52,
+      "spy_value": 13170.83
+    },
+    {
+      "date": "2023-07-21",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 5.51,
+      "spy_return": 1.05,
+      "portfolio_value": 57056.67,
+      "spy_value": 13308.9
+    },
+    {
+      "date": "2023-07-28",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": -4.43,
+      "spy_return": -2.21,
+      "portfolio_value": 54530.31,
+      "spy_value": 13014.42
+    },
+    {
+      "date": "2023-08-04",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": -8.56,
+      "spy_return": -0.26,
+      "portfolio_value": 49862.04,
+      "spy_value": 12980.63
+    },
+    {
+      "date": "2023-08-11",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 62
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -2.05,
+      "portfolio_value": 49862.04,
+      "spy_value": 12714.12
+    },
+    {
+      "date": "2023-08-18",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 56
+        }
+      },
+      "period_return": 6.28,
+      "spy_return": 0.79,
+      "portfolio_value": 52993.17,
+      "spy_value": 12815.19
+    },
+    {
+      "date": "2023-08-25",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": 5.41,
+      "spy_return": 2.55,
+      "portfolio_value": 55861.74,
+      "spy_value": 13142.0
+    },
+    {
+      "date": "2023-09-01",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 66
+        }
+      },
+      "period_return": -6.87,
+      "spy_return": -0.61,
+      "portfolio_value": 52025.85,
+      "spy_value": 13062.19
+    },
+    {
+      "date": "2023-09-11",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 58
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -1.07,
+      "portfolio_value": 52025.85,
+      "spy_value": 12921.79
+    },
+    {
+      "date": "2023-09-18",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 63
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -2.57,
+      "portfolio_value": 52025.85,
+      "spy_value": 12589.74
+    },
+    {
+      "date": "2023-09-25",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 64
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -1.14,
+      "portfolio_value": 52025.85,
+      "spy_value": 12446.43
+    },
+    {
+      "date": "2023-10-02",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": 1.1,
+      "spy_return": 1.17,
+      "portfolio_value": 52596.27,
+      "spy_value": 12591.49
+    },
+    {
+      "date": "2023-10-09",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": 1.82,
+      "spy_return": 0.87,
+      "portfolio_value": 53551.24,
+      "spy_value": 12700.72
+    },
+    {
+      "date": "2023-10-16",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": -6.77,
+      "spy_return": -3.57,
+      "portfolio_value": 49926.55,
+      "spy_value": 12246.91
+    },
+    {
+      "date": "2023-10-23",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 61
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -1.16,
+      "portfolio_value": 49926.55,
+      "spy_value": 12105.06
+    },
+    {
+      "date": "2023-10-30",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 63
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 4.84,
+      "portfolio_value": 49926.55,
+      "spy_value": 12690.52
+    },
+    {
+      "date": "2023-11-06",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 6.27,
+      "spy_return": 1.03,
+      "portfolio_value": 53057.4,
+      "spy_value": 12821.6
+    },
+    {
+      "date": "2023-11-13",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 3.68,
+      "spy_return": 3.2,
+      "portfolio_value": 55009.67,
+      "spy_value": 13231.42
+    },
+    {
+      "date": "2023-11-20",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": -5.13,
+      "spy_return": 0.15,
+      "portfolio_value": 52185.47,
+      "spy_value": 13250.93
+    },
+    {
+      "date": "2023-11-28",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": -2.62,
+      "spy_return": 0.37,
+      "portfolio_value": 50815.93,
+      "spy_value": 13299.58
+    },
+    {
+      "date": "2023-12-05",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 61
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 1.64,
+      "portfolio_value": 50815.93,
+      "spy_value": 13518.03
+    },
+    {
+      "date": "2023-12-12",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 4.09,
+      "spy_return": 2.31,
+      "portfolio_value": 52891.99,
+      "spy_value": 13830.86
+    },
+    {
+      "date": "2023-12-19",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": -0.38,
+      "spy_return": 0.35,
+      "portfolio_value": 52692.6,
+      "spy_value": 13879.5
+    },
+    {
+      "date": "2023-12-27",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": -2.87,
+      "spy_return": -1.94,
+      "portfolio_value": 51179.54,
+      "spy_value": 13610.66
+    },
+    {
+      "date": "2024-01-04",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 14.22,
+      "spy_return": 1.94,
+      "portfolio_value": 58455.86,
+      "spy_value": 13874.84
+    },
+    {
+      "date": "2024-01-11",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 8.52,
+      "spy_return": 1.28,
+      "portfolio_value": 63434.35,
+      "spy_value": 14051.94
+    },
+    {
+      "date": "2024-01-19",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": 2.59,
+      "spy_return": 1.03,
+      "portfolio_value": 65076.43,
+      "spy_value": 14196.99
+    },
+    {
+      "date": "2024-01-26",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": 8.4,
+      "spy_return": 1.42,
+      "portfolio_value": 70545.4,
+      "spy_value": 14399.14
+    },
+    {
+      "date": "2024-02-02",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 68
+        }
+      },
+      "period_return": 9.03,
+      "spy_return": 1.39,
+      "portfolio_value": 76914.32,
+      "spy_value": 14598.66
+    },
+    {
+      "date": "2024-02-09",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 0.67,
+      "spy_return": -0.34,
+      "portfolio_value": 77426.14,
+      "spy_value": 14549.43
+    },
+    {
+      "date": "2024-02-16",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 8.92,
+      "spy_return": 1.3,
+      "portfolio_value": 84334.6,
+      "spy_value": 14738.18
+    },
+    {
+      "date": "2024-02-26",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": 7.77,
+      "spy_return": 1.25,
+      "portfolio_value": 90886.92,
+      "spy_value": 14921.97
+    },
+    {
+      "date": "2024-03-04",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 66
+        }
+      },
+      "period_return": 0.63,
+      "spy_return": -0.2,
+      "portfolio_value": 91459.51,
+      "spy_value": 14892.26
+    },
+    {
+      "date": "2024-03-11",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 68
+        }
+      },
+      "period_return": 3.13,
+      "spy_return": 0.31,
+      "portfolio_value": 94318.22,
+      "spy_value": 14938.28
+    },
+    {
+      "date": "2024-03-18",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 7.4,
+      "spy_return": 1.35,
+      "portfolio_value": 101299.19,
+      "spy_value": 15139.55
+    },
+    {
+      "date": "2024-03-25",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": -5.84,
+      "spy_return": -0.18,
+      "portfolio_value": 95381.31,
+      "spy_value": 15112.47
+    },
+    {
+      "date": "2024-04-02",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": -4.58,
+      "spy_return": 0.09,
+      "portfolio_value": 91011.67,
+      "spy_value": 15126.45
+    },
+    {
+      "date": "2024-04-09",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 62
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -3.04,
+      "portfolio_value": 91011.67,
+      "spy_value": 14666.53
+    },
+    {
+      "date": "2024-04-16",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 58
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 0.42,
+      "portfolio_value": 91011.67,
+      "spy_value": 14728.28
+    },
+    {
+      "date": "2024-04-23",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 61
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -0.73,
+      "portfolio_value": 91011.67,
+      "spy_value": 14621.38
+    },
+    {
+      "date": "2024-04-30",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": 4.81,
+      "spy_return": 3.02,
+      "portfolio_value": 95385.19,
+      "spy_value": 15062.95
+    },
+    {
+      "date": "2024-05-07",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": 0.89,
+      "spy_return": 1.19,
+      "portfolio_value": 96229.98,
+      "spy_value": 15242.37
+    },
+    {
+      "date": "2024-05-14",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 4.41,
+      "spy_return": 1.54,
+      "portfolio_value": 100474.98,
+      "spy_value": 15477.14
+    },
+    {
+      "date": "2024-05-21",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 66
+        }
+      },
+      "period_return": 20.38,
+      "spy_return": -0.99,
+      "portfolio_value": 120951.08,
+      "spy_value": 15323.93
+    },
+    {
+      "date": "2024-05-29",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 6.63,
+      "spy_return": 1.63,
+      "portfolio_value": 128972.35,
+      "spy_value": 15573.55
+    },
+    {
+      "date": "2024-06-05",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 2.25,
+      "spy_return": 1.25,
+      "portfolio_value": 131879.6,
+      "spy_value": 15768.42
+    },
+    {
+      "date": "2024-06-12",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 68
+        }
+      },
+      "period_return": 4.46,
+      "spy_return": 1.04,
+      "portfolio_value": 137757.3,
+      "spy_value": 15932.69
+    },
+    {
+      "date": "2024-06-20",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": -5.19,
+      "spy_return": -0.12,
+      "portfolio_value": 130605.05,
+      "spy_value": 15914.34
+    },
+    {
+      "date": "2024-06-27",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 1.48,
+      "spy_return": 1.51,
+      "portfolio_value": 132543.21,
+      "spy_value": 16155.23
+    },
+    {
+      "date": "2024-07-05",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 2.71,
+      "spy_return": 0.96,
+      "portfolio_value": 136135.14,
+      "spy_value": 16311.06
+    },
+    {
+      "date": "2024-07-12",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": -8.75,
+      "spy_return": -1.96,
+      "portfolio_value": 124221.74,
+      "spy_value": 15990.66
+    },
+    {
+      "date": "2024-07-19",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 62
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -0.83,
+      "portfolio_value": 124221.74,
+      "spy_value": 15858.13
+    },
+    {
+      "date": "2024-07-26",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 64
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -2.12,
+      "portfolio_value": 124221.74,
+      "spy_value": 15522.0
+    },
+    {
+      "date": "2024-08-02",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 68
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 0.02,
+      "portfolio_value": 124221.74,
+      "spy_value": 15524.62
+    },
+    {
+      "date": "2024-08-09",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 67
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 4.0,
+      "portfolio_value": 124221.74,
+      "spy_value": 16145.62
+    },
+    {
+      "date": "2024-08-16",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 3.84,
+      "spy_return": 1.41,
+      "portfolio_value": 128997.96,
+      "spy_value": 16373.39
+    },
+    {
+      "date": "2024-08-23",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": -7.73,
+      "spy_return": 0.28,
+      "portfolio_value": 119026.72,
+      "spy_value": 16418.54
+    },
+    {
+      "date": "2024-08-30",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 58
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -3.06,
+      "portfolio_value": 119026.72,
+      "spy_value": 15915.51
+    },
+    {
+      "date": "2024-09-09",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 64
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 3.01,
+      "portfolio_value": 119026.72,
+      "spy_value": 16394.07
+    },
+    {
+      "date": "2024-09-16",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": -0.45,
+      "spy_return": 1.21,
+      "portfolio_value": 118496.72,
+      "spy_value": 16593.01
+    },
+    {
+      "date": "2024-09-23",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 57
+        }
+      },
+      "period_return": 4.46,
+      "spy_return": 0.72,
+      "portfolio_value": 123776.37,
+      "spy_value": 16712.14
+    },
+    {
+      "date": "2024-09-30",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": 5.17,
+      "spy_return": -1.04,
+      "portfolio_value": 130177.19,
+      "spy_value": 16538.54
+    },
+    {
+      "date": "2024-10-07",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": 8.1,
+      "spy_return": 2.91,
+      "portfolio_value": 140726.32,
+      "spy_value": 17019.73
+    },
+    {
+      "date": "2024-10-14",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 4.08,
+      "spy_return": -0.12,
+      "portfolio_value": 146474.82,
+      "spy_value": 16999.63
+    },
+    {
+      "date": "2024-10-21",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": -2.22,
+      "spy_return": -0.48,
+      "portfolio_value": 143223.45,
+      "spy_value": 16918.07
+    },
+    {
+      "date": "2024-10-28",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 63
+        }
+      },
+      "period_return": -3.18,
+      "spy_return": -1.9,
+      "portfolio_value": 138667.45,
+      "spy_value": 16597.09
+    },
+    {
+      "date": "2024-11-04",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 6.77,
+      "spy_return": 5.08,
+      "portfolio_value": 148054.64,
+      "spy_value": 17440.33
+    },
+    {
+      "date": "2024-11-11",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": -3.52,
+      "spy_return": -1.77,
+      "portfolio_value": 142846.33,
+      "spy_value": 17131.29
+    },
+    {
+      "date": "2024-11-18",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": -2.95,
+      "spy_return": 1.59,
+      "portfolio_value": 138636.88,
+      "spy_value": 17404.5
+    },
+    {
+      "date": "2024-11-25",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 61
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 1.07,
+      "portfolio_value": 138636.88,
+      "spy_value": 17590.34
+    },
+    {
+      "date": "2024-12-03",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 57
+        }
+      },
+      "period_return": -3.7,
+      "spy_return": -0.18,
+      "portfolio_value": 133506.94,
+      "spy_value": 17558.0
+    },
+    {
+      "date": "2024-12-10",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 62
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 0.25,
+      "portfolio_value": 133506.94,
+      "spy_value": 17601.4
+    },
+    {
+      "date": "2024-12-17",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "down",
+          "prob": 64
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -0.49,
+      "portfolio_value": 133506.94,
+      "spy_value": 17514.31
+    },
+    {
+      "date": "2024-12-24",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "predictions": {
+        "NVDA": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": -1.95,
+      "spy_return": -2.18,
+      "portfolio_value": 130907.64,
+      "spy_value": 17133.33
+    }
+  ]
+}

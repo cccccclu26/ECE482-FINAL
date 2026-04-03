@@ -1,0 +1,2444 @@
+{
+  "method": "LLM",
+  "portfolio_value": 41278.59,
+  "spy_value": 14713.16,
+  "total_return": 312.79,
+  "spy_return": 47.13,
+  "alpha": 265.65,
+  "cagr": 60.02,
+  "spy_cagr": 13.66,
+  "history": [
+    {
+      "date": "2018-01-02",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 1.2,
+      "spy_return": 2.15,
+      "portfolio_value": 10120.17,
+      "spy_value": 10214.68
+    },
+    {
+      "date": "2018-01-09",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": 2.74,
+      "spy_return": 1.85,
+      "portfolio_value": 10397.07,
+      "spy_value": 10403.32
+    },
+    {
+      "date": "2018-01-17",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": -2.72,
+      "spy_return": 1.28,
+      "portfolio_value": 10113.78,
+      "spy_value": 10536.15
+    },
+    {
+      "date": "2018-01-24",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "down",
+          "prob": 56
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -0.45,
+      "portfolio_value": 10113.78,
+      "spy_value": 10488.52
+    },
+    {
+      "date": "2018-01-31",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "down",
+          "prob": 63
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -5.05,
+      "portfolio_value": 10113.78,
+      "spy_value": 9959.08
+    },
+    {
+      "date": "2018-02-07",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "down",
+          "prob": 68
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 0.72,
+      "portfolio_value": 10113.78,
+      "spy_value": 10030.51
+    },
+    {
+      "date": "2018-02-14",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 56
+        }
+      },
+      "period_return": 3.07,
+      "spy_return": 0.3,
+      "portfolio_value": 10423.78,
+      "spy_value": 10060.65
+    },
+    {
+      "date": "2018-02-22",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 1.45,
+      "spy_return": -1.0,
+      "portfolio_value": 10574.85,
+      "spy_value": 9960.19
+    },
+    {
+      "date": "2018-03-01",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 1.11,
+      "spy_return": 2.39,
+      "portfolio_value": 10692.08,
+      "spy_value": 10198.31
+    },
+    {
+      "date": "2018-03-08",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 63
+        }
+      },
+      "period_return": 0.97,
+      "spy_return": 0.33,
+      "portfolio_value": 10795.41,
+      "spy_value": 10231.8
+    },
+    {
+      "date": "2018-03-15",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": -5.49,
+      "spy_return": -3.74,
+      "portfolio_value": 10203.22,
+      "spy_value": 9849.54
+    },
+    {
+      "date": "2018-03-22",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "down",
+          "prob": 63
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -0.2,
+      "portfolio_value": 10203.22,
+      "spy_value": 9830.11
+    },
+    {
+      "date": "2018-03-29",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "down",
+          "prob": 62
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -1.3,
+      "portfolio_value": 10203.22,
+      "spy_value": 9701.98
+    },
+    {
+      "date": "2018-04-06",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "down",
+          "prob": 62
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 2.09,
+      "portfolio_value": 10203.22,
+      "spy_value": 9904.83
+    },
+    {
+      "date": "2018-04-13",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": -5.16,
+      "spy_return": 0.55,
+      "portfolio_value": 9677.08,
+      "spy_value": 9959.36
+    },
+    {
+      "date": "2018-04-20",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "down",
+          "prob": 63
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -0.02,
+      "portfolio_value": 9677.08,
+      "spy_value": 9957.5
+    },
+    {
+      "date": "2018-04-27",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "down",
+          "prob": 66
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -0.2,
+      "portfolio_value": 9677.08,
+      "spy_value": 9937.32
+    },
+    {
+      "date": "2018-05-04",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": 2.98,
+      "spy_return": 2.57,
+      "portfolio_value": 9965.94,
+      "spy_value": 10192.46
+    },
+    {
+      "date": "2018-05-11",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": -1.21,
+      "spy_return": -0.56,
+      "portfolio_value": 9845.45,
+      "spy_value": 10135.68
+    },
+    {
+      "date": "2018-05-18",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 1.22,
+      "spy_return": 0.3,
+      "portfolio_value": 9965.41,
+      "spy_value": 10166.31
+    },
+    {
+      "date": "2018-05-25",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 63
+        }
+      },
+      "period_return": 1.72,
+      "spy_return": 1.01,
+      "portfolio_value": 10137.15,
+      "spy_value": 10269.04
+    },
+    {
+      "date": "2018-06-04",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": -0.31,
+      "spy_return": 1.33,
+      "portfolio_value": 10105.44,
+      "spy_value": 10405.76
+    },
+    {
+      "date": "2018-06-11",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": -1.3,
+      "spy_return": -0.27,
+      "portfolio_value": 9973.86,
+      "spy_value": 10377.44
+    },
+    {
+      "date": "2018-06-18",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "down",
+          "prob": 56
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -2.01,
+      "portfolio_value": 9973.86,
+      "spy_value": 10168.81
+    },
+    {
+      "date": "2018-06-25",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "down",
+          "prob": 64
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 0.32,
+      "portfolio_value": 9973.86,
+      "spy_value": 10201.08
+    },
+    {
+      "date": "2018-07-02",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 1.69,
+      "spy_return": 2.59,
+      "portfolio_value": 10142.78,
+      "spy_value": 10465.25
+    },
+    {
+      "date": "2018-07-10",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 0.58,
+      "spy_return": 0.56,
+      "portfolio_value": 10201.39,
+      "spy_value": 10524.16
+    },
+    {
+      "date": "2018-07-17",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 66
+        }
+      },
+      "period_return": 0.81,
+      "spy_return": 0.41,
+      "portfolio_value": 10283.98,
+      "spy_value": 10566.94
+    },
+    {
+      "date": "2018-07-24",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": -1.4,
+      "spy_return": -0.1,
+      "portfolio_value": 10139.58,
+      "spy_value": 10556.42
+    },
+    {
+      "date": "2018-07-31",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 8.84,
+      "spy_return": 1.51,
+      "portfolio_value": 11035.83,
+      "spy_value": 10715.9
+    },
+    {
+      "date": "2018-08-07",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": 1.63,
+      "spy_return": -0.59,
+      "portfolio_value": 11215.7,
+      "spy_value": 10652.86
+    },
+    {
+      "date": "2018-08-14",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 66
+        }
+      },
+      "period_return": 2.52,
+      "spy_return": 0.86,
+      "portfolio_value": 11498.56,
+      "spy_value": 10744.42
+    },
+    {
+      "date": "2018-08-21",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 68
+        }
+      },
+      "period_return": 2.17,
+      "spy_return": 1.25,
+      "portfolio_value": 11747.74,
+      "spy_value": 10878.75
+    },
+    {
+      "date": "2018-08-28",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 68
+        }
+      },
+      "period_return": 3.26,
+      "spy_return": -0.31,
+      "portfolio_value": 12131.14,
+      "spy_value": 10845.36
+    },
+    {
+      "date": "2018-09-05",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": -2.56,
+      "spy_return": 0.03,
+      "portfolio_value": 11821.0,
+      "spy_value": 10848.74
+    },
+    {
+      "date": "2018-09-12",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": -1.22,
+      "spy_return": 0.73,
+      "portfolio_value": 11676.63,
+      "spy_value": 10927.53
+    },
+    {
+      "date": "2018-09-19",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "down",
+          "prob": 58
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -0.01,
+      "portfolio_value": 11676.63,
+      "spy_value": 10926.49
+    },
+    {
+      "date": "2018-09-26",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 5.29,
+      "spy_return": 0.63,
+      "portfolio_value": 12293.78,
+      "spy_value": 10995.85
+    },
+    {
+      "date": "2018-10-03",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": -6.77,
+      "spy_return": -4.6,
+      "portfolio_value": 11461.55,
+      "spy_value": 10490.01
+    },
+    {
+      "date": "2018-10-10",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "down",
+          "prob": 62
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 0.77,
+      "portfolio_value": 11461.55,
+      "spy_value": 10571.05
+    },
+    {
+      "date": "2018-10-17",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "down",
+          "prob": 58
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -5.39,
+      "portfolio_value": 11461.55,
+      "spy_value": 10000.75
+    },
+    {
+      "date": "2018-10-24",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "down",
+          "prob": 61
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 2.0,
+      "portfolio_value": 11461.55,
+      "spy_value": 10200.9
+    },
+    {
+      "date": "2018-10-31",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "down",
+          "prob": 61
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 3.84,
+      "portfolio_value": 11461.55,
+      "spy_value": 10592.15
+    },
+    {
+      "date": "2018-11-07",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "down",
+          "prob": 64
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -3.85,
+      "portfolio_value": 11461.55,
+      "spy_value": 10184.69
+    },
+    {
+      "date": "2018-11-14",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "down",
+          "prob": 68
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -1.92,
+      "portfolio_value": 11461.55,
+      "spy_value": 9989.44
+    },
+    {
+      "date": "2018-11-21",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "down",
+          "prob": 64
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 3.38,
+      "portfolio_value": 11461.55,
+      "spy_value": 10327.17
+    },
+    {
+      "date": "2018-11-29",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "down",
+          "prob": 68
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -3.8,
+      "portfolio_value": 11461.55,
+      "spy_value": 9934.78
+    },
+    {
+      "date": "2018-12-07",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "down",
+          "prob": 64
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -1.18,
+      "portfolio_value": 11461.55,
+      "spy_value": 9817.93
+    },
+    {
+      "date": "2018-12-14",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": -8.91,
+      "spy_return": -7.05,
+      "portfolio_value": 10439.93,
+      "spy_value": 9125.72
+    },
+    {
+      "date": "2018-12-21",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "down",
+          "prob": 67
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 3.83,
+      "portfolio_value": 10439.93,
+      "spy_value": 9475.28
+    },
+    {
+      "date": "2018-12-31",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 56
+        }
+      },
+      "period_return": -4.43,
+      "spy_return": 2.74,
+      "portfolio_value": 9977.3,
+      "spy_value": 9734.99
+    },
+    {
+      "date": "2019-01-08",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 1.54,
+      "spy_return": 1.39,
+      "portfolio_value": 10130.85,
+      "spy_value": 9870.72
+    },
+    {
+      "date": "2019-01-15",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 0.56,
+      "spy_return": 1.18,
+      "portfolio_value": 10187.11,
+      "spy_value": 9986.73
+    },
+    {
+      "date": "2019-01-23",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 7.36,
+      "spy_return": 1.58,
+      "portfolio_value": 10936.97,
+      "spy_value": 10144.83
+    },
+    {
+      "date": "2019-01-30",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 5.44,
+      "spy_return": 1.93,
+      "portfolio_value": 11531.97,
+      "spy_value": 10340.46
+    },
+    {
+      "date": "2019-02-06",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": -1.91,
+      "spy_return": 0.82,
+      "portfolio_value": 11311.57,
+      "spy_value": 10425.77
+    },
+    {
+      "date": "2019-02-13",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 0.52,
+      "spy_return": 0.88,
+      "portfolio_value": 11370.06,
+      "spy_value": 10517.9
+    },
+    {
+      "date": "2019-02-21",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": 1.22,
+      "spy_return": 0.45,
+      "portfolio_value": 11508.98,
+      "spy_value": 10565.67
+    },
+    {
+      "date": "2019-02-28",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": -0.38,
+      "spy_return": -1.32,
+      "portfolio_value": 11465.77,
+      "spy_value": 10426.53
+    },
+    {
+      "date": "2019-03-07",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 6.51,
+      "spy_return": 2.24,
+      "portfolio_value": 12212.21,
+      "spy_value": 10659.7
+    },
+    {
+      "date": "2019-03-14",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 6.18,
+      "spy_return": 1.72,
+      "portfolio_value": 12967.29,
+      "spy_value": 10842.6
+    },
+    {
+      "date": "2019-03-21",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": -3.27,
+      "spy_return": -1.41,
+      "portfolio_value": 12543.89,
+      "spy_value": 10689.51
+    },
+    {
+      "date": "2019-03-28",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 3.69,
+      "spy_return": 2.3,
+      "portfolio_value": 13007.17,
+      "spy_value": 10935.89
+    },
+    {
+      "date": "2019-04-04",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": 1.67,
+      "spy_return": 0.36,
+      "portfolio_value": 13223.86,
+      "spy_value": 10975.11
+    },
+    {
+      "date": "2019-04-11",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 2.47,
+      "spy_return": 0.63,
+      "portfolio_value": 13550.22,
+      "spy_value": 11044.04
+    },
+    {
+      "date": "2019-04-18",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 0.22,
+      "spy_return": 1.17,
+      "portfolio_value": 13579.47,
+      "spy_value": 11173.13
+    },
+    {
+      "date": "2019-04-26",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": 3.65,
+      "spy_return": 0.21,
+      "portfolio_value": 14074.65,
+      "spy_value": 11196.74
+    },
+    {
+      "date": "2019-05-03",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": -6.52,
+      "spy_return": -2.02,
+      "portfolio_value": 13156.68,
+      "spy_value": 10970.92
+    },
+    {
+      "date": "2019-05-10",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "down",
+          "prob": 63
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -0.78,
+      "portfolio_value": 13156.68,
+      "spy_value": 10884.86
+    },
+    {
+      "date": "2019-05-17",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "down",
+          "prob": 66
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -1.07,
+      "portfolio_value": 13156.68,
+      "spy_value": 10768.33
+    },
+    {
+      "date": "2019-05-24",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "down",
+          "prob": 67
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -2.9,
+      "portfolio_value": 13156.68,
+      "spy_value": 10455.7
+    },
+    {
+      "date": "2019-06-03",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "down",
+          "prob": 68
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 5.24,
+      "portfolio_value": 13156.68,
+      "spy_value": 11004.05
+    },
+    {
+      "date": "2019-06-10",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 0.68,
+      "spy_return": 0.14,
+      "portfolio_value": 13246.18,
+      "spy_value": 11019.28
+    },
+    {
+      "date": "2019-06-17",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 2.42,
+      "spy_return": 1.97,
+      "portfolio_value": 13566.59,
+      "spy_value": 11236.27
+    },
+    {
+      "date": "2019-06-24",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 66
+        }
+      },
+      "period_return": 1.5,
+      "spy_return": 0.69,
+      "portfolio_value": 13769.5,
+      "spy_value": 11313.57
+    },
+    {
+      "date": "2019-07-01",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 68
+        }
+      },
+      "period_return": -0.15,
+      "spy_return": 0.52,
+      "portfolio_value": 13748.32,
+      "spy_value": 11372.12
+    },
+    {
+      "date": "2019-07-09",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": 1.62,
+      "spy_return": 0.87,
+      "portfolio_value": 13971.03,
+      "spy_value": 11471.22
+    },
+    {
+      "date": "2019-07-16",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 2.12,
+      "spy_return": 0.08,
+      "portfolio_value": 14267.54,
+      "spy_value": 11480.79
+    },
+    {
+      "date": "2019-07-23",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": -0.03,
+      "spy_return": 0.23,
+      "portfolio_value": 14263.44,
+      "spy_value": 11507.19
+    },
+    {
+      "date": "2019-07-30",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 63
+        }
+      },
+      "period_return": -5.64,
+      "spy_return": -4.3,
+      "portfolio_value": 13458.65,
+      "spy_value": 11012.8
+    },
+    {
+      "date": "2019-08-06",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "down",
+          "prob": 63
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 1.65,
+      "portfolio_value": 13458.65,
+      "spy_value": 11194.56
+    },
+    {
+      "date": "2019-08-13",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 0.67,
+      "spy_return": -0.84,
+      "portfolio_value": 13548.17,
+      "spy_value": 11100.43
+    },
+    {
+      "date": "2019-08-20",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": -2.95,
+      "spy_return": -1.11,
+      "portfolio_value": 13148.86,
+      "spy_value": 10977.22
+    },
+    {
+      "date": "2019-08-27",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "down",
+          "prob": 57
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 2.5,
+      "portfolio_value": 13148.86,
+      "spy_value": 11251.58
+    },
+    {
+      "date": "2019-09-04",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 6.88,
+      "spy_return": 2.11,
+      "portfolio_value": 14053.99,
+      "spy_value": 11489.21
+    },
+    {
+      "date": "2019-09-11",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": -0.37,
+      "spy_return": 0.28,
+      "portfolio_value": 14002.44,
+      "spy_value": 11521.73
+    },
+    {
+      "date": "2019-09-18",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 66
+        }
+      },
+      "period_return": -0.78,
+      "spy_return": -0.7,
+      "portfolio_value": 13893.07,
+      "spy_value": 11441.16
+    },
+    {
+      "date": "2019-09-25",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": -0.94,
+      "spy_return": -3.21,
+      "portfolio_value": 13762.96,
+      "spy_value": 11073.65
+    },
+    {
+      "date": "2019-10-02",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 3.69,
+      "spy_return": 1.11,
+      "portfolio_value": 14270.21,
+      "spy_value": 11197.06
+    },
+    {
+      "date": "2019-10-09",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 63
+        }
+      },
+      "period_return": 3.23,
+      "spy_return": 2.45,
+      "portfolio_value": 14731.57,
+      "spy_value": 11471.15
+    },
+    {
+      "date": "2019-10-16",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 66
+        }
+      },
+      "period_return": 3.76,
+      "spy_return": 0.5,
+      "portfolio_value": 15285.33,
+      "spy_value": 11528.04
+    },
+    {
+      "date": "2019-10-23",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": 0.03,
+      "spy_return": 1.42,
+      "portfolio_value": 15290.36,
+      "spy_value": 11691.81
+    },
+    {
+      "date": "2019-10-30",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 68
+        }
+      },
+      "period_return": 5.75,
+      "spy_return": 0.97,
+      "portfolio_value": 16169.09,
+      "spy_value": 11805.6
+    },
+    {
+      "date": "2019-11-06",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 68
+        }
+      },
+      "period_return": 3.12,
+      "spy_return": 0.65,
+      "portfolio_value": 16673.44,
+      "spy_value": 11882.48
+    },
+    {
+      "date": "2019-11-13",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": -0.48,
+      "spy_return": 0.54,
+      "portfolio_value": 16592.75,
+      "spy_value": 11946.68
+    },
+    {
+      "date": "2019-11-20",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 1.77,
+      "spy_return": 1.52,
+      "portfolio_value": 16885.9,
+      "spy_value": 12127.74
+    },
+    {
+      "date": "2019-11-27",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": -0.84,
+      "spy_return": -1.1,
+      "portfolio_value": 16743.42,
+      "spy_value": 11994.73
+    },
+    {
+      "date": "2019-12-05",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 63
+        }
+      },
+      "period_return": 2.21,
+      "spy_return": 1.64,
+      "portfolio_value": 17114.13,
+      "spy_value": 12191.17
+    },
+    {
+      "date": "2019-12-12",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": 3.15,
+      "spy_return": 1.19,
+      "portfolio_value": 17653.8,
+      "spy_value": 12336.1
+    },
+    {
+      "date": "2019-12-19",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 3.49,
+      "spy_return": 1.11,
+      "portfolio_value": 18270.37,
+      "spy_value": 12472.46
+    },
+    {
+      "date": "2019-12-27",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 68
+        }
+      },
+      "period_return": 3.45,
+      "spy_return": 0.24,
+      "portfolio_value": 18900.82,
+      "spy_value": 12502.59
+    },
+    {
+      "date": "2020-01-06",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": 5.72,
+      "spy_return": 1.33,
+      "portfolio_value": 19982.66,
+      "spy_value": 12669.1
+    },
+    {
+      "date": "2020-01-13",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": -0.12,
+      "spy_return": 1.02,
+      "portfolio_value": 19958.08,
+      "spy_value": 12798.51
+    },
+    {
+      "date": "2020-01-21",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 0.35,
+      "spy_return": -1.33,
+      "portfolio_value": 20028.69,
+      "spy_value": 12628.15
+    },
+    {
+      "date": "2020-01-28",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "down",
+          "prob": 58
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 0.66,
+      "portfolio_value": 20028.69,
+      "spy_value": 12711.98
+    },
+    {
+      "date": "2020-02-04",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "down",
+          "prob": 58
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 1.88,
+      "portfolio_value": 20028.69,
+      "spy_value": 12951.5
+    },
+    {
+      "date": "2020-02-11",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 1.25,
+      "spy_return": 0.92,
+      "portfolio_value": 20279.98,
+      "spy_value": 13070.48
+    },
+    {
+      "date": "2020-02-19",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "down",
+          "prob": 62
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -7.93,
+      "portfolio_value": 20279.98,
+      "spy_value": 12033.61
+    },
+    {
+      "date": "2020-02-26",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "down",
+          "prob": 68
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 0.44,
+      "portfolio_value": 20279.98,
+      "spy_value": 12086.15
+    },
+    {
+      "date": "2020-03-04",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "down",
+          "prob": 61
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -12.31,
+      "portfolio_value": 20279.98,
+      "spy_value": 10598.85
+    },
+    {
+      "date": "2020-03-11",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "down",
+          "prob": 64
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -12.52,
+      "portfolio_value": 20279.98,
+      "spy_value": 9271.48
+    },
+    {
+      "date": "2020-03-18",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": -0.47,
+      "spy_return": 3.43,
+      "portfolio_value": 20185.43,
+      "spy_value": 9589.85
+    },
+    {
+      "date": "2020-03-25",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": -1.88,
+      "spy_return": -0.26,
+      "portfolio_value": 19806.42,
+      "spy_value": 9564.98
+    },
+    {
+      "date": "2020-04-01",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 10.44,
+      "spy_return": 11.33,
+      "portfolio_value": 21874.95,
+      "spy_value": 10648.35
+    },
+    {
+      "date": "2020-04-08",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 7.75,
+      "spy_return": 1.85,
+      "portfolio_value": 23570.22,
+      "spy_value": 10845.36
+    },
+    {
+      "date": "2020-04-16",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 63
+        }
+      },
+      "period_return": -4.07,
+      "spy_return": -0.01,
+      "portfolio_value": 22611.6,
+      "spy_value": 10844.59
+    },
+    {
+      "date": "2020-04-23",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 6.82,
+      "spy_return": 4.08,
+      "portfolio_value": 24154.76,
+      "spy_value": 11287.57
+    },
+    {
+      "date": "2020-04-30",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 3.38,
+      "spy_return": -0.96,
+      "portfolio_value": 24971.99,
+      "spy_value": 11178.77
+    },
+    {
+      "date": "2020-05-07",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 66
+        }
+      },
+      "period_return": 2.19,
+      "spy_return": -0.94,
+      "portfolio_value": 25517.72,
+      "spy_value": 11073.46
+    },
+    {
+      "date": "2020-05-14",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 68
+        }
+      },
+      "period_return": 2.36,
+      "spy_return": 3.48,
+      "portfolio_value": 26120.34,
+      "spy_value": 11458.55
+    },
+    {
+      "date": "2020-05-21",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 69
+        }
+      },
+      "period_return": 0.34,
+      "spy_return": 3.2,
+      "portfolio_value": 26210.2,
+      "spy_value": 11825.37
+    },
+    {
+      "date": "2020-05-29",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": 4.26,
+      "spy_return": 4.94,
+      "portfolio_value": 27328.06,
+      "spy_value": 12409.03
+    },
+    {
+      "date": "2020-06-05",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 2.2,
+      "spy_return": -4.74,
+      "portfolio_value": 27929.84,
+      "spy_value": 11821.1
+    },
+    {
+      "date": "2020-06-12",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 72
+        }
+      },
+      "period_return": 3.22,
+      "spy_return": 1.9,
+      "portfolio_value": 28830.06,
+      "spy_value": 12046.02
+    },
+    {
+      "date": "2020-06-19",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 69
+        }
+      },
+      "period_return": 1.12,
+      "spy_return": -2.78,
+      "portfolio_value": 29152.4,
+      "spy_value": 11710.76
+    },
+    {
+      "date": "2020-06-26",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 71
+        }
+      },
+      "period_return": 5.72,
+      "spy_return": 5.67,
+      "portfolio_value": 30819.28,
+      "spy_value": 12374.25
+    },
+    {
+      "date": "2020-07-06",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": 2.16,
+      "spy_return": -0.7,
+      "portfolio_value": 31483.73,
+      "spy_value": 12288.0
+    },
+    {
+      "date": "2020-07-13",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 74
+        }
+      },
+      "period_return": 3.02,
+      "spy_return": 3.01,
+      "portfolio_value": 32433.41,
+      "spy_value": 12658.0
+    },
+    {
+      "date": "2020-07-20",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 72
+        }
+      },
+      "period_return": -3.61,
+      "spy_return": -0.34,
+      "portfolio_value": 31263.62,
+      "spy_value": 12615.06
+    },
+    {
+      "date": "2020-07-27",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 14.9,
+      "spy_return": 1.72,
+      "portfolio_value": 35922.17,
+      "spy_value": 12832.46
+    },
+    {
+      "date": "2020-08-03",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 68
+        }
+      },
+      "period_return": 3.67,
+      "spy_return": 2.06,
+      "portfolio_value": 37238.94,
+      "spy_value": 13097.08
+    },
+    {
+      "date": "2020-08-10",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 66
+        }
+      },
+      "period_return": 1.67,
+      "spy_return": 0.7,
+      "portfolio_value": 37859.99,
+      "spy_value": 13188.41
+    },
+    {
+      "date": "2020-08-17",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 72
+        }
+      },
+      "period_return": 9.82,
+      "spy_return": 1.48,
+      "portfolio_value": 41576.37,
+      "spy_value": 13383.94
+    },
+    {
+      "date": "2020-08-24",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 68
+        }
+      },
+      "period_return": 2.53,
+      "spy_return": 1.86,
+      "portfolio_value": 42627.69,
+      "spy_value": 13633.34
+    },
+    {
+      "date": "2020-08-31",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": -12.57,
+      "spy_return": -4.61,
+      "portfolio_value": 37269.5,
+      "spy_value": 13004.97
+    },
+    {
+      "date": "2020-09-08",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "down",
+          "prob": 61
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 2.09,
+      "portfolio_value": 37269.5,
+      "spy_value": 13276.62
+    },
+    {
+      "date": "2020-09-15",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "down",
+          "prob": 62
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -2.51,
+      "portfolio_value": 37269.5,
+      "spy_value": 12943.0
+    },
+    {
+      "date": "2020-09-22",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "down",
+          "prob": 62
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 0.63,
+      "portfolio_value": 37269.5,
+      "spy_value": 13024.11
+    },
+    {
+      "date": "2020-09-29",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": -0.82,
+      "spy_return": 0.77,
+      "portfolio_value": 36965.7,
+      "spy_value": 13124.43
+    },
+    {
+      "date": "2020-10-06",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 7.02,
+      "spy_return": 4.54,
+      "portfolio_value": 39559.44,
+      "spy_value": 13720.05
+    },
+    {
+      "date": "2020-10-13",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": -2.96,
+      "spy_return": -1.93,
+      "portfolio_value": 38386.71,
+      "spy_value": 13455.55
+    },
+    {
+      "date": "2020-10-20",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": -0.77,
+      "spy_return": -1.5,
+      "portfolio_value": 38089.44,
+      "spy_value": 13253.35
+    },
+    {
+      "date": "2020-10-27",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": -5.28,
+      "spy_return": -0.65,
+      "portfolio_value": 36077.17,
+      "spy_value": 13167.53
+    },
+    {
+      "date": "2020-11-03",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "down",
+          "prob": 63
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 5.36,
+      "portfolio_value": 36077.17,
+      "spy_value": 13873.26
+    },
+    {
+      "date": "2020-11-10",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": 2.95,
+      "spy_return": 1.86,
+      "portfolio_value": 37141.1,
+      "spy_value": 14131.1
+    },
+    {
+      "date": "2020-11-17",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": -3.53,
+      "spy_return": 0.72,
+      "portfolio_value": 35828.29,
+      "spy_value": 14232.99
+    },
+    {
+      "date": "2020-11-24",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 6.87,
+      "spy_return": 0.98,
+      "portfolio_value": 38289.01,
+      "spy_value": 14372.88
+    },
+    {
+      "date": "2020-12-02",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": -1.06,
+      "spy_return": 0.02,
+      "portfolio_value": 37884.59,
+      "spy_value": 14375.23
+    },
+    {
+      "date": "2020-12-09",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": 4.95,
+      "spy_return": 0.91,
+      "portfolio_value": 39760.48,
+      "spy_value": 14505.33
+    },
+    {
+      "date": "2020-12-16",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 2.46,
+      "spy_return": -0.28,
+      "portfolio_value": 40740.41,
+      "spy_value": 14464.84
+    },
+    {
+      "date": "2020-12-23",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 66
+        }
+      },
+      "period_return": 1.32,
+      "spy_return": 1.72,
+      "portfolio_value": 41278.59,
+      "spy_value": 14713.16
+    },
+    {
+      "date": "2020-12-31",
+      "weights": {
+        "AAPL": 1.0
+      },
+      "predictions": {
+        "AAPL": {
+          "dir": "up",
+          "prob": 68
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 0.0,
+      "portfolio_value": 41278.59,
+      "spy_value": 14713.16
+    }
+  ]
+}

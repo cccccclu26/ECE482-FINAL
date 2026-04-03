@@ -1,0 +1,11 @@
+{
+  "method": "LLM",
+  "portfolio_value": 10000.0,
+  "spy_value": 10000.0,
+  "total_return": 0.0,
+  "spy_return": 0.0,
+  "alpha": 0.0,
+  "cagr": 0,
+  "spy_cagr": 0,
+  "history": []
+}

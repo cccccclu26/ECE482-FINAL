@@ -1,0 +1,3228 @@
+{
+  "method": "LLM",
+  "portfolio_value": 25492.86,
+  "spy_value": 17133.33,
+  "total_return": 154.93,
+  "spy_return": 71.33,
+  "alpha": 83.6,
+  "cagr": 26.45,
+  "spy_cagr": 14.46,
+  "history": [
+    {
+      "date": "2021-01-04",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 12.35,
+      "spy_return": 2.68,
+      "portfolio_value": 11235.04,
+      "spy_value": 10268.45
+    },
+    {
+      "date": "2021-01-11",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 6.74,
+      "spy_return": -0.01,
+      "portfolio_value": 11992.75,
+      "spy_value": 10267.36
+    },
+    {
+      "date": "2021-01-19",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": 7.17,
+      "spy_return": 1.36,
+      "portfolio_value": 12853.17,
+      "spy_value": 10406.74
+    },
+    {
+      "date": "2021-01-26",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 68
+        }
+      },
+      "period_return": -7.13,
+      "spy_return": -0.58,
+      "portfolio_value": 11937.16,
+      "spy_value": 10346.0
+    },
+    {
+      "date": "2021-02-02",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 2.1,
+      "spy_return": 2.28,
+      "portfolio_value": 12187.92,
+      "spy_value": 10581.9
+    },
+    {
+      "date": "2021-02-09",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 2.78,
+      "spy_return": 0.55,
+      "portfolio_value": 12527.02,
+      "spy_value": 10639.93
+    },
+    {
+      "date": "2021-02-17",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": -0.94,
+      "spy_return": -0.16,
+      "portfolio_value": 12409.31,
+      "spy_value": 10623.12
+    },
+    {
+      "date": "2021-02-24",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": -1.23,
+      "spy_return": -2.64,
+      "portfolio_value": 12256.41,
+      "spy_value": 10342.47
+    },
+    {
+      "date": "2021-03-03",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 1.71,
+      "spy_return": 2.14,
+      "portfolio_value": 12465.74,
+      "spy_value": 10563.74
+    },
+    {
+      "date": "2021-03-10",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": -9.11,
+      "spy_return": 1.97,
+      "portfolio_value": 11329.9,
+      "spy_value": 10771.99
+    },
+    {
+      "date": "2021-03-17",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 67
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -2.13,
+      "portfolio_value": 11329.9,
+      "spy_value": 10542.29
+    },
+    {
+      "date": "2021-03-24",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 68
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 2.27,
+      "portfolio_value": 11329.9,
+      "spy_value": 10781.96
+    },
+    {
+      "date": "2021-03-31",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 62
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 10.36,
+      "portfolio_value": 11329.9,
+      "spy_value": 11899.13
+    },
+    {
+      "date": "2021-04-08",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 1.81,
+      "spy_return": 1.8,
+      "portfolio_value": 11535.27,
+      "spy_value": 12113.22
+    },
+    {
+      "date": "2021-04-15",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 0.61,
+      "spy_return": -0.87,
+      "portfolio_value": 11605.38,
+      "spy_value": 12008.36
+    },
+    {
+      "date": "2021-04-22",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": -2.59,
+      "spy_return": 1.89,
+      "portfolio_value": 11304.46,
+      "spy_value": 12235.26
+    },
+    {
+      "date": "2021-04-29",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 62
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -0.24,
+      "portfolio_value": 11304.46,
+      "spy_value": 12206.43
+    },
+    {
+      "date": "2021-05-06",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 0.54,
+      "spy_return": -2.1,
+      "portfolio_value": 11365.68,
+      "spy_value": 11950.4
+    },
+    {
+      "date": "2021-05-13",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 2.35,
+      "spy_return": 1.22,
+      "portfolio_value": 11633.3,
+      "spy_value": 12096.04
+    },
+    {
+      "date": "2021-05-20",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": -0.17,
+      "spy_return": 0.97,
+      "portfolio_value": 11614.06,
+      "spy_value": 12212.84
+    },
+    {
+      "date": "2021-05-27",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": 1.42,
+      "spy_return": 0.79,
+      "portfolio_value": 11778.47,
+      "spy_value": 12309.25
+    },
+    {
+      "date": "2021-06-04",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": 10.92,
+      "spy_return": 0.4,
+      "portfolio_value": 13065.23,
+      "spy_value": 12359.06
+    },
+    {
+      "date": "2021-06-11",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 68
+        }
+      },
+      "period_return": -2.47,
+      "spy_return": -2.21,
+      "portfolio_value": 12742.23,
+      "spy_value": 12085.55
+    },
+    {
+      "date": "2021-06-18",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": 5.34,
+      "spy_return": 2.82,
+      "portfolio_value": 13422.63,
+      "spy_value": 12426.05
+    },
+    {
+      "date": "2021-06-25",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 1.62,
+      "spy_return": 1.67,
+      "portfolio_value": 13640.69,
+      "spy_value": 12633.15
+    },
+    {
+      "date": "2021-07-02",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 0.88,
+      "spy_return": 0.77,
+      "portfolio_value": 13760.21,
+      "spy_value": 12731.01
+    },
+    {
+      "date": "2021-07-12",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": -0.79,
+      "spy_return": -2.77,
+      "portfolio_value": 13651.18,
+      "spy_value": 12378.28
+    },
+    {
+      "date": "2021-07-19",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 3.87,
+      "spy_return": 3.78,
+      "portfolio_value": 14179.99,
+      "spy_value": 12845.78
+    },
+    {
+      "date": "2021-07-26",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": 1.39,
+      "spy_return": -0.78,
+      "portfolio_value": 14377.64,
+      "spy_value": 12745.87
+    },
+    {
+      "date": "2021-08-02",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 8.34,
+      "spy_return": 1.04,
+      "portfolio_value": 15576.36,
+      "spy_value": 12878.11
+    },
+    {
+      "date": "2021-08-09",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 66
+        }
+      },
+      "period_return": 1.04,
+      "spy_return": 1.09,
+      "portfolio_value": 15738.45,
+      "spy_value": 13019.08
+    },
+    {
+      "date": "2021-08-16",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": -0.79,
+      "spy_return": 0.06,
+      "portfolio_value": 15614.84,
+      "spy_value": 13027.53
+    },
+    {
+      "date": "2021-08-23",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": -2.06,
+      "spy_return": 1.11,
+      "portfolio_value": 15293.59,
+      "spy_value": 13172.29
+    },
+    {
+      "date": "2021-08-30",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": -2.86,
+      "spy_return": -0.17,
+      "portfolio_value": 14855.73,
+      "spy_value": 13149.87
+    },
+    {
+      "date": "2021-09-07",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 63
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -1.61,
+      "portfolio_value": 14855.73,
+      "spy_value": 12937.53
+    },
+    {
+      "date": "2021-09-14",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 67
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -2.37,
+      "portfolio_value": 14855.73,
+      "spy_value": 12630.52
+    },
+    {
+      "date": "2021-09-21",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 68
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 0.02,
+      "portfolio_value": 14855.73,
+      "spy_value": 12633.15
+    },
+    {
+      "date": "2021-09-28",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 69
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -0.14,
+      "portfolio_value": 14855.73,
+      "spy_value": 12615.09
+    },
+    {
+      "date": "2021-10-05",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 61
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 0.12,
+      "portfolio_value": 14855.73,
+      "spy_value": 12630.23
+    },
+    {
+      "date": "2021-10-12",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 4.09,
+      "spy_return": 3.93,
+      "portfolio_value": 15463.92,
+      "spy_value": 13125.98
+    },
+    {
+      "date": "2021-10-19",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 2.53,
+      "spy_return": 1.18,
+      "portfolio_value": 15855.13,
+      "spy_value": 13280.94
+    },
+    {
+      "date": "2021-10-26",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 63
+        }
+      },
+      "period_return": 3.39,
+      "spy_return": 1.3,
+      "portfolio_value": 16391.85,
+      "spy_value": 13453.96
+    },
+    {
+      "date": "2021-11-02",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": 2.01,
+      "spy_return": 1.19,
+      "portfolio_value": 16721.79,
+      "spy_value": 13613.57
+    },
+    {
+      "date": "2021-11-09",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 68
+        }
+      },
+      "period_return": -1.64,
+      "spy_return": 0.41,
+      "portfolio_value": 16447.37,
+      "spy_value": 13668.92
+    },
+    {
+      "date": "2021-11-16",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 1.65,
+      "spy_return": -0.23,
+      "portfolio_value": 16717.96,
+      "spy_value": 13637.17
+    },
+    {
+      "date": "2021-11-23",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 63
+        }
+      },
+      "period_return": -4.9,
+      "spy_return": -3.78,
+      "portfolio_value": 15899.17,
+      "spy_value": 13121.9
+    },
+    {
+      "date": "2021-12-01",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 64
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 4.22,
+      "portfolio_value": 15899.17,
+      "spy_value": 13675.91
+    },
+    {
+      "date": "2021-12-08",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 64
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 0.23,
+      "portfolio_value": 15899.17,
+      "spy_value": 13707.36
+    },
+    {
+      "date": "2021-12-15",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": -3.19,
+      "spy_return": -0.62,
+      "portfolio_value": 15392.07,
+      "spy_value": 13622.6
+    },
+    {
+      "date": "2021-12-22",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 66
+        }
+      },
+      "period_return": 4.03,
+      "spy_return": 1.81,
+      "portfolio_value": 16012.95,
+      "spy_value": 13869.31
+    },
+    {
+      "date": "2021-12-30",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 68
+        }
+      },
+      "period_return": -6.46,
+      "spy_return": -1.73,
+      "portfolio_value": 14977.95,
+      "spy_value": 13629.89
+    },
+    {
+      "date": "2022-01-06",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 61
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -0.73,
+      "portfolio_value": 14977.95,
+      "spy_value": 13530.56
+    },
+    {
+      "date": "2022-01-13",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 64
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -5.72,
+      "portfolio_value": 14977.95,
+      "spy_value": 12757.23
+    },
+    {
+      "date": "2022-01-21",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 67
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 0.91,
+      "portfolio_value": 14977.95,
+      "spy_value": 12872.86
+    },
+    {
+      "date": "2022-01-28",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 64
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 1.53,
+      "portfolio_value": 14977.95,
+      "spy_value": 13069.47
+    },
+    {
+      "date": "2022-02-04",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 63
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -1.84,
+      "portfolio_value": 14977.95,
+      "spy_value": 12829.46
+    },
+    {
+      "date": "2022-02-11",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 67
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -1.41,
+      "portfolio_value": 14977.95,
+      "spy_value": 12648.0
+    },
+    {
+      "date": "2022-02-18",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 59
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 0.55,
+      "portfolio_value": 14977.95,
+      "spy_value": 12717.91
+    },
+    {
+      "date": "2022-02-28",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 4.68,
+      "spy_return": -3.94,
+      "portfolio_value": 15678.46,
+      "spy_value": 12216.91
+    },
+    {
+      "date": "2022-03-07",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 2.81,
+      "spy_return": -0.58,
+      "portfolio_value": 16119.5,
+      "spy_value": 12146.13
+    },
+    {
+      "date": "2022-03-14",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 66
+        }
+      },
+      "period_return": 7.67,
+      "spy_return": 6.57,
+      "portfolio_value": 17356.33,
+      "spy_value": 12943.93
+    },
+    {
+      "date": "2022-03-21",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": 0.7,
+      "spy_return": 2.59,
+      "portfolio_value": 17477.37,
+      "spy_value": 13279.48
+    },
+    {
+      "date": "2022-03-28",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": -0.08,
+      "spy_return": 0.2,
+      "portfolio_value": 17462.99,
+      "spy_value": 13305.41
+    },
+    {
+      "date": "2022-04-04",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": 6.02,
+      "spy_return": -3.7,
+      "portfolio_value": 18514.06,
+      "spy_value": 12813.74
+    },
+    {
+      "date": "2022-04-11",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": -3.87,
+      "spy_return": 1.16,
+      "portfolio_value": 17797.97,
+      "spy_value": 12962.87
+    },
+    {
+      "date": "2022-04-19",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": -4.77,
+      "spy_return": -6.5,
+      "portfolio_value": 16948.25,
+      "spy_value": 12119.92
+    },
+    {
+      "date": "2022-04-26",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 61
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 0.07,
+      "portfolio_value": 16948.25,
+      "spy_value": 12128.08
+    },
+    {
+      "date": "2022-05-03",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 58
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -4.15,
+      "portfolio_value": 16948.25,
+      "spy_value": 11624.46
+    },
+    {
+      "date": "2022-05-10",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 59
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 2.31,
+      "portfolio_value": 16948.25,
+      "spy_value": 11893.31
+    },
+    {
+      "date": "2022-05-17",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 68
+        }
+      },
+      "period_return": 1.51,
+      "spy_return": -3.53,
+      "portfolio_value": 17204.66,
+      "spy_value": 11473.0
+    },
+    {
+      "date": "2022-05-24",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": 1.67,
+      "spy_return": 3.99,
+      "portfolio_value": 17492.57,
+      "spy_value": 11930.3
+    },
+    {
+      "date": "2022-06-01",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 68
+        }
+      },
+      "period_return": 0.77,
+      "spy_return": 0.4,
+      "portfolio_value": 17628.09,
+      "spy_value": 11977.78
+    },
+    {
+      "date": "2022-06-08",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 68
+        }
+      },
+      "period_return": -6.54,
+      "spy_return": -7.79,
+      "portfolio_value": 16475.34,
+      "spy_value": 11045.12
+    },
+    {
+      "date": "2022-06-15",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 61
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -0.3,
+      "portfolio_value": 16475.34,
+      "spy_value": 11011.91
+    },
+    {
+      "date": "2022-06-23",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": 3.68,
+      "spy_return": -0.21,
+      "portfolio_value": 17081.73,
+      "spy_value": 10988.32
+    },
+    {
+      "date": "2022-06-30",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 1.92,
+      "spy_return": 3.03,
+      "portfolio_value": 17410.48,
+      "spy_value": 11320.96
+    },
+    {
+      "date": "2022-07-08",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 68
+        }
+      },
+      "period_return": 0.34,
+      "spy_return": -0.91,
+      "portfolio_value": 17470.01,
+      "spy_value": 11217.84
+    },
+    {
+      "date": "2022-07-15",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": -0.86,
+      "spy_return": 2.59,
+      "portfolio_value": 17319.86,
+      "spy_value": 11507.95
+    },
+    {
+      "date": "2022-07-22",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": 0.29,
+      "spy_return": 4.28,
+      "portfolio_value": 17369.39,
+      "spy_value": 12000.21
+    },
+    {
+      "date": "2022-07-29",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": -8.61,
+      "spy_return": 0.36,
+      "portfolio_value": 15874.74,
+      "spy_value": 12043.32
+    },
+    {
+      "date": "2022-08-05",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 72
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 3.3,
+      "portfolio_value": 15874.74,
+      "spy_value": 12440.32
+    },
+    {
+      "date": "2022-08-12",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 64
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -1.16,
+      "portfolio_value": 15874.74,
+      "spy_value": 12295.85
+    },
+    {
+      "date": "2022-08-19",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 63
+        }
+      },
+      "period_return": -2.23,
+      "spy_return": -3.99,
+      "portfolio_value": 15520.13,
+      "spy_value": 11805.64
+    },
+    {
+      "date": "2022-08-26",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": -4.51,
+      "spy_return": -3.22,
+      "portfolio_value": 14820.26,
+      "spy_value": 11424.94
+    },
+    {
+      "date": "2022-09-02",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 63
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 4.78,
+      "portfolio_value": 14820.26,
+      "spy_value": 11970.5
+    },
+    {
+      "date": "2022-09-12",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": -3.21,
+      "spy_return": -5.46,
+      "portfolio_value": 14343.99,
+      "spy_value": 11317.46
+    },
+    {
+      "date": "2022-09-19",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 62
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -6.24,
+      "portfolio_value": 14343.99,
+      "spy_value": 10611.41
+    },
+    {
+      "date": "2022-09-26",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 56
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 0.63,
+      "portfolio_value": 14343.99,
+      "spy_value": 10678.4
+    },
+    {
+      "date": "2022-10-03",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 0.73,
+      "spy_return": -1.8,
+      "portfolio_value": 14448.38,
+      "spy_value": 10486.45
+    },
+    {
+      "date": "2022-10-10",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 2.74,
+      "spy_return": 1.89,
+      "portfolio_value": 14844.06,
+      "spy_value": 10684.52
+    },
+    {
+      "date": "2022-10-17",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 66
+        }
+      },
+      "period_return": 4.55,
+      "spy_return": 3.28,
+      "portfolio_value": 15519.44,
+      "spy_value": 11035.51
+    },
+    {
+      "date": "2022-10-24",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 68
+        }
+      },
+      "period_return": 4.08,
+      "spy_return": 1.94,
+      "portfolio_value": 16152.44,
+      "spy_value": 11249.3
+    },
+    {
+      "date": "2022-10-31",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": 0.82,
+      "spy_return": -1.62,
+      "portfolio_value": 16285.37,
+      "spy_value": 11066.96
+    },
+    {
+      "date": "2022-11-07",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 68
+        }
+      },
+      "period_return": -2.47,
+      "spy_return": 3.99,
+      "portfolio_value": 15883.45,
+      "spy_value": 11508.83
+    },
+    {
+      "date": "2022-11-14",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 1.44,
+      "spy_return": -0.13,
+      "portfolio_value": 16111.4,
+      "spy_value": 11493.39
+    },
+    {
+      "date": "2022-11-21",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": 0.77,
+      "spy_return": 0.16,
+      "portfolio_value": 16235.41,
+      "spy_value": 11512.03
+    },
+    {
+      "date": "2022-11-29",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 1.26,
+      "spy_return": -0.35,
+      "portfolio_value": 16440.17,
+      "spy_value": 11471.25
+    },
+    {
+      "date": "2022-12-06",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": -2.68,
+      "spy_return": 2.07,
+      "portfolio_value": 15999.43,
+      "spy_value": 11708.35
+    },
+    {
+      "date": "2022-12-13",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 0.27,
+      "spy_return": -5.33,
+      "portfolio_value": 16043.15,
+      "spy_value": 11084.15
+    },
+    {
+      "date": "2022-12-20",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 58
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -1.02,
+      "portfolio_value": 16043.15,
+      "spy_value": 10971.13
+    },
+    {
+      "date": "2022-12-28",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": -1.72,
+      "spy_return": 0.72,
+      "portfolio_value": 15766.4,
+      "spy_value": 11050.36
+    },
+    {
+      "date": "2023-01-05",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 58
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 4.63,
+      "portfolio_value": 15766.4,
+      "spy_value": 11562.42
+    },
+    {
+      "date": "2023-01-12",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 58
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -0.27,
+      "portfolio_value": 15766.4,
+      "spy_value": 11530.96
+    },
+    {
+      "date": "2023-01-20",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 67
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 2.48,
+      "portfolio_value": 15766.4,
+      "spy_value": 11816.41
+    },
+    {
+      "date": "2023-01-27",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 61
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 1.64,
+      "portfolio_value": 15766.4,
+      "spy_value": 12010.69
+    },
+    {
+      "date": "2023-02-03",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 68
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -1.05,
+      "portfolio_value": 15766.4,
+      "spy_value": 11885.15
+    },
+    {
+      "date": "2023-02-10",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 58
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -0.19,
+      "portfolio_value": 15766.4,
+      "spy_value": 11862.43
+    },
+    {
+      "date": "2023-02-17",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 66
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -2.34,
+      "portfolio_value": 15766.4,
+      "spy_value": 11584.85
+    },
+    {
+      "date": "2023-02-27",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 67
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 1.69,
+      "portfolio_value": 15766.4,
+      "spy_value": 11781.17
+    },
+    {
+      "date": "2023-03-06",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 66
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -4.72,
+      "portfolio_value": 15766.4,
+      "spy_value": 11224.54
+    },
+    {
+      "date": "2023-03-13",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 61
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 2.17,
+      "portfolio_value": 15766.4,
+      "spy_value": 11468.63
+    },
+    {
+      "date": "2023-03-20",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 63
+        }
+      },
+      "period_return": 0.3,
+      "spy_return": 0.7,
+      "portfolio_value": 15813.67,
+      "spy_value": 11548.73
+    },
+    {
+      "date": "2023-03-27",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 4.82,
+      "spy_return": 3.65,
+      "portfolio_value": 16576.46,
+      "spy_value": 11969.91
+    },
+    {
+      "date": "2023-04-03",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": 3.79,
+      "spy_return": -0.3,
+      "portfolio_value": 17205.04,
+      "spy_value": 11934.09
+    },
+    {
+      "date": "2023-04-11",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 1.61,
+      "spy_return": 1.1,
+      "portfolio_value": 17482.47,
+      "spy_value": 12064.87
+    },
+    {
+      "date": "2023-04-18",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 4.04,
+      "spy_return": -1.96,
+      "portfolio_value": 18188.08,
+      "spy_value": 11828.06
+    },
+    {
+      "date": "2023-04-25",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": 5.03,
+      "spy_return": 1.17,
+      "portfolio_value": 19103.06,
+      "spy_value": 11966.71
+    },
+    {
+      "date": "2023-05-02",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 66
+        }
+      },
+      "period_return": 5.98,
+      "spy_return": 0.02,
+      "portfolio_value": 20245.84,
+      "spy_value": 11969.33
+    },
+    {
+      "date": "2023-05-09",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 68
+        }
+      },
+      "period_return": 1.93,
+      "spy_return": -0.17,
+      "portfolio_value": 20636.69,
+      "spy_value": 11949.52
+    },
+    {
+      "date": "2023-05-16",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 66
+        }
+      },
+      "period_return": -3.08,
+      "spy_return": 0.94,
+      "portfolio_value": 20001.5,
+      "spy_value": 12061.37
+    },
+    {
+      "date": "2023-05-23",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 1.48,
+      "spy_return": 0.91,
+      "portfolio_value": 20296.88,
+      "spy_value": 12170.89
+    },
+    {
+      "date": "2023-05-31",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 63
+        }
+      },
+      "period_return": 1.61,
+      "spy_return": 2.08,
+      "portfolio_value": 20623.46,
+      "spy_value": 12424.3
+    },
+    {
+      "date": "2023-06-07",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": 2.6,
+      "spy_return": 2.49,
+      "portfolio_value": 21159.88,
+      "spy_value": 12733.93
+    },
+    {
+      "date": "2023-06-14",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": 2.22,
+      "spy_return": -0.15,
+      "portfolio_value": 21630.6,
+      "spy_value": 12714.41
+    },
+    {
+      "date": "2023-06-22",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 1.49,
+      "spy_return": 0.37,
+      "portfolio_value": 21952.45,
+      "spy_value": 12761.01
+    },
+    {
+      "date": "2023-06-29",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 68
+        }
+      },
+      "period_return": -2.67,
+      "spy_return": 0.1,
+      "portfolio_value": 21365.94,
+      "spy_value": 12773.83
+    },
+    {
+      "date": "2023-07-07",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": -0.58,
+      "spy_return": 2.45,
+      "portfolio_value": 21242.11,
+      "spy_value": 13086.37
+    },
+    {
+      "date": "2023-07-14",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 2.8,
+      "spy_return": 0.65,
+      "portfolio_value": 21836.66,
+      "spy_value": 13170.84
+    },
+    {
+      "date": "2023-07-21",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 63
+        }
+      },
+      "period_return": -0.77,
+      "spy_return": 1.05,
+      "portfolio_value": 21668.41,
+      "spy_value": 13308.9
+    },
+    {
+      "date": "2023-07-28",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": -1.96,
+      "spy_return": -2.21,
+      "portfolio_value": 21243.53,
+      "spy_value": 13014.42
+    },
+    {
+      "date": "2023-08-04",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 58
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -0.26,
+      "portfolio_value": 21243.53,
+      "spy_value": 12980.64
+    },
+    {
+      "date": "2023-08-11",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 3.44,
+      "spy_return": -2.05,
+      "portfolio_value": 21973.39,
+      "spy_value": 12714.12
+    },
+    {
+      "date": "2023-08-18",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 1.32,
+      "spy_return": 0.79,
+      "portfolio_value": 22263.72,
+      "spy_value": 12815.19
+    },
+    {
+      "date": "2023-08-25",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 0.62,
+      "spy_return": 2.55,
+      "portfolio_value": 22402.86,
+      "spy_value": 13142.0
+    },
+    {
+      "date": "2023-09-01",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 6.9,
+      "spy_return": -0.61,
+      "portfolio_value": 23949.03,
+      "spy_value": 13062.19
+    },
+    {
+      "date": "2023-09-11",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": -4.08,
+      "spy_return": -1.07,
+      "portfolio_value": 22972.67,
+      "spy_value": 12921.8
+    },
+    {
+      "date": "2023-09-18",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": -3.32,
+      "spy_return": -2.57,
+      "portfolio_value": 22209.03,
+      "spy_value": 12589.75
+    },
+    {
+      "date": "2023-09-25",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 61
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -1.14,
+      "portfolio_value": 22209.03,
+      "spy_value": 12446.44
+    },
+    {
+      "date": "2023-10-02",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 66
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 1.17,
+      "portfolio_value": 22209.03,
+      "spy_value": 12591.49
+    },
+    {
+      "date": "2023-10-09",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 7.85,
+      "spy_return": 0.87,
+      "portfolio_value": 23952.32,
+      "spy_value": 12700.72
+    },
+    {
+      "date": "2023-10-16",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": -6.49,
+      "spy_return": -3.57,
+      "portfolio_value": 22398.98,
+      "spy_value": 12246.92
+    },
+    {
+      "date": "2023-10-23",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": -1.9,
+      "spy_return": -1.16,
+      "portfolio_value": 21974.03,
+      "spy_value": 12105.07
+    },
+    {
+      "date": "2023-10-30",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 61
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 4.84,
+      "portfolio_value": 21974.03,
+      "spy_value": 12690.53
+    },
+    {
+      "date": "2023-11-06",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": 2.94,
+      "spy_return": 1.03,
+      "portfolio_value": 22620.86,
+      "spy_value": 12821.6
+    },
+    {
+      "date": "2023-11-13",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": -2.47,
+      "spy_return": 3.2,
+      "portfolio_value": 22063.01,
+      "spy_value": 13231.42
+    },
+    {
+      "date": "2023-11-20",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 63
+        }
+      },
+      "period_return": -1.0,
+      "spy_return": 0.15,
+      "portfolio_value": 21841.49,
+      "spy_value": 13250.94
+    },
+    {
+      "date": "2023-11-28",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": -0.58,
+      "spy_return": 0.37,
+      "portfolio_value": 21714.12,
+      "spy_value": 13299.58
+    },
+    {
+      "date": "2023-12-05",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 61
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 1.64,
+      "portfolio_value": 21714.12,
+      "spy_value": 13518.04
+    },
+    {
+      "date": "2023-12-12",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 61
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 2.31,
+      "portfolio_value": 21714.12,
+      "spy_value": 13830.86
+    },
+    {
+      "date": "2023-12-19",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 62
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 0.35,
+      "portfolio_value": 21714.12,
+      "spy_value": 13879.51
+    },
+    {
+      "date": "2023-12-27",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 59
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -1.94,
+      "portfolio_value": 21714.12,
+      "spy_value": 13610.66
+    },
+    {
+      "date": "2024-01-04",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": 3.45,
+      "spy_return": 1.94,
+      "portfolio_value": 22463.95,
+      "spy_value": 13874.85
+    },
+    {
+      "date": "2024-01-11",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 68
+        }
+      },
+      "period_return": -1.12,
+      "spy_return": 1.28,
+      "portfolio_value": 22211.65,
+      "spy_value": 14051.94
+    },
+    {
+      "date": "2024-01-19",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": 1.7,
+      "spy_return": 1.03,
+      "portfolio_value": 22588.69,
+      "spy_value": 14197.0
+    },
+    {
+      "date": "2024-01-26",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 4.44,
+      "spy_return": 1.42,
+      "portfolio_value": 23592.24,
+      "spy_value": 14399.14
+    },
+    {
+      "date": "2024-02-02",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 10.86,
+      "spy_return": 1.39,
+      "portfolio_value": 26154.47,
+      "spy_value": 14598.66
+    },
+    {
+      "date": "2024-02-09",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": 5.66,
+      "spy_return": -0.34,
+      "portfolio_value": 27635.06,
+      "spy_value": 14549.44
+    },
+    {
+      "date": "2024-02-16",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": -1.3,
+      "spy_return": 1.3,
+      "portfolio_value": 27276.75,
+      "spy_value": 14738.18
+    },
+    {
+      "date": "2024-02-26",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 2.64,
+      "spy_return": 1.25,
+      "portfolio_value": 27996.2,
+      "spy_value": 14921.98
+    },
+    {
+      "date": "2024-03-04",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": -7.31,
+      "spy_return": -0.2,
+      "portfolio_value": 25949.87,
+      "spy_value": 14892.27
+    },
+    {
+      "date": "2024-03-11",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 61
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 0.31,
+      "portfolio_value": 25949.87,
+      "spy_value": 14938.29
+    },
+    {
+      "date": "2024-03-18",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": 1.37,
+      "spy_return": 1.35,
+      "portfolio_value": 26306.46,
+      "spy_value": 15139.56
+    },
+    {
+      "date": "2024-03-25",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": -1.19,
+      "spy_return": -0.18,
+      "portfolio_value": 25994.11,
+      "spy_value": 15112.47
+    },
+    {
+      "date": "2024-04-02",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": -0.88,
+      "spy_return": 0.09,
+      "portfolio_value": 25765.46,
+      "spy_value": 15126.45
+    },
+    {
+      "date": "2024-04-09",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 58
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -3.04,
+      "portfolio_value": 25765.46,
+      "spy_value": 14666.53
+    },
+    {
+      "date": "2024-04-16",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 61
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 0.42,
+      "portfolio_value": 25765.46,
+      "spy_value": 14728.28
+    },
+    {
+      "date": "2024-04-23",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 61
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -0.73,
+      "portfolio_value": 25765.46,
+      "spy_value": 14621.38
+    },
+    {
+      "date": "2024-04-30",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": -0.43,
+      "spy_return": 3.02,
+      "portfolio_value": 25655.61,
+      "spy_value": 15062.95
+    },
+    {
+      "date": "2024-05-07",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 63
+        }
+      },
+      "period_return": -1.77,
+      "spy_return": 1.19,
+      "portfolio_value": 25200.73,
+      "spy_value": 15242.38
+    },
+    {
+      "date": "2024-05-14",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 5.13,
+      "spy_return": 1.54,
+      "portfolio_value": 26493.46,
+      "spy_value": 15477.15
+    },
+    {
+      "date": "2024-05-21",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": 1.04,
+      "spy_return": -0.99,
+      "portfolio_value": 26769.22,
+      "spy_value": 15323.94
+    },
+    {
+      "date": "2024-05-29",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 2.49,
+      "spy_return": 1.63,
+      "portfolio_value": 27436.53,
+      "spy_value": 15573.56
+    },
+    {
+      "date": "2024-06-05",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 4.27,
+      "spy_return": 1.25,
+      "portfolio_value": 28608.86,
+      "spy_value": 15768.42
+    },
+    {
+      "date": "2024-06-12",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": 2.15,
+      "spy_return": 1.04,
+      "portfolio_value": 29225.37,
+      "spy_value": 15932.7
+    },
+    {
+      "date": "2024-06-20",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": 2.6,
+      "spy_return": -0.12,
+      "portfolio_value": 29985.7,
+      "spy_value": 15914.35
+    },
+    {
+      "date": "2024-06-27",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 0.61,
+      "spy_return": 1.51,
+      "portfolio_value": 30168.11,
+      "spy_value": 16155.23
+    },
+    {
+      "date": "2024-07-05",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 3.7,
+      "spy_return": 0.96,
+      "portfolio_value": 31284.03,
+      "spy_value": 16311.06
+    },
+    {
+      "date": "2024-07-12",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": -9.59,
+      "spy_return": -1.96,
+      "portfolio_value": 28284.61,
+      "spy_value": 15990.66
+    },
+    {
+      "date": "2024-07-19",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 67
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -0.83,
+      "portfolio_value": 28284.61,
+      "spy_value": 15858.13
+    },
+    {
+      "date": "2024-07-26",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 68
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -2.12,
+      "portfolio_value": 28284.61,
+      "spy_value": 15522.0
+    },
+    {
+      "date": "2024-08-02",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 68
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 0.02,
+      "portfolio_value": 28284.61,
+      "spy_value": 15524.62
+    },
+    {
+      "date": "2024-08-09",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": 3.41,
+      "spy_return": 4.0,
+      "portfolio_value": 29250.18,
+      "spy_value": 16145.62
+    },
+    {
+      "date": "2024-08-16",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 64
+        }
+      },
+      "period_return": 3.32,
+      "spy_return": 1.41,
+      "portfolio_value": 30221.46,
+      "spy_value": 16373.4
+    },
+    {
+      "date": "2024-08-23",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 67
+        }
+      },
+      "period_return": 0.76,
+      "spy_return": 0.28,
+      "portfolio_value": 30452.39,
+      "spy_value": 16418.55
+    },
+    {
+      "date": "2024-08-30",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 66
+        }
+      },
+      "period_return": -5.39,
+      "spy_return": -3.06,
+      "portfolio_value": 28810.85,
+      "spy_value": 15915.51
+    },
+    {
+      "date": "2024-09-09",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 61
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 3.01,
+      "portfolio_value": 28810.85,
+      "spy_value": 16394.08
+    },
+    {
+      "date": "2024-09-16",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 61
+        }
+      },
+      "period_return": -0.54,
+      "spy_return": 1.21,
+      "portfolio_value": 28654.25,
+      "spy_value": 16593.02
+    },
+    {
+      "date": "2024-09-23",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": -3.55,
+      "spy_return": 0.72,
+      "portfolio_value": 27637.88,
+      "spy_value": 16712.15
+    },
+    {
+      "date": "2024-09-30",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 64
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -1.04,
+      "portfolio_value": 27637.88,
+      "spy_value": 16538.55
+    },
+    {
+      "date": "2024-10-07",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 58
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 2.91,
+      "portfolio_value": 27637.88,
+      "spy_value": 17019.74
+    },
+    {
+      "date": "2024-10-14",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 62
+        }
+      },
+      "period_return": -2.52,
+      "spy_return": -0.12,
+      "portfolio_value": 26942.7,
+      "spy_value": 16999.64
+    },
+    {
+      "date": "2024-10-21",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": -1.16,
+      "spy_return": -0.48,
+      "portfolio_value": 26629.31,
+      "spy_value": 16918.08
+    },
+    {
+      "date": "2024-10-28",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 61
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -1.9,
+      "portfolio_value": 26629.31,
+      "spy_value": 16597.1
+    },
+    {
+      "date": "2024-11-04",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 68
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 5.08,
+      "portfolio_value": 26629.31,
+      "spy_value": 17440.34
+    },
+    {
+      "date": "2024-11-11",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 64
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -1.77,
+      "portfolio_value": 26629.31,
+      "spy_value": 17131.29
+    },
+    {
+      "date": "2024-11-18",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 64
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 1.59,
+      "portfolio_value": 26629.31,
+      "spy_value": 17404.51
+    },
+    {
+      "date": "2024-11-25",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 66
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": 1.07,
+      "portfolio_value": 26629.31,
+      "spy_value": 17590.34
+    },
+    {
+      "date": "2024-12-03",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": -1.69,
+      "spy_return": -0.18,
+      "portfolio_value": 26179.12,
+      "spy_value": 17558.01
+    },
+    {
+      "date": "2024-12-10",
+      "weights": {
+        "LLY": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "up",
+          "prob": 58
+        }
+      },
+      "period_return": -2.62,
+      "spy_return": 0.25,
+      "portfolio_value": 25492.86,
+      "spy_value": 17601.41
+    },
+    {
+      "date": "2024-12-17",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 61
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -0.49,
+      "portfolio_value": 25492.86,
+      "spy_value": 17514.32
+    },
+    {
+      "date": "2024-12-24",
+      "weights": {
+        "CASH": 1.0
+      },
+      "predictions": {
+        "LLY": {
+          "dir": "down",
+          "prob": 58
+        }
+      },
+      "period_return": 0.0,
+      "spy_return": -2.18,
+      "portfolio_value": 25492.86,
+      "spy_value": 17133.33
+    }
+  ]
+}

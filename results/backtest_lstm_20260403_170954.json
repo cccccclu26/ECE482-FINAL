@@ -1,0 +1,3315 @@
+{
+  "method": "LSTM",
+  "portfolio_value": 94907.3,
+  "spy_value": 17133.33,
+  "total_return": 849.07,
+  "spy_return": 71.33,
+  "alpha": 777.74,
+  "cagr": 75.81,
+  "spy_cagr": 14.46,
+  "history": [
+    {
+      "date": "2021-01-04",
+      "weights": {
+        "AAPL": 0.0895,
+        "NVDA": 0.1031,
+        "META": 0.1023,
+        "MSFT": 0.1031,
+        "GOOGL": 0.1031,
+        "AVGO": 0.0959,
+        "LLY": 0.1029,
+        "CASH": 0.3
+      },
+      "period_return": 1.81,
+      "spy_return": 2.68,
+      "portfolio_value": 10181.45,
+      "spy_value": 10268.45
+    },
+    {
+      "date": "2021-01-11",
+      "weights": {
+        "AAPL": 0.1048,
+        "NVDA": 0.1144,
+        "META": 0.1137,
+        "MSFT": 0.1144,
+        "GOOGL": 0.1144,
+        "AVGO": 0.0607,
+        "LLY": 0.0778,
+        "CASH": 0.3
+      },
+      "period_return": 0.43,
+      "spy_return": -0.01,
+      "portfolio_value": 10225.37,
+      "spy_value": 10267.36
+    },
+    {
+      "date": "2021-01-19",
+      "weights": {
+        "AAPL": 0.0775,
+        "NVDA": 0.1056,
+        "META": 0.1049,
+        "JPM": 0.0975,
+        "MSFT": 0.1056,
+        "GOOGL": 0.104,
+        "AVGO": 0.105,
+        "CASH": 0.3
+      },
+      "period_return": 3.25,
+      "spy_return": 1.36,
+      "portfolio_value": 10557.41,
+      "spy_value": 10406.74
+    },
+    {
+      "date": "2021-01-26",
+      "weights": {
+        "AAPL": 0.0856,
+        "NVDA": 0.1129,
+        "META": 0.1129,
+        "JPM": 0.0699,
+        "MSFT": 0.1129,
+        "GOOGL": 0.1062,
+        "AVGO": 0.0995,
+        "CASH": 0.3
+      },
+      "period_return": -0.19,
+      "spy_return": -0.58,
+      "portfolio_value": 10537.59,
+      "spy_value": 10346.0
+    },
+    {
+      "date": "2021-02-02",
+      "weights": {
+        "AAPL": 0.0931,
+        "NVDA": 0.1014,
+        "META": 0.1014,
+        "JPM": 0.1012,
+        "MSFT": 0.1014,
+        "GOOGL": 0.1012,
+        "AVGO": 0.1001,
+        "CASH": 0.3
+      },
+      "period_return": 2.11,
+      "spy_return": 2.28,
+      "portfolio_value": 10760.23,
+      "spy_value": 10581.9
+    },
+    {
+      "date": "2021-02-09",
+      "weights": {
+        "AAPL": 0.0979,
+        "NVDA": 0.1015,
+        "META": 0.1015,
+        "MSFT": 0.1014,
+        "GOOGL": 0.0977,
+        "CASH": 0.5
+      },
+      "period_return": 0.49,
+      "spy_return": 0.55,
+      "portfolio_value": 10812.46,
+      "spy_value": 10639.93
+    },
+    {
+      "date": "2021-02-17",
+      "weights": {
+        "AAPL": 0.0986,
+        "NVDA": 0.1022,
+        "META": 0.1022,
+        "MSFT": 0.1019,
+        "AMZN": 0.1002,
+        "GOOGL": 0.0949,
+        "CASH": 0.4
+      },
+      "period_return": -2.05,
+      "spy_return": -0.16,
+      "portfolio_value": 10590.93,
+      "spy_value": 10623.12
+    },
+    {
+      "date": "2021-02-24",
+      "weights": {
+        "AAPL": 0.0942,
+        "NVDA": 0.1048,
+        "META": 0.104,
+        "JPM": 0.0955,
+        "MSFT": 0.1047,
+        "AMZN": 0.1048,
+        "GOOGL": 0.092,
+        "CASH": 0.3
+      },
+      "period_return": -2.99,
+      "spy_return": -2.64,
+      "portfolio_value": 10274.45,
+      "spy_value": 10342.47
+    },
+    {
+      "date": "2021-03-03",
+      "weights": {
+        "AAPL": 0.0837,
+        "NVDA": 0.1143,
+        "META": 0.092,
+        "MSFT": 0.1142,
+        "AMZN": 0.1143,
+        "GOOGL": 0.1136,
+        "AVGO": 0.068,
+        "CASH": 0.3
+      },
+      "period_return": 0.11,
+      "spy_return": 2.14,
+      "portfolio_value": 10286.03,
+      "spy_value": 10563.74
+    },
+    {
+      "date": "2021-03-10",
+      "weights": {
+        "AAPL": 0.0908,
+        "NVDA": 0.1116,
+        "META": 0.089,
+        "AMZN": 0.0875,
+        "GOOGL": 0.1116,
+        "AVGO": 0.1095,
+        "CASH": 0.4
+      },
+      "period_return": 3.41,
+      "spy_return": 1.97,
+      "portfolio_value": 10636.99,
+      "spy_value": 10771.98
+    },
+    {
+      "date": "2021-03-17",
+      "weights": {
+        "AAPL": 0.0729,
+        "NVDA": 0.1205,
+        "META": 0.09,
+        "GOOGL": 0.1205,
+        "AVGO": 0.0961,
+        "CASH": 0.5
+      },
+      "period_return": -1.7,
+      "spy_return": -2.13,
+      "portfolio_value": 10455.91,
+      "spy_value": 10542.29
+    },
+    {
+      "date": "2021-03-24",
+      "weights": {
+        "AAPL": 0.0744,
+        "NVDA": 0.1084,
+        "JPM": 0.1032,
+        "TSLA": 0.0886,
+        "MSFT": 0.1083,
+        "GOOGL": 0.1084,
+        "AVGO": 0.1005,
+        "LLY": 0.1084,
+        "CASH": 0.2
+      },
+      "period_return": 2.09,
+      "spy_return": 2.27,
+      "portfolio_value": 10674.03,
+      "spy_value": 10781.96
+    },
+    {
+      "date": "2021-03-31",
+      "weights": {
+        "AAPL": 0.0971,
+        "NVDA": 0.1044,
+        "JPM": 0.1042,
+        "MSFT": 0.1044,
+        "AMZN": 0.1016,
+        "GOOGL": 0.1044,
+        "AVGO": 0.0797,
+        "LLY": 0.1044,
+        "CASH": 0.2
+      },
+      "period_return": 7.86,
+      "spy_return": 10.36,
+      "portfolio_value": 11512.67,
+      "spy_value": 11899.13
+    },
+    {
+      "date": "2021-04-08",
+      "weights": {
+        "AAPL": 0.0935,
+        "NVDA": 0.1014,
+        "MSFT": 0.1013,
+        "AMZN": 0.1014,
+        "GOOGL": 0.1012,
+        "LLY": 0.1014,
+        "CASH": 0.4
+      },
+      "period_return": 2.42,
+      "spy_return": 1.8,
+      "portfolio_value": 11791.39,
+      "spy_value": 12113.22
+    },
+    {
+      "date": "2021-04-15",
+      "weights": {
+        "AAPL": 0.0938,
+        "NVDA": 0.1045,
+        "JPM": 0.0839,
+        "MSFT": 0.1043,
+        "AMZN": 0.1045,
+        "GOOGL": 0.1044,
+        "LLY": 0.1045,
+        "CASH": 0.3
+      },
+      "period_return": -1.67,
+      "spy_return": -0.87,
+      "portfolio_value": 11594.11,
+      "spy_value": 12008.36
+    },
+    {
+      "date": "2021-04-22",
+      "weights": {
+        "AAPL": 0.0958,
+        "NVDA": 0.1024,
+        "JPM": 0.0907,
+        "MSFT": 0.1022,
+        "AMZN": 0.1024,
+        "GOOGL": 0.1023,
+        "AVGO": 0.102,
+        "LLY": 0.1023,
+        "CASH": 0.2
+      },
+      "period_return": 1.86,
+      "spy_return": 1.89,
+      "portfolio_value": 11809.67,
+      "spy_value": 12235.26
+    },
+    {
+      "date": "2021-04-29",
+      "weights": {
+        "AAPL": 0.0918,
+        "NVDA": 0.1042,
+        "TSLA": 0.088,
+        "MSFT": 0.1041,
+        "GOOGL": 0.104,
+        "AVGO": 0.1039,
+        "LLY": 0.1042,
+        "CASH": 0.3
+      },
+      "period_return": -1.06,
+      "spy_return": -0.24,
+      "portfolio_value": 11684.66,
+      "spy_value": 12206.43
+    },
+    {
+      "date": "2021-05-06",
+      "weights": {
+        "AAPL": 0.0951,
+        "NVDA": 0.1014,
+        "TSLA": 0.0977,
+        "MSFT": 0.1014,
+        "AMZN": 0.1002,
+        "GOOGL": 0.1013,
+        "AVGO": 0.1013,
+        "LLY": 0.1014,
+        "CASH": 0.2
+      },
+      "period_return": -3.83,
+      "spy_return": -2.1,
+      "portfolio_value": 11236.77,
+      "spy_value": 11950.4
+    },
+    {
+      "date": "2021-05-13",
+      "weights": {
+        "AAPL": 0.0938,
+        "NVDA": 0.1023,
+        "TSLA": 0.0953,
+        "MSFT": 0.1023,
+        "AMZN": 0.1002,
+        "GOOGL": 0.1023,
+        "AVGO": 0.1022,
+        "LLY": 0.1015,
+        "CASH": 0.2
+      },
+      "period_return": 2.73,
+      "spy_return": 1.22,
+      "portfolio_value": 11543.62,
+      "spy_value": 12096.03
+    },
+    {
+      "date": "2021-05-20",
+      "weights": {
+        "AAPL": 0.0959,
+        "NVDA": 0.1042,
+        "TSLA": 0.0987,
+        "MSFT": 0.1042,
+        "GOOGL": 0.1042,
+        "AVGO": 0.1038,
+        "LLY": 0.0888,
+        "CASH": 0.3
+      },
+      "period_return": 1.86,
+      "spy_return": 0.97,
+      "portfolio_value": 11758.25,
+      "spy_value": 12212.83
+    },
+    {
+      "date": "2021-05-27",
+      "weights": {
+        "AAPL": 0.0988,
+        "NVDA": 0.1024,
+        "TSLA": 0.094,
+        "MSFT": 0.1024,
+        "AMZN": 0.1022,
+        "GOOGL": 0.1024,
+        "AVGO": 0.1023,
+        "LLY": 0.0957,
+        "CASH": 0.2
+      },
+      "period_return": 1.37,
+      "spy_return": 0.79,
+      "portfolio_value": 11919.4,
+      "spy_value": 12309.25
+    },
+    {
+      "date": "2021-06-04",
+      "weights": {
+        "AAPL": 0.0978,
+        "NVDA": 0.1014,
+        "TSLA": 0.0947,
+        "MSFT": 0.1012,
+        "AMZN": 0.1014,
+        "GOOGL": 0.1014,
+        "AVGO": 0.1013,
+        "LLY": 0.1007,
+        "CASH": 0.2
+      },
+      "period_return": 2.32,
+      "spy_return": 0.4,
+      "portfolio_value": 12196.21,
+      "spy_value": 12359.05
+    },
+    {
+      "date": "2021-06-11",
+      "weights": {
+        "AAPL": 0.1005,
+        "NVDA": 0.1042,
+        "META": 0.0917,
+        "JPM": 0.0875,
+        "TSLA": 0.0985,
+        "MSFT": 0.1041,
+        "AMZN": 0.1017,
+        "GOOGL": 0.1042,
+        "AVGO": 0.1041,
+        "LLY": 0.1034
+      },
+      "period_return": 0.09,
+      "spy_return": -2.21,
+      "portfolio_value": 12207.67,
+      "spy_value": 12085.55
+    },
+    {
+      "date": "2021-06-18",
+      "weights": {
+        "AAPL": 0.0922,
+        "NVDA": 0.1034,
+        "META": 0.0834,
+        "JPM": 0.1046,
+        "TSLA": 0.0992,
+        "MSFT": 0.1044,
+        "GOOGL": 0.1047,
+        "AVGO": 0.1047,
+        "LLY": 0.1033,
+        "CASH": 0.1
+      },
+      "period_return": 3.15,
+      "spy_return": 2.82,
+      "portfolio_value": 12592.66,
+      "spy_value": 12426.05
+    },
+    {
+      "date": "2021-06-25",
+      "weights": {
+        "AAPL": 0.0962,
+        "NVDA": 0.1039,
+        "META": 0.0872,
+        "JPM": 0.1038,
+        "TSLA": 0.0971,
+        "MSFT": 0.1039,
+        "GOOGL": 0.1039,
+        "AVGO": 0.1039,
+        "CASH": 0.2
+      },
+      "period_return": -5.96,
+      "spy_return": 1.67,
+      "portfolio_value": 11842.07,
+      "spy_value": 12633.14
+    },
+    {
+      "date": "2021-07-02",
+      "weights": {
+        "AAPL": 0.0972,
+        "NVDA": 0.0882,
+        "JPM": 0.1125,
+        "TSLA": 0.106,
+        "MSFT": 0.1124,
+        "GOOGL": 0.1125,
+        "AVGO": 0.1125,
+        "LLY": 0.0587,
+        "CASH": 0.2
+      },
+      "period_return": 1.19,
+      "spy_return": 0.77,
+      "portfolio_value": 11982.91,
+      "spy_value": 12731.01
+    },
+    {
+      "date": "2021-07-12",
+      "weights": {
+        "AAPL": 0.074,
+        "NVDA": 0.1051,
+        "JPM": 0.1052,
+        "TSLA": 0.1004,
+        "MSFT": 0.1051,
+        "GOOGL": 0.1051,
+        "AVGO": 0.1051,
+        "CASH": 0.3
+      },
+      "period_return": -2.95,
+      "spy_return": -2.77,
+      "portfolio_value": 11629.42,
+      "spy_value": 12378.28
+    },
+    {
+      "date": "2021-07-19",
+      "weights": {
+        "NVDA": 0.1035,
+        "META": 0.1031,
+        "JPM": 0.1034,
+        "TSLA": 0.0988,
+        "MSFT": 0.1035,
+        "GOOGL": 0.1035,
+        "AVGO": 0.1034,
+        "LLY": 0.0808,
+        "CASH": 0.2
+      },
+      "period_return": 2.93,
+      "spy_return": 3.78,
+      "portfolio_value": 11970.62,
+      "spy_value": 12845.77
+    },
+    {
+      "date": "2021-07-26",
+      "weights": {
+        "NVDA": 0.1034,
+        "META": 0.1034,
+        "JPM": 0.1034,
+        "TSLA": 0.0972,
+        "MSFT": 0.1033,
+        "GOOGL": 0.1033,
+        "AVGO": 0.1034,
+        "LLY": 0.0824,
+        "CASH": 0.2
+      },
+      "period_return": 1.07,
+      "spy_return": -0.78,
+      "portfolio_value": 12098.4,
+      "spy_value": 12745.87
+    },
+    {
+      "date": "2021-08-02",
+      "weights": {
+        "AAPL": 0.0725,
+        "NVDA": 0.1083,
+        "META": 0.1083,
+        "JPM": 0.1082,
+        "TSLA": 0.096,
+        "MSFT": 0.1082,
+        "GOOGL": 0.1055,
+        "AVGO": 0.1083,
+        "LLY": 0.0848,
+        "CASH": 0.1
+      },
+      "period_return": 1.95,
+      "spy_return": 1.04,
+      "portfolio_value": 12334.45,
+      "spy_value": 12878.1
+    },
+    {
+      "date": "2021-08-09",
+      "weights": {
+        "NVDA": 0.1023,
+        "META": 0.1023,
+        "JPM": 0.1022,
+        "TSLA": 0.0912,
+        "MSFT": 0.1014,
+        "AMZN": 0.0968,
+        "GOOGL": 0.1013,
+        "AVGO": 0.1023,
+        "CASH": 0.2
+      },
+      "period_return": -0.33,
+      "spy_return": 1.09,
+      "portfolio_value": 12293.76,
+      "spy_value": 13019.08
+    },
+    {
+      "date": "2021-08-16",
+      "weights": {
+        "AAPL": 0.0705,
+        "NVDA": 0.1041,
+        "META": 0.1037,
+        "JPM": 0.104,
+        "TSLA": 0.1038,
+        "MSFT": 0.1023,
+        "AMZN": 0.104,
+        "GOOGL": 0.1037,
+        "AVGO": 0.104,
+        "CASH": 0.1
+      },
+      "period_return": 1.54,
+      "spy_return": 0.06,
+      "portfolio_value": 12482.61,
+      "spy_value": 13027.53
+    },
+    {
+      "date": "2021-08-23",
+      "weights": {
+        "AAPL": 0.0953,
+        "NVDA": 0.1026,
+        "META": 0.0996,
+        "JPM": 0.0994,
+        "TSLA": 0.1024,
+        "MSFT": 0.0998,
+        "AMZN": 0.1026,
+        "GOOGL": 0.0959,
+        "AVGO": 0.1025,
+        "CASH": 0.1
+      },
+      "period_return": 2.46,
+      "spy_return": 1.11,
+      "portfolio_value": 12789.22,
+      "spy_value": 13172.29
+    },
+    {
+      "date": "2021-08-30",
+      "weights": {
+        "AAPL": 0.0972,
+        "NVDA": 0.1062,
+        "META": 0.1003,
+        "JPM": 0.0811,
+        "TSLA": 0.1059,
+        "MSFT": 0.1027,
+        "AMZN": 0.1005,
+        "AVGO": 0.1061,
+        "CASH": 0.2
+      },
+      "period_return": 0.82,
+      "spy_return": -0.17,
+      "portfolio_value": 12893.84,
+      "spy_value": 13149.86
+    },
+    {
+      "date": "2021-09-07",
+      "weights": {
+        "AAPL": 0.0975,
+        "NVDA": 0.1128,
+        "META": 0.0839,
+        "JPM": 0.1041,
+        "TSLA": 0.1124,
+        "MSFT": 0.112,
+        "GOOGL": 0.0644,
+        "AVGO": 0.1127,
+        "CASH": 0.2
+      },
+      "period_return": -1.21,
+      "spy_return": -1.61,
+      "portfolio_value": 12737.93,
+      "spy_value": 12937.52
+    },
+    {
+      "date": "2021-09-14",
+      "weights": {
+        "AAPL": 0.0951,
+        "NVDA": 0.1061,
+        "META": 0.0927,
+        "JPM": 0.0904,
+        "TSLA": 0.1058,
+        "MSFT": 0.106,
+        "GOOGL": 0.0919,
+        "AVGO": 0.1061,
+        "LLY": 0.1061,
+        "CASH": 0.1
+      },
+      "period_return": -2.12,
+      "spy_return": -2.37,
+      "portfolio_value": 12468.46,
+      "spy_value": 12630.52
+    },
+    {
+      "date": "2021-09-21",
+      "weights": {
+        "AAPL": 0.0986,
+        "NVDA": 0.108,
+        "META": 0.1038,
+        "JPM": 0.0768,
+        "TSLA": 0.1077,
+        "MSFT": 0.1079,
+        "AMZN": 0.0735,
+        "GOOGL": 0.1079,
+        "AVGO": 0.1079,
+        "LLY": 0.108
+      },
+      "period_return": -0.5,
+      "spy_return": 0.02,
+      "portfolio_value": 12406.19,
+      "spy_value": 12633.14
+    },
+    {
+      "date": "2021-09-28",
+      "weights": {
+        "AAPL": 0.094,
+        "NVDA": 0.1014,
+        "META": 0.0992,
+        "TSLA": 0.1008,
+        "MSFT": 0.1014,
+        "AMZN": 0.0991,
+        "GOOGL": 0.1014,
+        "AVGO": 0.1013,
+        "LLY": 0.1014,
+        "CASH": 0.1
+      },
+      "period_return": -0.07,
+      "spy_return": -0.14,
+      "portfolio_value": 12398.06,
+      "spy_value": 12615.08
+    },
+    {
+      "date": "2021-10-05",
+      "weights": {
+        "AAPL": 0.1043,
+        "NVDA": 0.1128,
+        "META": 0.0868,
+        "TSLA": 0.1123,
+        "MSFT": 0.1127,
+        "AMZN": 0.075,
+        "GOOGL": 0.0705,
+        "AVGO": 0.1128,
+        "LLY": 0.1128,
+        "CASH": 0.1
+      },
+      "period_return": 0.96,
+      "spy_return": 0.12,
+      "portfolio_value": 12517.24,
+      "spy_value": 12630.23
+    },
+    {
+      "date": "2021-10-12",
+      "weights": {
+        "AAPL": 0.0984,
+        "NVDA": 0.1037,
+        "JPM": 0.0995,
+        "TSLA": 0.1034,
+        "MSFT": 0.1035,
+        "GOOGL": 0.0841,
+        "AVGO": 0.1037,
+        "LLY": 0.1037,
+        "CASH": 0.2
+      },
+      "period_return": 4.18,
+      "spy_return": 3.93,
+      "portfolio_value": 13040.83,
+      "spy_value": 13125.98
+    },
+    {
+      "date": "2021-10-19",
+      "weights": {
+        "AAPL": 0.0967,
+        "NVDA": 0.1035,
+        "TSLA": 0.101,
+        "AVGO": 0.1037,
+        "LLY": 0.0951,
+        "CASH": 0.5
+      },
+      "period_return": 3.68,
+      "spy_return": 1.18,
+      "portfolio_value": 13521.12,
+      "spy_value": 13280.94
+    },
+    {
+      "date": "2021-10-26",
+      "weights": {
+        "AAPL": 0.0983,
+        "AVGO": 0.1017,
+        "CASH": 0.8
+      },
+      "period_return": 0.11,
+      "spy_return": 1.3,
+      "portfolio_value": 13535.59,
+      "spy_value": 13453.95
+    },
+    {
+      "date": "2021-11-02",
+      "weights": {
+        "AAPL": 0.0951,
+        "META": 0.1025,
+        "AVGO": 0.1024,
+        "CASH": 0.7
+      },
+      "period_return": 1.05,
+      "spy_return": 1.19,
+      "portfolio_value": 13678.37,
+      "spy_value": 13613.57
+    },
+    {
+      "date": "2021-11-09",
+      "weights": {
+        "AAPL": 0.0971,
+        "META": 0.1015,
+        "AVGO": 0.1014,
+        "CASH": 0.7
+      },
+      "period_return": 0.45,
+      "spy_return": 0.41,
+      "portfolio_value": 13739.52,
+      "spy_value": 13668.91
+    },
+    {
+      "date": "2021-11-16",
+      "weights": {
+        "AAPL": 0.0971,
+        "META": 0.1017,
+        "AVGO": 0.1012,
+        "CASH": 0.7
+      },
+      "period_return": 0.02,
+      "spy_return": -0.23,
+      "portfolio_value": 13742.33,
+      "spy_value": 13637.17
+    },
+    {
+      "date": "2021-11-23",
+      "weights": {
+        "AAPL": 0.0834,
+        "META": 0.1085,
+        "AVGO": 0.1081,
+        "CASH": 0.7
+      },
+      "period_return": -0.26,
+      "spy_return": -3.78,
+      "portfolio_value": 13706.84,
+      "spy_value": 13121.9
+    },
+    {
+      "date": "2021-12-01",
+      "weights": {
+        "AAPL": 0.0801,
+        "META": 0.1073,
+        "AVGO": 0.1053,
+        "LLY": 0.1073,
+        "CASH": 0.6
+      },
+      "period_return": 1.33,
+      "spy_return": 4.22,
+      "portfolio_value": 13889.32,
+      "spy_value": 13675.9
+    },
+    {
+      "date": "2021-12-08",
+      "weights": {
+        "META": 0.1177,
+        "AVGO": 0.0645,
+        "LLY": 0.1177,
+        "CASH": 0.7
+      },
+      "period_return": 1.5,
+      "spy_return": 0.23,
+      "portfolio_value": 14097.17,
+      "spy_value": 13707.36
+    },
+    {
+      "date": "2021-12-15",
+      "weights": {
+        "META": 0.1,
+        "LLY": 0.1,
+        "CASH": 0.8
+      },
+      "period_return": -0.35,
+      "spy_return": -0.62,
+      "portfolio_value": 14048.52,
+      "spy_value": 13622.6
+    },
+    {
+      "date": "2021-12-22",
+      "weights": {
+        "META": 0.1127,
+        "TSLA": 0.0747,
+        "LLY": 0.1127,
+        "CASH": 0.7
+      },
+      "period_return": 0.96,
+      "spy_return": 1.81,
+      "portfolio_value": 14183.56,
+      "spy_value": 13869.31
+    },
+    {
+      "date": "2021-12-30",
+      "weights": {
+        "AAPL": 0.0652,
+        "META": 0.1175,
+        "LLY": 0.1173,
+        "CASH": 0.7
+      },
+      "period_return": -1.78,
+      "spy_return": -1.73,
+      "portfolio_value": 13931.74,
+      "spy_value": 13629.88
+    },
+    {
+      "date": "2022-01-06",
+      "weights": {
+        "META": 0.1,
+        "LLY": 0.1,
+        "CASH": 0.8
+      },
+      "period_return": -0.64,
+      "spy_return": -0.73,
+      "portfolio_value": 13842.77,
+      "spy_value": 13530.56
+    },
+    {
+      "date": "2022-01-13",
+      "weights": {
+        "META": 0.0999,
+        "LLY": 0.1001,
+        "CASH": 0.8
+      },
+      "period_return": -1.08,
+      "spy_return": -5.72,
+      "portfolio_value": 13693.63,
+      "spy_value": 12757.23
+    },
+    {
+      "date": "2022-01-21",
+      "weights": {
+        "META": 0.1114,
+        "TSLA": 0.0927,
+        "AMZN": 0.0724,
+        "AVGO": 0.1106,
+        "LLY": 0.1129,
+        "CASH": 0.5
+      },
+      "period_return": -0.64,
+      "spy_return": 0.91,
+      "portfolio_value": 13606.09,
+      "spy_value": 12872.86
+    },
+    {
+      "date": "2022-01-28",
+      "weights": {
+        "META": 0.0955,
+        "LLY": 0.1045,
+        "CASH": 0.8
+      },
+      "period_return": 133.08,
+      "spy_return": 1.53,
+      "portfolio_value": 31713.68,
+      "spy_value": 13069.47
+    },
+    {
+      "date": "2022-02-04",
+      "weights": {
+        "META": 0.0955,
+        "LLY": 0.1045,
+        "CASH": 0.8
+      },
+      "period_return": -0.28,
+      "spy_return": -1.84,
+      "portfolio_value": 31624.37,
+      "spy_value": 12829.46
+    },
+    {
+      "date": "2022-02-11",
+      "weights": {
+        "META": 0.0955,
+        "LLY": 0.1045,
+        "CASH": 0.8
+      },
+      "period_return": 0.2,
+      "spy_return": -1.41,
+      "portfolio_value": 31688.43,
+      "spy_value": 12648.0
+    },
+    {
+      "date": "2022-02-18",
+      "weights": {
+        "META": 0.0955,
+        "LLY": 0.1045,
+        "CASH": 0.8
+      },
+      "period_return": 0.42,
+      "spy_return": 0.55,
+      "portfolio_value": 31821.26,
+      "spy_value": 12717.9
+    },
+    {
+      "date": "2022-02-28",
+      "weights": {
+        "META": 0.0955,
+        "LLY": 0.1045,
+        "CASH": 0.8
+      },
+      "period_return": 0.49,
+      "spy_return": -3.94,
+      "portfolio_value": 31976.77,
+      "spy_value": 12216.91
+    },
+    {
+      "date": "2022-03-07",
+      "weights": {
+        "META": 0.0955,
+        "LLY": 0.1045,
+        "CASH": 0.8
+      },
+      "period_return": 0.29,
+      "spy_return": -0.58,
+      "portfolio_value": 32070.76,
+      "spy_value": 12146.13
+    },
+    {
+      "date": "2022-03-14",
+      "weights": {
+        "AAPL": 0.0768,
+        "META": 0.1066,
+        "LLY": 0.1166,
+        "CASH": 0.7
+      },
+      "period_return": 1.65,
+      "spy_return": 6.57,
+      "portfolio_value": 32599.15,
+      "spy_value": 12943.93
+    },
+    {
+      "date": "2022-03-21",
+      "weights": {
+        "META": 0.0955,
+        "LLY": 0.1045,
+        "CASH": 0.8
+      },
+      "period_return": 0.07,
+      "spy_return": 2.59,
+      "portfolio_value": 32622.91,
+      "spy_value": 13279.48
+    },
+    {
+      "date": "2022-03-28",
+      "weights": {
+        "META": 0.0955,
+        "LLY": 0.1045,
+        "CASH": 0.8
+      },
+      "period_return": -0.01,
+      "spy_return": 0.2,
+      "portfolio_value": 32620.1,
+      "spy_value": 13305.4
+    },
+    {
+      "date": "2022-04-04",
+      "weights": {
+        "META": 0.0955,
+        "LLY": 0.1045,
+        "CASH": 0.8
+      },
+      "period_return": 0.63,
+      "spy_return": -3.7,
+      "portfolio_value": 32825.26,
+      "spy_value": 12813.73
+    },
+    {
+      "date": "2022-04-11",
+      "weights": {
+        "META": 0.0955,
+        "LLY": 0.1045,
+        "CASH": 0.8
+      },
+      "period_return": -0.4,
+      "spy_return": 1.16,
+      "portfolio_value": 32692.59,
+      "spy_value": 12962.87
+    },
+    {
+      "date": "2022-04-19",
+      "weights": {
+        "META": 0.0957,
+        "LLY": 0.1043,
+        "CASH": 0.8
+      },
+      "period_return": -0.5,
+      "spy_return": -6.5,
+      "portfolio_value": 32529.73,
+      "spy_value": 12119.92
+    },
+    {
+      "date": "2022-04-26",
+      "weights": {
+        "AAPL": 0.0765,
+        "META": 0.1067,
+        "LLY": 0.1168,
+        "CASH": 0.7
+      },
+      "period_return": 0.35,
+      "spy_return": 0.07,
+      "portfolio_value": 32642.64,
+      "spy_value": 12128.07
+    },
+    {
+      "date": "2022-05-03",
+      "weights": {
+        "AAPL": 0.0777,
+        "META": 0.1096,
+        "TSLA": 0.1027,
+        "MSFT": 0.0965,
+        "AMZN": 0.1156,
+        "GOOGL": 0.078,
+        "LLY": 0.1199,
+        "CASH": 0.3
+      },
+      "period_return": -3.62,
+      "spy_return": -4.15,
+      "portfolio_value": 31460.11,
+      "spy_value": 11624.46
+    },
+    {
+      "date": "2022-05-10",
+      "weights": {
+        "AAPL": 0.0874,
+        "NVDA": 0.0919,
+        "META": 0.0975,
+        "TSLA": 0.1019,
+        "MSFT": 0.1026,
+        "AMZN": 0.1056,
+        "GOOGL": 0.1066,
+        "LLY": 0.1066,
+        "CASH": 0.2
+      },
+      "period_return": 0.83,
+      "spy_return": 2.31,
+      "portfolio_value": 31719.72,
+      "spy_value": 11893.31
+    },
+    {
+      "date": "2022-05-17",
+      "weights": {
+        "AAPL": 0.0933,
+        "NVDA": 0.0883,
+        "META": 0.0993,
+        "TSLA": 0.1074,
+        "MSFT": 0.1032,
+        "AMZN": 0.0912,
+        "GOOGL": 0.1087,
+        "LLY": 0.1086,
+        "CASH": 0.2
+      },
+      "period_return": -5.4,
+      "spy_return": -3.53,
+      "portfolio_value": 30005.4,
+      "spy_value": 11473.0
+    },
+    {
+      "date": "2022-05-24",
+      "weights": {
+        "AAPL": 0.0958,
+        "NVDA": 0.1063,
+        "META": 0.1024,
+        "TSLA": 0.1121,
+        "MSFT": 0.0948,
+        "AMZN": 0.1113,
+        "GOOGL": 0.1114,
+        "AVGO": 0.0634,
+        "LLY": 0.1025,
+        "CASH": 0.1
+      },
+      "period_return": 7.95,
+      "spy_return": 3.99,
+      "portfolio_value": 32389.72,
+      "spy_value": 11930.3
+    },
+    {
+      "date": "2022-06-01",
+      "weights": {
+        "AAPL": 0.0734,
+        "META": 0.1048,
+        "TSLA": 0.1109,
+        "AMZN": 0.1109,
+        "CASH": 0.6
+      },
+      "period_return": -0.3,
+      "spy_return": 0.4,
+      "portfolio_value": 32291.2,
+      "spy_value": 11977.78
+    },
+    {
+      "date": "2022-06-08",
+      "weights": {
+        "AAPL": 0.0899,
+        "META": 0.098,
+        "JPM": 0.1048,
+        "TSLA": 0.1009,
+        "AMZN": 0.1071,
+        "LLY": 0.0993,
+        "CASH": 0.4
+      },
+      "period_return": -4.79,
+      "spy_return": -7.79,
+      "portfolio_value": 30745.78,
+      "spy_value": 11045.12
+    },
+    {
+      "date": "2022-06-15",
+      "weights": {
+        "AAPL": 0.0904,
+        "JPM": 0.1024,
+        "TSLA": 0.1022,
+        "AMZN": 0.1023,
+        "LLY": 0.1028,
+        "CASH": 0.5
+      },
+      "period_return": 1.29,
+      "spy_return": -0.3,
+      "portfolio_value": 31143.44,
+      "spy_value": 11011.91
+    },
+    {
+      "date": "2022-06-23",
+      "weights": {
+        "AAPL": 0.0868,
+        "TSLA": 0.1088,
+        "AMZN": 0.1044,
+        "CASH": 0.7
+      },
+      "period_return": -1.17,
+      "spy_return": -0.21,
+      "portfolio_value": 30780.3,
+      "spy_value": 10988.32
+    },
+    {
+      "date": "2022-06-30",
+      "weights": {
+        "AAPL": 0.0649,
+        "TSLA": 0.1156,
+        "AMZN": 0.1195,
+        "CASH": 0.7
+      },
+      "period_return": 2.89,
+      "spy_return": 3.03,
+      "portfolio_value": 31670.94,
+      "spy_value": 11320.95
+    },
+    {
+      "date": "2022-07-08",
+      "weights": {
+        "AMZN": 0.1172,
+        "LLY": 0.0828,
+        "CASH": 0.8
+      },
+      "period_return": -0.17,
+      "spy_return": -0.91,
+      "portfolio_value": 31615.99,
+      "spy_value": 11217.84
+    },
+    {
+      "date": "2022-07-15",
+      "weights": {
+        "LLY": 0.1,
+        "CASH": 0.9
+      },
+      "period_return": -0.09,
+      "spy_return": 2.59,
+      "portfolio_value": 31588.81,
+      "spy_value": 11507.95
+    },
+    {
+      "date": "2022-07-22",
+      "weights": {
+        "JPM": 0.0889,
+        "LLY": 0.1111,
+        "CASH": 0.8
+      },
+      "period_return": 0.08,
+      "spy_return": 4.28,
+      "portfolio_value": 31613.53,
+      "spy_value": 12000.2
+    },
+    {
+      "date": "2022-07-29",
+      "weights": {
+        "JPM": 0.0997,
+        "LLY": 0.1003,
+        "CASH": 0.8
+      },
+      "period_return": -0.83,
+      "spy_return": 0.36,
+      "portfolio_value": 31351.74,
+      "spy_value": 12043.31
+    },
+    {
+      "date": "2022-08-05",
+      "weights": {
+        "JPM": 0.0995,
+        "LLY": 0.1005,
+        "CASH": 0.8
+      },
+      "period_return": 0.77,
+      "spy_return": 3.3,
+      "portfolio_value": 31594.09,
+      "spy_value": 12440.32
+    },
+    {
+      "date": "2022-08-12",
+      "weights": {
+        "JPM": 0.0999,
+        "LLY": 0.1001,
+        "CASH": 0.8
+      },
+      "period_return": 0.19,
+      "spy_return": -1.16,
+      "portfolio_value": 31654.32,
+      "spy_value": 12295.85
+    },
+    {
+      "date": "2022-08-19",
+      "weights": {
+        "JPM": 0.0999,
+        "LLY": 0.1001,
+        "CASH": 0.8
+      },
+      "period_return": -0.56,
+      "spy_return": -3.99,
+      "portfolio_value": 31477.98,
+      "spy_value": 11805.63
+    },
+    {
+      "date": "2022-08-26",
+      "weights": {
+        "NVDA": 0.096,
+        "JPM": 0.1026,
+        "LLY": 0.1014,
+        "CASH": 0.7
+      },
+      "period_return": -2.09,
+      "spy_return": -3.22,
+      "portfolio_value": 30821.38,
+      "spy_value": 11424.94
+    },
+    {
+      "date": "2022-09-02",
+      "weights": {
+        "NVDA": 0.112,
+        "JPM": 0.112,
+        "AVGO": 0.0637,
+        "LLY": 0.1123,
+        "CASH": 0.6
+      },
+      "period_return": 2.27,
+      "spy_return": 4.78,
+      "portfolio_value": 31519.7,
+      "spy_value": 11970.49
+    },
+    {
+      "date": "2022-09-12",
+      "weights": {
+        "NVDA": 0.1112,
+        "JPM": 0.1111,
+        "MSFT": 0.0664,
+        "LLY": 0.1112,
+        "CASH": 0.6
+      },
+      "period_return": -1.99,
+      "spy_return": -5.46,
+      "portfolio_value": 30891.61,
+      "spy_value": 11317.46
+    },
+    {
+      "date": "2022-09-19",
+      "weights": {
+        "NVDA": 0.103,
+        "JPM": 0.1031,
+        "MSFT": 0.0908,
+        "LLY": 0.1032,
+        "CASH": 0.6
+      },
+      "period_return": -2.06,
+      "spy_return": -6.24,
+      "portfolio_value": 30255.02,
+      "spy_value": 10611.41
+    },
+    {
+      "date": "2022-09-26",
+      "weights": {
+        "NVDA": 0.1165,
+        "JPM": 0.1167,
+        "MSFT": 0.0875,
+        "AVGO": 0.0624,
+        "LLY": 0.1169,
+        "CASH": 0.5
+      },
+      "period_return": 0.95,
+      "spy_return": 0.63,
+      "portfolio_value": 30543.85,
+      "spy_value": 10678.4
+    },
+    {
+      "date": "2022-10-03",
+      "weights": {
+        "AAPL": 0.084,
+        "NVDA": 0.1179,
+        "JPM": 0.1178,
+        "AVGO": 0.062,
+        "LLY": 0.1182,
+        "CASH": 0.5
+      },
+      "period_return": -1.39,
+      "spy_return": -1.8,
+      "portfolio_value": 30120.44,
+      "spy_value": 10486.45
+    },
+    {
+      "date": "2022-10-10",
+      "weights": {
+        "AAPL": 0.0847,
+        "NVDA": 0.1142,
+        "META": 0.0845,
+        "JPM": 0.1141,
+        "MSFT": 0.088,
+        "LLY": 0.1145,
+        "CASH": 0.4
+      },
+      "period_return": 2.16,
+      "spy_return": 1.89,
+      "portfolio_value": 30771.66,
+      "spy_value": 10684.52
+    },
+    {
+      "date": "2022-10-17",
+      "weights": {
+        "AAPL": 0.0886,
+        "NVDA": 0.1058,
+        "META": 0.1046,
+        "JPM": 0.1065,
+        "MSFT": 0.0893,
+        "LLY": 0.1051,
+        "CASH": 0.4
+      },
+      "period_return": 2.18,
+      "spy_return": 3.28,
+      "portfolio_value": 31441.55,
+      "spy_value": 11035.5
+    },
+    {
+      "date": "2022-10-24",
+      "weights": {
+        "AAPL": 0.0738,
+        "NVDA": 0.1083,
+        "META": 0.1089,
+        "JPM": 0.109,
+        "CASH": 0.6
+      },
+      "period_return": -1.79,
+      "spy_return": 1.94,
+      "portfolio_value": 30877.8,
+      "spy_value": 11249.3
+    },
+    {
+      "date": "2022-10-31",
+      "weights": {
+        "NVDA": 0.1017,
+        "META": 0.1017,
+        "JPM": 0.1015,
+        "MSFT": 0.0969,
+        "AMZN": 0.0967,
+        "GOOGL": 0.1016,
+        "CASH": 0.4
+      },
+      "period_return": -0.51,
+      "spy_return": -1.62,
+      "portfolio_value": 30719.62,
+      "spy_value": 11066.96
+    },
+    {
+      "date": "2022-11-07",
+      "weights": {
+        "AAPL": 0.0743,
+        "NVDA": 0.1054,
+        "META": 0.1053,
+        "JPM": 0.1052,
+        "TSLA": 0.0992,
+        "MSFT": 0.1021,
+        "AMZN": 0.1042,
+        "GOOGL": 0.1043,
+        "CASH": 0.2
+      },
+      "period_return": 6.15,
+      "spy_return": 3.99,
+      "portfolio_value": 32608.67,
+      "spy_value": 11508.82
+    },
+    {
+      "date": "2022-11-14",
+      "weights": {
+        "NVDA": 0.1104,
+        "META": 0.1103,
+        "JPM": 0.1102,
+        "TSLA": 0.1102,
+        "MSFT": 0.1062,
+        "AMZN": 0.062,
+        "AVGO": 0.0906,
+        "CASH": 0.3
+      },
+      "period_return": -2.77,
+      "spy_return": -0.13,
+      "portfolio_value": 31705.41,
+      "spy_value": 11493.39
+    },
+    {
+      "date": "2022-11-21",
+      "weights": {
+        "NVDA": 0.1001,
+        "META": 0.1001,
+        "JPM": 0.0999,
+        "TSLA": 0.0999,
+        "MSFT": 0.0998,
+        "AVGO": 0.1,
+        "CASH": 0.4
+      },
+      "period_return": 1.21,
+      "spy_return": 0.16,
+      "portfolio_value": 32090.51,
+      "spy_value": 11512.03
+    },
+    {
+      "date": "2022-11-29",
+      "weights": {
+        "AAPL": 0.0909,
+        "NVDA": 0.1058,
+        "META": 0.1058,
+        "JPM": 0.105,
+        "TSLA": 0.0822,
+        "MSFT": 0.1044,
+        "AVGO": 0.1058,
+        "CASH": 0.3
+      },
+      "period_return": 0.67,
+      "spy_return": -0.35,
+      "portfolio_value": 32304.88,
+      "spy_value": 11471.25
+    },
+    {
+      "date": "2022-12-06",
+      "weights": {
+        "AAPL": 0.1005,
+        "NVDA": 0.1082,
+        "META": 0.1082,
+        "JPM": 0.0646,
+        "MSFT": 0.1058,
+        "AMZN": 0.1045,
+        "AVGO": 0.1082,
+        "CASH": 0.3
+      },
+      "period_return": 4.23,
+      "spy_return": 2.07,
+      "portfolio_value": 33670.38,
+      "spy_value": 11708.35
+    },
+    {
+      "date": "2022-12-13",
+      "weights": {
+        "AAPL": 0.0913,
+        "NVDA": 0.1015,
+        "META": 0.1015,
+        "TSLA": 0.1012,
+        "MSFT": 0.1011,
+        "AMZN": 0.1004,
+        "GOOGL": 0.1015,
+        "AVGO": 0.1015,
+        "CASH": 0.2
+      },
+      "period_return": -6.23,
+      "spy_return": -5.33,
+      "portfolio_value": 31574.12,
+      "spy_value": 11084.15
+    },
+    {
+      "date": "2022-12-20",
+      "weights": {
+        "AAPL": 0.0903,
+        "NVDA": 0.1015,
+        "META": 0.1015,
+        "TSLA": 0.1014,
+        "MSFT": 0.1013,
+        "AMZN": 0.1012,
+        "GOOGL": 0.1014,
+        "AVGO": 0.1015,
+        "CASH": 0.2
+      },
+      "period_return": -4.72,
+      "spy_return": -1.02,
+      "portfolio_value": 30082.66,
+      "spy_value": 10971.13
+    },
+    {
+      "date": "2022-12-28",
+      "weights": {
+        "AAPL": 0.0911,
+        "NVDA": 0.1014,
+        "META": 0.1014,
+        "TSLA": 0.1014,
+        "MSFT": 0.1013,
+        "AMZN": 0.1006,
+        "GOOGL": 0.1014,
+        "AVGO": 0.1014,
+        "CASH": 0.2
+      },
+      "period_return": 0.71,
+      "spy_return": 0.72,
+      "portfolio_value": 30297.18,
+      "spy_value": 11050.36
+    },
+    {
+      "date": "2023-01-05",
+      "weights": {
+        "AAPL": 0.089,
+        "NVDA": 0.1016,
+        "META": 0.1016,
+        "TSLA": 0.1016,
+        "MSFT": 0.1015,
+        "AMZN": 0.1001,
+        "GOOGL": 0.1016,
+        "AVGO": 0.1016,
+        "LLY": 0.1016,
+        "CASH": 0.1
+      },
+      "period_return": 7.48,
+      "spy_return": 4.63,
+      "portfolio_value": 32562.42,
+      "spy_value": 11562.42
+    },
+    {
+      "date": "2023-01-12",
+      "weights": {
+        "AAPL": 0.0677,
+        "NVDA": 0.1041,
+        "META": 0.1041,
+        "TSLA": 0.104,
+        "MSFT": 0.104,
+        "AMZN": 0.104,
+        "GOOGL": 0.104,
+        "AVGO": 0.1041,
+        "LLY": 0.1041,
+        "CASH": 0.1
+      },
+      "period_return": 2.59,
+      "spy_return": -0.27,
+      "portfolio_value": 33407.37,
+      "spy_value": 11530.96
+    },
+    {
+      "date": "2023-01-20",
+      "weights": {
+        "AAPL": 0.0616,
+        "NVDA": 0.1053,
+        "META": 0.1053,
+        "JPM": 0.0983,
+        "TSLA": 0.1038,
+        "MSFT": 0.1052,
+        "AMZN": 0.1048,
+        "GOOGL": 0.1052,
+        "AVGO": 0.1053,
+        "LLY": 0.1053
+      },
+      "period_return": 7.91,
+      "spy_return": 2.48,
+      "portfolio_value": 36049.82,
+      "spy_value": 11816.41
+    },
+    {
+      "date": "2023-01-27",
+      "weights": {
+        "NVDA": 0.1034,
+        "META": 0.1034,
+        "MSFT": 0.1033,
+        "AMZN": 0.0888,
+        "GOOGL": 0.0941,
+        "AVGO": 0.1034,
+        "LLY": 0.1034,
+        "CASH": 0.3
+      },
+      "period_return": 3.81,
+      "spy_return": 1.64,
+      "portfolio_value": 37422.03,
+      "spy_value": 12010.69
+    },
+    {
+      "date": "2023-02-03",
+      "weights": {
+        "NVDA": 0.1104,
+        "META": 0.1104,
+        "MSFT": 0.1101,
+        "AMZN": 0.0853,
+        "GOOGL": 0.0631,
+        "AVGO": 0.1104,
+        "LLY": 0.1104,
+        "CASH": 0.3
+      },
+      "period_return": -1.42,
+      "spy_return": -1.05,
+      "portfolio_value": 36890.72,
+      "spy_value": 11885.15
+    },
+    {
+      "date": "2023-02-10",
+      "weights": {
+        "NVDA": 0.1002,
+        "META": 0.1002,
+        "MSFT": 0.1,
+        "AMZN": 0.0999,
+        "GOOGL": 0.0993,
+        "AVGO": 0.1002,
+        "LLY": 0.1002,
+        "CASH": 0.3
+      },
+      "period_return": -0.72,
+      "spy_return": -0.19,
+      "portfolio_value": 36625.97,
+      "spy_value": 11862.43
+    },
+    {
+      "date": "2023-02-17",
+      "weights": {
+        "AAPL": 0.0827,
+        "NVDA": 0.1026,
+        "META": 0.1023,
+        "MSFT": 0.1022,
+        "AMZN": 0.1026,
+        "GOOGL": 0.1026,
+        "AVGO": 0.1026,
+        "LLY": 0.1026,
+        "CASH": 0.2
+      },
+      "period_return": -1.14,
+      "spy_return": -2.34,
+      "portfolio_value": 36208.14,
+      "spy_value": 11584.85
+    },
+    {
+      "date": "2023-02-27",
+      "weights": {
+        "AAPL": 0.097,
+        "NVDA": 0.1005,
+        "META": 0.1002,
+        "MSFT": 0.1005,
+        "AMZN": 0.1005,
+        "GOOGL": 0.1005,
+        "AVGO": 0.1005,
+        "LLY": 0.1005,
+        "CASH": 0.2
+      },
+      "period_return": 3.06,
+      "spy_return": 1.69,
+      "portfolio_value": 37317.24,
+      "spy_value": 11781.17
+    },
+    {
+      "date": "2023-03-06",
+      "weights": {
+        "AAPL": 0.0969,
+        "NVDA": 0.1058,
+        "META": 0.1058,
+        "JPM": 0.0573,
+        "TSLA": 0.105,
+        "MSFT": 0.1058,
+        "AMZN": 0.1058,
+        "GOOGL": 0.1058,
+        "AVGO": 0.1058,
+        "LLY": 0.1058
+      },
+      "period_return": -3.03,
+      "spy_return": -4.72,
+      "portfolio_value": 36188.34,
+      "spy_value": 11224.54
+    },
+    {
+      "date": "2023-03-13",
+      "weights": {
+        "AAPL": 0.093,
+        "NVDA": 0.101,
+        "META": 0.101,
+        "JPM": 0.1009,
+        "TSLA": 0.0989,
+        "MSFT": 0.101,
+        "AMZN": 0.101,
+        "GOOGL": 0.101,
+        "AVGO": 0.101,
+        "LLY": 0.101
+      },
+      "period_return": 6.0,
+      "spy_return": 2.17,
+      "portfolio_value": 38359.98,
+      "spy_value": 11468.63
+    },
+    {
+      "date": "2023-03-20",
+      "weights": {
+        "AAPL": 0.0856,
+        "NVDA": 0.1022,
+        "META": 0.1022,
+        "JPM": 0.1021,
+        "TSLA": 0.097,
+        "MSFT": 0.1022,
+        "AMZN": 0.1022,
+        "GOOGL": 0.1022,
+        "AVGO": 0.1022,
+        "LLY": 0.1022
+      },
+      "period_return": 1.2,
+      "spy_return": 0.7,
+      "portfolio_value": 38818.91,
+      "spy_value": 11548.73
+    },
+    {
+      "date": "2023-03-27",
+      "weights": {
+        "AAPL": 0.0932,
+        "NVDA": 0.1018,
+        "META": 0.1018,
+        "JPM": 0.1017,
+        "TSLA": 0.0929,
+        "MSFT": 0.1018,
+        "AMZN": 0.1018,
+        "GOOGL": 0.1017,
+        "AVGO": 0.1018,
+        "LLY": 0.1018
+      },
+      "period_return": 3.59,
+      "spy_return": 3.65,
+      "portfolio_value": 40212.34,
+      "spy_value": 11969.91
+    },
+    {
+      "date": "2023-04-03",
+      "weights": {
+        "AAPL": 0.0896,
+        "NVDA": 0.1026,
+        "META": 0.0982,
+        "JPM": 0.1026,
+        "TSLA": 0.0938,
+        "MSFT": 0.1026,
+        "AMZN": 0.1027,
+        "GOOGL": 0.1027,
+        "AVGO": 0.1026,
+        "LLY": 0.1027
+      },
+      "period_return": -1.31,
+      "spy_return": -0.3,
+      "portfolio_value": 39684.27,
+      "spy_value": 11934.09
+    },
+    {
+      "date": "2023-04-11",
+      "weights": {
+        "AAPL": 0.0973,
+        "NVDA": 0.1016,
+        "META": 0.0972,
+        "JPM": 0.1016,
+        "TSLA": 0.0943,
+        "MSFT": 0.1015,
+        "AMZN": 0.1016,
+        "GOOGL": 0.1016,
+        "AVGO": 0.1016,
+        "LLY": 0.1016
+      },
+      "period_return": 2.3,
+      "spy_return": 1.1,
+      "portfolio_value": 40598.82,
+      "spy_value": 12064.87
+    },
+    {
+      "date": "2023-04-18",
+      "weights": {
+        "AAPL": 0.0955,
+        "NVDA": 0.1017,
+        "META": 0.097,
+        "JPM": 0.1017,
+        "TSLA": 0.0954,
+        "MSFT": 0.1016,
+        "AMZN": 0.1017,
+        "GOOGL": 0.1017,
+        "AVGO": 0.1017,
+        "LLY": 0.1017
+      },
+      "period_return": -2.88,
+      "spy_return": -1.96,
+      "portfolio_value": 39429.65,
+      "spy_value": 11828.06
+    },
+    {
+      "date": "2023-04-25",
+      "weights": {
+        "AAPL": 0.0963,
+        "NVDA": 0.1018,
+        "META": 0.0937,
+        "JPM": 0.1017,
+        "TSLA": 0.0973,
+        "MSFT": 0.1018,
+        "AMZN": 0.1018,
+        "GOOGL": 0.1018,
+        "AVGO": 0.1018,
+        "LLY": 0.1018
+      },
+      "period_return": 4.26,
+      "spy_return": 1.17,
+      "portfolio_value": 41108.29,
+      "spy_value": 11966.71
+    },
+    {
+      "date": "2023-05-02",
+      "weights": {
+        "AAPL": 0.0934,
+        "NVDA": 0.1024,
+        "META": 0.0921,
+        "JPM": 0.1023,
+        "TSLA": 0.0982,
+        "MSFT": 0.1022,
+        "AMZN": 0.1023,
+        "GOOGL": 0.1024,
+        "AVGO": 0.1023,
+        "LLY": 0.1024
+      },
+      "period_return": 1.7,
+      "spy_return": 0.02,
+      "portfolio_value": 41808.09,
+      "spy_value": 11969.33
+    },
+    {
+      "date": "2023-05-09",
+      "weights": {
+        "AAPL": 0.0895,
+        "NVDA": 0.1032,
+        "META": 0.0937,
+        "JPM": 0.103,
+        "TSLA": 0.0954,
+        "MSFT": 0.1027,
+        "AMZN": 0.1032,
+        "GOOGL": 0.1032,
+        "AVGO": 0.1031,
+        "LLY": 0.1032
+      },
+      "period_return": 2.72,
+      "spy_return": -0.17,
+      "portfolio_value": 42947.15,
+      "spy_value": 11949.52
+    },
+    {
+      "date": "2023-05-16",
+      "weights": {
+        "AAPL": 0.0966,
+        "NVDA": 0.1027,
+        "META": 0.0959,
+        "JPM": 0.097,
+        "TSLA": 0.0961,
+        "MSFT": 0.101,
+        "AMZN": 0.1027,
+        "GOOGL": 0.1025,
+        "AVGO": 0.1027,
+        "LLY": 0.1027
+      },
+      "period_return": 3.01,
+      "spy_return": 0.94,
+      "portfolio_value": 44239.01,
+      "spy_value": 12061.37
+    },
+    {
+      "date": "2023-05-23",
+      "weights": {
+        "AAPL": 0.0948,
+        "NVDA": 0.1037,
+        "META": 0.098,
+        "JPM": 0.0935,
+        "TSLA": 0.0981,
+        "MSFT": 0.098,
+        "AMZN": 0.1037,
+        "GOOGL": 0.1033,
+        "AVGO": 0.1036,
+        "LLY": 0.1035
+      },
+      "period_return": 7.26,
+      "spy_return": 0.91,
+      "portfolio_value": 47452.33,
+      "spy_value": 12170.89
+    },
+    {
+      "date": "2023-05-31",
+      "weights": {
+        "AAPL": 0.0857,
+        "NVDA": 0.1052,
+        "META": 0.1005,
+        "JPM": 0.0929,
+        "TSLA": 0.1004,
+        "AMZN": 0.1054,
+        "GOOGL": 0.1053,
+        "AVGO": 0.1051,
+        "LLY": 0.0996,
+        "CASH": 0.1
+      },
+      "period_return": 1.23,
+      "spy_return": 2.08,
+      "portfolio_value": 48034.89,
+      "spy_value": 12424.3
+    },
+    {
+      "date": "2023-06-07",
+      "weights": {
+        "AAPL": 0.0626,
+        "NVDA": 0.1093,
+        "META": 0.104,
+        "JPM": 0.0995,
+        "TSLA": 0.1013,
+        "MSFT": 0.0997,
+        "AMZN": 0.1093,
+        "GOOGL": 0.1092,
+        "AVGO": 0.1072,
+        "LLY": 0.098
+      },
+      "period_return": 6.24,
+      "spy_return": 2.49,
+      "portfolio_value": 51033.58,
+      "spy_value": 12733.92
+    },
+    {
+      "date": "2023-06-14",
+      "weights": {
+        "NVDA": 0.106,
+        "META": 0.1015,
+        "JPM": 0.1003,
+        "TSLA": 0.0757,
+        "AMZN": 0.1063,
+        "GOOGL": 0.107,
+        "LLY": 0.1031,
+        "CASH": 0.3
+      },
+      "period_return": 1.03,
+      "spy_return": -0.15,
+      "portfolio_value": 51558.41,
+      "spy_value": 12714.41
+    },
+    {
+      "date": "2023-06-22",
+      "weights": {
+        "META": 0.1048,
+        "JPM": 0.1071,
+        "AMZN": 0.0677,
+        "GOOGL": 0.1106,
+        "LLY": 0.1098,
+        "CASH": 0.5
+      },
+      "period_return": -0.15,
+      "spy_return": 0.37,
+      "portfolio_value": 51483.44,
+      "spy_value": 12761.01
+    },
+    {
+      "date": "2023-06-29",
+      "weights": {
+        "NVDA": 0.1021,
+        "META": 0.0938,
+        "GOOGL": 0.1021,
+        "LLY": 0.1019,
+        "CASH": 0.6
+      },
+      "period_return": 0.48,
+      "spy_return": 0.1,
+      "portfolio_value": 51730.98,
+      "spy_value": 12773.83
+    },
+    {
+      "date": "2023-07-07",
+      "weights": {
+        "NVDA": 0.1037,
+        "META": 0.0933,
+        "GOOGL": 0.1037,
+        "LLY": 0.0994,
+        "CASH": 0.6
+      },
+      "period_return": 1.77,
+      "spy_return": 2.45,
+      "portfolio_value": 52646.58,
+      "spy_value": 13086.37
+    },
+    {
+      "date": "2023-07-14",
+      "weights": {
+        "META": 0.0943,
+        "GOOGL": 0.1029,
+        "LLY": 0.1028,
+        "CASH": 0.7
+      },
+      "period_return": -0.6,
+      "spy_return": 0.65,
+      "portfolio_value": 52329.89,
+      "spy_value": 13170.84
+    },
+    {
+      "date": "2023-07-21",
+      "weights": {
+        "META": 0.0937,
+        "GOOGL": 0.1032,
+        "LLY": 0.1032,
+        "CASH": 0.7
+      },
+      "period_return": 1.99,
+      "spy_return": 1.05,
+      "portfolio_value": 53373.32,
+      "spy_value": 13308.9
+    },
+    {
+      "date": "2023-07-28",
+      "weights": {
+        "META": 0.0928,
+        "LLY": 0.1072,
+        "CASH": 0.8
+      },
+      "period_return": -0.63,
+      "spy_return": -2.21,
+      "portfolio_value": 53036.69,
+      "spy_value": 13014.42
+    },
+    {
+      "date": "2023-08-04",
+      "weights": {
+        "META": 0.094,
+        "MSFT": 0.103,
+        "LLY": 0.103,
+        "CASH": 0.7
+      },
+      "period_return": 1.32,
+      "spy_return": -0.26,
+      "portfolio_value": 53735.82,
+      "spy_value": 12980.63
+    },
+    {
+      "date": "2023-08-11",
+      "weights": {
+        "AAPL": 0.0879,
+        "NVDA": 0.103,
+        "META": 0.0961,
+        "MSFT": 0.1031,
+        "AMZN": 0.1022,
+        "GOOGL": 0.1018,
+        "AVGO": 0.1029,
+        "LLY": 0.1031,
+        "CASH": 0.2
+      },
+      "period_return": -0.52,
+      "spy_return": -2.05,
+      "portfolio_value": 53455.73,
+      "spy_value": 12714.12
+    },
+    {
+      "date": "2023-08-18",
+      "weights": {
+        "AAPL": 0.0875,
+        "NVDA": 0.1027,
+        "META": 0.0978,
+        "JPM": 0.1026,
+        "TSLA": 0.0962,
+        "MSFT": 0.1027,
+        "AMZN": 0.1026,
+        "GOOGL": 0.1027,
+        "AVGO": 0.1025,
+        "LLY": 0.1027
+      },
+      "period_return": 2.7,
+      "spy_return": 0.79,
+      "portfolio_value": 54896.72,
+      "spy_value": 12815.19
+    },
+    {
+      "date": "2023-08-25",
+      "weights": {
+        "AAPL": 0.0834,
+        "NVDA": 0.0863,
+        "META": 0.1046,
+        "JPM": 0.1055,
+        "MSFT": 0.1056,
+        "AMZN": 0.1056,
+        "GOOGL": 0.0983,
+        "AVGO": 0.1054,
+        "LLY": 0.1055,
+        "CASH": 0.1
+      },
+      "period_return": 2.69,
+      "spy_return": 2.55,
+      "portfolio_value": 56371.12,
+      "spy_value": 13142.0
+    },
+    {
+      "date": "2023-09-01",
+      "weights": {
+        "META": 0.0996,
+        "JPM": 0.1002,
+        "MSFT": 0.1002,
+        "AMZN": 0.1002,
+        "AVGO": 0.1001,
+        "LLY": 0.0996,
+        "CASH": 0.4
+      },
+      "period_return": 1.39,
+      "spy_return": -0.61,
+      "portfolio_value": 57156.36,
+      "spy_value": 13062.19
+    },
+    {
+      "date": "2023-09-11",
+      "weights": {
+        "AAPL": 0.0732,
+        "NVDA": 0.11,
+        "META": 0.1094,
+        "JPM": 0.1106,
+        "MSFT": 0.1106,
+        "AMZN": 0.1106,
+        "AVGO": 0.1106,
+        "LLY": 0.0649,
+        "CASH": 0.2
+      },
+      "period_return": -1.09,
+      "spy_return": -1.07,
+      "portfolio_value": 56534.86,
+      "spy_value": 12921.8
+    },
+    {
+      "date": "2023-09-18",
+      "weights": {
+        "AAPL": 0.0764,
+        "NVDA": 0.1043,
+        "META": 0.1024,
+        "JPM": 0.1043,
+        "MSFT": 0.1043,
+        "AMZN": 0.1043,
+        "AVGO": 0.1042,
+        "LLY": 0.0997,
+        "CASH": 0.2
+      },
+      "period_return": -2.28,
+      "spy_return": -2.57,
+      "portfolio_value": 55244.05,
+      "spy_value": 12589.74
+    },
+    {
+      "date": "2023-09-25",
+      "weights": {
+        "AAPL": 0.0703,
+        "NVDA": 0.1048,
+        "META": 0.103,
+        "JPM": 0.1048,
+        "TSLA": 0.0936,
+        "MSFT": 0.1048,
+        "AMZN": 0.1048,
+        "GOOGL": 0.1048,
+        "AVGO": 0.1047,
+        "LLY": 0.1047
+      },
+      "period_return": 0.72,
+      "spy_return": -1.14,
+      "portfolio_value": 55641.13,
+      "spy_value": 12446.44
+    },
+    {
+      "date": "2023-10-02",
+      "weights": {
+        "AAPL": 0.0901,
+        "NVDA": 0.1014,
+        "META": 0.1001,
+        "JPM": 0.1014,
+        "MSFT": 0.1014,
+        "AMZN": 0.1014,
+        "GOOGL": 0.1014,
+        "AVGO": 0.1012,
+        "LLY": 0.1014,
+        "CASH": 0.1
+      },
+      "period_return": 2.19,
+      "spy_return": 1.17,
+      "portfolio_value": 56862.15,
+      "spy_value": 12591.49
+    },
+    {
+      "date": "2023-10-09",
+      "weights": {
+        "AAPL": 0.0551,
+        "NVDA": 0.1058,
+        "META": 0.1043,
+        "JPM": 0.1058,
+        "MSFT": 0.1058,
+        "AMZN": 0.1058,
+        "GOOGL": 0.1058,
+        "AVGO": 0.1057,
+        "LLY": 0.1058,
+        "CASH": 0.1
+      },
+      "period_return": 2.4,
+      "spy_return": 0.87,
+      "portfolio_value": 58228.8,
+      "spy_value": 12700.72
+    },
+    {
+      "date": "2023-10-16",
+      "weights": {
+        "AAPL": 0.0976,
+        "NVDA": 0.1007,
+        "META": 0.0976,
+        "JPM": 0.1007,
+        "MSFT": 0.1007,
+        "AMZN": 0.1007,
+        "GOOGL": 0.1007,
+        "AVGO": 0.1005,
+        "LLY": 0.1007,
+        "CASH": 0.1
+      },
+      "period_return": -3.52,
+      "spy_return": -3.57,
+      "portfolio_value": 56176.96,
+      "spy_value": 12246.91
+    },
+    {
+      "date": "2023-10-23",
+      "weights": {
+        "AAPL": 0.0974,
+        "NVDA": 0.1016,
+        "META": 0.0948,
+        "JPM": 0.0983,
+        "MSFT": 0.1016,
+        "AMZN": 0.1015,
+        "GOOGL": 0.1016,
+        "AVGO": 0.1013,
+        "LLY": 0.1016,
+        "CASH": 0.1
+      },
+      "period_return": -1.77,
+      "spy_return": -1.16,
+      "portfolio_value": 55182.73,
+      "spy_value": 12105.06
+    },
+    {
+      "date": "2023-10-30",
+      "weights": {
+        "AAPL": 0.0959,
+        "NVDA": 0.1018,
+        "META": 0.0971,
+        "JPM": 0.0967,
+        "MSFT": 0.1018,
+        "AMZN": 0.1013,
+        "GOOGL": 0.1018,
+        "AVGO": 0.1018,
+        "LLY": 0.1018,
+        "CASH": 0.1
+      },
+      "period_return": 5.13,
+      "spy_return": 4.84,
+      "portfolio_value": 58012.81,
+      "spy_value": 12690.52
+    },
+    {
+      "date": "2023-11-06",
+      "weights": {
+        "AAPL": 0.0742,
+        "NVDA": 0.1037,
+        "META": 0.1028,
+        "JPM": 0.1008,
+        "MSFT": 0.1037,
+        "AMZN": 0.1037,
+        "GOOGL": 0.1035,
+        "AVGO": 0.1036,
+        "LLY": 0.1037,
+        "CASH": 0.1
+      },
+      "period_return": 3.17,
+      "spy_return": 1.03,
+      "portfolio_value": 59853.21,
+      "spy_value": 12821.6
+    },
+    {
+      "date": "2023-11-13",
+      "weights": {
+        "NVDA": 0.1005,
+        "META": 0.0994,
+        "JPM": 0.0994,
+        "MSFT": 0.1003,
+        "AMZN": 0.1005,
+        "GOOGL": 0.1005,
+        "AVGO": 0.099,
+        "LLY": 0.1005,
+        "CASH": 0.2
+      },
+      "period_return": 2.33,
+      "spy_return": 3.2,
+      "portfolio_value": 61247.8,
+      "spy_value": 13231.42
+    },
+    {
+      "date": "2023-11-20",
+      "weights": {
+        "NVDA": 0.1026,
+        "META": 0.1004,
+        "JPM": 0.1023,
+        "MSFT": 0.1024,
+        "AMZN": 0.1026,
+        "GOOGL": 0.0895,
+        "AVGO": 0.0981,
+        "LLY": 0.102,
+        "CASH": 0.2
+      },
+      "period_return": -0.86,
+      "spy_return": 0.15,
+      "portfolio_value": 60721.31,
+      "spy_value": 13250.94
+    },
+    {
+      "date": "2023-11-28",
+      "weights": {
+        "NVDA": 0.1013,
+        "META": 0.0965,
+        "JPM": 0.1012,
+        "MSFT": 0.1008,
+        "AMZN": 0.1013,
+        "GOOGL": 0.0969,
+        "AVGO": 0.1013,
+        "LLY": 0.1009,
+        "CASH": 0.2
+      },
+      "period_return": -1.69,
+      "spy_return": 0.37,
+      "portfolio_value": 59692.34,
+      "spy_value": 13299.58
+    },
+    {
+      "date": "2023-12-05",
+      "weights": {
+        "NVDA": 0.1018,
+        "META": 0.0875,
+        "JPM": 0.1017,
+        "MSFT": 0.1017,
+        "AMZN": 0.1018,
+        "GOOGL": 0.1018,
+        "AVGO": 0.1018,
+        "LLY": 0.1018,
+        "CASH": 0.2
+      },
+      "period_return": 2.77,
+      "spy_return": 1.64,
+      "portfolio_value": 61344.55,
+      "spy_value": 13518.03
+    },
+    {
+      "date": "2023-12-12",
+      "weights": {
+        "NVDA": 0.1008,
+        "META": 0.0969,
+        "JPM": 0.1007,
+        "MSFT": 0.1008,
+        "AMZN": 0.1008,
+        "GOOGL": 0.1005,
+        "AVGO": 0.0985,
+        "LLY": 0.1007,
+        "CASH": 0.2
+      },
+      "period_return": 2.63,
+      "spy_return": 2.31,
+      "portfolio_value": 62955.1,
+      "spy_value": 13830.86
+    },
+    {
+      "date": "2023-12-19",
+      "weights": {
+        "NVDA": 0.1005,
+        "META": 0.0969,
+        "JPM": 0.1004,
+        "MSFT": 0.1005,
+        "AMZN": 0.1005,
+        "GOOGL": 0.1005,
+        "AVGO": 0.1,
+        "LLY": 0.1004,
+        "CASH": 0.2
+      },
+      "period_return": 0.4,
+      "spy_return": 0.35,
+      "portfolio_value": 63208.95,
+      "spy_value": 13879.51
+    },
+    {
+      "date": "2023-12-27",
+      "weights": {
+        "NVDA": 0.1006,
+        "META": 0.0963,
+        "JPM": 0.1005,
+        "MSFT": 0.1006,
+        "AMZN": 0.1006,
+        "GOOGL": 0.1005,
+        "AVGO": 0.1001,
+        "LLY": 0.1006,
+        "CASH": 0.2
+      },
+      "period_return": -1.6,
+      "spy_return": -1.94,
+      "portfolio_value": 62198.55,
+      "spy_value": 13610.66
+    },
+    {
+      "date": "2024-01-04",
+      "weights": {
+        "NVDA": 0.1014,
+        "META": 0.0906,
+        "JPM": 0.1012,
+        "MSFT": 0.1011,
+        "AMZN": 0.1014,
+        "GOOGL": 0.1014,
+        "AVGO": 0.1013,
+        "LLY": 0.1014,
+        "CASH": 0.2
+      },
+      "period_return": 4.43,
+      "spy_return": 1.94,
+      "portfolio_value": 64956.37,
+      "spy_value": 13874.84
+    },
+    {
+      "date": "2024-01-11",
+      "weights": {
+        "NVDA": 0.1015,
+        "META": 0.0909,
+        "JPM": 0.1013,
+        "MSFT": 0.1004,
+        "AMZN": 0.1015,
+        "GOOGL": 0.1015,
+        "AVGO": 0.1014,
+        "LLY": 0.1015,
+        "CASH": 0.2
+      },
+      "period_return": 2.8,
+      "spy_return": 1.28,
+      "portfolio_value": 66774.69,
+      "spy_value": 14051.94
+    },
+    {
+      "date": "2024-01-19",
+      "weights": {
+        "NVDA": 0.1062,
+        "META": 0.0945,
+        "JPM": 0.1057,
+        "MSFT": 0.1003,
+        "AMZN": 0.1062,
+        "GOOGL": 0.1062,
+        "AVGO": 0.0748,
+        "LLY": 0.1062,
+        "CASH": 0.2
+      },
+      "period_return": 1.61,
+      "spy_return": 1.03,
+      "portfolio_value": 67851.97,
+      "spy_value": 14196.99
+    },
+    {
+      "date": "2024-01-26",
+      "weights": {
+        "NVDA": 0.1053,
+        "META": 0.0969,
+        "JPM": 0.1026,
+        "MSFT": 0.0753,
+        "AMZN": 0.1057,
+        "GOOGL": 0.1056,
+        "AVGO": 0.1042,
+        "LLY": 0.1044,
+        "CASH": 0.2
+      },
+      "period_return": 3.95,
+      "spy_return": 1.42,
+      "portfolio_value": 70531.79,
+      "spy_value": 14399.14
+    },
+    {
+      "date": "2024-02-02",
+      "weights": {
+        "NVDA": 0.1024,
+        "META": 0.0963,
+        "JPM": 0.0945,
+        "AMZN": 0.1058,
+        "GOOGL": 0.1058,
+        "AVGO": 0.1046,
+        "LLY": 0.0907,
+        "CASH": 0.3
+      },
+      "period_return": 2.94,
+      "spy_return": 1.39,
+      "portfolio_value": 72608.43,
+      "spy_value": 14598.66
+    },
+    {
+      "date": "2024-02-09",
+      "weights": {
+        "NVDA": 0.0932,
+        "META": 0.0999,
+        "JPM": 0.0977,
+        "AMZN": 0.1076,
+        "GOOGL": 0.1076,
+        "LLY": 0.0941,
+        "CASH": 0.4
+      },
+      "period_return": 0.01,
+      "spy_return": -0.34,
+      "portfolio_value": 72618.29,
+      "spy_value": 14549.44
+    },
+    {
+      "date": "2024-02-16",
+      "weights": {
+        "AAPL": 0.0912,
+        "NVDA": 0.0992,
+        "META": 0.1069,
+        "MSFT": 0.0671,
+        "AMZN": 0.1107,
+        "GOOGL": 0.1126,
+        "LLY": 0.1123,
+        "CASH": 0.3
+      },
+      "period_return": 1.03,
+      "spy_return": 1.3,
+      "portfolio_value": 73369.54,
+      "spy_value": 14738.18
+    },
+    {
+      "date": "2024-02-26",
+      "weights": {
+        "AAPL": 0.0986,
+        "META": 0.1002,
+        "MSFT": 0.102,
+        "AMZN": 0.0898,
+        "GOOGL": 0.105,
+        "LLY": 0.1045,
+        "CASH": 0.4
+      },
+      "period_return": 0.3,
+      "spy_return": 1.25,
+      "portfolio_value": 73587.39,
+      "spy_value": 14921.98
+    },
+    {
+      "date": "2024-03-04",
+      "weights": {
+        "AAPL": 0.0983,
+        "META": 0.1055,
+        "MSFT": 0.1081,
+        "AMZN": 0.0789,
+        "GOOGL": 0.1098,
+        "LLY": 0.0994,
+        "CASH": 0.4
+      },
+      "period_return": -1.33,
+      "spy_return": -0.2,
+      "portfolio_value": 72606.91,
+      "spy_value": 14892.27
+    },
+    {
+      "date": "2024-03-11",
+      "weights": {
+        "AAPL": 0.0904,
+        "META": 0.0986,
+        "TSLA": 0.0992,
+        "MSFT": 0.104,
+        "GOOGL": 0.1052,
+        "LLY": 0.1026,
+        "CASH": 0.4
+      },
+      "period_return": 1.59,
+      "spy_return": 0.31,
+      "portfolio_value": 73762.45,
+      "spy_value": 14938.29
+    },
+    {
+      "date": "2024-03-18",
+      "weights": {
+        "AAPL": 0.0812,
+        "META": 0.0944,
+        "TSLA": 0.1047,
+        "MSFT": 0.1058,
+        "AMZN": 0.1034,
+        "GOOGL": 0.1061,
+        "LLY": 0.1044,
+        "CASH": 0.3
+      },
+      "period_return": 0.68,
+      "spy_return": 1.35,
+      "portfolio_value": 74260.79,
+      "spy_value": 15139.56
+    },
+    {
+      "date": "2024-03-25",
+      "weights": {
+        "AAPL": 0.0695,
+        "META": 0.1006,
+        "MSFT": 0.1079,
+        "AMZN": 0.1083,
+        "GOOGL": 0.1077,
+        "AVGO": 0.106,
+        "CASH": 0.4
+      },
+      "period_return": 0.05,
+      "spy_return": -0.18,
+      "portfolio_value": 74297.59,
+      "spy_value": 15112.47
+    },
+    {
+      "date": "2024-04-02",
+      "weights": {
+        "AAPL": 0.0901,
+        "META": 0.0962,
+        "MSFT": 0.1041,
+        "AMZN": 0.1044,
+        "GOOGL": 0.1017,
+        "AVGO": 0.1035,
+        "CASH": 0.4
+      },
+      "period_return": 0.93,
+      "spy_return": 0.09,
+      "portfolio_value": 74986.62,
+      "spy_value": 15126.45
+    },
+    {
+      "date": "2024-04-09",
+      "weights": {
+        "AAPL": 0.1041,
+        "NVDA": 0.1083,
+        "META": 0.099,
+        "TSLA": 0.062,
+        "MSFT": 0.1086,
+        "AMZN": 0.1086,
+        "GOOGL": 0.1009,
+        "AVGO": 0.1086,
+        "CASH": 0.2
+      },
+      "period_return": -1.4,
+      "spy_return": -3.04,
+      "portfolio_value": 73940.29,
+      "spy_value": 14666.53
+    },
+    {
+      "date": "2024-04-16",
+      "weights": {
+        "AAPL": 0.0958,
+        "NVDA": 0.104,
+        "META": 0.0947,
+        "JPM": 0.1039,
+        "TSLA": 0.0977,
+        "MSFT": 0.1038,
+        "AMZN": 0.104,
+        "GOOGL": 0.088,
+        "AVGO": 0.1039,
+        "LLY": 0.104
+      },
+      "period_return": -1.73,
+      "spy_return": 0.42,
+      "portfolio_value": 72658.15,
+      "spy_value": 14728.28
+    },
+    {
+      "date": "2024-04-23",
+      "weights": {
+        "AAPL": 0.0951,
+        "NVDA": 0.1023,
+        "META": 0.0978,
+        "JPM": 0.1022,
+        "TSLA": 0.102,
+        "MSFT": 0.1022,
+        "AMZN": 0.1023,
+        "GOOGL": 0.0956,
+        "AVGO": 0.0984,
+        "LLY": 0.1023
+      },
+      "period_return": 2.53,
+      "spy_return": -0.73,
+      "portfolio_value": 74499.4,
+      "spy_value": 14621.38
+    },
+    {
+      "date": "2024-04-30",
+      "weights": {
+        "AAPL": 0.0947,
+        "NVDA": 0.1061,
+        "META": 0.1,
+        "JPM": 0.1061,
+        "MSFT": 0.1061,
+        "AMZN": 0.1061,
+        "GOOGL": 0.0698,
+        "AVGO": 0.1051,
+        "LLY": 0.106,
+        "CASH": 0.1
+      },
+      "period_return": 3.79,
+      "spy_return": 3.02,
+      "portfolio_value": 77320.87,
+      "spy_value": 15062.95
+    },
+    {
+      "date": "2024-05-07",
+      "weights": {
+        "NVDA": 0.1073,
+        "JPM": 0.1067,
+        "MSFT": 0.1072,
+        "AMZN": 0.1073,
+        "GOOGL": 0.0574,
+        "AVGO": 0.1069,
+        "LLY": 0.107,
+        "CASH": 0.3
+      },
+      "period_return": 1.14,
+      "spy_return": 1.19,
+      "portfolio_value": 78203.91,
+      "spy_value": 15242.38
+    },
+    {
+      "date": "2024-05-14",
+      "weights": {
+        "NVDA": 0.1077,
+        "META": 0.0915,
+        "JPM": 0.0978,
+        "MSFT": 0.1076,
+        "AMZN": 0.1077,
+        "GOOGL": 0.074,
+        "AVGO": 0.1067,
+        "LLY": 0.107,
+        "CASH": 0.2
+      },
+      "period_return": 1.36,
+      "spy_return": 1.54,
+      "portfolio_value": 79266.36,
+      "spy_value": 15477.14
+    },
+    {
+      "date": "2024-05-21",
+      "weights": {
+        "NVDA": 0.1071,
+        "META": 0.1055,
+        "JPM": 0.1038,
+        "MSFT": 0.1077,
+        "AMZN": 0.1078,
+        "GOOGL": 0.0582,
+        "AVGO": 0.1068,
+        "LLY": 0.1032,
+        "CASH": 0.2
+      },
+      "period_return": 2.25,
+      "spy_return": -0.99,
+      "portfolio_value": 81046.51,
+      "spy_value": 15323.93
+    },
+    {
+      "date": "2024-05-29",
+      "weights": {
+        "NVDA": 0.1104,
+        "META": 0.1109,
+        "JPM": 0.0718,
+        "MSFT": 0.1114,
+        "AMZN": 0.1115,
+        "GOOGL": 0.0853,
+        "AVGO": 0.1114,
+        "LLY": 0.0874,
+        "CASH": 0.2
+      },
+      "period_return": 1.38,
+      "spy_return": 1.63,
+      "portfolio_value": 82164.65,
+      "spy_value": 15573.56
+    },
+    {
+      "date": "2024-06-05",
+      "weights": {
+        "AAPL": 0.0695,
+        "NVDA": 0.1071,
+        "META": 0.1065,
+        "MSFT": 0.107,
+        "AMZN": 0.1071,
+        "GOOGL": 0.0984,
+        "AVGO": 0.1058,
+        "LLY": 0.0985,
+        "CASH": 0.2
+      },
+      "period_return": 3.08,
+      "spy_return": 1.25,
+      "portfolio_value": 84696.8,
+      "spy_value": 15768.42
+    },
+    {
+      "date": "2024-06-12",
+      "weights": {
+        "NVDA": 0.1021,
+        "META": 0.1006,
+        "MSFT": 0.102,
+        "AMZN": 0.1021,
+        "GOOGL": 0.0906,
+        "AVGO": 0.1018,
+        "LLY": 0.1007,
+        "CASH": 0.3
+      },
+      "period_return": 2.15,
+      "spy_return": 1.04,
+      "portfolio_value": 86515.13,
+      "spy_value": 15932.7
+    },
+    {
+      "date": "2024-06-20",
+      "weights": {
+        "NVDA": 0.0854,
+        "META": 0.0981,
+        "MSFT": 0.1038,
+        "AMZN": 0.1038,
+        "GOOGL": 0.1021,
+        "AVGO": 0.1037,
+        "LLY": 0.1031,
+        "CASH": 0.3
+      },
+      "period_return": 0.64,
+      "spy_return": -0.12,
+      "portfolio_value": 87068.37,
+      "spy_value": 15914.35
+    },
+    {
+      "date": "2024-06-27",
+      "weights": {
+        "NVDA": 0.1081,
+        "META": 0.096,
+        "MSFT": 0.1081,
+        "AMZN": 0.1082,
+        "GOOGL": 0.0643,
+        "AVGO": 0.1079,
+        "LLY": 0.1074,
+        "CASH": 0.3
+      },
+      "period_return": 2.04,
+      "spy_return": 1.51,
+      "portfolio_value": 88847.83,
+      "spy_value": 16155.23
+    },
+    {
+      "date": "2024-07-05",
+      "weights": {
+        "NVDA": 0.1089,
+        "META": 0.0947,
+        "MSFT": 0.1089,
+        "AMZN": 0.1089,
+        "GOOGL": 0.0758,
+        "AVGO": 0.0954,
+        "LLY": 0.1072,
+        "CASH": 0.3
+      },
+      "period_return": -0.89,
+      "spy_return": 0.96,
+      "portfolio_value": 88057.74,
+      "spy_value": 16311.06
+    },
+    {
+      "date": "2024-07-12",
+      "weights": {
+        "NVDA": 0.1053,
+        "META": 0.0852,
+        "JPM": 0.105,
+        "MSFT": 0.1086,
+        "AMZN": 0.1088,
+        "GOOGL": 0.0867,
+        "LLY": 0.1003,
+        "CASH": 0.3
+      },
+      "period_return": -3.39,
+      "spy_return": -1.96,
+      "portfolio_value": 85073.26,
+      "spy_value": 15990.66
+    },
+    {
+      "date": "2024-07-19",
+      "weights": {
+        "NVDA": 0.1039,
+        "MSFT": 0.1036,
+        "AMZN": 0.1039,
+        "GOOGL": 0.1039,
+        "AVGO": 0.0975,
+        "LLY": 0.0873,
+        "CASH": 0.4
+      },
+      "period_return": -2.26,
+      "spy_return": -0.83,
+      "portfolio_value": 83149.8,
+      "spy_value": 15858.13
+    },
+    {
+      "date": "2024-07-26",
+      "weights": {
+        "AAPL": 0.0625,
+        "NVDA": 0.1057,
+        "META": 0.104,
+        "MSFT": 0.1054,
+        "AMZN": 0.1057,
+        "GOOGL": 0.1057,
+        "AVGO": 0.1054,
+        "LLY": 0.1057,
+        "CASH": 0.2
+      },
+      "period_return": -1.81,
+      "spy_return": -2.12,
+      "portfolio_value": 81641.83,
+      "spy_value": 15522.0
+    },
+    {
+      "date": "2024-08-02",
+      "weights": {
+        "NVDA": 0.1062,
+        "META": 0.1057,
+        "JPM": 0.1055,
+        "MSFT": 0.106,
+        "AMZN": 0.1062,
+        "GOOGL": 0.0804,
+        "AVGO": 0.0839,
+        "LLY": 0.1062,
+        "CASH": 0.2
+      },
+      "period_return": 1.89,
+      "spy_return": 0.02,
+      "portfolio_value": 83182.0,
+      "spy_value": 15524.62
+    },
+    {
+      "date": "2024-08-09",
+      "weights": {
+        "AAPL": 0.0678,
+        "NVDA": 0.0966,
+        "META": 0.1103,
+        "JPM": 0.1104,
+        "TSLA": 0.1024,
+        "AMZN": 0.1103,
+        "GOOGL": 0.0918,
+        "LLY": 0.1104,
+        "CASH": 0.2
+      },
+      "period_return": 4.61,
+      "spy_return": 4.0,
+      "portfolio_value": 87017.55,
+      "spy_value": 16145.62
+    },
+    {
+      "date": "2024-08-16",
+      "weights": {
+        "AAPL": 0.0936,
+        "NVDA": 0.1097,
+        "META": 0.0925,
+        "JPM": 0.1104,
+        "TSLA": 0.063,
+        "AMZN": 0.11,
+        "GOOGL": 0.1105,
+        "LLY": 0.1105,
+        "CASH": 0.2
+      },
+      "period_return": 1.36,
+      "spy_return": 1.41,
+      "portfolio_value": 88198.14,
+      "spy_value": 16373.39
+    },
+    {
+      "date": "2024-08-23",
+      "weights": {
+        "AAPL": 0.0991,
+        "NVDA": 0.1039,
+        "JPM": 0.097,
+        "AMZN": 0.0922,
+        "GOOGL": 0.104,
+        "LLY": 0.1037,
+        "CASH": 0.4
+      },
+      "period_return": -0.41,
+      "spy_return": 0.28,
+      "portfolio_value": 87840.33,
+      "spy_value": 16418.54
+    },
+    {
+      "date": "2024-08-30",
+      "weights": {
+        "AAPL": 0.1139,
+        "NVDA": 0.1216,
+        "JPM": 0.111,
+        "MSFT": 0.0727,
+        "AVGO": 0.067,
+        "LLY": 0.1139,
+        "CASH": 0.4
+      },
+      "period_return": -3.83,
+      "spy_return": -3.06,
+      "portfolio_value": 84477.45,
+      "spy_value": 15915.51
+    },
+    {
+      "date": "2024-09-09",
+      "weights": {
+        "AAPL": 0.1074,
+        "NVDA": 0.117,
+        "JPM": 0.0964,
+        "MSFT": 0.0659,
+        "AMZN": 0.0826,
+        "AVGO": 0.1137,
+        "LLY": 0.117,
+        "CASH": 0.3
+      },
+      "period_return": 3.44,
+      "spy_return": 3.01,
+      "portfolio_value": 87387.65,
+      "spy_value": 16394.08
+    },
+    {
+      "date": "2024-09-16",
+      "weights": {
+        "AAPL": 0.097,
+        "NVDA": 0.1033,
+        "AMZN": 0.1024,
+        "AVGO": 0.0939,
+        "LLY": 0.1033,
+        "CASH": 0.5
+      },
+      "period_return": 1.36,
+      "spy_return": 1.21,
+      "portfolio_value": 88577.66,
+      "spy_value": 16593.02
+    },
+    {
+      "date": "2024-09-23",
+      "weights": {
+        "AAPL": 0.0862,
+        "NVDA": 0.1135,
+        "AMZN": 0.1135,
+        "AVGO": 0.074,
+        "LLY": 0.1129,
+        "CASH": 0.5
+      },
+      "period_return": -0.11,
+      "spy_return": 0.72,
+      "portfolio_value": 88482.95,
+      "spy_value": 16712.15
+    },
+    {
+      "date": "2024-09-30",
+      "weights": {
+        "AAPL": 0.0966,
+        "NVDA": 0.1059,
+        "MSFT": 0.1053,
+        "AVGO": 0.0863,
+        "LLY": 0.1059,
+        "CASH": 0.5
+      },
+      "period_return": -0.15,
+      "spy_return": -1.04,
+      "portfolio_value": 88349.33,
+      "spy_value": 16538.55
+    },
+    {
+      "date": "2024-10-07",
+      "weights": {
+        "AAPL": 0.0979,
+        "NVDA": 0.1005,
+        "MSFT": 0.1004,
+        "AVGO": 0.1005,
+        "LLY": 0.1005,
+        "CASH": 0.5
+      },
+      "period_return": 2.24,
+      "spy_return": 2.91,
+      "portfolio_value": 90326.66,
+      "spy_value": 17019.73
+    },
+    {
+      "date": "2024-10-14",
+      "weights": {
+        "AAPL": 0.0978,
+        "NVDA": 0.1005,
+        "JPM": 0.1004,
+        "MSFT": 0.1005,
+        "AVGO": 0.1006,
+        "LLY": 0.1003,
+        "CASH": 0.4
+      },
+      "period_return": 0.31,
+      "spy_return": -0.12,
+      "portfolio_value": 90606.17,
+      "spy_value": 16999.63
+    },
+    {
+      "date": "2024-10-21",
+      "weights": {
+        "AAPL": 0.0971,
+        "NVDA": 0.1021,
+        "JPM": 0.0927,
+        "MSFT": 0.1021,
+        "AMZN": 0.1021,
+        "AVGO": 0.1021,
+        "LLY": 0.1021,
+        "CASH": 0.3
+      },
+      "period_return": -0.67,
+      "spy_return": -0.48,
+      "portfolio_value": 90002.68,
+      "spy_value": 16918.08
+    },
+    {
+      "date": "2024-10-28",
+      "weights": {
+        "AAPL": 0.0989,
+        "NVDA": 0.1043,
+        "META": 0.0877,
+        "JPM": 0.0964,
+        "MSFT": 0.1043,
+        "AVGO": 0.1043,
+        "LLY": 0.1043,
+        "CASH": 0.3
+      },
+      "period_return": -3.02,
+      "spy_return": -1.9,
+      "portfolio_value": 87285.82,
+      "spy_value": 16597.09
+    },
+    {
+      "date": "2024-11-04",
+      "weights": {
+        "AAPL": 0.0964,
+        "NVDA": 0.1044,
+        "META": 0.0861,
+        "JPM": 0.0997,
+        "MSFT": 0.1044,
+        "AVGO": 0.1044,
+        "LLY": 0.1044,
+        "CASH": 0.3
+      },
+      "period_return": 3.26,
+      "spy_return": 5.08,
+      "portfolio_value": 90132.27,
+      "spy_value": 17440.33
+    },
+    {
+      "date": "2024-11-11",
+      "weights": {
+        "AAPL": 0.0987,
+        "NVDA": 0.1056,
+        "META": 0.1018,
+        "MSFT": 0.1055,
+        "AMZN": 0.0921,
+        "GOOGL": 0.0864,
+        "AVGO": 0.1044,
+        "LLY": 0.1056,
+        "CASH": 0.2
+      },
+      "period_return": -3.34,
+      "spy_return": -1.77,
+      "portfolio_value": 87120.36,
+      "spy_value": 17131.29
+    },
+    {
+      "date": "2024-11-18",
+      "weights": {
+        "AAPL": 0.094,
+        "NVDA": 0.1032,
+        "META": 0.099,
+        "MSFT": 0.1032,
+        "AMZN": 0.0996,
+        "GOOGL": 0.0945,
+        "AVGO": 0.1032,
+        "LLY": 0.1032,
+        "CASH": 0.2
+      },
+      "period_return": 0.08,
+      "spy_return": 1.59,
+      "portfolio_value": 87189.15,
+      "spy_value": 17404.51
+    },
+    {
+      "date": "2024-11-25",
+      "weights": {
+        "AAPL": 0.0874,
+        "NVDA": 0.1019,
+        "META": 0.1011,
+        "MSFT": 0.1019,
+        "AMZN": 0.1019,
+        "GOOGL": 0.1019,
+        "AVGO": 0.1019,
+        "LLY": 0.1019,
+        "CASH": 0.2
+      },
+      "period_return": 3.68,
+      "spy_return": 1.07,
+      "portfolio_value": 90397.16,
+      "spy_value": 17590.34
+    },
+    {
+      "date": "2024-12-03",
+      "weights": {
+        "AAPL": 0.0744,
+        "NVDA": 0.1037,
+        "META": 0.1032,
+        "MSFT": 0.1037,
+        "AMZN": 0.1037,
+        "GOOGL": 0.1037,
+        "AVGO": 0.1037,
+        "LLY": 0.1037,
+        "CASH": 0.2
+      },
+      "period_return": 1.61,
+      "spy_return": -0.18,
+      "portfolio_value": 91854.16,
+      "spy_value": 17558.01
+    },
+    {
+      "date": "2024-12-10",
+      "weights": {
+        "NVDA": 0.1003,
+        "META": 0.0985,
+        "MSFT": 0.1003,
+        "AMZN": 0.1003,
+        "GOOGL": 0.1002,
+        "AVGO": 0.0998,
+        "LLY": 0.1003,
+        "CASH": 0.3
+      },
+      "period_return": 4.45,
+      "spy_return": 0.25,
+      "portfolio_value": 95938.43,
+      "spy_value": 17601.41
+    },
+    {
+      "date": "2024-12-17",
+      "weights": {
+        "NVDA": 0.1009,
+        "META": 0.0953,
+        "JPM": 0.1007,
+        "MSFT": 0.1009,
+        "AMZN": 0.1009,
+        "GOOGL": 0.1005,
+        "AVGO": 0.0998,
+        "LLY": 0.1009,
+        "CASH": 0.2
+      },
+      "period_return": 0.55,
+      "spy_return": -0.49,
+      "portfolio_value": 96469.84,
+      "spy_value": 17514.32
+    },
+    {
+      "date": "2024-12-24",
+      "weights": {
+        "NVDA": 0.1022,
+        "META": 0.0911,
+        "JPM": 0.1021,
+        "AMZN": 0.1021,
+        "GOOGL": 0.102,
+        "AVGO": 0.0983,
+        "LLY": 0.1022,
+        "CASH": 0.3
+      },
+      "period_return": -1.62,
+      "spy_return": -2.18,
+      "portfolio_value": 94907.3,
+      "spy_value": 17133.33
+    }
+  ]
+}
