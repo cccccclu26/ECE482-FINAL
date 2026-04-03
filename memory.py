@@ -62,14 +62,17 @@ def load_stock_context(ticker):
     _ensure_dirs()
     path = os.path.join(config.MEMORY_DIR, "stock_context", f"{ticker}.json")
     if os.path.exists(path):
-        with open(path, "r", encoding="utf-8") as f:
-            ctx = json.load(f)
-        # Ensure new fields exist for backward compatibility
-        ctx.setdefault("indicator_weights", {})
-        ctx.setdefault("sentiment_weight", 0.5)
-        ctx.setdefault("technical_weight", 0.5)
-        ctx.setdefault("indicator_history", [])
-        return ctx
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                ctx = json.load(f)
+            # Ensure new fields exist for backward compatibility
+            ctx.setdefault("indicator_weights", {})
+            ctx.setdefault("sentiment_weight", 0.5)
+            ctx.setdefault("technical_weight", 0.5)
+            ctx.setdefault("indicator_history", [])
+            return ctx
+        except json.JSONDecodeError:
+            pass  # Fall through to default
     return {
         "ticker": ticker,
         "learned_pattern": "",

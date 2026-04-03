@@ -257,6 +257,219 @@ def run_lstm_backtest(start_date, end_date, tickers=None,
     return _print_summary("LSTM", portfolio_value, spy_value, history, rebalance_dates, rebalance_days)
 
 
+def run_llm_portfolio_backtest(start_date, end_date, tickers=None,
+                               rebalance_days=None):
+    """
+    Run portfolio backtest where GPT-5.4 receives ALL stocks at once
+    and decides the full portfolio allocation each week.
+
+    One LLM call per rebalance (not per stock).
+    Generates a detailed paper account CSV with weekly trade log.
+    """
+    import csv
+    from llm_engine import call_llm, parse_json_response
+    from technical import compute_indicators, format_indicators_for_prompt
+    from memory import format_stock_context_for_prompt
+
+    tickers = tickers or config.TICKERS
+    rebalance_days = rebalance_days or config.REBALANCE_DAYS
+
+    print(f"\n{'='*65}")
+    print(f"LLM PORTFOLIO BACKTEST (fund manager mode)")
+    print(f"{'='*65}")
+    print(f"Period:     {start_date} to {end_date}")
+    print(f"Tickers:    {', '.join(tickers)}")
+    print(f"Rebalance:  every {rebalance_days} trading days")
+    print(f"{'='*65}\n")
+
+    # Load prompt template
+    template_path = os.path.join(config.PROMPTS_DIR, "portfolio_v1.txt")
+    with open(template_path, "r", encoding="utf-8") as f:
+        template = f.read()
+
+    # Fetch price data
+    print("Fetching price data...")
+    all_tickers = list(set(tickers + ["SPY"]))
+    price_data = fetch_all_price_data(all_tickers, start_date, end_date)
+
+    spy_data = price_data["SPY"]
+    rebalance_dates, valid_days = _get_rebalance_dates(
+        spy_data.index, start_date, end_date, rebalance_days
+    )
+    print(f"Rebalance dates: {len(rebalance_dates)}\n")
+
+    portfolio_value = config.INITIAL_CAPITAL
+    spy_value = config.INITIAL_CAPITAL
+    history = []
+    paper_account = []  # detailed weekly log
+
+    for r_idx, rebal_date in enumerate(rebalance_dates):
+        if r_idx + 1 < len(rebalance_dates):
+            next_rebal = rebalance_dates[r_idx + 1]
+        else:
+            future = valid_days[valid_days > rebal_date]
+            next_rebal = future[-1] if len(future) > 0 else rebal_date
+
+        date_str = rebal_date.strftime("%Y-%m-%d")
+        next_str = next_rebal.strftime("%Y-%m-%d")
+        print(f"[{r_idx+1:03d}/{len(rebalance_dates)}] {date_str} -> {next_str}")
+
+        # Build combined data for all stocks
+        stock_blocks = []
+        for ticker in tickers:
+            if ticker not in price_data:
+                continue
+            indicators = compute_indicators(price_data[ticker], as_of_date=rebal_date)
+            tech_text = format_indicators_for_prompt(indicators)
+            context_text = format_stock_context_for_prompt(ticker)
+            stock_blocks.append(
+                f"### {ticker}\n"
+                f"**Technical Indicators:**\n{tech_text}\n\n"
+                f"**Learned Context:**\n{context_text}\n"
+            )
+
+        all_stocks_data = "\n---\n".join(stock_blocks)
+
+        # Build prompt
+        prompt = template.format(
+            date=date_str,
+            all_stocks_data=all_stocks_data,
+        )
+
+        # Call GPT-5.4 once for portfolio allocation
+        weights = {}
+        reasoning = ""
+        market_outlook = ""
+        top_picks = []
+        avoid = []
+        try:
+            raw = call_llm(prompt)
+            result = parse_json_response(raw)
+            weights = result.get("weights", {})
+            reasoning = result.get("reasoning", "")
+            market_outlook = result.get("market_outlook", "")
+            top_picks = result.get("top_picks", [])
+            avoid = result.get("avoid", [])
+
+            # Normalize weights to sum to 1.0
+            total_w = sum(weights.values())
+            if total_w > 0 and abs(total_w - 1.0) > 0.01:
+                weights = {k: v / total_w for k, v in weights.items()}
+
+            equity_tickers = [t for t in weights if t != "CASH" and weights[t] > 0.001]
+            cash_pct = weights.get("CASH", 0.0)
+            print(f"  Allocation: {len(equity_tickers)} stocks, cash={cash_pct:.0%}")
+            if top_picks:
+                print(f"  Top picks: {', '.join(top_picks)}")
+        except Exception as e:
+            print(f"  LLM failed: {e}, holding cash")
+            weights = {"CASH": 1.0}
+            reasoning = "LLM call failed"
+
+        # Compute per-stock returns for paper account
+        per_stock_pnl = {}
+        for ticker, weight in weights.items():
+            if ticker == "CASH" or weight < 0.001:
+                continue
+            if ticker not in price_data:
+                continue
+            td = price_data[ticker]
+            entry_rows = td[td.index >= rebal_date]
+            exit_rows = td[td.index >= next_rebal]
+            if len(entry_rows) > 0 and len(exit_rows) > 0:
+                entry_price = entry_rows.iloc[0]["Close"]
+                exit_price = exit_rows.iloc[0]["Close"]
+                stock_ret = (exit_price - entry_price) / entry_price
+                dollar_allocated = portfolio_value * weight
+                dollar_pnl = dollar_allocated * stock_ret
+                per_stock_pnl[ticker] = {
+                    "weight": weight,
+                    "allocated": round(dollar_allocated, 2),
+                    "entry_price": round(float(entry_price), 2),
+                    "exit_price": round(float(exit_price), 2),
+                    "return_pct": round(stock_ret * 100, 2),
+                    "pnl": round(dollar_pnl, 2),
+                }
+
+        # Compute portfolio return
+        period_return = _compute_period_return(weights, price_data, rebal_date, next_rebal)
+        week_pnl = portfolio_value * period_return
+        portfolio_value *= (1 + period_return)
+
+        # SPY return
+        spy_entry = spy_data[spy_data.index >= rebal_date]
+        spy_exit = spy_data[spy_data.index >= next_rebal]
+        if len(spy_entry) > 0 and len(spy_exit) > 0:
+            spy_ret = (spy_exit.iloc[0]["Close"] - spy_entry.iloc[0]["Close"]) / spy_entry.iloc[0]["Close"]
+        else:
+            spy_ret = 0.0
+        spy_value *= (1 + spy_ret)
+
+        print(f"  Return: {period_return:+.2%} | SPY: {spy_ret:+.2%} | "
+              f"PnL: ${week_pnl:+,.0f} | Portfolio: ${portfolio_value:,.0f} | SPY: ${spy_value:,.0f}")
+
+        # Paper account entry
+        paper_entry = {
+            "week": r_idx + 1,
+            "date": date_str,
+            "next_date": next_str,
+            "market_outlook": market_outlook,
+            "top_picks": ", ".join(top_picks) if top_picks else "",
+            "avoid": ", ".join(avoid) if avoid else "",
+            "reasoning": reasoning,
+            "cash_pct": round(weights.get("CASH", 0.0) * 100, 1),
+            "week_return_pct": round(period_return * 100, 2),
+            "week_pnl": round(week_pnl, 2),
+            "spy_return_pct": round(spy_ret * 100, 2),
+            "portfolio_value": round(portfolio_value, 2),
+            "spy_value": round(spy_value, 2),
+            "positions": per_stock_pnl,
+        }
+        # Add per-stock weights as columns
+        for t in tickers:
+            paper_entry[f"{t}_weight"] = round(weights.get(t, 0.0) * 100, 1)
+            if t in per_stock_pnl:
+                paper_entry[f"{t}_pnl"] = per_stock_pnl[t]["pnl"]
+            else:
+                paper_entry[f"{t}_pnl"] = 0.0
+        paper_account.append(paper_entry)
+
+        history.append({
+            "date": date_str,
+            "weights": {t: round(w, 4) for t, w in weights.items()},
+            "period_return": round(period_return * 100, 2),
+            "spy_return": round(spy_ret * 100, 2),
+            "portfolio_value": round(portfolio_value, 2),
+            "spy_value": round(spy_value, 2),
+        })
+
+    # Save paper account CSV
+    os.makedirs(config.RESULTS_DIR, exist_ok=True)
+    ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+    csv_path = os.path.join(config.RESULTS_DIR, f"paper_account_llm_{ts}.csv")
+    csv_columns = [
+        "week", "date", "next_date", "market_outlook", "top_picks", "avoid",
+        "cash_pct", "week_return_pct", "week_pnl", "spy_return_pct",
+        "portfolio_value", "spy_value", "reasoning",
+    ]
+    for t in tickers:
+        csv_columns.extend([f"{t}_weight", f"{t}_pnl"])
+
+    with open(csv_path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=csv_columns, extrasaction="ignore")
+        writer.writeheader()
+        writer.writerows(paper_account)
+    print(f"\nPaper account saved: {csv_path}")
+
+    # Save detailed JSON
+    json_path = os.path.join(config.RESULTS_DIR, f"paper_account_llm_{ts}.json")
+    with open(json_path, "w", encoding="utf-8") as f:
+        json.dump(paper_account, f, indent=2, ensure_ascii=False)
+    print(f"Detailed log saved: {json_path}")
+
+    return _print_summary("LLM-Portfolio", portfolio_value, spy_value, history, rebalance_dates, rebalance_days)
+
+
 def _print_summary(method, portfolio_value, spy_value, history, rebalance_dates, rebalance_days):
     """Print and return backtest summary."""
     initial = config.INITIAL_CAPITAL

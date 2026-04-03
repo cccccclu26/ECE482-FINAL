@@ -82,8 +82,16 @@ def cmd_backtest(args):
             rebalance_days=args.rebalance_days,
             threshold=args.threshold,
         )
+    elif args.method == "llm-portfolio":
+        from backtest import run_llm_portfolio_backtest
+        run_llm_portfolio_backtest(
+            start_date=args.start,
+            end_date=args.end,
+            tickers=tickers,
+            rebalance_days=args.rebalance_days,
+        )
     else:
-        print(f"Unknown method: {args.method}. Use 'llm' or 'lstm'.")
+        print(f"Unknown method: {args.method}. Use 'llm', 'lstm', or 'llm-portfolio'.")
 
 
 def cmd_train_lstm(args):
@@ -220,7 +228,7 @@ def main():
 
     # backtest
     p_bt = subparsers.add_parser("backtest", help="Run backtest")
-    p_bt.add_argument("--method", type=str, default="llm", choices=["llm", "lstm"])
+    p_bt.add_argument("--method", type=str, default="llm", choices=["llm", "lstm", "llm-portfolio"])
     p_bt.add_argument("--start", type=str, default="2023-01-01")
     p_bt.add_argument("--end", type=str, default="2025-12-01")
     p_bt.add_argument("--prompt", type=str, default="v1", help="Prompt version (LLM only)")
