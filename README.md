@@ -2,59 +2,74 @@
 
 **ECE 482 Senior Design Project** — University of Miami, Spring 2026
 
-An exploratory stock prediction system that uses LLMs (Claude 3.7 Sonnet + GPT-5) as the **core decision maker**, not just a sentiment scorer. The system feeds technical indicators and news directly to the LLM, lets it output structured predictions, and iteratively refines prompts based on backtest results. An LSTM neural network serves as a data-driven baseline for comparison.
+An exploratory stock prediction system that uses GPT-5.4 as the **core decision maker**. The system feeds all mainstream technical indicators and news directly to the LLM, lets it output structured predictions with indicator importance ratings, and iteratively learns which indicators work best for each stock. An LSTM neural network serves as a data-driven baseline for comparison.
 
 ---
 
 ## Architecture
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│                   Code (Memory Layer)                    │
-│                                                         │
-│  memory/stock_context/   ← per-stock learned patterns   │
-│  memory/prompt_history/  ← prompt version tracking      │
-│  memory/eval_logs/       ← prediction accuracy logs     │
-│                                                         │
-│  Each LLM call gets everything it needs in the prompt   │
-└────────────────────┬────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────┐
+│                   Adaptive Memory Layer                      │
+│                                                             │
+│  memory/stock_context/   ← per-stock indicator weights +    │
+│                            sentiment ratio (learned)        │
+│  memory/prompt_history/  ← prompt version tracking          │
+│  memory/eval_logs/       ← prediction logs with             │
+│                            indicator_importance data         │
+└────────────────────┬────────────────────────────────────────┘
                      │
                      ▼
-┌─────────────────────────────────────────────────────────┐
-│              LLM Prediction (Stateless)                  │
-│                                                         │
-│  Prompt = Technical Data + News + Stock Context          │
-│                                                         │
-│  Claude 3.7 Sonnet ──┐                                  │
-│                      ├── Ensemble Average → Prediction   │
-│  GPT-5 ─────────────┘                                  │
-│                                                         │
-│  Output: {direction, probability, target_return,         │
-│           key_factors, risk_factors, reasoning}          │
-└────────────────────┬────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────┐
+│              Data Pipeline                                   │
+│                                                             │
+│  Polygon.io + yfinance → OHLCV price data                   │
+│  Polygon.io → News articles (7-day lookback)                │
+│                                                             │
+│  Technical Indicators (14 types):                           │
+│    Trend:      EMA(25/50/100), SMA(20/50/200), MACD, ADX   │
+│    Momentum:   RSI(14), Stochastic, Williams %R, CCI        │
+│    Volatility: Bollinger Bands, ATR                         │
+│    Volume:     Volume Ratio, OBV                            │
+└────────────────────┬────────────────────────────────────────┘
                      │
                      ▼
-┌─────────────────────────────────────────────────────────┐
-│              Iterative Refinement Loop                    │
-│                                                         │
-│  1. Run predictions with prompt vN                       │
-│  2. Backtest → evaluate accuracy                         │
-│  3. Analyze errors (which stocks, which conditions)      │
-│  4. Update prompt template → vN+1                        │
-│  5. Update per-stock context (learned biases)            │
-│  6. Repeat                                              │
-└─────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────┐
+│              LLM Prediction (GPT-5.4)                        │
+│                                                             │
+│  Prompt = All Indicators + News + Learned Stock Context     │
+│                                                             │
+│  Output:                                                    │
+│    direction, probability, target_return,                    │
+│    key_factors, risk_factors, reasoning,                     │
+│    indicator_importance: {macd: 0.8, rsi: 0.6, ...},  ◀ NEW│
+│    sentiment_weight: 0.3                               ◀ NEW│
+└────────────────────┬────────────────────────────────────────┘
+                     │
+                     ▼
+┌─────────────────────────────────────────────────────────────┐
+│              Adaptive Learning Loop                          │
+│                                                             │
+│  1. Run predictions with all indicators                      │
+│  2. Backtest → evaluate accuracy                             │
+│  3. Update per-stock indicator weights:                      │
+│     - Correct prediction → cited indicators weight ↑         │
+│     - Wrong prediction → cited indicators weight ↓           │
+│  4. Update sentiment vs technical ratio per stock            │
+│  5. Next prediction sees learned weights in context          │
+│  6. LLM adapts which indicators to emphasize                 │
+└─────────────────────────────────────────────────────────────┘
 ```
 
 ### LLM vs LSTM Comparison
 
 | Aspect | LLM Predictor | LSTM Baseline |
 |--------|--------------|---------------|
-| Input | Technical + News + Context | Price sequences only |
-| Model | Claude 3.7 + GPT-5 ensemble | PyTorch LSTM (2-layer) |
-| Training | Prompt engineering (iterative) | Gradient descent (backprop) |
-| Explainability | Full reasoning in natural language | Black box |
-| Innovation | Prompt refinement methodology | Standard deep learning |
+| Input | All technical indicators + News + Learned context | Price sequences only (7 features) |
+| Model | GPT-5.4 (OpenAI API) | PyTorch LSTM (2-layer, hidden=64) |
+| Training | Adaptive indicator learning (iterative) | Gradient descent (backprop) |
+| Explainability | Full reasoning + indicator importance scores | Black box |
+| Innovation | Learns optimal indicators per stock | Standard deep learning |
 
 ---
 
@@ -72,8 +87,8 @@ pip install -r requirements.txt
 
 Create a `.env` file:
 ```
+OPENAI_API_KEY=your_openai_key
 POLYGON_API_KEY=your_polygon_key
-WAVESPEED_API_KEY=your_wavespeed_key
 ```
 
 ### 3. Run
@@ -86,7 +101,10 @@ python main.py predict --ticker AAPL
 python main.py predict --all
 
 # Backtest LLM portfolio vs SPY
-python main.py backtest --method llm --start 2025-01-01 --end 2026-03-01
+python main.py backtest --method llm --start 2021-01-01 --end 2024-12-31
+
+# Backtest single stock
+python main.py backtest --method llm --start 2021-01-01 --end 2024-12-31 --tickers AAPL
 
 # Train LSTM models
 python main.py train-lstm --start 2021-01-01 --end 2024-12-31
@@ -106,6 +124,24 @@ python main.py info
 
 ---
 
+## Backtest Results
+
+### AAPL (2021-04 to 2024-12, monthly rebalance)
+
+| Metric | LLM Portfolio | SPY Benchmark |
+|--------|--------------|---------------|
+| Final Value | $16,785 | $14,475 |
+| Total Return | **+67.9%** | +44.8% |
+| CAGR | **+14.8%** | +10.4% |
+| Alpha | **+23.1%** | — |
+
+Key observations:
+- GPT-5.4 correctly called bearish periods in 2022, holding cash to avoid major drawdowns
+- Strong upside capture during recovery periods (+17.4% in Jul 2022, +16.3% in Jun 2024)
+- Adaptive indicator learning improved predictions over the backtest period
+
+---
+
 ## Stock Universe
 
 10 stocks spanning tech, finance, and healthcare:
@@ -116,12 +152,28 @@ AAPL, NVDA, META, JPM, TSLA, MSFT, AMZN, GOOGL, AVGO, LLY
 
 ## Key Design Decisions
 
-- **LLM as decision maker, not tool**: The LLM receives all data and outputs the prediction directly. This makes prompt engineering the core research contribution.
-- **Code is the memory**: LLMs are stateless via API. All learned patterns, biases, and history are stored in JSON files and injected into each prompt.
+- **LLM as decision maker, not tool**: GPT-5.4 receives all data and outputs the prediction directly. Prompt engineering is the core research contribution.
+- **All indicators, then learn**: Instead of pre-selecting indicators, we give the LLM ALL mainstream indicators and let it learn which ones matter per stock through iterative backtesting.
+- **Adaptive indicator weights**: After each prediction is evaluated, the system updates per-stock indicator importance scores. Indicators cited in correct predictions gain weight; those in wrong predictions lose weight.
+- **Sentiment ratio learning**: The system tracks the optimal balance between technical analysis and news sentiment for each stock, adapting over time.
+- **Code is the memory**: LLMs are stateless via API. All learned patterns — indicator weights, sentiment ratios, prediction history — are stored in JSON files and injected into each prompt.
 - **Prompt versioning**: Each prompt template is versioned (v1, v2, ...). Backtests track which version was used, enabling systematic comparison.
-- **Dual-model ensemble**: Claude and GPT-5 analyze the same data independently. Averaging reduces single-model bias; disagreement signals uncertainty.
 - **LSTM as baseline**: A standard neural network trained on price sequences provides a data-driven comparison point for the LLM approach.
-- **Per-stock context**: Each stock accumulates learned patterns (e.g., "JPM shows contrarian sentiment behavior") that are injected into future prompts.
+
+---
+
+## Technical Indicators
+
+The system computes 14 types of indicators, grouped by category:
+
+| Category | Indicators |
+|----------|-----------|
+| **Trend** | EMA(25/50/100), SMA(20/50/200), MACD(12,26,9), ADX(14), Golden Cross |
+| **Momentum** | RSI(14), Stochastic(14,3,3), Williams %R(14), CCI(20) |
+| **Volatility** | Bollinger Bands(20,2), ATR(14) |
+| **Volume** | Volume Ratio (20-day), OBV trend |
+
+All indicators are computed with look-ahead bias prevention (`as_of_date` cutoff).
 
 ---
 
@@ -130,22 +182,22 @@ AAPL, NVDA, META, JPM, TSLA, MSFT, AMZN, GOOGL, AVGO, LLY
 ```
 ECE482-FINAL/
 ├── main.py              # CLI entry point (predict/backtest/train/compare)
-├── config.py            # API keys, tickers, parameters
+├── config.py            # API keys, model config, parameters
 ├── llm_predictor.py     # Core: builds prompts, calls LLM, parses predictions
-├── llm_engine.py        # WaveSpeed API wrapper, ensemble logic
-├── memory.py            # JSON-based memory (stock context, prompt history, eval logs)
-├── technical.py         # EMA25/50/100 + RSI(14) + volume ratio
+├── llm_engine.py        # OpenAI GPT-5.4 API wrapper (via requests)
+├── memory.py            # Adaptive memory (indicator weights, sentiment ratio, eval logs)
+├── technical.py         # All 14 technical indicators (trend/momentum/volatility/volume)
 ├── data_fetcher.py      # Polygon.io + yfinance price/news fetcher
 ├── lstm_model.py        # PyTorch LSTM model (train + predict)
 ├── backtest.py          # Backtest framework (LLM vs LSTM vs SPY)
 ├── requirements.txt     # Python dependencies
 ├── .env                 # API keys (not committed)
 ├── prompts/
-│   └── v1.txt           # Prompt template version 1
+│   └── v1.txt           # Prompt template with indicator importance + sentiment weight
 ├── memory/
-│   ├── stock_context/   # Per-stock learned patterns (JSON)
+│   ├── stock_context/   # Per-stock learned indicator weights + sentiment ratio
 │   ├── prompt_history/  # Prompt version performance tracking
-│   └── eval_logs/       # Individual prediction logs
+│   └── eval_logs/       # Prediction logs with indicator_importance data
 ├── models/              # Trained LSTM models (.pt files)
 └── results/             # Backtest output (JSON)
 ```

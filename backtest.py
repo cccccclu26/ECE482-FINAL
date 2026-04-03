@@ -150,7 +150,7 @@ def run_llm_backtest(start_date, end_date, tickers=None, prompt_version="v1",
                     "predicted_direction": pred["direction"],
                     "predicted_probability": pred["probability"],
                     "actual_return": round(actual_ret, 2),
-                    "correct": (pred["direction"] == "up") == (actual_ret > 0),
+                    "correct": bool((pred["direction"] == "up") == (actual_ret > 0)),
                 })
 
         print(f"  Return: {period_return:+.2%} | SPY: {spy_ret:+.2%} | Portfolio: ${portfolio_value:,.0f} | SPY: ${spy_value:,.0f}")

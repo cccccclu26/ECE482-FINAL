@@ -1,22 +1,19 @@
 """
-LLM Engine - OpenAI GPT-5.4 API wrapper.
+LLM Engine - OpenAI GPT-5.4 API wrapper using requests.
 Handles API calls, retries, and JSON response parsing.
 """
 import json
 
-from openai import OpenAI
+import requests
 
 import config
 
-
-def get_client():
-    """Create OpenAI client."""
-    return OpenAI(api_key=config.OPENAI_API_KEY)
+OPENAI_CHAT_URL = "https://api.openai.com/v1/chat/completions"
 
 
-def call_llm(prompt, model=None, temperature=0.3, timeout=30):
+def call_llm(prompt, model=None, temperature=0.3, timeout=60):
     """
-    Call GPT-5.4 via OpenAI API.
+    Call GPT-5.4 via OpenAI Chat Completions API.
 
     Args:
         prompt: The full prompt string
@@ -28,19 +25,30 @@ def call_llm(prompt, model=None, temperature=0.3, timeout=30):
         Raw text response from the LLM
     """
     model = model or config.OPENAI_MODEL
-    client = get_client()
 
-    response = client.chat.completions.create(
-        model=model,
-        messages=[
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {config.OPENAI_API_KEY}",
+    }
+    payload = {
+        "model": model,
+        "messages": [
             {"role": "system", "content": "You are an expert quantitative analyst. Always respond with valid JSON only."},
             {"role": "user", "content": prompt},
         ],
-        temperature=temperature,
+        "temperature": temperature,
+    }
+
+    response = requests.post(
+        OPENAI_CHAT_URL,
+        headers=headers,
+        json=payload,
         timeout=timeout,
     )
+    response.raise_for_status()
+    data = response.json()
 
-    return response.choices[0].message.content
+    return data["choices"][0]["message"]["content"]
 
 
 def parse_json_response(text):

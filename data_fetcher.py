@@ -14,6 +14,15 @@ import config
 ssl._create_default_https_context = ssl._create_unverified_context
 
 
+def _normalize_yf_index(df):
+    """Normalize yfinance DataFrame index to tz-naive DatetimeIndex."""
+    if hasattr(df.index, 'tz') and df.index.tz is not None:
+        df.index = df.index.tz_localize(None)
+    if not isinstance(df.index, pd.DatetimeIndex):
+        df.index = pd.to_datetime(df.index)
+    return df
+
+
 def fetch_polygon_ohlcv(ticker, start_str, end_str):
     """Fetch daily OHLCV from Polygon.io. Returns DataFrame with OHLCV columns."""
     url = (
@@ -61,14 +70,14 @@ def fetch_price_data(ticker, start_date, end_date, warmup_days=400):
         if len(df) > 0 and df.index[0] > pd.Timestamp(s) + timedelta(days=30):
             yf_end = df.index[0].strftime("%Y-%m-%d")
             yf_df = yf.Ticker(ticker).history(start=s, end=yf_end)
-            yf_df.index = yf_df.index.tz_localize(None)
+            yf_df = _normalize_yf_index(yf_df)
             yf_df = yf_df[["Open", "High", "Low", "Close", "Volume"]]
             df = pd.concat([yf_df, df])
             df = df[~df.index.duplicated(keep="last")].sort_index()
         return df
     except Exception:
         df = yf.Ticker(ticker).history(start=s, end=e)
-        df.index = df.index.tz_localize(None)
+        df = _normalize_yf_index(df)
         df = df[["Open", "High", "Low", "Close", "Volume"]]
         return df
 

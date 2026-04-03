@@ -12,7 +12,23 @@ import os
 from collections import defaultdict
 from datetime import datetime
 
+import numpy as np
+
 import config
+
+
+class _NumpyEncoder(json.JSONEncoder):
+    """Handle numpy types in JSON serialization."""
+    def default(self, obj):
+        if isinstance(obj, (np.bool_,)):
+            return bool(obj)
+        if isinstance(obj, (np.integer,)):
+            return int(obj)
+        if isinstance(obj, (np.floating,)):
+            return float(obj)
+        if isinstance(obj, np.ndarray):
+            return obj.tolist()
+        return super().default(obj)
 
 # All indicators the LLM can reference
 ALL_INDICATORS = [
@@ -74,7 +90,7 @@ def save_stock_context(ticker, context):
     context["ticker"] = ticker
     context["updated_at"] = datetime.now().isoformat()
     with open(path, "w", encoding="utf-8") as f:
-        json.dump(context, f, indent=2, ensure_ascii=False)
+        json.dump(context, f, indent=2, ensure_ascii=False, cls=_NumpyEncoder)
 
 
 def append_prediction_to_context(ticker, prediction_record):
@@ -253,7 +269,7 @@ def save_prompt_version(version, template_text, eval_summary=None):
         "eval_summary": eval_summary or {},
     }
     with open(path, "w", encoding="utf-8") as f:
-        json.dump(record, f, indent=2, ensure_ascii=False)
+        json.dump(record, f, indent=2, ensure_ascii=False, cls=_NumpyEncoder)
 
 
 def load_prompt_history():
@@ -307,7 +323,7 @@ def log_prediction(ticker, date, prediction, actual_return=None):
     logs.append(record)
 
     with open(path, "w", encoding="utf-8") as f:
-        json.dump(logs, f, indent=2, ensure_ascii=False)
+        json.dump(logs, f, indent=2, ensure_ascii=False, cls=_NumpyEncoder)
 
     return record
 
@@ -329,7 +345,7 @@ def update_prediction_actuals(ticker, date, actual_return):
             entry["actual_return"] = actual_return
             predicted_up = entry["predicted_direction"] == "up"
             actually_up = actual_return > 0
-            entry["correct"] = predicted_up == actually_up
+            entry["correct"] = bool(predicted_up == actually_up)
 
             # Trigger indicator learning
             update_indicator_weights(ticker, entry, entry["correct"])
@@ -337,7 +353,7 @@ def update_prediction_actuals(ticker, date, actual_return):
             break
 
     with open(path, "w", encoding="utf-8") as f:
-        json.dump(logs, f, indent=2, ensure_ascii=False)
+        json.dump(logs, f, indent=2, ensure_ascii=False, cls=_NumpyEncoder)
 
 
 def compute_accuracy(ticker=None):
