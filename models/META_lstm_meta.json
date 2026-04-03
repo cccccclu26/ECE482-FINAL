@@ -4,7 +4,7 @@
   "train_end": "2024-12-31",
   "seq_len": 60,
   "horizon": 63,
-  "n_samples": 266,
-  "val_accuracy": 83.3,
-  "trained_at": "2026-03-26T21:46:37.491879"
+  "n_samples": 798,
+  "val_accuracy": 85.0,
+  "trained_at": "2026-04-03T00:31:55.875727"
 }
