@@ -176,7 +176,7 @@ def cmd_info(args):
     print(f"ECE482-FINAL System Info")
     print(f"{'='*55}")
     print(f"Tickers:     {', '.join(config.TICKERS)}")
-    print(f"LLM Models:  {', '.join(config.LLM_MODELS)}")
+    print(f"LLM Model:   {config.OPENAI_MODEL}")
     print(f"Horizon:     {config.PREDICTION_HORIZON_DAYS} trading days")
     print(f"Rebalance:   {config.REBALANCE_DAYS} trading days")
 
@@ -202,7 +202,7 @@ def cmd_info(args):
     # Check API keys
     print(f"\nAPI Keys:")
     print(f"  Polygon.io: {'set' if config.POLYGON_API_KEY else 'MISSING'}")
-    print(f"  WaveSpeed:  {'set' if config.WAVESPEED_API_KEY else 'MISSING'}")
+    print(f"  OpenAI:     {'set' if config.OPENAI_API_KEY else 'MISSING'}")
 
 
 def main():

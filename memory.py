@@ -1,16 +1,27 @@
 """
 Memory Manager - JSON-based persistent state for LLM prediction system.
 
-Three layers of memory:
-  1. Stock Context  - Per-stock learned patterns and biases
-  2. Prompt History - Track prompt versions and their backtest performance
-  3. Eval Logs      - Individual prediction results for analysis
+Four layers of memory:
+  1. Stock Context     - Per-stock learned patterns, indicator weights, sentiment ratio
+  2. Prompt History    - Track prompt versions and their backtest performance
+  3. Eval Logs         - Individual prediction results for analysis
+  4. Indicator Learning - Track which indicators are most predictive per stock
 """
 import json
 import os
+from collections import defaultdict
 from datetime import datetime
 
 import config
+
+# All indicators the LLM can reference
+ALL_INDICATORS = [
+    "ema_alignment", "sma_trend", "golden_cross", "macd", "adx",
+    "rsi", "stochastic", "williams_r", "cci",
+    "bollinger_bands", "atr",
+    "volume_ratio", "obv",
+    "news_sentiment",
+]
 
 
 def _ensure_dirs():
@@ -20,7 +31,7 @@ def _ensure_dirs():
 
 
 # ============================================================
-# Stock Context (per-stock learned patterns)
+# Stock Context (per-stock learned patterns + indicator weights)
 # ============================================================
 
 def load_stock_context(ticker):
@@ -29,19 +40,30 @@ def load_stock_context(ticker):
 
     Returns dict with keys:
         learned_pattern, historical_accuracy, known_bias,
-        previous_predictions (list of recent prediction+outcome pairs)
+        previous_predictions, indicator_weights, sentiment_weight,
+        technical_weight, indicator_history
     """
     _ensure_dirs()
     path = os.path.join(config.MEMORY_DIR, "stock_context", f"{ticker}.json")
     if os.path.exists(path):
         with open(path, "r", encoding="utf-8") as f:
-            return json.load(f)
+            ctx = json.load(f)
+        # Ensure new fields exist for backward compatibility
+        ctx.setdefault("indicator_weights", {})
+        ctx.setdefault("sentiment_weight", 0.5)
+        ctx.setdefault("technical_weight", 0.5)
+        ctx.setdefault("indicator_history", [])
+        return ctx
     return {
         "ticker": ticker,
         "learned_pattern": "",
         "historical_accuracy": "N/A",
         "known_bias": "",
         "previous_predictions": [],
+        "indicator_weights": {},
+        "sentiment_weight": 0.5,
+        "technical_weight": 0.5,
+        "indicator_history": [],
     }
 
 
@@ -78,11 +100,26 @@ def format_stock_context_for_prompt(ticker):
     if ctx.get("known_bias"):
         lines.append(f"Known Bias: {ctx['known_bias']}")
 
+    # Indicator weights (learned over time)
+    weights = ctx.get("indicator_weights", {})
+    if weights:
+        sorted_indicators = sorted(weights.items(), key=lambda x: x[1], reverse=True)
+        top = sorted_indicators[:5]
+        lines.append(f"\nMost Predictive Indicators (learned from {len(ctx.get('indicator_history', []))} predictions):")
+        for name, score in top:
+            lines.append(f"  {name}: {score:.2f}")
+
+    # Sentiment vs Technical ratio
+    sw = ctx.get("sentiment_weight", 0.5)
+    tw = ctx.get("technical_weight", 0.5)
+    if sw != 0.5 or tw != 0.5:
+        lines.append(f"\nLearned Weighting: Technical={tw:.0%} / Sentiment={sw:.0%}")
+
     # Recent predictions
     preds = ctx.get("previous_predictions", [])
     if preds:
         lines.append(f"\nRecent Predictions ({len(preds)} total):")
-        for p in preds[-3:]:  # Show last 3
+        for p in preds[-3:]:
             date = p.get("date", "?")
             direction = p.get("predicted_direction", "?")
             prob = p.get("predicted_probability", "?")
@@ -94,8 +131,104 @@ def format_stock_context_for_prompt(ticker):
             )
 
     if not lines:
-        return "No prior context available for this stock."
+        return "No prior context available for this stock. This is the first prediction."
     return "\n".join(lines)
+
+
+# ============================================================
+# Indicator Learning
+# ============================================================
+
+def update_indicator_weights(ticker, prediction, correct):
+    """
+    Update indicator importance weights based on prediction outcome.
+
+    When a prediction is correct, the indicators the LLM cited as important
+    get their weight increased. When wrong, they get decreased.
+
+    Args:
+        ticker: Stock ticker
+        prediction: Prediction dict (must have indicator_importance)
+        correct: Whether the prediction was correct
+    """
+    ctx = load_stock_context(ticker)
+    weights = ctx.get("indicator_weights", {})
+
+    # Get indicator importance from LLM's response
+    indicator_importance = prediction.get("indicator_importance", {})
+    if not indicator_importance:
+        return
+
+    # Record this data point
+    ctx["indicator_history"].append({
+        "date": prediction.get("date", datetime.now().strftime("%Y-%m-%d")),
+        "indicators_cited": indicator_importance,
+        "correct": correct,
+    })
+    # Keep last 50 data points
+    ctx["indicator_history"] = ctx["indicator_history"][-50:]
+
+    # Recompute weights from full history
+    indicator_scores = defaultdict(list)
+    for entry in ctx["indicator_history"]:
+        for ind, importance in entry["indicators_cited"].items():
+            # Score = importance * (1 if correct, -0.5 if wrong)
+            score = importance * (1.0 if entry["correct"] else -0.5)
+            indicator_scores[ind].append(score)
+
+    # Average scores -> weights (clamp to 0-1)
+    for ind, scores in indicator_scores.items():
+        avg = sum(scores) / len(scores)
+        weights[ind] = round(max(0.0, min(1.0, (avg + 1) / 2)), 3)
+
+    ctx["indicator_weights"] = weights
+    save_stock_context(ticker, ctx)
+
+
+def update_sentiment_ratio(ticker, prediction, correct):
+    """
+    Update the learned sentiment vs technical weighting for a stock.
+
+    Args:
+        ticker: Stock ticker
+        prediction: Prediction dict (must have sentiment_weight)
+        correct: Whether the prediction was correct
+    """
+    ctx = load_stock_context(ticker)
+
+    pred_sentiment_w = prediction.get("sentiment_weight", 0.5)
+    if pred_sentiment_w is None:
+        pred_sentiment_w = 0.5
+
+    # Exponential moving average of the optimal sentiment weight
+    alpha = 0.15  # learning rate
+    current_sw = ctx.get("sentiment_weight", 0.5)
+
+    if correct:
+        # Move toward the sentiment weight that worked
+        new_sw = current_sw + alpha * (pred_sentiment_w - current_sw)
+    else:
+        # Move away from the sentiment weight that failed
+        new_sw = current_sw - alpha * (pred_sentiment_w - current_sw) * 0.5
+
+    new_sw = max(0.05, min(0.95, new_sw))
+    ctx["sentiment_weight"] = round(new_sw, 3)
+    ctx["technical_weight"] = round(1.0 - new_sw, 3)
+    save_stock_context(ticker, ctx)
+
+
+def get_recommended_indicators(ticker):
+    """
+    Return the top indicators for a stock based on learned weights.
+
+    Returns:
+        List of (indicator_name, weight) sorted by weight descending
+    """
+    ctx = load_stock_context(ticker)
+    weights = ctx.get("indicator_weights", {})
+    if not weights:
+        return []
+    return sorted(weights.items(), key=lambda x: x[1], reverse=True)
 
 
 # ============================================================
@@ -163,6 +296,8 @@ def log_prediction(ticker, date, prediction, actual_return=None):
         "predicted_probability": prediction.get("probability"),
         "predicted_return": prediction.get("target_return"),
         "key_factors": prediction.get("key_factors", []),
+        "indicator_importance": prediction.get("indicator_importance", {}),
+        "sentiment_weight": prediction.get("sentiment_weight"),
         "models_used": prediction.get("models_used", []),
         "agreement": prediction.get("agreement"),
         "actual_return": actual_return,
@@ -180,7 +315,7 @@ def log_prediction(ticker, date, prediction, actual_return=None):
 def update_prediction_actuals(ticker, date, actual_return):
     """
     Fill in the actual return for a previously logged prediction.
-    Also updates the correct/incorrect flag.
+    Also updates the correct/incorrect flag and triggers indicator learning.
     """
     path = os.path.join(config.MEMORY_DIR, "eval_logs", f"{ticker}_predictions.json")
     if not os.path.exists(path):
@@ -195,6 +330,10 @@ def update_prediction_actuals(ticker, date, actual_return):
             predicted_up = entry["predicted_direction"] == "up"
             actually_up = actual_return > 0
             entry["correct"] = predicted_up == actually_up
+
+            # Trigger indicator learning
+            update_indicator_weights(ticker, entry, entry["correct"])
+            update_sentiment_ratio(ticker, entry, entry["correct"])
             break
 
     with open(path, "w", encoding="utf-8") as f:

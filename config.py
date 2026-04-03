@@ -8,14 +8,10 @@ load_dotenv()
 
 # API Keys
 POLYGON_API_KEY = os.getenv("POLYGON_API_KEY")
-WAVESPEED_API_KEY = os.getenv("WAVESPEED_API_KEY")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
-# LLM Models (via WaveSpeed AI)
-LLM_MODELS = [
-    "anthropic/claude-3.7-sonnet",
-    "openai/gpt-5-chat",
-]
-WAVESPEED_API_URL = "https://api.wavespeed.ai/api/v3/wavespeed-ai/any-llm"
+# LLM Model (OpenAI GPT-5.4)
+OPENAI_MODEL = "gpt-5.4"
 
 # Stock Universe
 TICKERS = ["AAPL", "NVDA", "META", "JPM", "TSLA", "MSFT", "AMZN", "GOOGL", "AVGO", "LLY"]

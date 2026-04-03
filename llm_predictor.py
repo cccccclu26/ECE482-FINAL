@@ -1,23 +1,22 @@
 """
-LLM Predictor - Core prediction engine using LLM as the decision maker.
+LLM Predictor - Core prediction engine using GPT-5.4 as the decision maker.
 
-The LLM receives technical data + news + per-stock context and directly
-outputs a structured prediction. The code manages all "memory" — the LLM
-itself is stateless.
+The LLM receives all technical indicators + news + per-stock context and
+outputs a structured prediction with indicator importance ratings.
 
-Iterative prompt refinement:
+Adaptive learning loop:
   1. Load prompt template (versioned in prompts/ directory)
-  2. Inject per-stock context + technical data + news
-  3. Call dual-model ensemble
-  4. Parse and log prediction
-  5. After backtest, evaluate accuracy and update prompt/context
+  2. Inject per-stock context (including learned indicator weights) + all indicators + news
+  3. Call GPT-5.4
+  4. Parse prediction, extract indicator_importance and sentiment_weight
+  5. After backtest evaluation, update per-stock indicator weights and sentiment ratio
 """
 import os
 import time
 from datetime import datetime
 
 import config
-from llm_engine import ensemble_predict
+from llm_engine import predict as llm_predict
 from technical import compute_indicators, format_indicators_for_prompt
 from data_fetcher import fetch_news, format_news_for_prompt
 from memory import (
@@ -28,12 +27,13 @@ from memory import (
 
 
 class LLMPredictor:
-    """LLM-based stock prediction engine with prompt management."""
+    """LLM-based stock prediction engine with adaptive indicator learning."""
 
     def __init__(self, prompt_version="v1"):
         self.prompt_version = prompt_version
         self.template = self._load_template(prompt_version)
         print(f"[LLM Predictor] Loaded prompt template: {prompt_version}")
+        print(f"[LLM Predictor] Model: {config.OPENAI_MODEL}")
 
     def _load_template(self, version):
         """Load a prompt template from the prompts/ directory."""
@@ -50,9 +50,9 @@ class LLMPredictor:
         Args:
             ticker: Stock ticker
             date: Prediction date string
-            technical_data: Formatted technical indicators string
+            technical_data: Formatted technical indicators string (all indicators)
             news_data: Formatted news string
-            stock_context: Formatted per-stock context string
+            stock_context: Formatted per-stock context string (includes learned weights)
 
         Returns:
             Complete prompt string ready for LLM
@@ -78,7 +78,8 @@ class LLMPredictor:
             fetch_live_news: Whether to fetch news from API
 
         Returns:
-            Prediction dict with direction, probability, reasoning, etc.
+            Prediction dict with direction, probability, indicator_importance,
+            sentiment_weight, reasoning, etc.
             Returns a default neutral prediction on failure.
         """
         if isinstance(date, str):
@@ -86,7 +87,7 @@ class LLMPredictor:
         else:
             date_str = date.strftime("%Y-%m-%d")
 
-        # 1. Compute technical indicators (no look-ahead)
+        # 1. Compute ALL technical indicators (no look-ahead)
         indicators = compute_indicators(price_data, as_of_date=date)
         tech_text = format_indicators_for_prompt(indicators)
 
@@ -97,14 +98,14 @@ class LLMPredictor:
         else:
             news_text = "News data not available for this date."
 
-        # 3. Load per-stock context (learned patterns)
+        # 3. Load per-stock context (includes learned indicator weights + sentiment ratio)
         context_text = format_stock_context_for_prompt(ticker)
 
         # 4. Build prompt
         prompt = self.build_prompt(ticker, date_str, tech_text, news_text, context_text)
 
-        # 5. Call dual-model ensemble
-        prediction = ensemble_predict(prompt)
+        # 5. Call GPT-5.4
+        prediction = llm_predict(prompt)
 
         if prediction is None:
             prediction = self._default_prediction()
@@ -113,7 +114,7 @@ class LLMPredictor:
         prediction["date"] = date_str
         prediction["prompt_version"] = self.prompt_version
 
-        # 6. Log prediction
+        # 6. Log prediction (including indicator_importance and sentiment_weight)
         log_prediction(ticker, date_str, prediction)
 
         return prediction
@@ -154,6 +155,8 @@ class LLMPredictor:
             "reasoning": "LLM prediction failed, using neutral default.",
             "models_used": [],
             "agreement": False,
+            "indicator_importance": {},
+            "sentiment_weight": 0.5,
         }
 
 

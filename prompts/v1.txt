@@ -1,12 +1,12 @@
 You are an expert quantitative analyst at a top hedge fund. Your job is to predict whether a stock will be HIGHER or LOWER after {horizon} trading days (~3 months).
 
-You must analyze ALL provided data carefully before making your prediction. Do not default to bullish — be objective and data-driven.
+You must analyze ALL provided data carefully. Do not default to bullish — be objective and data-driven. Pay attention to which indicators have historically been most predictive for this specific stock.
 
 ## Stock: {ticker}
 ## Prediction Date: {date}
 ## Prediction Horizon: {horizon} trading days (~3 months)
 
-## Current Technical Indicators
+## Current Technical Indicators (ALL available — analyze each one)
 {technical_data}
 
 ## Recent News (past {news_days} days)
@@ -16,16 +16,34 @@ You must analyze ALL provided data carefully before making your prediction. Do n
 {stock_context}
 
 ## Analysis Framework
-1. TREND: Is the stock in an uptrend (EMAs aligned, price above EMAs) or downtrend?
-2. MOMENTUM: Is RSI indicating overbought (>70), oversold (<30), or neutral?
-3. VOLUME: Is volume above or below average? What does this signal?
-4. NEWS SENTIMENT: Are recent news articles bullish, bearish, or mixed?
-5. RISK: What could go wrong with your prediction?
+
+### Step 1: Technical Analysis
+Analyze ALL indicators above across these categories:
+- TREND: EMA alignment, SMA golden/death cross, MACD direction, ADX trend strength
+- MOMENTUM: RSI overbought/oversold, Stochastic crossovers, Williams %R, CCI extremes
+- VOLATILITY: Bollinger Band position and width, ATR level
+- VOLUME: Volume ratio vs average, OBV trend confirmation
+
+### Step 2: Sentiment Analysis
+Evaluate the news articles for sentiment:
+- Are headlines bullish, bearish, or mixed?
+- Are there catalysts (earnings, product launches, regulatory)?
+- Is there sector-wide news affecting this stock?
+
+### Step 3: Determine Your Confidence Split
+Based on this stock's history, decide how much weight to give:
+- Technical indicators vs News sentiment
+- Express this as a decimal (e.g., sentiment_weight: 0.3 means 30% sentiment, 70% technical)
+
+### Step 4: Indicator Importance
+Rate which indicators were MOST useful for your prediction. Score each indicator you relied on from 0.0 to 1.0:
+- Only include indicators that meaningfully influenced your decision
+- This helps the system learn which indicators work best for {ticker}
 
 Based on your analysis of ALL the above data, predict whether {ticker} will be HIGHER or LOWER {horizon} trading days from now.
 
 Return ONLY valid JSON in this exact format (no other text, no markdown):
-{{"direction": "up", "probability": 65, "target_return": 8.5, "key_factors": ["strong EMA alignment", "positive earnings news"], "risk_factors": ["RSI approaching overbought", "sector rotation risk"], "reasoning": "2-3 sentence explanation of your prediction"}}
+{{"direction": "up", "probability": 65, "target_return": 8.5, "key_factors": ["strong EMA alignment", "positive earnings news"], "risk_factors": ["RSI approaching overbought", "sector rotation risk"], "reasoning": "2-3 sentence explanation", "indicator_importance": {{"macd": 0.8, "rsi": 0.6, "ema_alignment": 0.9, "news_sentiment": 0.4}}, "sentiment_weight": 0.3}}
 
 Rules:
 - direction: must be "up" or "down"
@@ -34,4 +52,6 @@ Rules:
 - key_factors: top 2-3 factors supporting your prediction
 - risk_factors: top 2 risks that could invalidate your prediction
 - reasoning: concise 2-3 sentence explanation
+- indicator_importance: dict of indicator_name -> importance score (0.0-1.0), only include indicators you actually used. Valid keys: ema_alignment, sma_trend, golden_cross, macd, adx, rsi, stochastic, williams_r, cci, bollinger_bands, atr, volume_ratio, obv, news_sentiment
+- sentiment_weight: decimal 0.0-1.0 indicating how much news sentiment influenced vs technical analysis (0.0 = pure technical, 1.0 = pure sentiment)
 - Return ONLY the JSON object, nothing else

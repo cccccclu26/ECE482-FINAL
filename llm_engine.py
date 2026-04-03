@@ -1,52 +1,46 @@
 """
-LLM Engine - Low-level API wrapper for WaveSpeed AI.
-Handles API calls, retries, rate limiting, and dual-model ensemble.
+LLM Engine - OpenAI GPT-5.4 API wrapper.
+Handles API calls, retries, and JSON response parsing.
 """
 import json
-import time
 
-import requests
+from openai import OpenAI
 
 import config
 
 
-def call_llm(prompt, model, timeout=15):
+def get_client():
+    """Create OpenAI client."""
+    return OpenAI(api_key=config.OPENAI_API_KEY)
+
+
+def call_llm(prompt, model=None, temperature=0.3, timeout=30):
     """
-    Call a single LLM model via WaveSpeed AI API.
+    Call GPT-5.4 via OpenAI API.
 
     Args:
         prompt: The full prompt string
-        model: Model identifier (e.g., "anthropic/claude-3.7-sonnet")
+        model: Model identifier (default: config.OPENAI_MODEL)
+        temperature: Sampling temperature
         timeout: Request timeout in seconds
 
     Returns:
         Raw text response from the LLM
     """
-    headers = {
-        "Content-Type": "application/json",
-        "Authorization": f"Bearer {config.WAVESPEED_API_KEY}",
-    }
-    payload = {
-        "enable_sync_mode": True,
-        "model": model,
-        "priority": "latency",
-        "prompt": prompt,
-        "reasoning": False,
-    }
+    model = model or config.OPENAI_MODEL
+    client = get_client()
 
-    response = requests.post(
-        config.WAVESPEED_API_URL,
-        headers=headers,
-        json=payload,
+    response = client.chat.completions.create(
+        model=model,
+        messages=[
+            {"role": "system", "content": "You are an expert quantitative analyst. Always respond with valid JSON only."},
+            {"role": "user", "content": prompt},
+        ],
+        temperature=temperature,
         timeout=timeout,
     )
-    response.raise_for_status()
-    data = response.json()
 
-    if data.get("code") == 200 and data.get("data", {}).get("outputs"):
-        return data["data"]["outputs"][0]
-
-    raise RuntimeError(f"LLM API error ({model}): {data.get('message', 'Unknown')}")
+    return response.choices[0].message.content
 
 
 def parse_json_response(text):
@@ -58,36 +52,9 @@ def parse_json_response(text):
     return json.loads(text)
 
 
-def call_ensemble(prompt, models=None, delay=1.0):
+def predict(prompt, model=None):
     """
-    Call multiple LLM models with the same prompt and return all responses.
-
-    Args:
-        prompt: The full prompt string
-        models: List of model identifiers (defaults to config.LLM_MODELS)
-        delay: Seconds between model calls (rate limiting)
-
-    Returns:
-        List of (model_name, raw_text) tuples for successful calls
-    """
-    models = models or config.LLM_MODELS
-    results = []
-
-    for model in models:
-        model_short = model.split("/")[-1]
-        try:
-            raw = call_llm(prompt, model)
-            results.append((model_short, raw))
-        except Exception as e:
-            print(f"    {model_short} failed: {e}")
-        time.sleep(delay)
-
-    return results
-
-
-def ensemble_predict(prompt, models=None, delay=1.0):
-    """
-    Call ensemble and parse+average structured JSON predictions.
+    Call GPT-5.4 and parse structured JSON prediction.
 
     Expected JSON format from LLM:
     {
@@ -96,61 +63,28 @@ def ensemble_predict(prompt, models=None, delay=1.0):
         "target_return": float,
         "key_factors": [...],
         "risk_factors": [...],
-        "reasoning": "..."
+        "reasoning": "...",
+        "indicator_importance": {"macd": 0.8, "rsi": 0.6, ...},
+        "sentiment_weight": 0.3
     }
 
     Returns:
-        dict with averaged prediction and per-model details, or None on total failure
+        dict with prediction, or None on failure
     """
-    raw_results = call_ensemble(prompt, models, delay)
-    if not raw_results:
+    try:
+        raw_text = call_llm(prompt, model)
+    except Exception as e:
+        print(f"    LLM call failed: {e}")
         return None
 
-    parsed = []
-    for model_name, raw_text in raw_results:
-        try:
-            pred = parse_json_response(raw_text)
-            pred["_model"] = model_name
-            parsed.append(pred)
-        except Exception as e:
-            print(f"    {model_name} parse failed: {e}")
-
-    if not parsed:
+    try:
+        pred = parse_json_response(raw_text)
+    except Exception as e:
+        print(f"    JSON parse failed: {e}")
+        print(f"    Raw response: {raw_text[:200]}")
         return None
 
-    # Average probabilities
-    directions = [p.get("direction", "up") for p in parsed]
-    probabilities = [p.get("probability", 50) for p in parsed]
-    target_returns = [p.get("target_return", 0) for p in parsed]
+    pred["models_used"] = [model or config.OPENAI_MODEL]
+    pred["agreement"] = True  # single model
 
-    # Majority vote for direction
-    up_count = sum(1 for d in directions if d == "up")
-    avg_direction = "up" if up_count > len(directions) / 2 else "down"
-
-    avg_prob = sum(probabilities) / len(probabilities)
-    avg_return = sum(target_returns) / len(target_returns)
-
-    # Collect all factors
-    all_key_factors = []
-    all_risk_factors = []
-    all_reasoning = []
-    for p in parsed:
-        all_key_factors.extend(p.get("key_factors", []))
-        all_risk_factors.extend(p.get("risk_factors", []))
-        all_reasoning.append(f"[{p['_model']}] {p.get('reasoning', '')}")
-
-    return {
-        "direction": avg_direction,
-        "probability": round(avg_prob, 1),
-        "target_return": round(avg_return, 2),
-        "key_factors": all_key_factors,
-        "risk_factors": all_risk_factors,
-        "reasoning": " | ".join(all_reasoning),
-        "model_details": {p["_model"]: {
-            "direction": p.get("direction"),
-            "probability": p.get("probability"),
-            "target_return": p.get("target_return"),
-        } for p in parsed},
-        "models_used": [p["_model"] for p in parsed],
-        "agreement": len(set(directions)) == 1,
-    }
+    return pred
