@@ -1,0 +1,973 @@
+{
+  "ticker": "AAPL",
+  "learned_pattern": "",
+  "historical_accuracy": "N/A",
+  "known_bias": "",
+  "previous_predictions": [
+    {
+      "date": "2024-10-23",
+      "predicted_direction": "up",
+      "predicted_probability": 57,
+      "actual_return": -0.29,
+      "correct": false
+    },
+    {
+      "date": "2024-10-30",
+      "predicted_direction": "down",
+      "predicted_probability": 56,
+      "actual_return": -3.21,
+      "correct": true
+    },
+    {
+      "date": "2024-11-06",
+      "predicted_direction": "down",
+      "predicted_probability": 61,
+      "actual_return": 1.08,
+      "correct": false
+    },
+    {
+      "date": "2024-11-13",
+      "predicted_direction": "down",
+      "predicted_probability": 58,
+      "actual_return": 1.72,
+      "correct": false
+    },
+    {
+      "date": "2024-11-20",
+      "predicted_direction": "up",
+      "predicted_probability": 58,
+      "actual_return": 2.59,
+      "correct": true
+    },
+    {
+      "date": "2024-11-27",
+      "predicted_direction": "up",
+      "predicted_probability": 62,
+      "actual_return": 3.45,
+      "correct": true
+    },
+    {
+      "date": "2024-12-05",
+      "predicted_direction": "up",
+      "predicted_probability": 64,
+      "actual_return": 2.02,
+      "correct": true
+    },
+    {
+      "date": "2024-12-12",
+      "predicted_direction": "up",
+      "predicted_probability": 63,
+      "actual_return": 0.74,
+      "correct": true
+    },
+    {
+      "date": "2024-12-19",
+      "predicted_direction": "up",
+      "predicted_probability": 61,
+      "actual_return": 2.32,
+      "correct": true
+    },
+    {
+      "date": "2024-12-27",
+      "predicted_direction": "up",
+      "predicted_probability": 64,
+      "actual_return": -1.33,
+      "correct": false
+    }
+  ],
+  "indicator_weights": {
+    "news_sentiment": 0.581,
+    "macd": 0.609,
+    "adx": 0.602,
+    "ema_alignment": 0.611,
+    "stochastic": 0.581,
+    "williams_r": 0.587,
+    "cci": 0.552,
+    "bollinger_bands": 0.568,
+    "obv": 0.56,
+    "golden_cross": 0.575,
+    "rsi": 0.559,
+    "volume_ratio": 0.575,
+    "sma_trend": 0.605,
+    "atr": 0.439
+  },
+  "sentiment_weight": 0.602,
+  "technical_weight": 0.398,
+  "indicator_history": [
+    {
+      "date": "2024-01-08",
+      "indicators_cited": {
+        "ema_alignment": 0.88,
+        "sma_trend": 0.84,
+        "macd": 0.9,
+        "golden_cross": 0.58,
+        "adx": 0.8,
+        "rsi": 0.46,
+        "stochastic": 0.42,
+        "williams_r": 0.38,
+        "cci": 0.49,
+        "bollinger_bands": 0.44,
+        "obv": 0.63,
+        "news_sentiment": 0.67
+      },
+      "correct": true
+    },
+    {
+      "date": "2024-01-16",
+      "indicators_cited": {
+        "ema_alignment": 0.88,
+        "sma_trend": 0.86,
+        "macd": 0.87,
+        "golden_cross": 0.58,
+        "adx": 0.8,
+        "rsi": 0.52,
+        "stochastic": 0.48,
+        "williams_r": 0.46,
+        "cci": 0.44,
+        "bollinger_bands": 0.55,
+        "volume_ratio": 0.34,
+        "obv": 0.5,
+        "news_sentiment": 0.67
+      },
+      "correct": false
+    },
+    {
+      "date": "2024-01-23",
+      "indicators_cited": {
+        "ema_alignment": 0.92,
+        "sma_trend": 0.86,
+        "golden_cross": 0.82,
+        "macd": 0.84,
+        "adx": 0.72,
+        "stochastic": 0.63,
+        "williams_r": 0.58,
+        "bollinger_bands": 0.61,
+        "volume_ratio": 0.42,
+        "obv": 0.39,
+        "news_sentiment": 0.67
+      },
+      "correct": false
+    },
+    {
+      "date": "2024-01-30",
+      "indicators_cited": {
+        "ema_alignment": 0.88,
+        "sma_trend": 0.82,
+        "macd": 0.76,
+        "golden_cross": 0.68,
+        "adx": 0.72,
+        "obv": 0.55,
+        "news_sentiment": 0.8,
+        "rsi": 0.42,
+        "bollinger_bands": 0.34
+      },
+      "correct": false
+    },
+    {
+      "date": "2024-02-06",
+      "indicators_cited": {
+        "ema_alignment": 0.88,
+        "sma_trend": 0.74,
+        "golden_cross": 0.72,
+        "macd": 0.83,
+        "adx": 0.7,
+        "rsi": 0.46,
+        "stochastic": 0.38,
+        "bollinger_bands": 0.34,
+        "volume_ratio": 0.29,
+        "obv": 0.31,
+        "news_sentiment": 0.68
+      },
+      "correct": false
+    },
+    {
+      "date": "2024-02-13",
+      "indicators_cited": {
+        "ema_alignment": 0.88,
+        "sma_trend": 0.76,
+        "golden_cross": 0.62,
+        "macd": 0.86,
+        "adx": 0.79,
+        "rsi": 0.42,
+        "stochastic": 0.34,
+        "williams_r": 0.31,
+        "cci": 0.36,
+        "bollinger_bands": 0.47,
+        "obv": 0.41,
+        "news_sentiment": 0.74
+      },
+      "correct": true
+    },
+    {
+      "date": "2024-02-21",
+      "indicators_cited": {
+        "ema_alignment": 0.92,
+        "sma_trend": 0.86,
+        "macd": 0.88,
+        "golden_cross": 0.52,
+        "adx": 0.79,
+        "rsi": 0.46,
+        "stochastic": 0.38,
+        "williams_r": 0.41,
+        "cci": 0.49,
+        "bollinger_bands": 0.44,
+        "volume_ratio": 0.55,
+        "obv": 0.58,
+        "news_sentiment": 0.57
+      },
+      "correct": true
+    },
+    {
+      "date": "2024-02-28",
+      "indicators_cited": {
+        "ema_alignment": 0.88,
+        "sma_trend": 0.74,
+        "golden_cross": 0.58,
+        "macd": 0.86,
+        "adx": 0.72,
+        "stochastic": 0.49,
+        "williams_r": 0.43,
+        "bollinger_bands": 0.46,
+        "obv": 0.41,
+        "news_sentiment": 0.55
+      },
+      "correct": true
+    },
+    {
+      "date": "2024-03-06",
+      "indicators_cited": {
+        "ema_alignment": 0.95,
+        "sma_trend": 0.9,
+        "macd": 0.9,
+        "adx": 0.82,
+        "news_sentiment": 0.72,
+        "golden_cross": 0.58,
+        "rsi": 0.55,
+        "stochastic": 0.48,
+        "williams_r": 0.42,
+        "cci": 0.4,
+        "bollinger_bands": 0.46,
+        "obv": 0.44,
+        "volume_ratio": 0.28,
+        "atr": 0.2
+      },
+      "correct": false
+    },
+    {
+      "date": "2024-03-13",
+      "indicators_cited": {
+        "ema_alignment": 0.93,
+        "sma_trend": 0.89,
+        "golden_cross": 0.82,
+        "macd": 0.9,
+        "adx": 0.76,
+        "rsi": 0.58,
+        "stochastic": 0.55,
+        "williams_r": 0.49,
+        "bollinger_bands": 0.46,
+        "obv": 0.31,
+        "news_sentiment": 0.62
+      },
+      "correct": false
+    },
+    {
+      "date": "2024-03-20",
+      "indicators_cited": {
+        "ema_alignment": 0.88,
+        "sma_trend": 0.87,
+        "golden_cross": 0.8,
+        "macd": 0.76,
+        "adx": 0.58,
+        "stochastic": 0.49,
+        "bollinger_bands": 0.42,
+        "volume_ratio": 0.31,
+        "obv": 0.34,
+        "news_sentiment": 0.84
+      },
+      "correct": true
+    },
+    {
+      "date": "2024-03-27",
+      "indicators_cited": {
+        "ema_alignment": 0.92,
+        "sma_trend": 0.89,
+        "golden_cross": 0.82,
+        "macd": 0.76,
+        "news_sentiment": 0.74,
+        "adx": 0.48,
+        "obv": 0.42,
+        "rsi": 0.33,
+        "bollinger_bands": 0.29,
+        "volume_ratio": 0.24
+      },
+      "correct": true
+    },
+    {
+      "date": "2024-04-04",
+      "indicators_cited": {
+        "ema_alignment": 0.94,
+        "sma_trend": 0.91,
+        "golden_cross": 0.82,
+        "macd": 0.74,
+        "news_sentiment": 0.68,
+        "stochastic": 0.58,
+        "rsi": 0.52,
+        "williams_r": 0.49,
+        "adx": 0.46,
+        "obv": 0.41,
+        "bollinger_bands": 0.39,
+        "volume_ratio": 0.31
+      },
+      "correct": false
+    },
+    {
+      "date": "2024-04-11",
+      "indicators_cited": {
+        "ema_alignment": 0.84,
+        "sma_trend": 0.82,
+        "golden_cross": 0.78,
+        "macd": 0.83,
+        "adx": 0.58,
+        "stochastic": 0.49,
+        "williams_r": 0.42,
+        "bollinger_bands": 0.46,
+        "volume_ratio": 0.44,
+        "obv": 0.47,
+        "news_sentiment": 0.86
+      },
+      "correct": false
+    },
+    {
+      "date": "2024-04-18",
+      "indicators_cited": {
+        "ema_alignment": 0.94,
+        "sma_trend": 0.9,
+        "golden_cross": 0.83,
+        "macd": 0.62,
+        "adx": 0.54,
+        "stochastic": 0.48,
+        "williams_r": 0.45,
+        "cci": 0.43,
+        "bollinger_bands": 0.51,
+        "volume_ratio": 0.39,
+        "obv": 0.47,
+        "news_sentiment": 0.88
+      },
+      "correct": false
+    },
+    {
+      "date": "2024-04-25",
+      "indicators_cited": {
+        "ema_alignment": 0.95,
+        "sma_trend": 0.9,
+        "golden_cross": 0.84,
+        "macd": 0.72,
+        "adx": 0.68,
+        "obv": 0.42,
+        "news_sentiment": 0.64
+      },
+      "correct": false
+    },
+    {
+      "date": "2024-05-02",
+      "indicators_cited": {
+        "ema_alignment": 0.74,
+        "sma_trend": 0.76,
+        "golden_cross": 0.68,
+        "macd": 0.82,
+        "adx": 0.63,
+        "rsi": 0.46,
+        "stochastic": 0.41,
+        "bollinger_bands": 0.44,
+        "volume_ratio": 0.57,
+        "obv": 0.59,
+        "news_sentiment": 0.84
+      },
+      "correct": true
+    },
+    {
+      "date": "2024-05-09",
+      "indicators_cited": {
+        "ema_alignment": 0.78,
+        "sma_trend": 0.76,
+        "golden_cross": 0.58,
+        "macd": 0.84,
+        "adx": 0.82,
+        "rsi": 0.55,
+        "stochastic": 0.67,
+        "williams_r": 0.52,
+        "cci": 0.56,
+        "bollinger_bands": 0.64,
+        "volume_ratio": 0.49,
+        "obv": 0.44,
+        "news_sentiment": 0.46
+      },
+      "correct": true
+    },
+    {
+      "date": "2024-05-16",
+      "indicators_cited": {
+        "ema_alignment": 0.86,
+        "sma_trend": 0.82,
+        "golden_cross": 0.58,
+        "macd": 0.84,
+        "adx": 0.83,
+        "rsi": 0.67,
+        "stochastic": 0.55,
+        "bollinger_bands": 0.49,
+        "volume_ratio": 0.36,
+        "obv": 0.41,
+        "news_sentiment": 0.44
+      },
+      "correct": false
+    },
+    {
+      "date": "2024-05-23",
+      "indicators_cited": {
+        "ema_alignment": 0.9,
+        "sma_trend": 0.82,
+        "macd": 0.84,
+        "adx": 0.8,
+        "golden_cross": 0.55,
+        "rsi": 0.46,
+        "stochastic": 0.38,
+        "bollinger_bands": 0.34,
+        "volume_ratio": 0.28,
+        "obv": 0.31,
+        "news_sentiment": 0.62
+      },
+      "correct": true
+    },
+    {
+      "date": "2024-05-31",
+      "indicators_cited": {
+        "ema_alignment": 0.9,
+        "sma_trend": 0.84,
+        "macd": 0.76,
+        "adx": 0.8,
+        "stochastic": 0.68,
+        "williams_r": 0.62,
+        "bollinger_bands": 0.64,
+        "volume_ratio": 0.55,
+        "obv": 0.58,
+        "news_sentiment": 0.5
+      },
+      "correct": true
+    },
+    {
+      "date": "2024-06-07",
+      "indicators_cited": {
+        "ema_alignment": 0.91,
+        "sma_trend": 0.86,
+        "macd": 0.82,
+        "adx": 0.8,
+        "news_sentiment": 0.62,
+        "rsi": 0.66,
+        "stochastic": 0.58,
+        "bollinger_bands": 0.57,
+        "obv": 0.41,
+        "volume_ratio": 0.28
+      },
+      "correct": true
+    },
+    {
+      "date": "2024-06-14",
+      "indicators_cited": {
+        "ema_alignment": 0.94,
+        "sma_trend": 0.9,
+        "golden_cross": 0.72,
+        "macd": 0.91,
+        "adx": 0.89,
+        "rsi": 0.74,
+        "cci": 0.62,
+        "bollinger_bands": 0.68,
+        "obv": 0.55,
+        "news_sentiment": 0.83
+      },
+      "correct": false
+    },
+    {
+      "date": "2024-06-24",
+      "indicators_cited": {
+        "ema_alignment": 0.92,
+        "sma_trend": 0.88,
+        "golden_cross": 0.74,
+        "macd": 0.86,
+        "adx": 0.84,
+        "rsi": 0.52,
+        "stochastic": 0.38,
+        "bollinger_bands": 0.41,
+        "volume_ratio": 0.44,
+        "obv": 0.49,
+        "news_sentiment": 0.72
+      },
+      "correct": true
+    },
+    {
+      "date": "2024-07-01",
+      "indicators_cited": {
+        "ema_alignment": 0.92,
+        "sma_trend": 0.88,
+        "golden_cross": 0.72,
+        "macd": 0.9,
+        "adx": 0.86,
+        "rsi": 0.58,
+        "stochastic": 0.67,
+        "williams_r": 0.55,
+        "bollinger_bands": 0.52,
+        "volume_ratio": 0.48,
+        "obv": 0.44,
+        "news_sentiment": 0.7
+      },
+      "correct": true
+    },
+    {
+      "date": "2024-07-09",
+      "indicators_cited": {
+        "ema_alignment": 0.92,
+        "sma_trend": 0.88,
+        "golden_cross": 0.72,
+        "macd": 0.86,
+        "adx": 0.84,
+        "rsi": 0.74,
+        "stochastic": 0.66,
+        "williams_r": 0.58,
+        "cci": 0.57,
+        "bollinger_bands": 0.63,
+        "volume_ratio": 0.46,
+        "obv": 0.51,
+        "news_sentiment": 0.79
+      },
+      "correct": true
+    },
+    {
+      "date": "2024-07-16",
+      "indicators_cited": {
+        "ema_alignment": 0.92,
+        "sma_trend": 0.86,
+        "golden_cross": 0.72,
+        "macd": 0.88,
+        "adx": 0.87,
+        "rsi": 0.69,
+        "stochastic": 0.61,
+        "cci": 0.66,
+        "bollinger_bands": 0.58,
+        "volume_ratio": 0.49,
+        "obv": 0.44,
+        "news_sentiment": 0.74
+      },
+      "correct": false
+    },
+    {
+      "date": "2024-07-23",
+      "indicators_cited": {
+        "ema_alignment": 0.88,
+        "sma_trend": 0.84,
+        "golden_cross": 0.65,
+        "macd": 0.82,
+        "adx": 0.76,
+        "rsi": 0.42,
+        "stochastic": 0.38,
+        "bollinger_bands": 0.34,
+        "volume_ratio": 0.48,
+        "obv": 0.52,
+        "news_sentiment": 0.44
+      },
+      "correct": false
+    },
+    {
+      "date": "2024-07-30",
+      "indicators_cited": {
+        "ema_alignment": 0.82,
+        "sma_trend": 0.74,
+        "golden_cross": 0.58,
+        "macd": 0.9,
+        "adx": 0.86,
+        "stochastic": 0.62,
+        "williams_r": 0.55,
+        "cci": 0.78,
+        "bollinger_bands": 0.57,
+        "volume_ratio": 0.41,
+        "obv": 0.36,
+        "news_sentiment": 0.52
+      },
+      "correct": true
+    },
+    {
+      "date": "2024-08-06",
+      "indicators_cited": {
+        "ema_alignment": 0.84,
+        "sma_trend": 0.72,
+        "golden_cross": 0.42,
+        "macd": 0.9,
+        "adx": 0.88,
+        "rsi": 0.48,
+        "stochastic": 0.36,
+        "williams_r": 0.34,
+        "cci": 0.74,
+        "bollinger_bands": 0.58,
+        "atr": 0.29,
+        "volume_ratio": 0.31,
+        "obv": 0.63,
+        "news_sentiment": 0.68
+      },
+      "correct": false
+    },
+    {
+      "date": "2024-08-13",
+      "indicators_cited": {
+        "ema_alignment": 0.89,
+        "sma_trend": 0.82,
+        "golden_cross": 0.7,
+        "macd": 0.88,
+        "adx": 0.8,
+        "stochastic": 0.62,
+        "williams_r": 0.55,
+        "bollinger_bands": 0.48,
+        "volume_ratio": 0.42,
+        "obv": 0.5,
+        "news_sentiment": 0.74
+      },
+      "correct": true
+    },
+    {
+      "date": "2024-08-20",
+      "indicators_cited": {
+        "ema_alignment": 0.92,
+        "sma_trend": 0.86,
+        "golden_cross": 0.72,
+        "macd": 0.9,
+        "adx": 0.82,
+        "rsi": 0.58,
+        "stochastic": 0.7,
+        "williams_r": 0.63,
+        "cci": 0.5,
+        "bollinger_bands": 0.66,
+        "volume_ratio": 0.55,
+        "obv": 0.49,
+        "news_sentiment": 0.74
+      },
+      "correct": true
+    },
+    {
+      "date": "2024-08-27",
+      "indicators_cited": {
+        "ema_alignment": 0.9,
+        "sma_trend": 0.82,
+        "golden_cross": 0.7,
+        "macd": 0.88,
+        "adx": 0.74,
+        "stochastic": 0.63,
+        "williams_r": 0.58,
+        "bollinger_bands": 0.6,
+        "volume_ratio": 0.46,
+        "obv": 0.42,
+        "news_sentiment": 0.55
+      },
+      "correct": false
+    },
+    {
+      "date": "2024-09-04",
+      "indicators_cited": {
+        "ema_alignment": 0.78,
+        "sma_trend": 0.74,
+        "golden_cross": 0.52,
+        "macd": 0.88,
+        "adx": 0.86,
+        "rsi": 0.55,
+        "stochastic": 0.5,
+        "williams_r": 0.48,
+        "bollinger_bands": 0.46,
+        "obv": 0.43,
+        "news_sentiment": 0.67
+      },
+      "correct": false
+    },
+    {
+      "date": "2024-09-11",
+      "indicators_cited": {
+        "ema_alignment": 0.88,
+        "sma_trend": 0.8,
+        "golden_cross": 0.72,
+        "macd": 0.86,
+        "adx": 0.78,
+        "rsi": 0.55,
+        "stochastic": 0.42,
+        "cci": 0.46,
+        "bollinger_bands": 0.4,
+        "obv": 0.38,
+        "news_sentiment": 0.7
+      },
+      "correct": false
+    },
+    {
+      "date": "2024-09-18",
+      "indicators_cited": {
+        "ema_alignment": 0.76,
+        "sma_trend": 0.72,
+        "golden_cross": 0.55,
+        "macd": 0.88,
+        "adx": 0.74,
+        "rsi": 0.46,
+        "stochastic": 0.43,
+        "williams_r": 0.38,
+        "cci": 0.36,
+        "bollinger_bands": 0.41,
+        "volume_ratio": 0.32,
+        "obv": 0.35,
+        "news_sentiment": 0.69
+      },
+      "correct": false
+    },
+    {
+      "date": "2024-09-25",
+      "indicators_cited": {
+        "ema_alignment": 0.9,
+        "sma_trend": 0.84,
+        "golden_cross": 0.72,
+        "macd": 0.88,
+        "adx": 0.8,
+        "rsi": 0.52,
+        "stochastic": 0.42,
+        "bollinger_bands": 0.46,
+        "volume_ratio": 0.58,
+        "obv": 0.56,
+        "news_sentiment": 0.64
+      },
+      "correct": true
+    },
+    {
+      "date": "2024-10-02",
+      "indicators_cited": {
+        "ema_alignment": 0.74,
+        "sma_trend": 0.71,
+        "golden_cross": 0.58,
+        "macd": 0.76,
+        "adx": 0.72,
+        "rsi": 0.49,
+        "stochastic": 0.53,
+        "bollinger_bands": 0.41,
+        "volume_ratio": 0.44,
+        "obv": 0.38,
+        "news_sentiment": 0.84
+      },
+      "correct": false
+    },
+    {
+      "date": "2024-10-09",
+      "indicators_cited": {
+        "ema_alignment": 0.9,
+        "sma_trend": 0.84,
+        "golden_cross": 0.72,
+        "macd": 0.83,
+        "adx": 0.76,
+        "williams_r": 0.62,
+        "rsi": 0.55,
+        "bollinger_bands": 0.48,
+        "volume_ratio": 0.41,
+        "obv": 0.39,
+        "news_sentiment": 0.68
+      },
+      "correct": true
+    },
+    {
+      "date": "2024-10-16",
+      "indicators_cited": {
+        "ema_alignment": 0.9,
+        "sma_trend": 0.82,
+        "golden_cross": 0.68,
+        "macd": 0.88,
+        "adx": 0.8,
+        "rsi": 0.55,
+        "stochastic": 0.42,
+        "williams_r": 0.7,
+        "cci": 0.46,
+        "bollinger_bands": 0.5,
+        "volume_ratio": 0.44,
+        "obv": 0.41,
+        "news_sentiment": 0.22
+      },
+      "correct": false
+    },
+    {
+      "date": "2024-10-23",
+      "indicators_cited": {
+        "ema_alignment": 0.89,
+        "sma_trend": 0.84,
+        "golden_cross": 0.72,
+        "macd": 0.87,
+        "adx": 0.74,
+        "williams_r": 0.63,
+        "rsi": 0.55,
+        "stochastic": 0.48,
+        "bollinger_bands": 0.42,
+        "volume_ratio": 0.36,
+        "obv": 0.58,
+        "news_sentiment": 0.69
+      },
+      "correct": false
+    },
+    {
+      "date": "2024-10-30",
+      "indicators_cited": {
+        "ema_alignment": 0.77,
+        "sma_trend": 0.72,
+        "golden_cross": 0.58,
+        "macd": 0.88,
+        "adx": 0.8,
+        "rsi": 0.46,
+        "stochastic": 0.52,
+        "williams_r": 0.69,
+        "bollinger_bands": 0.41,
+        "volume_ratio": 0.34,
+        "obv": 0.39,
+        "news_sentiment": 0.74
+      },
+      "correct": true
+    },
+    {
+      "date": "2024-11-06",
+      "indicators_cited": {
+        "ema_alignment": 0.84,
+        "sma_trend": 0.72,
+        "golden_cross": 0.41,
+        "macd": 0.88,
+        "adx": 0.82,
+        "rsi": 0.46,
+        "stochastic": 0.58,
+        "williams_r": 0.71,
+        "cci": 0.52,
+        "bollinger_bands": 0.55,
+        "volume_ratio": 0.34,
+        "obv": 0.49,
+        "news_sentiment": 0.63
+      },
+      "correct": false
+    },
+    {
+      "date": "2024-11-13",
+      "indicators_cited": {
+        "ema_alignment": 0.84,
+        "sma_trend": 0.72,
+        "golden_cross": 0.48,
+        "macd": 0.9,
+        "adx": 0.82,
+        "rsi": 0.46,
+        "stochastic": 0.38,
+        "williams_r": 0.63,
+        "cci": 0.41,
+        "bollinger_bands": 0.44,
+        "volume_ratio": 0.29,
+        "obv": 0.51,
+        "news_sentiment": 0.35
+      },
+      "correct": false
+    },
+    {
+      "date": "2024-11-20",
+      "indicators_cited": {
+        "ema_alignment": 0.9,
+        "macd": 0.86,
+        "sma_trend": 0.82,
+        "adx": 0.74,
+        "williams_r": 0.68,
+        "stochastic": 0.64,
+        "news_sentiment": 0.62,
+        "obv": 0.55,
+        "volume_ratio": 0.42,
+        "bollinger_bands": 0.4,
+        "rsi": 0.38
+      },
+      "correct": true
+    },
+    {
+      "date": "2024-11-27",
+      "indicators_cited": {
+        "ema_alignment": 0.92,
+        "sma_trend": 0.86,
+        "golden_cross": 0.72,
+        "macd": 0.9,
+        "adx": 0.84,
+        "stochastic": 0.63,
+        "williams_r": 0.56,
+        "cci": 0.58,
+        "bollinger_bands": 0.67,
+        "volume_ratio": 0.44,
+        "obv": 0.41,
+        "news_sentiment": 0.61
+      },
+      "correct": true
+    },
+    {
+      "date": "2024-12-05",
+      "indicators_cited": {
+        "ema_alignment": 0.93,
+        "sma_trend": 0.88,
+        "golden_cross": 0.72,
+        "macd": 0.91,
+        "adx": 0.9,
+        "rsi": 0.67,
+        "stochastic": 0.58,
+        "williams_r": 0.7,
+        "cci": 0.52,
+        "bollinger_bands": 0.61,
+        "volume_ratio": 0.35,
+        "obv": 0.42,
+        "news_sentiment": 0.56
+      },
+      "correct": true
+    },
+    {
+      "date": "2024-12-12",
+      "indicators_cited": {
+        "ema_alignment": 0.92,
+        "sma_trend": 0.88,
+        "golden_cross": 0.74,
+        "macd": 0.9,
+        "adx": 0.91,
+        "rsi": 0.63,
+        "stochastic": 0.56,
+        "williams_r": 0.72,
+        "bollinger_bands": 0.58,
+        "volume_ratio": 0.41,
+        "obv": 0.47,
+        "news_sentiment": 0.38
+      },
+      "correct": true
+    },
+    {
+      "date": "2024-12-19",
+      "indicators_cited": {
+        "ema_alignment": 0.92,
+        "sma_trend": 0.86,
+        "golden_cross": 0.72,
+        "macd": 0.9,
+        "adx": 0.88,
+        "williams_r": 0.63,
+        "rsi": 0.55,
+        "stochastic": 0.46,
+        "bollinger_bands": 0.44,
+        "volume_ratio": 0.41,
+        "obv": 0.58,
+        "news_sentiment": 0.67
+      },
+      "correct": true
+    },
+    {
+      "date": "2024-12-27",
+      "indicators_cited": {
+        "ema_alignment": 0.95,
+        "macd": 0.9,
+        "sma_trend": 0.88,
+        "adx": 0.87,
+        "williams_r": 0.72,
+        "rsi": 0.64,
+        "bollinger_bands": 0.58,
+        "obv": 0.52,
+        "news_sentiment": 0.55
+      },
+      "correct": false
+    }
+  ],
+  "updated_at": "2026-04-03T11:44:36.890074"
+}

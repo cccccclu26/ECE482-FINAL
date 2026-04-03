@@ -1,0 +1,5691 @@
+[
+  {
+    "date": "2021-04-05",
+    "predicted_direction": "up",
+    "predicted_probability": 56,
+    "predicted_return": 4.0,
+    "key_factors": [
+      "broad market sentiment was positive entering Q2 2021",
+      "the only available news item is mildly bullish and risk-on",
+      "AAPL's large-cap quality profile tends to participate in constructive market environments over 3-month horizons"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.8
+    },
+    "sentiment_weight": 0.9,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 4.24,
+    "correct": true,
+    "logged_at": "2026-04-03T11:26:46.960389"
+  },
+  {
+    "date": "2021-04-12",
+    "predicted_direction": "up",
+    "predicted_probability": 58,
+    "predicted_return": 4.5,
+    "key_factors": [
+      "positive broad-market and tech-sector sentiment in recent headlines",
+      "historically learned importance for AAPL currently favors news sentiment",
+      "no negative company-specific or sector-specific catalyst in the provided data"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.9
+    },
+    "sentiment_weight": 0.56,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 2.74,
+    "correct": true,
+    "logged_at": "2026-04-03T11:26:51.139139"
+  },
+  {
+    "date": "2021-04-19",
+    "predicted_direction": "up",
+    "predicted_probability": 57,
+    "predicted_return": 3.8,
+    "key_factors": [
+      "historically strong predictive power of news sentiment for AAPL in this dataset",
+      "recent news flow is mildly positive to neutral with supportive broader market tone from strong bank earnings",
+      "recent model history shows two consecutive correct bullish calls, suggesting short-term trend persistence"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.93
+    },
+    "sentiment_weight": 0.85,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -0.09,
+    "correct": false,
+    "logged_at": "2026-04-03T11:26:55.521106"
+  },
+  {
+    "date": "2021-04-26",
+    "predicted_direction": "up",
+    "predicted_probability": 58,
+    "predicted_return": 4.5,
+    "key_factors": [
+      "news flow is modestly positive ahead of Apple earnings with multiple articles framing AAPL favorably",
+      "historically for AAPL in this dataset, news sentiment has been the most predictive input and carries slightly higher learned weight than technicals",
+      "broader market backdrop is supportive with S&P 500 and Nasdaq at record highs during earnings season"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.9
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -1.62,
+    "correct": false,
+    "logged_at": "2026-04-03T11:26:59.965177"
+  },
+  {
+    "date": "2021-05-03",
+    "predicted_direction": "up",
+    "predicted_probability": 58,
+    "predicted_return": 5.2,
+    "key_factors": [
+      "very positive post-earnings news flow around Apple",
+      "historically news sentiment has been the most predictive input for AAPL in this dataset",
+      "product pipeline optimism and strong demand backdrop support medium-term expectations"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.9
+    },
+    "sentiment_weight": 0.85,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -4.29,
+    "correct": false,
+    "logged_at": "2026-04-03T11:27:04.918512"
+  },
+  {
+    "date": "2021-05-10",
+    "predicted_direction": "down",
+    "predicted_probability": 61,
+    "predicted_return": -4.5,
+    "key_factors": [
+      "recent news flow is net bearish with clear tech-sector weakness and rotation out of growth",
+      "AAPL-specific headline highlights a sharp daily decline, reinforcing negative near-term sentiment",
+      "historical context shows news sentiment has been the most predictive input for AAPL while recent bullish calls have failed"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.95
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -0.46,
+    "correct": true,
+    "logged_at": "2026-04-03T11:27:09.650372"
+  },
+  {
+    "date": "2021-05-17",
+    "predicted_direction": "down",
+    "predicted_probability": 58,
+    "predicted_return": -3.5,
+    "key_factors": [
+      "recent news flow is mildly bearish with clear sector-wide tech weakness and rotation pressure",
+      "AAPL's historically most predictive signal in this dataset is news sentiment, and current sentiment is mixed-to-negative",
+      "lack of technical indicator data reduces conviction and shifts emphasis toward sentiment and macro/sector context"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.85
+    },
+    "sentiment_weight": 0.7,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 0.66,
+    "correct": false,
+    "logged_at": "2026-04-03T11:27:14.068950"
+  },
+  {
+    "date": "2021-05-24",
+    "predicted_direction": "down",
+    "predicted_probability": 56,
+    "predicted_return": -2.5,
+    "key_factors": [
+      "news flow is slightly negative to mixed, dominated by Epic trial/regulatory overhang rather than business catalysts",
+      "historically for AAPL in this dataset, news sentiment has been the most predictive input and carries slightly higher weight than technicals",
+      "absence of technical indicator data reduces conviction and shifts decision toward the modestly bearish sentiment signal"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.9
+    },
+    "sentiment_weight": 0.7,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -2.22,
+    "correct": true,
+    "logged_at": "2026-04-03T11:27:19.067961"
+  },
+  {
+    "date": "2021-06-01",
+    "predicted_direction": "up",
+    "predicted_probability": 61,
+    "predicted_return": 6.0,
+    "key_factors": [
+      "news flow is modestly bullish for AAPL, including commentary calling the recent consolidation a setup for new highs",
+      "AAPL's learned history shows news sentiment has been the most predictive input for this stock",
+      "recent headlines contain no material negative catalysts and suggest continued ecosystem relevance via Apple Pay integration"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.9
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 1.98,
+    "correct": true,
+    "logged_at": "2026-04-03T11:27:24.350669"
+  },
+  {
+    "date": "2021-06-08",
+    "predicted_direction": "up",
+    "predicted_probability": 58,
+    "predicted_return": 4.2,
+    "key_factors": [
+      "AAPL-specific news flow is mildly positive due to WWDC product and privacy updates with constructive analyst commentary",
+      "Historical context for AAPL shows news sentiment has been the most predictive input and should carry above-average weight here",
+      "Broader news set is mixed but not materially negative for Apple, reducing downside catalyst risk over the next 3 months"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.9
+    },
+    "sentiment_weight": 0.85,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 2.29,
+    "correct": true,
+    "logged_at": "2026-04-03T11:27:28.415336"
+  },
+  {
+    "date": "2021-06-15",
+    "predicted_direction": "up",
+    "predicted_probability": 59,
+    "predicted_return": 4.2,
+    "key_factors": [
+      "news flow is modestly net positive with a product/service launch catalyst from Apple Podcasts Subscriptions",
+      "historically for AAPL in this dataset, news sentiment has been the most predictive factor and carries the higher learned weight",
+      "recent prediction track record for AAPL has been favorable on bullish calls, suggesting underlying medium-term strength"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.68
+    },
+    "sentiment_weight": 0.62,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 3.35,
+    "correct": true,
+    "logged_at": "2026-04-03T11:27:32.923860"
+  },
+  {
+    "date": "2021-06-22",
+    "predicted_direction": "up",
+    "predicted_probability": 61,
+    "predicted_return": 5.8,
+    "key_factors": [
+      "news flow is mildly positive with AAPL-specific outperformance and broader market rebound",
+      "historically for AAPL in this dataset, news sentiment has been the most predictive input and carries higher learned weight",
+      "recent model history shows consecutive correct bullish calls, suggesting continued positive intermediate-term regime"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.9
+    },
+    "sentiment_weight": 0.62,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 1.75,
+    "correct": true,
+    "logged_at": "2026-04-03T11:27:37.179682"
+  },
+  {
+    "date": "2021-06-29",
+    "predicted_direction": "up",
+    "predicted_probability": 58,
+    "predicted_return": 4.2,
+    "key_factors": [
+      "AAPL's recent prediction history has been consistently positive with prior 3-month up calls proving correct",
+      "news flow is broadly neutral-to-slightly positive with no material negative Apple-specific catalyst",
+      "historically for AAPL in this dataset, news sentiment has been the most predictive input and carries the higher learned weight"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.9
+    },
+    "sentiment_weight": 0.8,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 6.04,
+    "correct": true,
+    "logged_at": "2026-04-03T11:27:43.263390"
+  },
+  {
+    "date": "2021-07-07",
+    "predicted_direction": "up",
+    "predicted_probability": 63,
+    "predicted_return": 6.0,
+    "key_factors": [
+      "news flow is predominantly bullish with multiple articles highlighting renewed tech momentum and analyst optimism on Apple",
+      "AAPL's learned history shows news sentiment has been the most predictive input for this stock and recent model predictions have been consistently correct on the upside",
+      "macro backdrop of falling yields and rotation back into large-cap growth/tech is supportive for Apple over a 3-month horizon"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.95
+    },
+    "sentiment_weight": 0.65,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 3.17,
+    "correct": true,
+    "logged_at": "2026-04-03T11:27:48.012266"
+  },
+  {
+    "date": "2021-07-14",
+    "predicted_direction": "up",
+    "predicted_probability": 64,
+    "predicted_return": 6.5,
+    "key_factors": [
+      "news flow is predominantly bullish with multiple articles citing new all-time highs and analysts arguing consensus estimates are too low",
+      "AAPL-specific sentiment is stronger than the broader mixed macro backdrop, and historical context shows news sentiment has been the most predictive input for this stock",
+      "recent model history for AAPL has correctly favored upside in the prior three predictions, suggesting continued positive intermediate-term momentum regime"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.95
+    },
+    "sentiment_weight": 0.85,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -2.51,
+    "correct": false,
+    "logged_at": "2026-04-03T11:27:53.400837"
+  },
+  {
+    "date": "2021-07-21",
+    "predicted_direction": "up",
+    "predicted_probability": 56,
+    "predicted_return": 3.5,
+    "key_factors": [
+      "historically strong predictive power of news sentiment for AAPL",
+      "recent news flow is mostly neutral to slightly positive with no material Apple-specific negative catalyst",
+      "broader market rebound and prior short-term prediction accuracy had been positive before the latest miss"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.72
+    },
+    "sentiment_weight": 0.85,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -0.29,
+    "correct": false,
+    "logged_at": "2026-04-03T11:27:57.274822"
+  },
+  {
+    "date": "2021-07-28",
+    "predicted_direction": "up",
+    "predicted_probability": 56,
+    "predicted_return": 4.2,
+    "key_factors": [
+      "AAPL's historically most predictive signal here is news sentiment, and the available news flow is mildly supportive rather than negative",
+      "Fed maintaining easy monetary policy and strength in large-cap tech sentiment provide a favorable macro backdrop for mega-cap growth stocks",
+      "No stock-specific negative catalyst is present in the provided news; the mask policy headline appears operationally minor and unlikely to affect 3-month fundamentals"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.9
+    },
+    "sentiment_weight": 0.85,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 1.36,
+    "correct": true,
+    "logged_at": "2026-04-03T11:28:02.418847"
+  },
+  {
+    "date": "2021-08-04",
+    "predicted_direction": "up",
+    "predicted_probability": 58,
+    "predicted_return": 4.2,
+    "key_factors": [
+      "AAPL-specific news flow is limited but broader earnings-season tone is positive for large-cap tech",
+      "Historical context shows news sentiment has been the most predictive input for AAPL in this setup",
+      "No bearish technical signals are available, reducing evidence for a downside call"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.71
+    },
+    "sentiment_weight": 0.85,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -0.74,
+    "correct": false,
+    "logged_at": "2026-04-03T11:28:06.569490"
+  },
+  {
+    "date": "2021-08-11",
+    "predicted_direction": "up",
+    "predicted_probability": 56,
+    "predicted_return": 4.0,
+    "key_factors": [
+      "historically, news sentiment has been the most predictive input for AAPL and current coverage is slightly net positive",
+      "bullish commentary on FAANG upside and broad market rally potential offsets limited negative headlines",
+      "lack of technical indicators reduces conviction but leaves sentiment as the primary signal"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.9
+    },
+    "sentiment_weight": 0.8,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 0.34,
+    "correct": true,
+    "logged_at": "2026-04-03T11:28:10.647121"
+  },
+  {
+    "date": "2021-08-18",
+    "predicted_direction": "down",
+    "predicted_probability": 56,
+    "predicted_return": -2.5,
+    "key_factors": [
+      "news flow is slightly negative for AAPL, with Apple mentioned only in the context of a QQQ-led selloff and broader macro/COVID uncertainty",
+      "AAPL's historically most predictive signal here is news sentiment, and the recent sentiment set is weak rather than supportive",
+      "No technical indicators are available to offset the mildly bearish sentiment backdrop"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.9
+    },
+    "sentiment_weight": 0.66,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 1.37,
+    "correct": false,
+    "logged_at": "2026-04-03T11:28:16.860143"
+  },
+  {
+    "date": "2021-08-25",
+    "predicted_direction": "up",
+    "predicted_probability": 57,
+    "predicted_return": 4.2,
+    "key_factors": [
+      "News flow is slightly net positive for AAPL, with a potential bullish breakout setup highlighted and no major negative company-specific catalyst",
+      "AAPL's historical signal profile gives higher predictive value to news sentiment than technicals, and sentiment is the only usable input here",
+      "Broader market tone is mixed but still constructive, with the S&P 500 edging higher despite macro caution"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.95
+    },
+    "sentiment_weight": 0.85,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 2.8,
+    "correct": true,
+    "logged_at": "2026-04-03T11:28:21.964831"
+  },
+  {
+    "date": "2021-09-01",
+    "predicted_direction": "up",
+    "predicted_probability": 58,
+    "predicted_return": 4.2,
+    "key_factors": [
+      "news flow is modestly positive for Apple with multiple favorable mentions and no clearly negative catalyst",
+      "historically, news sentiment has been the most predictive input for AAPL in this setup",
+      "recent model track record for AAPL is slightly positive with 2 of the last 3 bullish calls correct"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.95
+    },
+    "sentiment_weight": 0.69,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 1.02,
+    "correct": true,
+    "logged_at": "2026-04-03T11:28:26.850952"
+  },
+  {
+    "date": "2021-09-09",
+    "predicted_direction": "up",
+    "predicted_probability": 61,
+    "predicted_return": 5.2,
+    "key_factors": [
+      "news flow is modestly bullish for Apple, led by a reiterated Overweight rating and raised price target implying upside",
+      "AAPL's historically most predictive signal in this dataset is news_sentiment, and current sentiment is net positive rather than negative",
+      "No adverse company-specific news is present; competitive smart-device headlines are indirect and not clearly damaging over a 3-month horizon"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 1.0
+    },
+    "sentiment_weight": 0.85,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -3.43,
+    "correct": false,
+    "logged_at": "2026-04-03T11:28:32.073522"
+  },
+  {
+    "date": "2021-09-16",
+    "predicted_direction": "down",
+    "predicted_probability": 56,
+    "predicted_return": -2.5,
+    "key_factors": [
+      "news flow is mildly negative to mixed, with Big Tech regulatory scrutiny the most relevant AAPL-specific item",
+      "AAPL's historically most predictive signal in this dataset is news_sentiment, and current sentiment lacks a clear bullish catalyst",
+      "recent model miss on 2021-09-09 after consecutive bullish calls suggests caution on near-term upside"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.95
+    },
+    "sentiment_weight": 0.85,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -1.32,
+    "correct": true,
+    "logged_at": "2026-04-03T11:28:36.523277"
+  },
+  {
+    "date": "2021-09-23",
+    "predicted_direction": "up",
+    "predicted_probability": 57,
+    "predicted_return": 4.0,
+    "key_factors": [
+      "News flow is mildly positive to neutral for Apple, with iOS privacy changes reinforcing platform power",
+      "Historical context shows news sentiment has been the most predictive input for AAPL and should dominate here",
+      "Lack of technical indicators prevents confirmation of a bearish setup, so the balance of available evidence leans slightly positive"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.9
+    },
+    "sentiment_weight": 0.7,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -3.63,
+    "correct": false,
+    "logged_at": "2026-04-03T11:28:42.111277"
+  },
+  {
+    "date": "2021-09-30",
+    "predicted_direction": "down",
+    "predicted_probability": 57,
+    "predicted_return": -3.0,
+    "key_factors": [
+      "news flow is only mildly positive and mostly promotional rather than a strong earnings or guidance catalyst",
+      "AAPL's historically most predictive signal here is news sentiment, and current sentiment appears mixed-to-slightly positive but not strong enough to offset recent weakness in prior 3-month calls",
+      "absence of technical indicators materially lowers conviction and shifts reliance to a weak sentiment edge"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.68
+    },
+    "sentiment_weight": 0.7,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 1.27,
+    "correct": false,
+    "logged_at": "2026-04-03T11:28:47.094163"
+  },
+  {
+    "date": "2021-10-07",
+    "predicted_direction": "up",
+    "predicted_probability": 56,
+    "predicted_return": 4.0,
+    "key_factors": [
+      "AAPL-specific news flow is mildly positive to neutral, with no clear negative catalyst in the provided headlines",
+      "For this stock, news sentiment has been the most predictive input historically and should dominate given missing technical data",
+      "The available Apple article frames the stock as fairly valued and financially resilient rather than deteriorating"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.9
+    },
+    "sentiment_weight": 0.9,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 0.33,
+    "correct": true,
+    "logged_at": "2026-04-03T11:28:51.177450"
+  },
+  {
+    "date": "2021-10-14",
+    "predicted_direction": "up",
+    "predicted_probability": 61,
+    "predicted_return": 5.2,
+    "key_factors": [
+      "news flow is net positive with strong smartphone profitability and product-cycle optimism",
+      "AAPL's historically most predictive signal here is news sentiment, and the learned weighting favors sentiment heavily",
+      "regulatory headline is a risk but appears less immediate than the positive business and product catalysts"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.92
+    },
+    "sentiment_weight": 0.73,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 3.98,
+    "correct": true,
+    "logged_at": "2026-04-03T11:28:55.903827"
+  },
+  {
+    "date": "2021-10-21",
+    "predicted_direction": "up",
+    "predicted_probability": 62,
+    "predicted_return": 6.0,
+    "key_factors": [
+      "historically high predictive power of news sentiment for AAPL and current news flow is modestly positive overall",
+      "upcoming earnings expectations are favorable with explicit beat anticipation",
+      "despite ad-related sector disruption headlines, the impact appears more negative for ad-platform peers than for Apple's own fundamentals"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.95
+    },
+    "sentiment_weight": 0.73,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 2.07,
+    "correct": true,
+    "logged_at": "2026-04-03T11:29:01.243643"
+  },
+  {
+    "date": "2021-10-28",
+    "predicted_direction": "up",
+    "predicted_probability": 61,
+    "predicted_return": 6.0,
+    "key_factors": [
+      "historically predictive news sentiment for AAPL remains only mildly negative despite the earnings miss, with multiple sources framing supply-chain issues as temporary",
+      "the negative catalyst appears driven by transitory supply constraints rather than demand destruction or margin collapse",
+      "AAPL had strong recent prediction momentum and broader market tone was near record highs, supporting recovery after the post-earnings sell-off"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.9
+    },
+    "sentiment_weight": 0.73,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -1.06,
+    "correct": false,
+    "logged_at": "2026-04-03T11:29:05.859650"
+  },
+  {
+    "date": "2021-11-04",
+    "predicted_direction": "down",
+    "predicted_probability": 58,
+    "predicted_return": -4.0,
+    "key_factors": [
+      "news flow is net bearish with a prominent valuation warning on Apple",
+      "AAPL's historically most predictive signal here is news sentiment, and sentiment carries the majority weight",
+      "lack of available technical indicators reduces support for a bullish continuation call"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.9
+    },
+    "sentiment_weight": 0.73,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -2.05,
+    "correct": true,
+    "logged_at": "2026-04-03T11:29:10.233638"
+  },
+  {
+    "date": "2021-11-11",
+    "predicted_direction": "up",
+    "predicted_probability": 58,
+    "predicted_return": 4.2,
+    "key_factors": [
+      "News flow is mixed-to-slightly positive with no major AAPL-specific negative catalyst",
+      "For AAPL, news sentiment has historically been the most predictive input and carries the highest learned weight",
+      "Inside-bar consolidation commentary suggests pause rather than confirmed breakdown"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.95
+    },
+    "sentiment_weight": 0.85,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 6.76,
+    "correct": true,
+    "logged_at": "2026-04-03T11:29:14.485939"
+  },
+  {
+    "date": "2021-11-18",
+    "predicted_direction": "up",
+    "predicted_probability": 62,
+    "predicted_return": 6.0,
+    "key_factors": [
+      "strongly positive news flow around Apple Car/autonomous vehicle ambitions",
+      "broad market backdrop supportive with S&P 500 and Nasdaq at record closes",
+      "AAPL's historical signal profile shows news sentiment has been the most predictive factor"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.95
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -0.67,
+    "correct": false,
+    "logged_at": "2026-04-03T11:29:18.820325"
+  },
+  {
+    "date": "2021-11-26",
+    "predicted_direction": "up",
+    "predicted_probability": 61,
+    "predicted_return": 6.0,
+    "key_factors": [
+      "News flow is net positive for Apple, with dip-buying commentary and multiple bullish growth/metaverse mentions outweighing the COVID-variant selloff headline",
+      "For AAPL, news sentiment has been the most predictive signal historically and should dominate the forecast given missing technical data",
+      "The negative move appears driven by broad market risk-off sentiment rather than Apple-specific deterioration"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.95
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 3.21,
+    "correct": true,
+    "logged_at": "2026-04-03T11:29:24.618866"
+  },
+  {
+    "date": "2021-12-03",
+    "predicted_direction": "up",
+    "predicted_probability": 58,
+    "predicted_return": 4.5,
+    "key_factors": [
+      "AAPL-specific news flow is neutral-to-slightly positive, with inclusion in favorable research coverage and no clear company-specific negative catalyst",
+      "Historical context shows news sentiment has been the most predictive input for AAPL and should dominate the signal",
+      "Recent prediction history for AAPL has leaned correctly bullish more often than not despite market volatility"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.9
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 10.88,
+    "correct": true,
+    "logged_at": "2026-04-03T11:29:29.620224"
+  },
+  {
+    "date": "2021-12-10",
+    "predicted_direction": "up",
+    "predicted_probability": 58,
+    "predicted_return": 4.2,
+    "key_factors": [
+      "historically news sentiment has been the strongest predictor for AAPL and current news flow is mildly positive",
+      "macro headlines suggest risk-on support from strong household wealth and equity futures despite inflation concerns",
+      "recent model history for AAPL has leaned correctly bullish in 2 of the last 3 predictions"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.9
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -4.63,
+    "correct": false,
+    "logged_at": "2026-04-03T11:29:34.563319"
+  },
+  {
+    "date": "2021-12-17",
+    "predicted_direction": "up",
+    "predicted_probability": 58,
+    "predicted_return": 4.5,
+    "key_factors": [
+      "news flow is mildly positive to neutral with supportive semiconductor/supply chain commentary",
+      "historically for AAPL in this dataset, news sentiment has been the most predictive factor and carries the highest learned weight",
+      "recent 3-month prediction track record was mostly positive before the latest miss, suggesting only modest rather than high conviction"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.95
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 5.37,
+    "correct": true,
+    "logged_at": "2026-04-03T11:29:39.113742"
+  },
+  {
+    "date": "2021-12-27",
+    "predicted_direction": "up",
+    "predicted_probability": 59,
+    "predicted_return": 4.5,
+    "key_factors": [
+      "news flow is modestly net positive with multiple bullish/optimistic headlines on mega-cap tech and Apple rebound",
+      "AAPL's learned history shows news sentiment is the most predictive factor and should dominate weighting",
+      "recent model track record for AAPL has leaned correctly bullish in 2 of the last 3 predictions"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.9
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 0.93,
+    "correct": true,
+    "logged_at": "2026-04-03T11:29:43.035155"
+  },
+  {
+    "date": "2022-01-03",
+    "predicted_direction": "down",
+    "predicted_probability": 58,
+    "predicted_return": -4.0,
+    "key_factors": [
+      "extremely bullish news and milestone-driven sentiment suggest near-term euphoria that can fade over a 3-month horizon",
+      "AAPL-specific history indicates news sentiment is the most predictive input, and current headlines are heavily one-sided and potentially contrarian at a major valuation milestone",
+      "lack of technical indicator data reduces confirmation, so the setup relies on sentiment mean reversion rather than trend continuation"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.95
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -5.4,
+    "correct": true,
+    "logged_at": "2026-04-03T11:29:47.943669"
+  },
+  {
+    "date": "2022-01-10",
+    "predicted_direction": "down",
+    "predicted_probability": 58,
+    "predicted_return": -4.0,
+    "key_factors": [
+      "AAPL's historically most predictive signal here is news sentiment, and the recent news flow is only mildly positive to mixed rather than strongly bullish",
+      "No technical indicators are available, reducing conviction and forcing reliance on weaker short-term informational edge",
+      "Macro tone in the headlines points to Fed/rate and valuation concerns, which tend to pressure large-cap growth stocks over a 3-month horizon"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.71
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -1.39,
+    "correct": true,
+    "logged_at": "2026-04-03T11:29:53.255399"
+  },
+  {
+    "date": "2022-01-18",
+    "predicted_direction": "down",
+    "predicted_probability": 61,
+    "predicted_return": -4.8,
+    "key_factors": [
+      "Bearish short-term technical setup with price below EMA25/SMA20, negative MACD histogram, and ADX showing -DI above +DI",
+      "Momentum remains weak despite oversold readings, with stochastic, Williams %R, and CCI all signaling downside pressure rather than confirmed reversal",
+      "News flow is mixed but slightly negative near-term, and AAPL's historical signal weighting strongly favors sentiment"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.72,
+      "macd": 0.84,
+      "adx": 0.76,
+      "ema_alignment": 0.63,
+      "stochastic": 0.55,
+      "williams_r": 0.49,
+      "cci": 0.47,
+      "bollinger_bands": 0.44,
+      "obv": 0.52,
+      "golden_cross": 0.31,
+      "rsi": 0.28
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -5.9,
+    "correct": true,
+    "logged_at": "2026-04-03T11:29:59.786044"
+  },
+  {
+    "date": "2022-01-25",
+    "predicted_direction": "down",
+    "predicted_probability": 67,
+    "predicted_return": -6.8,
+    "key_factors": [
+      "Strong bearish trend confirmation from MACD and very high ADX with -DI dominating +DI",
+      "Price is below EMA25, EMA50, and EMA100 with weak EMA alignment, confirming downside momentum",
+      "News flow is mixed but skewed cautious due to supply-chain concerns and broader market/Fed risk rather than a clear bullish catalyst"
+    ],
+    "indicator_importance": {
+      "macd": 0.92,
+      "adx": 0.88,
+      "ema_alignment": 0.81,
+      "stochastic": 0.72,
+      "obv": 0.7,
+      "news_sentiment": 0.62,
+      "bollinger_bands": 0.55,
+      "rsi": 0.5
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 9.28,
+    "correct": false,
+    "logged_at": "2026-04-03T11:30:05.127161"
+  },
+  {
+    "date": "2022-02-01",
+    "predicted_direction": "down",
+    "predicted_probability": 58,
+    "predicted_return": -4.0,
+    "key_factors": [
+      "momentum is stretched with Stochastic at 88.57 and Williams %R at -11.43 near overbought levels",
+      "AAPL-specific/news flow is only mildly positive and mostly generic market commentary despite sentiment historically carrying high weight for this stock",
+      "price is extended toward the upper Bollinger Band with below-average volume, raising risk of a short-term rally fading over a 3-month horizon"
+    ],
+    "indicator_importance": {
+      "williams_r": 0.92,
+      "cci": 0.78,
+      "news_sentiment": 0.86,
+      "golden_cross": 0.62,
+      "macd": 0.58,
+      "stochastic": 0.71,
+      "bollinger_bands": 0.64,
+      "ema_alignment": 0.55,
+      "adx": 0.49,
+      "volume_ratio": 0.41,
+      "obv": 0.37
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 0.13,
+    "correct": false,
+    "logged_at": "2026-04-03T11:30:12.939048"
+  },
+  {
+    "date": "2022-02-08",
+    "predicted_direction": "up",
+    "predicted_probability": 62,
+    "predicted_return": 6.8,
+    "key_factors": [
+      "strong multi-timeframe uptrend with full EMA alignment and golden cross",
+      "bullish MACD with positive histogram and moderate ADX confirming trend",
+      "positive Apple-specific payments catalyst and historically high news sensitivity for AAPL"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.9,
+      "macd": 0.78,
+      "ema_alignment": 0.76,
+      "adx": 0.68,
+      "rsi": 0.55,
+      "cci": 0.54,
+      "stochastic": 0.5,
+      "golden_cross": 0.47,
+      "volume_ratio": 0.42,
+      "obv": 0.44,
+      "bollinger_bands": 0.38
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -1.17,
+    "correct": false,
+    "logged_at": "2026-04-03T11:30:17.961113"
+  },
+  {
+    "date": "2022-02-15",
+    "predicted_direction": "up",
+    "predicted_probability": 61,
+    "predicted_return": 4.8,
+    "key_factors": [
+      "strong multi-timeframe trend with 4/4 EMA alignment and golden cross intact",
+      "news flow is broadly positive with bullish analyst commentary, which is especially important for AAPL historically",
+      "momentum is constructive but not overheated, with bullish MACD and neutral RSI allowing further upside"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.9,
+      "williams_r": 0.62,
+      "obv": 0.58,
+      "cci": 0.54,
+      "adx": 0.52,
+      "ema_alignment": 0.7,
+      "golden_cross": 0.63,
+      "macd": 0.66,
+      "rsi": 0.41,
+      "volume_ratio": 0.39,
+      "bollinger_bands": 0.34
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -7.36,
+    "correct": false,
+    "logged_at": "2026-04-03T11:30:24.040604"
+  },
+  {
+    "date": "2022-02-23",
+    "predicted_direction": "down",
+    "predicted_probability": 64,
+    "predicted_return": -6.0,
+    "key_factors": [
+      "Strong bearish trend confirmation from MACD, ADX, and negative DMI despite long-term golden cross",
+      "Price is pinned near the lower Bollinger Band with deeply oversold Williams %R/Stochastic, which for AAPL is historically predictive but more consistent with weak trend persistence than immediate reversal when trend strength is elevated",
+      "News flow is mixed-to-bearish with market-focused concern around rising bearish bets on mega-cap tech and no clear positive company-specific catalyst"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.68,
+      "williams_r": 0.82,
+      "bollinger_bands": 0.78,
+      "adx": 0.8,
+      "stochastic": 0.76,
+      "macd": 0.74,
+      "ema_alignment": 0.62,
+      "obv": 0.45,
+      "rsi": 0.38
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 4.05,
+    "correct": false,
+    "logged_at": "2026-04-03T11:30:30.545667"
+  },
+  {
+    "date": "2022-03-02",
+    "predicted_direction": "up",
+    "predicted_probability": 56,
+    "predicted_return": 4.2,
+    "key_factors": [
+      "News flow is modestly positive with product-event anticipation and Apple viewed as a defensive mega-cap despite Russia sales pause having limited financial impact",
+      "Longer-term trend remains constructive with SMA50 above SMA200 and price still above EMA100",
+      "OBV trend is rising and momentum is neutral rather than overbought, leaving room for recovery if market risk sentiment stabilizes"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.9,
+      "cci": 0.58,
+      "obv": 0.56,
+      "rsi": 0.52,
+      "golden_cross": 0.5,
+      "macd": 0.49,
+      "adx": 0.47,
+      "ema_alignment": 0.44,
+      "bollinger_bands": 0.31
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -2.17,
+    "correct": false,
+    "logged_at": "2026-04-03T11:30:36.471632"
+  },
+  {
+    "date": "2022-03-09",
+    "predicted_direction": "down",
+    "predicted_probability": 62,
+    "predicted_return": -5.8,
+    "key_factors": [
+      "Bearish trend structure with price below EMA25/50/100, 0/4 EMA alignment, negative MACD, and strong ADX with -DI dominating +DI",
+      "Volume confirmation is weak-to-bearish with OBV trending down while price sits in the lower half of the Bollinger range",
+      "News flow is mildly positive for Apple but not strong enough to outweigh the clearly negative technical setup"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.67,
+      "obv": 0.58,
+      "cci": 0.5,
+      "rsi": 0.46,
+      "bollinger_bands": 0.45,
+      "ema_alignment": 0.74,
+      "macd": 0.72,
+      "adx": 0.69,
+      "golden_cross": 0.28
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -2.06,
+    "correct": true,
+    "logged_at": "2026-04-03T11:30:41.367779"
+  },
+  {
+    "date": "2022-03-16",
+    "predicted_direction": "down",
+    "predicted_probability": 58,
+    "predicted_return": -4.0,
+    "key_factors": [
+      "Bearish trend structure with price below EMA25/50/100, negative MACD, and strong ADX with -DI above +DI",
+      "Volume confirmation is weak with OBV trending down, supporting the recent downside move",
+      "News flow is only mildly positive for Apple and mostly indirect, which is not strong enough to offset bearish technicals despite sentiment's high historical importance for AAPL"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.67,
+      "cci": 0.52,
+      "obv": 0.5,
+      "adx": 0.56,
+      "rsi": 0.44,
+      "macd": 0.62,
+      "ema_alignment": 0.58,
+      "golden_cross": 0.28,
+      "bollinger_bands": 0.31
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 6.65,
+    "correct": false,
+    "logged_at": "2026-04-03T11:30:47.429533"
+  },
+  {
+    "date": "2022-03-23",
+    "predicted_direction": "up",
+    "predicted_probability": 61,
+    "predicted_return": 5.4,
+    "key_factors": [
+      "News flow is clearly positive and sentiment has been the most predictive factor for AAPL historically",
+      "Trend remains constructive with price above all major moving averages, a confirmed golden cross, bullish MACD histogram, and strong ADX with +DI well above -DI",
+      "OBV is rising and volume is normal, supporting the recent advance rather than signaling exhaustion"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.9,
+      "adx": 0.75,
+      "cci": 0.72,
+      "obv": 0.68,
+      "rsi": 0.64,
+      "macd": 0.63,
+      "golden_cross": 0.58,
+      "sma_trend": 0.57,
+      "stochastic": 0.55,
+      "bollinger_bands": 0.52,
+      "ema_alignment": 0.4
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 4.44,
+    "correct": true,
+    "logged_at": "2026-04-03T11:30:53.294560"
+  },
+  {
+    "date": "2022-03-30",
+    "predicted_direction": "up",
+    "predicted_probability": 61,
+    "predicted_return": 5.2,
+    "key_factors": [
+      "strong multi-timeframe trend with 4/4 EMA alignment and bullish SMA structure including golden cross",
+      "MACD bullish expansion and ADX above 40 indicate a strong established uptrend",
+      "OBV rising and news flow is only mildly negative/mixed rather than a clear bearish catalyst"
+    ],
+    "indicator_importance": {
+      "sma_trend": 0.92,
+      "news_sentiment": 0.78,
+      "ema_alignment": 0.74,
+      "cci": 0.63,
+      "adx": 0.62,
+      "obv": 0.56,
+      "macd": 0.55,
+      "stochastic": 0.48,
+      "bollinger_bands": 0.45
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -3.34,
+    "correct": false,
+    "logged_at": "2026-04-03T11:30:58.737382"
+  },
+  {
+    "date": "2022-04-06",
+    "predicted_direction": "down",
+    "predicted_probability": 58,
+    "predicted_return": -4.0,
+    "key_factors": [
+      "news flow is slightly negative/mixed and sentiment has historically been the strongest predictor for AAPL",
+      "trend is bullish on moving averages and MACD, but momentum is only neutral and not confirming a strong continuation",
+      "ADX shows weak directional clarity with -DI slightly above +DI, while OBV trend is down"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.9,
+      "sma_trend": 0.72,
+      "rsi": 0.58,
+      "golden_cross": 0.56,
+      "cci": 0.52,
+      "ema_alignment": 0.5,
+      "macd": 0.47,
+      "adx": 0.45,
+      "obv": 0.42,
+      "stochastic": 0.34,
+      "williams_r": 0.3,
+      "volume_ratio": 0.22,
+      "bollinger_bands": 0.2,
+      "atr": 0.12
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -0.83,
+    "correct": true,
+    "logged_at": "2026-04-03T11:31:05.361144"
+  },
+  {
+    "date": "2022-04-13",
+    "predicted_direction": "down",
+    "predicted_probability": 58,
+    "predicted_return": -4.2,
+    "key_factors": [
+      "bearish MACD histogram with MACD below signal despite strong longer-term trend",
+      "ADX with -DI above +DI indicates short-term downside pressure",
+      "historically important sentiment is only mildly positive and lacks a strong catalyst"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.66,
+      "sma_trend": 0.64,
+      "atr": 0.56,
+      "rsi": 0.53,
+      "golden_cross": 0.53,
+      "macd": 0.72,
+      "adx": 0.68,
+      "ema_alignment": 0.61,
+      "obv": 0.34,
+      "volume_ratio": 0.29,
+      "bollinger_bands": 0.31
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -2.34,
+    "correct": true,
+    "logged_at": "2026-04-03T11:31:10.062184"
+  },
+  {
+    "date": "2022-04-21",
+    "predicted_direction": "down",
+    "predicted_probability": 61,
+    "predicted_return": -4.8,
+    "key_factors": [
+      "Bearish short-term trend setup with price below EMA25/EMA50, negative MACD histogram, and weakening OBV",
+      "News flow is net negative to mixed, dominated by broad tech selloff and rate-hike fears despite possible earnings beat",
+      "Most predictive AAPL signals lean bearish here: SMA trend has weakened versus SMA20, ATR is elevated, and sentiment historically carries high weight"
+    ],
+    "indicator_importance": {
+      "sma_trend": 0.86,
+      "atr": 0.79,
+      "news_sentiment": 0.84,
+      "golden_cross": 0.58,
+      "rsi": 0.55,
+      "macd": 0.74,
+      "ema_alignment": 0.68,
+      "stochastic": 0.47,
+      "bollinger_bands": 0.44,
+      "obv": 0.52,
+      "adx": 0.41
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -1.67,
+    "correct": true,
+    "logged_at": "2026-04-03T11:31:16.341164"
+  },
+  {
+    "date": "2022-04-28",
+    "predicted_direction": "down",
+    "predicted_probability": 62,
+    "predicted_return": -4.8,
+    "key_factors": [
+      "Bearish trend structure with price below EMA25/50/100 and 0/4 EMA alignment",
+      "MACD is decisively bearish and ADX indicates a modestly strengthening downtrend",
+      "Despite positive earnings headlines, technicals remain weak and recent 3-month down calls on AAPL have been validated"
+    ],
+    "indicator_importance": {
+      "atr": 0.82,
+      "sma_trend": 0.79,
+      "news_sentiment": 0.74,
+      "macd": 0.72,
+      "ema_alignment": 0.7,
+      "golden_cross": 0.58,
+      "rsi": 0.56,
+      "adx": 0.54,
+      "bollinger_bands": 0.48,
+      "volume_ratio": 0.34,
+      "obv": 0.31
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -4.2,
+    "correct": true,
+    "logged_at": "2026-04-03T11:31:23.408488"
+  },
+  {
+    "date": "2022-05-05",
+    "predicted_direction": "down",
+    "predicted_probability": 68,
+    "predicted_return": -7.2,
+    "key_factors": [
+      "Price is below all key short/intermediate moving averages with negative EMA alignment and bearish MACD, indicating a weak trend structure despite the longer-term golden cross.",
+      "News flow is predominantly risk-off and negative for mega-cap tech, with broad market selloff headlines and Apple-related competitive/platform pressure.",
+      "High ATR and price sitting near the lower Bollinger Band suggest elevated downside volatility, while recent model history for AAPL has correctly favored downside calls in this regime."
+    ],
+    "indicator_importance": {
+      "atr": 0.9,
+      "sma_trend": 0.86,
+      "news_sentiment": 0.84,
+      "macd": 0.76,
+      "golden_cross": 0.58,
+      "rsi": 0.54,
+      "bollinger_bands": 0.51,
+      "ema_alignment": 0.72,
+      "stochastic": 0.43,
+      "obv": 0.34,
+      "volume_ratio": 0.31,
+      "adx": 0.29,
+      "williams_r": 0.38,
+      "cci": 0.36
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -9.06,
+    "correct": true,
+    "logged_at": "2026-04-03T11:31:29.394795"
+  },
+  {
+    "date": "2022-05-12",
+    "predicted_direction": "down",
+    "predicted_probability": 72,
+    "predicted_return": -7.5,
+    "key_factors": [
+      "Strong bearish trend structure with price far below EMA25/50/100 and negative 4/4 EMA alignment",
+      "Bearish momentum and trend confirmation from MACD, ADX with -DI dominant, and falling OBV on elevated volume",
+      "News flow is broadly negative/macro-risk driven, with loss of most-valuable-company status and persistent inflation/rate fears"
+    ],
+    "indicator_importance": {
+      "atr": 0.92,
+      "sma_trend": 0.88,
+      "news_sentiment": 0.82,
+      "ema_alignment": 0.84,
+      "macd": 0.8,
+      "adx": 0.78,
+      "golden_cross": 0.58,
+      "rsi": 0.62,
+      "stochastic": 0.55,
+      "williams_r": 0.5,
+      "cci": 0.52,
+      "bollinger_bands": 0.66,
+      "volume_ratio": 0.57,
+      "obv": 0.64
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -3.65,
+    "correct": true,
+    "logged_at": "2026-04-03T11:31:35.582040"
+  },
+  {
+    "date": "2022-05-19",
+    "predicted_direction": "down",
+    "predicted_probability": 72,
+    "predicted_return": -6.8,
+    "key_factors": [
+      "Strong bearish trend structure with price 11-15% below EMA25/50/100, negative EMA alignment, bearish MACD, and ADX confirming a strong downtrend",
+      "Most predictive AAPL indicators are unfavorable: elevated ATR, weak SMA trend despite lagging golden cross, and RSI still not deeply capitulative",
+      "News flow is mixed-to-negative with broad market/FAANG weakness and no strong company-specific positive catalyst"
+    ],
+    "indicator_importance": {
+      "atr": 0.84,
+      "sma_trend": 0.8,
+      "news_sentiment": 0.7,
+      "golden_cross": 0.62,
+      "rsi": 0.61,
+      "ema_alignment": 0.88,
+      "macd": 0.82,
+      "adx": 0.79,
+      "bollinger_bands": 0.58,
+      "obv": 0.55
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 4.68,
+    "correct": false,
+    "logged_at": "2026-04-03T11:31:42.997072"
+  },
+  {
+    "date": "2022-05-26",
+    "predicted_direction": "down",
+    "predicted_probability": 64,
+    "predicted_return": -4.2,
+    "key_factors": [
+      "Price is below EMA25/50/100 and SMA20/50/200 with fully bearish EMA alignment, indicating a strong downtrend",
+      "MACD remains bearish and ADX at 37.41 with -DI above +DI confirms downside trend strength",
+      "Historically important AAPL signals are negative here: elevated ATR/volatility and weak SMA trend outweigh the lagging golden cross"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.82,
+      "sma_trend": 0.88,
+      "golden_cross": 0.42,
+      "macd": 0.74,
+      "adx": 0.71,
+      "rsi": 0.48,
+      "stochastic": 0.34,
+      "bollinger_bands": 0.41,
+      "atr": 0.86,
+      "volume_ratio": 0.29,
+      "obv": 0.31,
+      "news_sentiment": 0.58
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 1.11,
+    "correct": false,
+    "logged_at": "2026-04-03T11:31:49.408308"
+  },
+  {
+    "date": "2022-06-03",
+    "predicted_direction": "down",
+    "predicted_probability": 68,
+    "predicted_return": -6.0,
+    "key_factors": [
+      "Bearish primary trend with price below EMA25/50/100 and SMA50 below SMA200",
+      "Negative news flow is dominant for AAPL and historically sentiment has high predictive value for this stock",
+      "Weak confirmation from volume/flow indicators with sub-average volume and 5-day OBV down"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.84,
+      "sma_trend": 0.88,
+      "golden_cross": 0.72,
+      "atr": 0.76,
+      "news_sentiment": 0.86,
+      "macd": 0.58,
+      "rsi": 0.52,
+      "obv": 0.49,
+      "volume_ratio": 0.41,
+      "adx": 0.39
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -5.67,
+    "correct": true,
+    "logged_at": "2026-04-03T11:31:55.637723"
+  },
+  {
+    "date": "2022-06-10",
+    "predicted_direction": "down",
+    "predicted_probability": 67,
+    "predicted_return": -6.0,
+    "key_factors": [
+      "Strong bearish trend structure with price below EMA25/50/100 and SMA20/50/200, plus no golden cross",
+      "Negative directional trend confirmation from ADX with -DI far above +DI and OBV trending down",
+      "News flow is net bearish due to inflation-driven tech selloff and multiple headlines focused on downside/support risk"
+    ],
+    "indicator_importance": {
+      "sma_trend": 0.94,
+      "atr": 0.78,
+      "news_sentiment": 0.86,
+      "golden_cross": 0.74,
+      "rsi": 0.66,
+      "ema_alignment": 0.83,
+      "adx": 0.8,
+      "bollinger_bands": 0.58,
+      "obv": 0.55,
+      "macd": 0.46
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -4.06,
+    "correct": true,
+    "logged_at": "2026-04-03T11:32:01.605744"
+  },
+  {
+    "date": "2022-06-17",
+    "predicted_direction": "down",
+    "predicted_probability": 66,
+    "predicted_return": -6.2,
+    "key_factors": [
+      "Strong bearish trend structure with price below all major EMAs/SMAs and no golden cross",
+      "MACD is bearish and ADX near 35 confirms a strong downtrend with -DI well above +DI",
+      "AAPL-specific news is only mildly positive and not strong enough to offset broad bear-market pressure"
+    ],
+    "indicator_importance": {
+      "sma_trend": 0.94,
+      "atr": 0.78,
+      "news_sentiment": 0.72,
+      "golden_cross": 0.7,
+      "rsi": 0.64,
+      "ema_alignment": 0.83,
+      "macd": 0.81,
+      "adx": 0.79,
+      "bollinger_bands": 0.58,
+      "stochastic": 0.52,
+      "obv": 0.43,
+      "volume_ratio": 0.39
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 7.68,
+    "correct": false,
+    "logged_at": "2026-04-03T11:32:07.465152"
+  },
+  {
+    "date": "2022-06-27",
+    "predicted_direction": "up",
+    "predicted_probability": 56,
+    "predicted_return": 4.2,
+    "key_factors": [
+      "MACD histogram is bullish with positive momentum recovery while ADX shows buyers in control (+DI > -DI)",
+      "Price is stabilizing near the 20-day average after a sharp drawdown, suggesting basing rather than continued breakdown",
+      "News flow is mildly supportive to neutral for Apple and its end markets, with no clear negative catalyst in the past week"
+    ],
+    "indicator_importance": {
+      "sma_trend": 0.71,
+      "atr": 0.7,
+      "news_sentiment": 0.67,
+      "golden_cross": 0.6,
+      "rsi": 0.59,
+      "macd": 0.64,
+      "adx": 0.58,
+      "ema_alignment": 0.55,
+      "obv": 0.42,
+      "volume_ratio": 0.31,
+      "bollinger_bands": 0.29
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -0.07,
+    "correct": false,
+    "logged_at": "2026-04-03T11:32:13.332820"
+  },
+  {
+    "date": "2022-07-05",
+    "predicted_direction": "down",
+    "predicted_probability": 58,
+    "predicted_return": -4.5,
+    "key_factors": [
+      "bearish higher-timeframe trend with price below SMA50, SMA200, EMA50, and EMA100 plus no golden cross",
+      "historically important trend indicators for AAPL remain negative while the recent bounce looks weakly confirmed",
+      "news flow is mixed to slightly negative with recession concerns and no clear AAPL-specific catalyst"
+    ],
+    "indicator_importance": {
+      "sma_trend": 0.92,
+      "atr": 0.84,
+      "news_sentiment": 0.8,
+      "golden_cross": 0.72,
+      "rsi": 0.62,
+      "ema_alignment": 0.7,
+      "macd": 0.58,
+      "adx": 0.46,
+      "stochastic": 0.49,
+      "bollinger_bands": 0.41,
+      "obv": 0.34,
+      "volume_ratio": 0.28
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 3.04,
+    "correct": false,
+    "logged_at": "2026-04-03T11:32:19.566151"
+  },
+  {
+    "date": "2022-07-12",
+    "predicted_direction": "up",
+    "predicted_probability": 61,
+    "predicted_return": 6.2,
+    "key_factors": [
+      "bullish MACD crossover with positive histogram and ADX showing a strengthening uptrend",
+      "price has reclaimed key short/intermediate averages (above SMA20, SMA50, EMA25, EMA50) while OBV trend is rising",
+      "news flow is modestly positive for Apple ahead of earnings, which matters heavily for this stock's historical signal mix"
+    ],
+    "indicator_importance": {
+      "sma_trend": 0.87,
+      "news_sentiment": 0.84,
+      "atr": 0.72,
+      "golden_cross": 0.68,
+      "rsi": 0.63,
+      "macd": 0.78,
+      "adx": 0.66,
+      "bollinger_bands": 0.58,
+      "stochastic": 0.55,
+      "obv": 0.51,
+      "ema_alignment": 0.49
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 3.52,
+    "correct": true,
+    "logged_at": "2026-04-03T11:32:26.086438"
+  },
+  {
+    "date": "2022-07-19",
+    "predicted_direction": "down",
+    "predicted_probability": 58,
+    "predicted_return": -4.0,
+    "key_factors": [
+      "price is pressing the upper Bollinger Band with overbought momentum readings (Stochastic 96.8, Williams %R -3.2, CCI 118), suggesting short-term exhaustion",
+      "longer-term trend structure remains mixed-to-bearish with SMA50 below SMA200 and no golden cross",
+      "AAPL-specific news flow is only mildly positive and mostly market-wide rather than a strong company catalyst"
+    ],
+    "indicator_importance": {
+      "sma_trend": 0.9,
+      "news_sentiment": 0.82,
+      "atr": 0.7,
+      "golden_cross": 0.74,
+      "rsi": 0.68,
+      "macd": 0.63,
+      "stochastic": 0.72,
+      "williams_r": 0.66,
+      "cci": 0.61,
+      "bollinger_bands": 0.69,
+      "adx": 0.55,
+      "obv": 0.46
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 0.4,
+    "correct": false,
+    "logged_at": "2026-04-03T11:32:31.941431"
+  },
+  {
+    "date": "2022-07-26",
+    "predicted_direction": "up",
+    "predicted_probability": 58,
+    "predicted_return": 4.2,
+    "key_factors": [
+      "Price is above key short/intermediate moving averages with bullish MACD and ADX confirming an active uptrend",
+      "AAPL-specific and sector news flow is mixed but not decisively negative ahead of earnings, limiting sentiment drag",
+      "Volatility is moderate and momentum indicators are neutral-to-positive rather than overbought"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.66,
+      "sma_trend": 0.65,
+      "atr": 0.63,
+      "golden_cross": 0.58,
+      "ema_alignment": 0.57,
+      "macd": 0.56,
+      "adx": 0.52,
+      "obv": 0.44,
+      "volume_ratio": 0.41,
+      "rsi": 0.36,
+      "bollinger_bands": 0.34,
+      "stochastic": 0.28,
+      "cci": 0.24
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 5.55,
+    "correct": true,
+    "logged_at": "2026-04-03T11:32:37.491866"
+  },
+  {
+    "date": "2022-08-02",
+    "predicted_direction": "up",
+    "predicted_probability": 62,
+    "predicted_return": 6.0,
+    "key_factors": [
+      "price is above all major moving averages with strong SMA trend support",
+      "MACD is bullish and ADX indicates a strong uptrend",
+      "recent Apple-specific news is modestly positive as supply chain constraints ease"
+    ],
+    "indicator_importance": {
+      "sma_trend": 0.9,
+      "news_sentiment": 0.8,
+      "atr": 0.7,
+      "golden_cross": 0.55,
+      "ema_alignment": 0.65,
+      "macd": 0.7,
+      "adx": 0.68,
+      "stochastic": 0.58,
+      "bollinger_bands": 0.56,
+      "obv": 0.42
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 3.07,
+    "correct": true,
+    "logged_at": "2026-04-03T11:32:43.359282"
+  },
+  {
+    "date": "2022-08-09",
+    "predicted_direction": "up",
+    "predicted_probability": 61,
+    "predicted_return": 6.2,
+    "key_factors": [
+      "price is above all major moving averages with strong trend strength (ADX 45.75) and bullish MACD",
+      "AAPL's most predictive historical signals favor the setup: positive SMA trend and elevated ATR in an established uptrend",
+      "news flow is mildly positive to neutral for large-cap tech with no clear negative AAPL-specific catalyst"
+    ],
+    "indicator_importance": {
+      "sma_trend": 0.9,
+      "news_sentiment": 0.8,
+      "atr": 0.7,
+      "ema_alignment": 0.7,
+      "macd": 0.7,
+      "golden_cross": 0.6,
+      "adx": 0.6,
+      "stochastic": 0.5,
+      "rsi": 0.4,
+      "bollinger_bands": 0.4,
+      "obv": 0.4,
+      "volume_ratio": 0.3
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 4.92,
+    "correct": true,
+    "logged_at": "2026-04-03T11:32:50.170060"
+  },
+  {
+    "date": "2022-08-16",
+    "predicted_direction": "up",
+    "predicted_probability": 61,
+    "predicted_return": 4.8,
+    "key_factors": [
+      "strong multi-timeframe trend with 4/4 EMA alignment and price well above key moving averages",
+      "very strong trend confirmation from ADX 55 and bullish MACD/OBV structure",
+      "news flow is mixed but broader market and tech sentiment remain supportive, outweighing isolated supply-chain risk"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.9,
+      "sma_trend": 0.88,
+      "adx": 0.84,
+      "macd": 0.76,
+      "atr": 0.72,
+      "news_sentiment": 0.7,
+      "rsi": 0.66,
+      "bollinger_bands": 0.62,
+      "golden_cross": 0.55,
+      "obv": 0.51
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -3.35,
+    "correct": false,
+    "logged_at": "2026-04-03T11:32:56.836033"
+  },
+  {
+    "date": "2022-08-23",
+    "predicted_direction": "up",
+    "predicted_probability": 58,
+    "predicted_return": 4.2,
+    "key_factors": [
+      "strong multi-timeframe uptrend with full EMA alignment and price above key SMAs",
+      "news flow is mildly positive for Apple, especially services growth and product support expansion",
+      "ATR and volatility profile are moderate, suggesting room for continuation rather than exhaustion"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.86,
+      "sma_trend": 0.9,
+      "macd": 0.72,
+      "adx": 0.55,
+      "atr": 0.68,
+      "volume_ratio": 0.42,
+      "obv": 0.5,
+      "rsi": 0.38,
+      "stochastic": 0.41,
+      "bollinger_bands": 0.36,
+      "news_sentiment": 0.78
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -4.98,
+    "correct": false,
+    "logged_at": "2026-04-03T11:33:02.718543"
+  },
+  {
+    "date": "2022-08-30",
+    "predicted_direction": "down",
+    "predicted_probability": 64,
+    "predicted_return": -6.0,
+    "key_factors": [
+      "Bearish trend structure with price below EMA25/EMA50, no golden cross, and weak EMA alignment",
+      "Strong downside trend confirmation from MACD bearish crossover and ADX 36 with -DI far above +DI",
+      "Momentum and volume remain weak with OBV down and price pressing the lower Bollinger Band despite oversold readings"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.82,
+      "sma_trend": 0.8,
+      "atr": 0.62,
+      "golden_cross": 0.72,
+      "ema_alignment": 0.7,
+      "macd": 0.76,
+      "adx": 0.74,
+      "bollinger_bands": 0.58,
+      "stochastic": 0.46,
+      "williams_r": 0.42,
+      "cci": 0.44,
+      "obv": 0.55
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -1.86,
+    "correct": true,
+    "logged_at": "2026-04-03T11:33:09.130401"
+  },
+  {
+    "date": "2022-09-07",
+    "predicted_direction": "down",
+    "predicted_probability": 67,
+    "predicted_return": -7.0,
+    "key_factors": [
+      "Bearish trend structure with price below EMA25/50/100, no golden cross, and weak SMA trend",
+      "MACD is strongly bearish and ADX near 41 with -DI far above +DI, indicating a strong downtrend",
+      "Momentum is oversold and news is mildly positive around the iPhone 14 event, but sentiment appears insufficient to offset the prevailing technical weakness"
+    ],
+    "indicator_importance": {
+      "sma_trend": 0.92,
+      "news_sentiment": 0.74,
+      "atr": 0.68,
+      "golden_cross": 0.8,
+      "macd": 0.86,
+      "adx": 0.78,
+      "ema_alignment": 0.72,
+      "bollinger_bands": 0.55,
+      "stochastic": 0.46,
+      "williams_r": 0.42,
+      "cci": 0.4,
+      "volume_ratio": 0.34,
+      "obv": 0.31,
+      "rsi": 0.38
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -0.42,
+    "correct": true,
+    "logged_at": "2026-04-03T11:33:15.174856"
+  },
+  {
+    "date": "2022-09-14",
+    "predicted_direction": "down",
+    "predicted_probability": 68,
+    "predicted_return": -6.2,
+    "key_factors": [
+      "Bearish trend structure with price below EMA25/50/100 and SMA20/50/200, plus no golden cross",
+      "MACD is decisively bearish and ADX above 30 with -DI above +DI indicates a strengthening downtrend",
+      "News flow is mixed to slightly negative with broader market crash/recession concerns and no clear positive catalyst for AAPL"
+    ],
+    "indicator_importance": {
+      "sma_trend": 0.94,
+      "news_sentiment": 0.9,
+      "atr": 0.72,
+      "golden_cross": 0.83,
+      "macd": 0.86,
+      "adx": 0.71,
+      "ema_alignment": 0.74,
+      "stochastic": 0.52,
+      "williams_r": 0.49,
+      "bollinger_bands": 0.55,
+      "obv": 0.38,
+      "volume_ratio": 0.31,
+      "rsi": 0.34,
+      "cci": 0.28
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -1.02,
+    "correct": true,
+    "logged_at": "2026-04-03T11:33:21.359901"
+  },
+  {
+    "date": "2022-09-21",
+    "predicted_direction": "down",
+    "predicted_probability": 68,
+    "predicted_return": -6.0,
+    "key_factors": [
+      "Price is below EMA25/50/100 and SMA20/50/200, with no golden cross, indicating a weak intermediate trend",
+      "MACD is bearish and OBV trend is down, confirming negative momentum with volume support",
+      "For AAPL, historically strong predictors (sma_trend, news_sentiment, atr, golden_cross, macd) are mostly unfavorable or only mildly supportive"
+    ],
+    "indicator_importance": {
+      "sma_trend": 0.92,
+      "news_sentiment": 0.82,
+      "atr": 0.74,
+      "golden_cross": 0.8,
+      "macd": 0.78,
+      "ema_alignment": 0.72,
+      "obv": 0.62,
+      "bollinger_bands": 0.48,
+      "adx": 0.44,
+      "rsi": 0.36
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -2.52,
+    "correct": true,
+    "logged_at": "2026-04-03T11:33:29.042454"
+  },
+  {
+    "date": "2022-09-28",
+    "predicted_direction": "down",
+    "predicted_probability": 72,
+    "predicted_return": -7.0,
+    "key_factors": [
+      "Bearish news flow around weaker-than-expected iPhone demand and canceled production increase",
+      "Price is below all major EMAs/SMAs with negative MACD and weak trend structure",
+      "High volume on weakness with falling OBV confirms distribution rather than a durable reversal"
+    ],
+    "indicator_importance": {
+      "sma_trend": 0.92,
+      "news_sentiment": 0.91,
+      "atr": 0.72,
+      "golden_cross": 0.58,
+      "macd": 0.8,
+      "ema_alignment": 0.78,
+      "obv": 0.66,
+      "volume_ratio": 0.61,
+      "bollinger_bands": 0.54,
+      "cci": 0.52,
+      "adx": 0.49,
+      "rsi": 0.44
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -2.3,
+    "correct": true,
+    "logged_at": "2026-04-03T11:33:34.933002"
+  },
+  {
+    "date": "2022-10-05",
+    "predicted_direction": "down",
+    "predicted_probability": 72,
+    "predicted_return": -6.8,
+    "key_factors": [
+      "Bearish trend structure with price below EMA25/50/100 and SMA20/50/200, plus no golden cross",
+      "MACD bearish and ADX 27 with -DI above +DI indicate a strengthening downtrend",
+      "News flow is mixed-to-negative with no strong positive catalyst and mention of profitable short positioning amid broad market weakness"
+    ],
+    "indicator_importance": {
+      "sma_trend": 0.95,
+      "news_sentiment": 0.88,
+      "atr": 0.72,
+      "golden_cross": 0.8,
+      "macd": 0.82,
+      "ema_alignment": 0.84,
+      "adx": 0.74,
+      "bollinger_bands": 0.58,
+      "rsi": 0.42,
+      "stochastic": 0.34,
+      "williams_r": 0.31,
+      "cci": 0.36,
+      "volume_ratio": 0.29,
+      "obv": 0.27
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -5.51,
+    "correct": true,
+    "logged_at": "2026-04-03T11:33:41.719802"
+  },
+  {
+    "date": "2022-10-12",
+    "predicted_direction": "down",
+    "predicted_probability": 76,
+    "predicted_return": -7.2,
+    "key_factors": [
+      "Strong bearish trend structure with price below all major EMAs/SMAs, negative EMA alignment, and no golden cross",
+      "MACD remains bearish and ADX at 38 with -DI far above +DI indicates a strong established downtrend",
+      "News flow is mildly negative for AAPL due to strong-dollar earnings pressure and competitive/sector headwinds, which matters heavily given AAPL's high sentiment sensitivity"
+    ],
+    "indicator_importance": {
+      "sma_trend": 0.94,
+      "news_sentiment": 0.88,
+      "atr": 0.72,
+      "golden_cross": 0.8,
+      "macd": 0.84,
+      "ema_alignment": 0.82,
+      "adx": 0.74,
+      "bollinger_bands": 0.58,
+      "stochastic": 0.46,
+      "williams_r": 0.44,
+      "rsi": 0.41,
+      "volume_ratio": 0.39,
+      "obv": 0.43
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 3.99,
+    "correct": false,
+    "logged_at": "2026-04-03T11:33:47.321676"
+  },
+  {
+    "date": "2022-10-19",
+    "predicted_direction": "down",
+    "predicted_probability": 62,
+    "predicted_return": -4.5,
+    "key_factors": [
+      "Bearish primary trend with price below EMA25/50/100 and SMA50/SMA200, plus no golden cross",
+      "Historically important SMA trend and golden cross signals are negative for AAPL",
+      "News flow is only mildly positive and mostly product-refresh related, not a strong earnings or macro catalyst"
+    ],
+    "indicator_importance": {
+      "sma_trend": 0.94,
+      "news_sentiment": 0.82,
+      "golden_cross": 0.8,
+      "atr": 0.66,
+      "macd": 0.63,
+      "ema_alignment": 0.61,
+      "adx": 0.58,
+      "obv": 0.34,
+      "volume_ratio": 0.28,
+      "bollinger_bands": 0.26,
+      "rsi": 0.22,
+      "stochastic": 0.18
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 3.82,
+    "correct": false,
+    "logged_at": "2026-04-03T11:33:52.485789"
+  },
+  {
+    "date": "2022-10-26",
+    "predicted_direction": "up",
+    "predicted_probability": 58,
+    "predicted_return": 4.2,
+    "key_factors": [
+      "MACD histogram is strongly bullish with ADX above 30, indicating a strengthening upside swing",
+      "Price has reclaimed short-term averages and OBV is rising, showing improving accumulation",
+      "AAPL-specific news flow is mildly positive and historically sentiment has been highly predictive for this stock"
+    ],
+    "indicator_importance": {
+      "sma_trend": 0.92,
+      "news_sentiment": 0.88,
+      "atr": 0.72,
+      "golden_cross": 0.8,
+      "macd": 0.84,
+      "adx": 0.68,
+      "ema_alignment": 0.63,
+      "stochastic": 0.58,
+      "bollinger_bands": 0.55,
+      "obv": 0.46
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -2.89,
+    "correct": false,
+    "logged_at": "2026-04-03T11:33:58.807528"
+  },
+  {
+    "date": "2022-11-02",
+    "predicted_direction": "down",
+    "predicted_probability": 58,
+    "predicted_return": -4.2,
+    "key_factors": [
+      "bearish primary trend with price below EMA25/50/100 and SMA50/SMA200, plus no golden cross",
+      "news flow is net negative for AAPL due to Zhengzhou iPhone factory COVID disruption despite relative strength vs mega-cap peers",
+      "volume/confirmation is weak with OBV trending down and ADX showing sellers still slightly in control"
+    ],
+    "indicator_importance": {
+      "sma_trend": 0.87,
+      "news_sentiment": 0.84,
+      "atr": 0.66,
+      "golden_cross": 0.72,
+      "macd": 0.63,
+      "ema_alignment": 0.74,
+      "adx": 0.58,
+      "obv": 0.55,
+      "bollinger_bands": 0.41
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -7.01,
+    "correct": true,
+    "logged_at": "2026-04-03T11:34:04.388111"
+  },
+  {
+    "date": "2022-11-09",
+    "predicted_direction": "down",
+    "predicted_probability": 68,
+    "predicted_return": -6.5,
+    "key_factors": [
+      "Strong bearish trend structure with price below all major EMAs/SMAs, negative EMA alignment, and no golden cross",
+      "Bearish momentum/trend confirmation from negative MACD, ADX above 30 with -DI well above +DI, and declining OBV",
+      "News flow is mildly bearish to neutral with macro risk dominating and no AAPL-specific positive catalyst"
+    ],
+    "indicator_importance": {
+      "sma_trend": 0.94,
+      "news_sentiment": 0.82,
+      "atr": 0.74,
+      "golden_cross": 0.78,
+      "macd": 0.84,
+      "ema_alignment": 0.88,
+      "adx": 0.79,
+      "bollinger_bands": 0.63,
+      "stochastic": 0.58,
+      "williams_r": 0.55,
+      "cci": 0.52,
+      "obv": 0.61,
+      "volume_ratio": 0.43
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 10.32,
+    "correct": false,
+    "logged_at": "2026-04-03T11:34:09.851978"
+  },
+  {
+    "date": "2022-11-16",
+    "predicted_direction": "up",
+    "predicted_probability": 58,
+    "predicted_return": 6.2,
+    "key_factors": [
+      "MACD histogram is strongly positive with +DI above -DI and ADX near 25, indicating improving upside momentum",
+      "Price is above the 25/50-day averages and OBV trend is rising, suggesting accumulation despite light volume",
+      "News flow is mixed but includes some stock-specific bullish sentiment, while the broader setup looks more like recovery than breakdown"
+    ],
+    "indicator_importance": {
+      "sma_trend": 0.84,
+      "news_sentiment": 0.8,
+      "atr": 0.72,
+      "golden_cross": 0.68,
+      "macd": 0.76,
+      "ema_alignment": 0.66,
+      "adx": 0.61,
+      "bollinger_bands": 0.52,
+      "volume_ratio": 0.34,
+      "obv": 0.43,
+      "rsi": 0.29,
+      "stochastic": 0.21
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 1.53,
+    "correct": true,
+    "logged_at": "2026-04-03T11:34:18.610575"
+  },
+  {
+    "date": "2022-11-23",
+    "predicted_direction": "up",
+    "predicted_probability": 58,
+    "predicted_return": 4.6,
+    "key_factors": [
+      "bullish MACD with positive histogram and +DI above -DI indicates improving intermediate trend",
+      "price is above SMA20/SMA50 and near EMA100, suggesting recovery from prior weakness despite no golden cross",
+      "news flow is mixed but iPhone wait-time data implies strong demand, partially offsetting supply concerns"
+    ],
+    "indicator_importance": {
+      "sma_trend": 0.82,
+      "news_sentiment": 0.8,
+      "atr": 0.62,
+      "golden_cross": 0.66,
+      "macd": 0.78,
+      "adx": 0.58,
+      "stochastic": 0.57,
+      "williams_r": 0.49,
+      "bollinger_bands": 0.46,
+      "volume_ratio": 0.41,
+      "obv": 0.34
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -1.83,
+    "correct": false,
+    "logged_at": "2026-04-03T11:34:24.202265"
+  },
+  {
+    "date": "2022-12-01",
+    "predicted_direction": "down",
+    "predicted_probability": 61,
+    "predicted_return": -4.2,
+    "key_factors": [
+      "negative news flow around China lockdowns and iPhone production cuts",
+      "longer-term trend remains weak with price below SMA200 and no golden cross",
+      "MACD histogram is bearish and ADX indicates only a weak rebound rather than a strong uptrend"
+    ],
+    "indicator_importance": {
+      "news_sentiment": 0.92,
+      "sma_trend": 0.84,
+      "atr": 0.72,
+      "golden_cross": 0.7,
+      "ema_alignment": 0.69,
+      "macd": 0.66,
+      "adx": 0.48,
+      "bollinger_bands": 0.42,
+      "obv": 0.34,
+      "volume_ratio": 0.28,
+      "rsi": 0.24,
+      "stochastic": 0.2
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -3.82,
+    "correct": true,
+    "logged_at": "2026-04-03T11:34:30.226105"
+  },
+  {
+    "date": "2022-12-08",
+    "predicted_direction": "down",
+    "predicted_probability": 63,
+    "predicted_return": -5.2,
+    "key_factors": [
+      "Bearish trend structure with price below EMA25/50/100, negative 4/4 EMA alignment, and no golden cross",
+      "Negative momentum confirmation from bearish MACD, CCI below -100, Williams %R near oversold, and price sitting near the lower Bollinger Band",
+      "Weak participation with below-average volume and declining OBV, while news flow is mostly neutral/mixed and lacks a strong positive catalyst"
+    ],
+    "indicator_importance": {
+      "sma_trend": 0.9,
+      "atr": 0.72,
+      "news_sentiment": 0.68,
+      "golden_cross": 0.8,
+      "ema_alignment": 0.84,
+      "macd": 0.78,
+      "cci": 0.62,
+      "bollinger_bands": 0.58,
+      "obv": 0.55,
+      "volume_ratio": 0.46,
+      "adx": 0.44
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -4.31,
+    "correct": true,
+    "logged_at": "2026-04-03T11:34:36.216192"
+  },
+  {
+    "date": "2022-12-15",
+    "predicted_direction": "down",
+    "predicted_probability": 68,
+    "predicted_return": -6.0,
+    "key_factors": [
+      "Broadly bearish trend structure with price below EMA25/50/100, negative 4/4 EMA alignment, and no golden cross",
+      "Negative momentum confirmation from bearish MACD, weak OBV trend, and price pressing below the lower Bollinger Band on elevated volume",
+      "News flow is net bearish and macro-driven, with Fed tightening and weak economic data weighing on mega-cap tech sentiment"
+    ],
+    "indicator_importance": {
+      "sma_trend": 0.92,
+      "news_sentiment": 0.88,
+      "atr": 0.74,
+      "golden_cross": 0.8,
+      "ema_alignment": 0.86,
+      "macd": 0.78,
+      "bollinger_bands": 0.66,
+      "obv": 0.62,
+      "stochastic": 0.58,
+      "adx": 0.52
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -3.13,
+    "correct": true,
+    "logged_at": "2026-04-03T11:34:42.227284"
+  },
+  {
+    "date": "2022-12-22",
+    "predicted_direction": "down",
+    "predicted_probability": 72,
+    "predicted_return": -7.4,
+    "key_factors": [
+      "Strong bearish trend structure with price below all major EMAs/SMAs, negative EMA alignment, and no golden cross",
+      "Bearish momentum/trend confirmation from negative MACD, ADX with -DI well above +DI, and declining OBV",
+      "News flow is net bearish for AAPL and large-cap tech, highlighting macro, supply-chain, and geopolitical headwinds with estimate cuts"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.9,
+      "sma_trend": 0.95,
+      "golden_cross": 0.82,
+      "macd": 0.78,
+      "adx": 0.72,
+      "rsi": 0.42,
+      "stochastic": 0.4,
+      "williams_r": 0.36,
+      "cci": 0.34,
+      "bollinger_bands": 0.48,
+      "atr": 0.84,
+      "obv": 0.58,
+      "news_sentiment": 0.88
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -1.74,
+    "correct": true,
+    "logged_at": "2026-04-03T11:34:49.490142"
+  },
+  {
+    "date": "2022-12-30",
+    "predicted_direction": "down",
+    "predicted_probability": 68,
+    "predicted_return": -6.2,
+    "key_factors": [
+      "Strong bearish trend structure with price below EMA25/50/100 and SMA20/50/200, plus no golden cross",
+      "Bearish momentum confirmation from negative MACD histogram, ADX 32 with -DI well above +DI, and declining OBV",
+      "News flow is mixed but skewed negative due to lower iPhone sales estimates and recession/rate fears, which matters heavily for AAPL historically"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.92,
+      "sma_trend": 0.94,
+      "golden_cross": 0.83,
+      "macd": 0.8,
+      "adx": 0.78,
+      "atr": 0.71,
+      "bollinger_bands": 0.58,
+      "stochastic": 0.52,
+      "rsi": 0.49,
+      "williams_r": 0.44,
+      "obv": 0.55,
+      "news_sentiment": 0.74
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 0.17,
+    "correct": false,
+    "logged_at": "2026-04-03T11:34:55.665101"
+  },
+  {
+    "date": "2023-01-09",
+    "predicted_direction": "down",
+    "predicted_probability": 62,
+    "predicted_return": -4.8,
+    "key_factors": [
+      "Strong bearish trend structure with price below EMA25/50/100, negative 4/4 EMA alignment, and SMA50 below SMA200",
+      "Most predictive AAPL indicators are bearish: sma_trend, golden_cross, ema_alignment, and elevated ATR all point to continued downside regime",
+      "News flow is mixed to slightly negative overall, with antitrust/regulatory overhang outweighing only modestly positive Apple-specific chip-development commentary"
+    ],
+    "indicator_importance": {
+      "sma_trend": 0.92,
+      "atr": 0.84,
+      "news_sentiment": 0.8,
+      "golden_cross": 0.79,
+      "ema_alignment": 0.86,
+      "adx": 0.63,
+      "macd": 0.52,
+      "obv": 0.41,
+      "volume_ratio": 0.34,
+      "bollinger_bands": 0.38,
+      "rsi": 0.29,
+      "stochastic": 0.24
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 4.45,
+    "correct": false,
+    "logged_at": "2026-04-03T11:35:02.185279"
+  },
+  {
+    "date": "2023-01-17",
+    "predicted_direction": "up",
+    "predicted_probability": 61,
+    "predicted_return": 6.2,
+    "key_factors": [
+      "MACD has turned bullish with positive histogram and ADX confirms a strengthening uptrend",
+      "Price has reclaimed the 25-day EMA and sits near the upper Bollinger Band with improving OBV, signaling near-term accumulation",
+      "News flow is mixed-to-slightly-positive and broad market/tech sentiment has improved, which matters heavily for AAPL's historically sentiment-driven profile"
+    ],
+    "indicator_importance": {
+      "sma_trend": 0.88,
+      "atr": 0.72,
+      "news_sentiment": 0.8,
+      "golden_cross": 0.74,
+      "ema_alignment": 0.76,
+      "macd": 0.79,
+      "adx": 0.67,
+      "stochastic": 0.55,
+      "williams_r": 0.48,
+      "cci": 0.46,
+      "bollinger_bands": 0.52,
+      "volume_ratio": 0.34,
+      "obv": 0.43
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 4.85,
+    "correct": true,
+    "logged_at": "2026-04-03T11:35:08.508770"
+  },
+  {
+    "date": "2023-01-24",
+    "predicted_direction": "up",
+    "predicted_probability": 62,
+    "predicted_return": 6.4,
+    "key_factors": [
+      "strong short-term trend confirmation from MACD bullish crossover and high ADX with +DI well above -DI",
+      "price has reclaimed key moving averages and sits above EMA50/EMA100 with improving OBV",
+      "news flow is mildly positive to neutral with no clear negative Apple-specific catalyst"
+    ],
+    "indicator_importance": {
+      "sma_trend": 0.84,
+      "atr": 0.72,
+      "news_sentiment": 0.68,
+      "golden_cross": 0.66,
+      "ema_alignment": 0.64,
+      "macd": 0.78,
+      "adx": 0.74,
+      "bollinger_bands": 0.58,
+      "stochastic": 0.55,
+      "obv": 0.46
+    },
+    "sentiment_weight": 0.75,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 1.23,
+    "correct": true,
+    "logged_at": "2026-04-03T11:35:14.395327"
+  },
+  {
+    "date": "2023-01-31",
+    "predicted_direction": "up",
+    "predicted_probability": 61,
+    "predicted_return": 5.2,
+    "key_factors": [
+      "strong bullish trend confirmation from MACD and high ADX with +DI well above -DI",
+      "price is above all major short/intermediate moving averages except SMA200, supporting continued recovery momentum",
+      "news flow is mostly neutral-to-slightly positive with major macro/earnings event risk but no AAPL-specific negative catalyst"
+    ],
+    "indicator_importance": {
+      "sma_trend": 0.88,
+      "atr": 0.72,
+      "news_sentiment": 0.66,
+      "golden_cross": 0.7,
+      "ema_alignment": 0.78,
+      "macd": 0.82,
+      "adx": 0.8,
+      "stochastic": 0.58,
+      "bollinger_bands": 0.55,
+      "obv": 0.42
+    },
+    "sentiment_weight": 0.58,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 7.18,
+    "correct": true,
+    "logged_at": "2026-04-03T11:35:20.303652"
+  },
+  {
+    "date": "2023-02-07",
+    "predicted_direction": "up",
+    "predicted_probability": 62,
+    "predicted_return": 6.4,
+    "key_factors": [
+      "very strong trend strength with bullish MACD and ADX confirming upside momentum",
+      "price is above all major moving averages and SMA trend remains positive despite no golden cross",
+      "news flow is mildly positive to neutral with supplier commentary and broad market strength supportive for Apple"
+    ],
+    "indicator_importance": {
+      "sma_trend": 0.9,
+      "atr": 0.72,
+      "news_sentiment": 0.66,
+      "golden_cross": 0.63,
+      "ema_alignment": 0.62,
+      "macd": 0.78,
+      "adx": 0.76,
+      "rsi": 0.67,
+      "stochastic": 0.58,
+      "bollinger_bands": 0.61,
+      "obv": 0.44,
+      "volume_ratio": 0.36
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -0.94,
+    "correct": false,
+    "logged_at": "2026-04-03T11:35:24.863994"
+  },
+  {
+    "date": "2023-02-14",
+    "predicted_direction": "up",
+    "predicted_probability": 61,
+    "predicted_return": 6.2,
+    "key_factors": [
+      "price is above all major moving averages with strong trend strength and bullish MACD",
+      "historically important SMA trend and ATR backdrop are supportive for AAPL",
+      "news flow is modestly positive with Berkshire stake increase and generally favorable buy-oriented commentary"
+    ],
+    "indicator_importance": {
+      "sma_trend": 0.92,
+      "news_sentiment": 0.84,
+      "atr": 0.78,
+      "ema_alignment": 0.76,
+      "golden_cross": 0.68,
+      "macd": 0.72,
+      "adx": 0.7,
+      "bollinger_bands": 0.58,
+      "volume_ratio": 0.42,
+      "obv": 0.4,
+      "rsi": 0.36,
+      "stochastic": 0.3
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -2.8,
+    "correct": false,
+    "logged_at": "2026-04-03T11:35:31.296912"
+  },
+  {
+    "date": "2023-02-22",
+    "predicted_direction": "down",
+    "predicted_probability": 58,
+    "predicted_return": -3.2,
+    "key_factors": [
+      "bearish MACD histogram with momentum rollover after recent rally",
+      "weak higher-timeframe trend structure with no golden cross and mixed EMA alignment",
+      "low volume and declining OBV suggest limited buying conviction despite oversold short-term oscillators"
+    ],
+    "indicator_importance": {
+      "sma_trend": 0.88,
+      "news_sentiment": 0.72,
+      "atr": 0.66,
+      "ema_alignment": 0.7,
+      "golden_cross": 0.74,
+      "macd": 0.77,
+      "adx": 0.58,
+      "stochastic": 0.52,
+      "williams_r": 0.49,
+      "bollinger_bands": 0.44,
+      "volume_ratio": 0.55,
+      "obv": 0.6
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -2.42,
+    "correct": true,
+    "logged_at": "2026-04-03T11:35:36.092061"
+  },
+  {
+    "date": "2023-03-01",
+    "predicted_direction": "down",
+    "predicted_probability": 61,
+    "predicted_return": -4.2,
+    "key_factors": [
+      "bearish trend structure with price below EMA25 and SMA200, no golden cross, and weak EMA alignment",
+      "MACD bearish crossover with negative histogram and ADX showing sellers in control (+DI below -DI)",
+      "news flow is mixed-to-negative, led by worsening smartphone demand outlook, which matters heavily for AAPL's historically high sentiment weight"
+    ],
+    "indicator_importance": {
+      "sma_trend": 0.86,
+      "news_sentiment": 0.84,
+      "ema_alignment": 0.8,
+      "macd": 0.79,
+      "adx": 0.68,
+      "atr": 0.62,
+      "bollinger_bands": 0.55,
+      "stochastic": 0.48,
+      "williams_r": 0.45,
+      "cci": 0.43,
+      "obv": 0.41,
+      "volume_ratio": 0.34,
+      "golden_cross": 0.33,
+      "rsi": 0.29
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 5.2,
+    "correct": false,
+    "logged_at": "2026-04-03T11:35:41.410747"
+  },
+  {
+    "date": "2023-03-08",
+    "predicted_direction": "up",
+    "predicted_probability": 58,
+    "predicted_return": 4.6,
+    "key_factors": [
+      "strong multi-timeframe trend with full EMA alignment and price above key SMAs",
+      "AAPL-specific news flow is modestly positive due to rebounding China iPhone demand and bullish analyst support",
+      "ADX above 25 with +DI leading -DI and OBV trending up suggest underlying trend strength despite short-term weakness"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.88,
+      "sma_trend": 0.86,
+      "news_sentiment": 0.84,
+      "macd": 0.77,
+      "golden_cross": 0.66,
+      "adx": 0.64,
+      "obv": 0.45,
+      "rsi": 0.34,
+      "bollinger_bands": 0.31,
+      "volume_ratio": 0.22
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 0.08,
+    "correct": true,
+    "logged_at": "2026-04-03T11:35:46.980147"
+  },
+  {
+    "date": "2023-03-15",
+    "predicted_direction": "up",
+    "predicted_probability": 61,
+    "predicted_return": 6.4,
+    "key_factors": [
+      "strong multi-timeframe trend with price above EMA25/50/100 and SMA20/50/200",
+      "news flow is net positive as AAPL is attracting safe-haven megacap inflows during banking stress",
+      "volume confirmation is constructive with above-average volume and rising OBV"
+    ],
+    "indicator_importance": {
+      "sma_trend": 0.9,
+      "news_sentiment": 0.9,
+      "ema_alignment": 0.86,
+      "macd": 0.62,
+      "golden_cross": 0.55,
+      "adx": 0.46,
+      "volume_ratio": 0.41,
+      "obv": 0.52,
+      "bollinger_bands": 0.34,
+      "rsi": 0.31,
+      "stochastic": 0.24
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 3.16,
+    "correct": true,
+    "logged_at": "2026-04-03T11:35:51.946934"
+  },
+  {
+    "date": "2023-03-22",
+    "predicted_direction": "up",
+    "predicted_probability": 64,
+    "predicted_return": 6.7,
+    "key_factors": [
+      "strong multi-timeframe uptrend with 4/4 EMA alignment and price above all major SMAs",
+      "bullish MACD and ADX near 29 with +DI far above -DI indicating a strong active trend",
+      "news flow is mildly positive for Apple via Apple TV+/brand strength and no meaningful negative catalyst in the provided headlines"
+    ],
+    "indicator_importance": {
+      "sma_trend": 0.9,
+      "ema_alignment": 0.88,
+      "macd": 0.84,
+      "news_sentiment": 0.78,
+      "adx": 0.74,
+      "golden_cross": 0.58,
+      "bollinger_bands": 0.52,
+      "cci": 0.49,
+      "obv": 0.46,
+      "rsi": 0.42
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 1.86,
+    "correct": true,
+    "logged_at": "2026-04-03T11:35:57.256289"
+  },
+  {
+    "date": "2023-03-29",
+    "predicted_direction": "up",
+    "predicted_probability": 68,
+    "predicted_return": 7.2,
+    "key_factors": [
+      "strong multi-timeframe uptrend with full EMA/SMA alignment and active golden cross",
+      "bullish MACD and high ADX indicate a strong, persistent trend",
+      "news flow is supportive with risk-on tech sentiment and a credible WWDC product catalyst"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.91,
+      "sma_trend": 0.9,
+      "golden_cross": 0.86,
+      "macd": 0.84,
+      "news_sentiment": 0.8,
+      "adx": 0.74,
+      "stochastic": 0.58,
+      "bollinger_bands": 0.56,
+      "volume_ratio": 0.42,
+      "obv": 0.41,
+      "rsi": 0.39,
+      "williams_r": 0.34,
+      "cci": 0.3
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 1.86,
+    "correct": true,
+    "logged_at": "2026-04-03T11:36:02.823631"
+  },
+  {
+    "date": "2023-04-05",
+    "predicted_direction": "up",
+    "predicted_probability": 67,
+    "predicted_return": 6.8,
+    "key_factors": [
+      "strong multi-timeframe uptrend with full EMA alignment and bullish SMA structure",
+      "positive MACD and high ADX indicate a strong established trend rather than a weak bounce",
+      "news flow is mixed but net supportive for megacap tech, which matters heavily for AAPL historically"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.92,
+      "sma_trend": 0.91,
+      "golden_cross": 0.84,
+      "macd": 0.86,
+      "adx": 0.78,
+      "rsi": 0.58,
+      "stochastic": 0.42,
+      "bollinger_bands": 0.49,
+      "volume_ratio": 0.31,
+      "obv": 0.37,
+      "news_sentiment": 0.81
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 1.1,
+    "correct": true,
+    "logged_at": "2026-04-03T11:36:08.198960"
+  },
+  {
+    "date": "2023-04-13",
+    "predicted_direction": "up",
+    "predicted_probability": 67,
+    "predicted_return": 6.8,
+    "key_factors": [
+      "strong multi-timeframe uptrend with full EMA alignment and bullish SMA structure including golden cross",
+      "supportive news flow and analyst optimism around demand resilience, China recovery, and improving macro risk appetite",
+      "ADX near 29 with +DI well above -DI indicates the underlying uptrend still has strength despite short-term consolidation"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.92,
+      "sma_trend": 0.9,
+      "golden_cross": 0.84,
+      "news_sentiment": 0.82,
+      "macd": 0.74,
+      "adx": 0.68,
+      "stochastic": 0.58,
+      "bollinger_bands": 0.56,
+      "obv": 0.5,
+      "rsi": 0.44
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 0.66,
+    "correct": true,
+    "logged_at": "2026-04-03T11:36:14.064290"
+  },
+  {
+    "date": "2023-04-20",
+    "predicted_direction": "up",
+    "predicted_probability": 64,
+    "predicted_return": 6.2,
+    "key_factors": [
+      "strong multi-timeframe uptrend with full EMA alignment and SMA50 above SMA200",
+      "high ADX with +DI well above -DI confirms a strong prevailing bullish trend",
+      "news flow is mildly positive to neutral for mega-cap tech and Apple ecosystem exposure, with no clear negative catalyst"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.94,
+      "sma_trend": 0.91,
+      "golden_cross": 0.86,
+      "macd": 0.74,
+      "adx": 0.78,
+      "stochastic": 0.58,
+      "rsi": 0.46,
+      "bollinger_bands": 0.49,
+      "obv": 0.42,
+      "news_sentiment": 0.71
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 1.06,
+    "correct": true,
+    "logged_at": "2026-04-03T11:36:19.209974"
+  },
+  {
+    "date": "2023-04-27",
+    "predicted_direction": "up",
+    "predicted_probability": 61,
+    "predicted_return": 4.8,
+    "key_factors": [
+      "strong multi-timeframe uptrend with full EMA alignment and bullish SMA structure including golden cross",
+      "ADX above 30 with +DI well above -DI and rising OBV/above-average volume confirming trend participation",
+      "AAPL-specific news flow is only mildly negative while broader sentiment remains mixed rather than decisively bearish"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.92,
+      "sma_trend": 0.9,
+      "golden_cross": 0.82,
+      "macd": 0.78,
+      "adx": 0.74,
+      "news_sentiment": 0.72,
+      "stochastic": 0.66,
+      "bollinger_bands": 0.62,
+      "obv": 0.58,
+      "rsi": 0.54
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -1.56,
+    "correct": false,
+    "logged_at": "2026-04-03T11:36:24.496228"
+  },
+  {
+    "date": "2023-05-04",
+    "predicted_direction": "up",
+    "predicted_probability": 66,
+    "predicted_return": 6.2,
+    "key_factors": [
+      "strong multi-timeframe uptrend with full EMA alignment and bullish SMA structure/golden cross",
+      "earnings beat with stronger-than-expected iPhone sales, record services revenue, and dividend increase",
+      "AAPL's historically most predictive factors for this name (sma_trend, ema_alignment, news_sentiment, golden_cross) are mostly supportive"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.92,
+      "sma_trend": 0.91,
+      "golden_cross": 0.84,
+      "news_sentiment": 0.88,
+      "macd": 0.72,
+      "adx": 0.58,
+      "obv": 0.55,
+      "volume_ratio": 0.44,
+      "rsi": 0.36,
+      "stochastic": 0.34,
+      "bollinger_bands": 0.28
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 4.8,
+    "correct": true,
+    "logged_at": "2026-04-03T11:36:30.380972"
+  },
+  {
+    "date": "2023-05-11",
+    "predicted_direction": "up",
+    "predicted_probability": 62,
+    "predicted_return": 5.4,
+    "key_factors": [
+      "strong multi-timeframe uptrend with full EMA alignment and bullish SMA structure/golden cross",
+      "MACD remains bullish and ADX indicates a strong established trend",
+      "AAPL-specific news flow is limited/neutral, reducing negative sentiment drag while OBV still trends up"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.94,
+      "sma_trend": 0.92,
+      "golden_cross": 0.88,
+      "macd": 0.84,
+      "adx": 0.76,
+      "news_sentiment": 0.7,
+      "bollinger_bands": 0.58,
+      "stochastic": 0.56,
+      "rsi": 0.49,
+      "obv": 0.42,
+      "volume_ratio": 0.31,
+      "williams_r": 0.28,
+      "cci": 0.27
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 0.75,
+    "correct": true,
+    "logged_at": "2026-04-03T11:36:37.262840"
+  },
+  {
+    "date": "2023-05-18",
+    "predicted_direction": "up",
+    "predicted_probability": 64,
+    "predicted_return": 6.7,
+    "key_factors": [
+      "strong multi-timeframe uptrend with full EMA alignment and bullish SMA structure including golden cross",
+      "ADX above 30 with +DI well above -DI confirms trend strength, while OBV and slightly above-average volume support accumulation",
+      "news flow is broadly positive for large-cap tech and Apple-specific sentiment is favorable, which matters heavily for AAPL historically"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.92,
+      "sma_trend": 0.9,
+      "golden_cross": 0.84,
+      "macd": 0.72,
+      "adx": 0.74,
+      "stochastic": 0.58,
+      "williams_r": 0.52,
+      "bollinger_bands": 0.55,
+      "volume_ratio": 0.41,
+      "obv": 0.49,
+      "news_sentiment": 0.86
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -1.18,
+    "correct": false,
+    "logged_at": "2026-04-03T11:36:43.001226"
+  },
+  {
+    "date": "2023-05-25",
+    "predicted_direction": "up",
+    "predicted_probability": 61,
+    "predicted_return": 5.2,
+    "key_factors": [
+      "strong multi-timeframe uptrend with full EMA alignment and bullish SMA structure/golden cross",
+      "AAPL-specific and sector sentiment is modestly supportive as growth/AI-driven tech leadership remains strong",
+      "OBV trend is rising and momentum is neutral rather than overbought, leaving room for continuation"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.92,
+      "sma_trend": 0.9,
+      "golden_cross": 0.84,
+      "macd": 0.78,
+      "news_sentiment": 0.72,
+      "obv": 0.58,
+      "adx": 0.5,
+      "rsi": 0.44,
+      "bollinger_bands": 0.36
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 4.6,
+    "correct": true,
+    "logged_at": "2026-04-03T11:36:48.605441"
+  },
+  {
+    "date": "2023-06-02",
+    "predicted_direction": "up",
+    "predicted_probability": 63,
+    "predicted_return": 5.8,
+    "key_factors": [
+      "strong multi-timeframe uptrend with full EMA alignment and bullish SMA structure",
+      "positive MACD and strong ADX confirm trend strength",
+      "news flow is modestly bullish due to Vision Pro optimism and analyst price-target support"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.92,
+      "sma_trend": 0.9,
+      "golden_cross": 0.84,
+      "macd": 0.82,
+      "adx": 0.74,
+      "rsi": 0.66,
+      "stochastic": 0.58,
+      "bollinger_bands": 0.55,
+      "obv": 0.42,
+      "news_sentiment": 0.78
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 0.01,
+    "correct": true,
+    "logged_at": "2026-04-03T11:36:53.741058"
+  },
+  {
+    "date": "2023-06-09",
+    "predicted_direction": "up",
+    "predicted_probability": 61,
+    "predicted_return": 4.8,
+    "key_factors": [
+      "strong multi-timeframe uptrend with full EMA alignment and SMA50 above SMA200",
+      "very strong trend confirmation from ADX 48.49 with positive MACD histogram",
+      "news flow is mixed but still supported by broad mega-cap tech and market bullish sentiment"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.92,
+      "sma_trend": 0.9,
+      "golden_cross": 0.84,
+      "macd": 0.82,
+      "adx": 0.78,
+      "news_sentiment": 0.74,
+      "bollinger_bands": 0.58,
+      "rsi": 0.52,
+      "obv": 0.47,
+      "volume_ratio": 0.41
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 2.19,
+    "correct": true,
+    "logged_at": "2026-04-03T11:37:00.151831"
+  },
+  {
+    "date": "2023-06-16",
+    "predicted_direction": "up",
+    "predicted_probability": 62,
+    "predicted_return": 5.8,
+    "key_factors": [
+      "strong multi-timeframe uptrend with full EMA alignment and bullish SMA structure/golden cross",
+      "MACD remains bullish and ADX at 60 signals a very strong prevailing trend",
+      "AAPL's historically most predictive indicators for this stock (sma_trend, ema_alignment, golden_cross, macd) are all supportive"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.92,
+      "sma_trend": 0.91,
+      "golden_cross": 0.86,
+      "macd": 0.84,
+      "adx": 0.74,
+      "news_sentiment": 0.58,
+      "rsi": 0.52,
+      "stochastic": 0.49,
+      "bollinger_bands": 0.43,
+      "obv": 0.39,
+      "volume_ratio": 0.31
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 0.19,
+    "correct": true,
+    "logged_at": "2026-04-03T11:37:05.744499"
+  },
+  {
+    "date": "2023-06-26",
+    "predicted_direction": "up",
+    "predicted_probability": 61,
+    "predicted_return": 4.8,
+    "key_factors": [
+      "strong multi-timeframe uptrend with full EMA alignment and bullish SMA structure including golden cross",
+      "very strong trend strength via ADX despite only mild momentum cooling",
+      "news flow is mixed-to-slightly negative but lacks a company-specific bearish catalyst"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.94,
+      "sma_trend": 0.92,
+      "golden_cross": 0.86,
+      "macd": 0.74,
+      "news_sentiment": 0.72,
+      "adx": 0.68,
+      "obv": 0.55,
+      "volume_ratio": 0.49,
+      "bollinger_bands": 0.43,
+      "rsi": 0.38,
+      "stochastic": 0.31
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 3.88,
+    "correct": true,
+    "logged_at": "2026-04-03T11:37:11.500827"
+  },
+  {
+    "date": "2023-07-03",
+    "predicted_direction": "up",
+    "predicted_probability": 62,
+    "predicted_return": 4.8,
+    "key_factors": [
+      "strong multi-timeframe uptrend with full EMA alignment, bullish SMA structure, and golden cross",
+      "MACD remains bullish and ADX is very strong, indicating trend persistence despite short-term stretch",
+      "news/sentiment is mildly positive to neutral, highlighted by the $3 trillion market cap milestone and no clear negative catalyst"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.95,
+      "sma_trend": 0.92,
+      "golden_cross": 0.88,
+      "macd": 0.86,
+      "adx": 0.82,
+      "news_sentiment": 0.72,
+      "rsi": 0.68,
+      "stochastic": 0.62,
+      "bollinger_bands": 0.58,
+      "volume_ratio": 0.44,
+      "obv": 0.4,
+      "williams_r": 0.38,
+      "cci": 0.36
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -2.28,
+    "correct": false,
+    "logged_at": "2026-04-03T11:37:17.252620"
+  },
+  {
+    "date": "2023-07-11",
+    "predicted_direction": "up",
+    "predicted_probability": 59,
+    "predicted_return": 4.2,
+    "key_factors": [
+      "strong multi-timeframe uptrend with full EMA alignment and bullish SMA structure including golden cross",
+      "news flow is modestly positive for large-cap tech and AAPL specifically, which matters heavily for this stock's historical signal mix",
+      "price is holding above key moving averages with neutral momentum, leaving room for continuation despite short-term consolidation"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.92,
+      "sma_trend": 0.9,
+      "golden_cross": 0.84,
+      "macd": 0.82,
+      "news_sentiment": 0.8,
+      "adx": 0.68,
+      "obv": 0.62,
+      "volume_ratio": 0.55,
+      "rsi": 0.46,
+      "bollinger_bands": 0.38
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 3.0,
+    "correct": true,
+    "logged_at": "2026-04-03T11:37:23.674045"
+  },
+  {
+    "date": "2023-07-18",
+    "predicted_direction": "up",
+    "predicted_probability": 61,
+    "predicted_return": 5.2,
+    "key_factors": [
+      "strong multi-timeframe uptrend with 4/4 EMA alignment and bullish SMA structure including golden cross",
+      "ADX at 35 with +DI well above -DI confirms a strong prevailing trend despite short-term momentum cooling",
+      "news flow is moderately positive for AAPL and mega-cap tech, which matters heavily given AAPL's high sentiment weighting"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.93,
+      "sma_trend": 0.91,
+      "golden_cross": 0.86,
+      "news_sentiment": 0.82,
+      "macd": 0.8,
+      "adx": 0.74,
+      "stochastic": 0.63,
+      "rsi": 0.58,
+      "bollinger_bands": 0.55,
+      "obv": 0.42
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -0.06,
+    "correct": false,
+    "logged_at": "2026-04-03T11:37:28.742049"
+  },
+  {
+    "date": "2023-07-25",
+    "predicted_direction": "up",
+    "predicted_probability": 61,
+    "predicted_return": 4.7,
+    "key_factors": [
+      "strong multi-timeframe uptrend with full EMA alignment, bullish SMA structure, and active golden cross",
+      "ADX at 40.2 confirms a strong prevailing trend despite short-term MACD softness",
+      "news flow is mildly positive overall, led by expectations for an earnings beat ahead of the Aug. 3 report"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.92,
+      "sma_trend": 0.9,
+      "golden_cross": 0.84,
+      "macd": 0.78,
+      "news_sentiment": 0.76,
+      "adx": 0.67,
+      "volume_ratio": 0.45,
+      "obv": 0.44,
+      "bollinger_bands": 0.41,
+      "rsi": 0.36
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 1.03,
+    "correct": true,
+    "logged_at": "2026-04-03T11:37:33.937705"
+  },
+  {
+    "date": "2023-08-01",
+    "predicted_direction": "up",
+    "predicted_probability": 62,
+    "predicted_return": 4.8,
+    "key_factors": [
+      "strong multi-timeframe uptrend with full EMA alignment and bullish SMA structure including golden cross",
+      "very strong trend strength via ADX despite only mild momentum overheating",
+      "news flow is mixed but includes constructive anticipation around Apple earnings, which offsets broader macro negativity"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.94,
+      "sma_trend": 0.92,
+      "golden_cross": 0.88,
+      "news_sentiment": 0.82,
+      "macd": 0.8,
+      "adx": 0.74,
+      "bollinger_bands": 0.58,
+      "rsi": 0.5,
+      "volume_ratio": 0.34,
+      "obv": 0.31
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -8.08,
+    "correct": false,
+    "logged_at": "2026-04-03T11:37:39.595706"
+  },
+  {
+    "date": "2023-08-08",
+    "predicted_direction": "down",
+    "predicted_probability": 67,
+    "predicted_return": -6.5,
+    "key_factors": [
+      "price is below the 25/50-day EMAs and 20/50-day SMAs while MACD is decisively bearish",
+      "very strong downtrend confirmation from ADX 50.3 with -DI far above +DI and declining OBV",
+      "historically important trend indicators for AAPL are mixed-to-bearish, while news is only mildly positive and not a strong near-term catalyst"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.86,
+      "sma_trend": 0.88,
+      "golden_cross": 0.54,
+      "macd": 0.84,
+      "adx": 0.8,
+      "rsi": 0.58,
+      "stochastic": 0.52,
+      "williams_r": 0.46,
+      "cci": 0.49,
+      "bollinger_bands": 0.57,
+      "obv": 0.63,
+      "volume_ratio": 0.35,
+      "news_sentiment": 0.66
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -1.31,
+    "correct": true,
+    "logged_at": "2026-04-03T11:37:45.707900"
+  },
+  {
+    "date": "2023-08-15",
+    "predicted_direction": "down",
+    "predicted_probability": 64,
+    "predicted_return": -4.8,
+    "key_factors": [
+      "Bearish trend structure in the intermediate term with price below EMA25, EMA50, SMA20, and SMA50",
+      "Strong downside trend confirmation from MACD bearish spread and very high ADX with -DI far above +DI",
+      "Weak participation as volume is only 0.75x average and 5-day OBV trend is down"
+    ],
+    "indicator_importance": {
+      "sma_trend": 0.9,
+      "ema_alignment": 0.86,
+      "macd": 0.84,
+      "adx": 0.8,
+      "news_sentiment": 0.58,
+      "stochastic": 0.52,
+      "williams_r": 0.49,
+      "obv": 0.46,
+      "volume_ratio": 0.41,
+      "golden_cross": 0.38,
+      "bollinger_bands": 0.37,
+      "rsi": 0.34,
+      "cci": 0.3
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -0.12,
+    "correct": true,
+    "logged_at": "2026-04-03T11:37:51.290534"
+  },
+  {
+    "date": "2023-08-22",
+    "predicted_direction": "down",
+    "predicted_probability": 66,
+    "predicted_return": -4.8,
+    "key_factors": [
+      "Bearish trend structure with price below EMA25, EMA50, SMA20, and SMA50 plus 0/4 EMA alignment",
+      "MACD bearish with negative histogram and very strong ADX confirming downside trend strength (-DI well above +DI)",
+      "Historically important trend indicators for AAPL are flashing negative while recent news is only mildly supportive and lacks a clear catalyst"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.94,
+      "sma_trend": 0.9,
+      "macd": 0.88,
+      "golden_cross": 0.62,
+      "adx": 0.79,
+      "rsi": 0.46,
+      "stochastic": 0.38,
+      "bollinger_bands": 0.41,
+      "volume_ratio": 0.29,
+      "obv": 0.24,
+      "news_sentiment": 0.58
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 3.89,
+    "correct": false,
+    "logged_at": "2026-04-03T11:37:58.482222"
+  },
+  {
+    "date": "2023-08-29",
+    "predicted_direction": "up",
+    "predicted_probability": 62,
+    "predicted_return": 6.4,
+    "key_factors": [
+      "bullish medium-term trend structure with price above EMA25/50/100 and a confirmed golden cross",
+      "MACD bullish crossover with positive histogram and strong ADX/+DI leadership indicating trend continuation",
+      "news flow is broadly positive with iPhone 15 launch catalyst and supportive tech-sector sentiment"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.78,
+      "sma_trend": 0.84,
+      "golden_cross": 0.72,
+      "macd": 0.8,
+      "adx": 0.67,
+      "stochastic": 0.58,
+      "williams_r": 0.5,
+      "bollinger_bands": 0.49,
+      "volume_ratio": 0.34,
+      "obv": 0.36,
+      "news_sentiment": 0.74
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -0.66,
+    "correct": false,
+    "logged_at": "2026-04-03T11:38:03.995535"
+  },
+  {
+    "date": "2023-09-06",
+    "predicted_direction": "down",
+    "predicted_probability": 58,
+    "predicted_return": -3.2,
+    "key_factors": [
+      "price remains below EMA25, EMA50, and SMA50 despite long-term uptrend",
+      "ADX above 35 with -DI above +DI indicates a strong near-term bearish trend",
+      "news flow is mildly negative/macro-driven with rising yields and inflation concerns pressuring large-cap tech"
+    ],
+    "indicator_importance": {
+      "sma_trend": 0.89,
+      "ema_alignment": 0.86,
+      "macd": 0.78,
+      "news_sentiment": 0.74,
+      "golden_cross": 0.68,
+      "adx": 0.67,
+      "volume_ratio": 0.42,
+      "obv": 0.39,
+      "rsi": 0.31,
+      "bollinger_bands": 0.28
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -4.76,
+    "correct": true,
+    "logged_at": "2026-04-03T11:38:09.744512"
+  },
+  {
+    "date": "2023-09-13",
+    "predicted_direction": "down",
+    "predicted_probability": 64,
+    "predicted_return": -5.2,
+    "key_factors": [
+      "Bearish trend structure with 0/4 EMA alignment and price below all key short/intermediate averages",
+      "MACD is bearish and ADX 35.52 with -DI far above +DI indicates a strong active downtrend",
+      "Volume confirms weakness via 1.38x volume and falling OBV, while news flow is mostly neutral-to-slightly negative and not AAPL-specific"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.92,
+      "sma_trend": 0.88,
+      "macd": 0.86,
+      "news_sentiment": 0.72,
+      "golden_cross": 0.63,
+      "adx": 0.78,
+      "stochastic": 0.58,
+      "williams_r": 0.55,
+      "bollinger_bands": 0.57,
+      "volume_ratio": 0.52,
+      "obv": 0.61,
+      "rsi": 0.46
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 0.73,
+    "correct": false,
+    "logged_at": "2026-04-03T11:38:16.809342"
+  },
+  {
+    "date": "2023-09-20",
+    "predicted_direction": "down",
+    "predicted_probability": 61,
+    "predicted_return": -4.2,
+    "key_factors": [
+      "Bearish trend structure with price below EMA25/50/100 and 0/4 EMA alignment",
+      "MACD bearish with negative histogram and ADX near 29 confirming a meaningful downtrend",
+      "News flow is mixed-to-slightly negative for AAPL specifically, with competitive and product-transition concerns and no strong positive catalyst"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.94,
+      "sma_trend": 0.88,
+      "macd": 0.9,
+      "news_sentiment": 0.78,
+      "golden_cross": 0.63,
+      "adx": 0.72,
+      "stochastic": 0.58,
+      "williams_r": 0.54,
+      "obv": 0.49,
+      "bollinger_bands": 0.45
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -2.88,
+    "correct": true,
+    "logged_at": "2026-04-03T11:38:22.485481"
+  },
+  {
+    "date": "2023-09-27",
+    "predicted_direction": "down",
+    "predicted_probability": 63,
+    "predicted_return": -4.2,
+    "key_factors": [
+      "Bearish trend structure with price below EMA25/50/100 and negative EMA alignment",
+      "MACD bearish with strong ADX and -DI dominance indicating a firm downtrend",
+      "News flow is mostly neutral-to-slightly negative for AAPL with no clear positive catalyst"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.91,
+      "sma_trend": 0.79,
+      "golden_cross": 0.58,
+      "macd": 0.88,
+      "adx": 0.76,
+      "stochastic": 0.55,
+      "williams_r": 0.48,
+      "cci": 0.46,
+      "bollinger_bands": 0.52,
+      "obv": 0.43,
+      "news_sentiment": 0.64
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 1.9,
+    "correct": false,
+    "logged_at": "2026-04-03T11:38:27.199755"
+  },
+  {
+    "date": "2023-10-04",
+    "predicted_direction": "up",
+    "predicted_probability": 58,
+    "predicted_return": 4.2,
+    "key_factors": [
+      "MACD has turned marginally bullish while OBV is rising, suggesting selling pressure may be fading",
+      "Price is below short- and medium-term moving averages, but the longer-term trend remains constructive with SMA50 above SMA200",
+      "News flow is mixed to slightly negative, yet lacks a strong company-specific bearish catalyst and macro pressure appears to be easing"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.9,
+      "sma_trend": 0.84,
+      "golden_cross": 0.74,
+      "macd": 0.86,
+      "adx": 0.72,
+      "bollinger_bands": 0.48,
+      "volume_ratio": 0.34,
+      "obv": 0.51,
+      "news_sentiment": 0.78
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 3.54,
+    "correct": true,
+    "logged_at": "2026-04-03T11:38:33.247933"
+  },
+  {
+    "date": "2023-10-11",
+    "predicted_direction": "up",
+    "predicted_probability": 61,
+    "predicted_return": 5.8,
+    "key_factors": [
+      "Bullish medium-term trend structure with price above SMA20/SMA50/SMA200 and an active golden cross",
+      "MACD bullish crossover with positive histogram and ADX near 29 indicating a strengthening uptrend",
+      "News flow is modestly positive for Apple specifically, led by favorable analyst commentary on iPhone ownership trends"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.72,
+      "sma_trend": 0.82,
+      "golden_cross": 0.78,
+      "macd": 0.81,
+      "adx": 0.66,
+      "stochastic": 0.58,
+      "williams_r": 0.46,
+      "cci": 0.49,
+      "bollinger_bands": 0.57,
+      "volume_ratio": 0.34,
+      "obv": 0.39,
+      "news_sentiment": 0.68
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -2.2,
+    "correct": false,
+    "logged_at": "2026-04-03T11:38:38.699151"
+  },
+  {
+    "date": "2023-10-18",
+    "predicted_direction": "down",
+    "predicted_probability": 58,
+    "predicted_return": -3.5,
+    "key_factors": [
+      "Negative EMA alignment with price below EMA25/50/100 despite long-term golden cross",
+      "News flow is mildly bearish for AAPL, led by MacBook shipment decline concerns and broader risk-off/safe-haven tone",
+      "Weak confirmation from volume/flow indicators with OBV trending down and ADX showing only modest trend strength with -DI above +DI"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.86,
+      "sma_trend": 0.74,
+      "golden_cross": 0.68,
+      "macd": 0.79,
+      "adx": 0.62,
+      "obv": 0.57,
+      "news_sentiment": 0.83,
+      "rsi": 0.41,
+      "bollinger_bands": 0.36
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -2.7,
+    "correct": true,
+    "logged_at": "2026-04-03T11:38:44.620327"
+  },
+  {
+    "date": "2023-10-25",
+    "predicted_direction": "down",
+    "predicted_probability": 62,
+    "predicted_return": -4.8,
+    "key_factors": [
+      "Bearish trend structure with price below EMA25/50/100 and negative EMA alignment",
+      "MACD bearish with strong ADX and -DI dominance, indicating a strengthening downtrend",
+      "News flow is net negative for Apple/tech, including weak iPhone demand commentary and broad mega-cap tech pressure"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.9,
+      "sma_trend": 0.78,
+      "golden_cross": 0.62,
+      "macd": 0.88,
+      "adx": 0.8,
+      "rsi": 0.52,
+      "stochastic": 0.58,
+      "williams_r": 0.5,
+      "bollinger_bands": 0.55,
+      "obv": 0.46,
+      "news_sentiment": 0.8
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 1.68,
+    "correct": false,
+    "logged_at": "2026-04-03T11:38:50.587953"
+  },
+  {
+    "date": "2023-11-01",
+    "predicted_direction": "down",
+    "predicted_probability": 59,
+    "predicted_return": -3.8,
+    "key_factors": [
+      "bearish intermediate trend setup with price below EMA50/EMA100 and negative EMA alignment",
+      "MACD bearish with ADX indicating a relatively strong downtrend regime",
+      "news flow into earnings is mixed-to-negative, with focus on weak Mac/iPad sales and uncertainty around holiday-quarter guidance"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.9,
+      "sma_trend": 0.76,
+      "golden_cross": 0.63,
+      "macd": 0.88,
+      "adx": 0.66,
+      "rsi": 0.34,
+      "stochastic": 0.28,
+      "bollinger_bands": 0.31,
+      "obv": 0.24,
+      "news_sentiment": 0.84
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 5.13,
+    "correct": false,
+    "logged_at": "2026-04-03T11:38:55.463846"
+  },
+  {
+    "date": "2023-11-08",
+    "predicted_direction": "up",
+    "predicted_probability": 64,
+    "predicted_return": 6.2,
+    "key_factors": [
+      "bullish trend structure with price above all major moving averages and an active golden cross",
+      "MACD bullish crossover with strong positive histogram and ADX above 30 confirming trend strength",
+      "news flow is broadly supportive for mega-cap tech and Apple services, which matters given AAPL's high sentiment sensitivity"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.84,
+      "sma_trend": 0.86,
+      "golden_cross": 0.8,
+      "macd": 0.87,
+      "adx": 0.72,
+      "stochastic": 0.58,
+      "williams_r": 0.52,
+      "cci": 0.5,
+      "bollinger_bands": 0.61,
+      "volume_ratio": 0.42,
+      "obv": 0.46,
+      "news_sentiment": 0.83
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 2.8,
+    "correct": true,
+    "logged_at": "2026-04-03T11:39:00.991049"
+  },
+  {
+    "date": "2023-11-15",
+    "predicted_direction": "up",
+    "predicted_probability": 67,
+    "predicted_return": 7.2,
+    "key_factors": [
+      "strong multi-timeframe trend with full EMA alignment and SMA golden cross",
+      "bullish MACD and very strong ADX/+DI signal persistent upside momentum",
+      "macro/news backdrop is modestly supportive with softer inflation boosting mega-cap tech sentiment"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.95,
+      "sma_trend": 0.9,
+      "golden_cross": 0.84,
+      "macd": 0.88,
+      "adx": 0.76,
+      "rsi": 0.52,
+      "stochastic": 0.48,
+      "williams_r": 0.42,
+      "cci": 0.4,
+      "bollinger_bands": 0.5,
+      "volume_ratio": 0.28,
+      "obv": 0.34,
+      "news_sentiment": 0.66
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 1.76,
+    "correct": true,
+    "logged_at": "2026-04-03T11:39:05.869074"
+  },
+  {
+    "date": "2023-11-22",
+    "predicted_direction": "up",
+    "predicted_probability": 66,
+    "predicted_return": 6.4,
+    "key_factors": [
+      "strong multi-timeframe uptrend with 4/4 EMA alignment, bullish SMA structure, and active golden cross",
+      "MACD bullish with very strong ADX, indicating trend persistence rather than a weak bounce",
+      "news/sentiment backdrop is mildly supportive due to broad tech and market rally optimism, with no AAPL-specific negative catalyst"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.95,
+      "sma_trend": 0.92,
+      "golden_cross": 0.86,
+      "macd": 0.88,
+      "adx": 0.8,
+      "rsi": 0.58,
+      "stochastic": 0.5,
+      "bollinger_bands": 0.42,
+      "volume_ratio": 0.38,
+      "obv": 0.44,
+      "news_sentiment": 0.72
+    },
+    "sentiment_weight": 0.72,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -0.71,
+    "correct": false,
+    "logged_at": "2026-04-03T11:39:12.308029"
+  },
+  {
+    "date": "2023-11-30",
+    "predicted_direction": "up",
+    "predicted_probability": 62,
+    "predicted_return": 5.4,
+    "key_factors": [
+      "strong multi-timeframe uptrend with full EMA alignment and price above SMA20/50/200",
+      "golden cross and very strong ADX confirm persistent trend strength",
+      "news flow is largely neutral/mixed rather than negatively stock-specific, reducing sentiment headwind"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.91,
+      "sma_trend": 0.89,
+      "golden_cross": 0.82,
+      "macd": 0.78,
+      "adx": 0.74,
+      "news_sentiment": 0.46,
+      "bollinger_bands": 0.41,
+      "rsi": 0.39,
+      "obv": 0.34,
+      "stochastic": 0.28
+    },
+    "sentiment_weight": 0.42,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 2.27,
+    "correct": true,
+    "logged_at": "2026-04-03T11:39:17.607864"
+  },
+  {
+    "date": "2023-12-07",
+    "predicted_direction": "up",
+    "predicted_probability": 61,
+    "predicted_return": 4.8,
+    "key_factors": [
+      "strong multi-timeframe uptrend with full EMA alignment and SMA50 above SMA200",
+      "high ADX with +DI well above -DI confirms a strong prevailing bullish trend",
+      "news flow is mildly positive/supportive for Apple with no clear negative catalyst"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.9,
+      "sma_trend": 0.88,
+      "golden_cross": 0.8,
+      "macd": 0.78,
+      "adx": 0.74,
+      "stochastic": 0.66,
+      "rsi": 0.58,
+      "williams_r": 0.55,
+      "cci": 0.54,
+      "bollinger_bands": 0.6,
+      "obv": 0.42,
+      "news_sentiment": 0.67
+    },
+    "sentiment_weight": 0.68,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 1.98,
+    "correct": true,
+    "logged_at": "2026-04-03T11:39:22.677600"
+  },
+  {
+    "date": "2023-12-14",
+    "predicted_direction": "up",
+    "predicted_probability": 62,
+    "predicted_return": 5.4,
+    "key_factors": [
+      "strong multi-timeframe uptrend with 4/4 EMA alignment and bullish SMA structure including golden cross",
+      "MACD remains positive and ADX at 44.54 confirms a strong established trend",
+      "news flow is modestly positive with supportive analyst commentary and no clear negative catalyst"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.92,
+      "sma_trend": 0.91,
+      "golden_cross": 0.84,
+      "macd": 0.86,
+      "adx": 0.72,
+      "rsi": 0.48,
+      "stochastic": 0.63,
+      "cci": 0.58,
+      "bollinger_bands": 0.61,
+      "volume_ratio": 0.42,
+      "obv": 0.46,
+      "news_sentiment": 0.74
+    },
+    "sentiment_weight": 0.68,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -1.73,
+    "correct": false,
+    "logged_at": "2026-04-03T11:39:28.262425"
+  },
+  {
+    "date": "2023-12-21",
+    "predicted_direction": "up",
+    "predicted_probability": 58,
+    "predicted_return": 4.2,
+    "key_factors": [
+      "strong multi-timeframe uptrend with full EMA alignment and SMA50 above SMA200",
+      "AAPL remains above key moving averages despite short-term pullback, suggesting consolidation within an established trend",
+      "news flow is mostly neutral to mildly supportive for large-cap tech rather than specifically negative for Apple"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.91,
+      "sma_trend": 0.88,
+      "golden_cross": 0.84,
+      "macd": 0.8,
+      "news_sentiment": 0.66,
+      "adx": 0.58,
+      "obv": 0.52,
+      "volume_ratio": 0.44,
+      "rsi": 0.41,
+      "bollinger_bands": 0.36
+    },
+    "sentiment_weight": 0.68,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -1.1,
+    "correct": false,
+    "logged_at": "2026-04-03T11:39:33.966771"
+  },
+  {
+    "date": "2023-12-29",
+    "predicted_direction": "up",
+    "predicted_probability": 58,
+    "predicted_return": 4.2,
+    "key_factors": [
+      "strong primary trend with 4/4 EMA alignment and SMA50 above SMA200",
+      "price remains above EMA50/EMA100 despite short-term pullback, with oversold stochastic/Williams %R suggesting rebound potential",
+      "news flow is mixed-to-slightly positive for Apple with supportive long-term commentary and no clear negative catalyst"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.9,
+      "sma_trend": 0.88,
+      "golden_cross": 0.82,
+      "macd": 0.8,
+      "news_sentiment": 0.72,
+      "adx": 0.66,
+      "stochastic": 0.58,
+      "williams_r": 0.54,
+      "volume_ratio": 0.42,
+      "obv": 0.4,
+      "bollinger_bands": 0.38,
+      "rsi": 0.35
+    },
+    "sentiment_weight": 0.68,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -3.62,
+    "correct": false,
+    "logged_at": "2026-04-03T11:39:40.408213"
+  },
+  {
+    "date": "2024-01-08",
+    "predicted_direction": "down",
+    "predicted_probability": 64,
+    "predicted_return": -6.0,
+    "key_factors": [
+      "Bearish trend structure in the most predictive indicators: price is below EMA25/EMA50 and MACD histogram is deeply negative",
+      "Strong downside trend confirmation from ADX 42.86 with -DI well above +DI, plus OBV trending down",
+      "News flow is only mildly positive and product-launch support appears insufficient versus weakening technicals"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.88,
+      "sma_trend": 0.84,
+      "macd": 0.9,
+      "golden_cross": 0.58,
+      "adx": 0.8,
+      "rsi": 0.46,
+      "stochastic": 0.42,
+      "williams_r": 0.38,
+      "cci": 0.49,
+      "bollinger_bands": 0.44,
+      "obv": 0.63,
+      "news_sentiment": 0.67
+    },
+    "sentiment_weight": 0.68,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -1.04,
+    "correct": true,
+    "logged_at": "2026-04-03T11:39:46.518953"
+  },
+  {
+    "date": "2024-01-16",
+    "predicted_direction": "down",
+    "predicted_probability": 64,
+    "predicted_return": -4.8,
+    "key_factors": [
+      "Price is below EMA25, EMA50, EMA100 and below SMA20/SMA50, indicating a weak intermediate trend",
+      "MACD is bearish and ADX is high with -DI well above +DI, signaling a strong downside trend",
+      "News flow is mixed to slightly negative with no clear bullish catalyst, while historically sentiment has mattered for AAPL"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.88,
+      "sma_trend": 0.86,
+      "macd": 0.87,
+      "golden_cross": 0.58,
+      "adx": 0.8,
+      "rsi": 0.52,
+      "stochastic": 0.48,
+      "williams_r": 0.46,
+      "cci": 0.44,
+      "bollinger_bands": 0.55,
+      "volume_ratio": 0.34,
+      "obv": 0.5,
+      "news_sentiment": 0.67
+    },
+    "sentiment_weight": 0.68,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 6.29,
+    "correct": false,
+    "logged_at": "2026-04-03T11:39:52.564399"
+  },
+  {
+    "date": "2024-01-23",
+    "predicted_direction": "up",
+    "predicted_probability": 61,
+    "predicted_return": 4.8,
+    "key_factors": [
+      "strong trend structure with 4/4 EMA alignment, price above key moving averages, and active golden cross",
+      "bullish MACD histogram and strong ADX with +DI well above -DI indicating trend continuation",
+      "news flow is mixed but not severely negative, while AAPL's historically predictive trend indicators remain favorable"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.92,
+      "sma_trend": 0.86,
+      "golden_cross": 0.82,
+      "macd": 0.84,
+      "adx": 0.72,
+      "stochastic": 0.63,
+      "williams_r": 0.58,
+      "bollinger_bands": 0.61,
+      "volume_ratio": 0.42,
+      "obv": 0.39,
+      "news_sentiment": 0.67
+    },
+    "sentiment_weight": 0.68,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -3.66,
+    "correct": false,
+    "logged_at": "2026-04-03T11:39:59.334362"
+  },
+  {
+    "date": "2024-01-30",
+    "predicted_direction": "down",
+    "predicted_probability": 58,
+    "predicted_return": -3.2,
+    "key_factors": [
+      "mixed-to-bearish trend structure with price below EMA25 and EMA50 and only 2/4 EMA alignment",
+      "ADX with -DI above +DI indicates a moderately strong downside trend despite positive MACD",
+      "news flow is mixed and skewed cautious with bubble/valuation concerns ahead of big-tech earnings"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.88,
+      "sma_trend": 0.82,
+      "macd": 0.76,
+      "golden_cross": 0.68,
+      "adx": 0.72,
+      "obv": 0.55,
+      "news_sentiment": 0.8,
+      "rsi": 0.42,
+      "bollinger_bands": 0.34
+    },
+    "sentiment_weight": 0.68,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 0.67,
+    "correct": false,
+    "logged_at": "2026-04-03T11:40:04.747566"
+  },
+  {
+    "date": "2024-02-06",
+    "predicted_direction": "up",
+    "predicted_probability": 58,
+    "predicted_return": 4.2,
+    "key_factors": [
+      "strong bullish trend structure with full EMA alignment and intact golden cross",
+      "price holding above key EMAs while momentum remains neutral rather than overbought",
+      "news flow is mixed but macro tone improved with soft-landing expectations and no major Apple-specific negative catalyst"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.88,
+      "sma_trend": 0.74,
+      "golden_cross": 0.72,
+      "macd": 0.83,
+      "adx": 0.7,
+      "rsi": 0.46,
+      "stochastic": 0.38,
+      "bollinger_bands": 0.34,
+      "volume_ratio": 0.29,
+      "obv": 0.31,
+      "news_sentiment": 0.68
+    },
+    "sentiment_weight": 0.68,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -2.25,
+    "correct": false,
+    "logged_at": "2026-04-03T11:40:10.623950"
+  },
+  {
+    "date": "2024-02-13",
+    "predicted_direction": "down",
+    "predicted_probability": 61,
+    "predicted_return": -4.8,
+    "key_factors": [
+      "Bearish trend structure with price below EMA25/50/100 and weak 2/4 EMA alignment",
+      "MACD bearish and ADX 31.51 with -DI far above +DI, indicating a strong active downtrend",
+      "News flow is mixed-to-bearish with inflation-driven tech selloff and no clear AAPL-specific positive catalyst"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.88,
+      "sma_trend": 0.76,
+      "golden_cross": 0.62,
+      "macd": 0.86,
+      "adx": 0.79,
+      "rsi": 0.42,
+      "stochastic": 0.34,
+      "williams_r": 0.31,
+      "cci": 0.36,
+      "bollinger_bands": 0.47,
+      "obv": 0.41,
+      "news_sentiment": 0.74
+    },
+    "sentiment_weight": 0.68,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -1.47,
+    "correct": true,
+    "logged_at": "2026-04-03T11:40:16.333715"
+  },
+  {
+    "date": "2024-02-21",
+    "predicted_direction": "down",
+    "predicted_probability": 61,
+    "predicted_return": -4.2,
+    "key_factors": [
+      "Bearish trend structure with price below EMA25/50/100 and 0/4 EMA alignment",
+      "MACD bearish with strong ADX and -DI dominance, indicating a strong active downtrend",
+      "Weak participation from volume ratio below average and declining OBV"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.92,
+      "sma_trend": 0.86,
+      "macd": 0.88,
+      "golden_cross": 0.52,
+      "adx": 0.79,
+      "rsi": 0.46,
+      "stochastic": 0.38,
+      "williams_r": 0.41,
+      "cci": 0.49,
+      "bollinger_bands": 0.44,
+      "volume_ratio": 0.55,
+      "obv": 0.58,
+      "news_sentiment": 0.57
+    },
+    "sentiment_weight": 0.68,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -0.49,
+    "correct": true,
+    "logged_at": "2026-04-03T11:40:22.272113"
+  },
+  {
+    "date": "2024-02-28",
+    "predicted_direction": "down",
+    "predicted_probability": 62,
+    "predicted_return": -4.2,
+    "key_factors": [
+      "Bearish trend structure with price below EMA25/50/100 and negative EMA alignment",
+      "MACD bearish with ADX 33 confirming a relatively strong downtrend as -DI exceeds +DI",
+      "Historically important signals for AAPL are mostly negative here, while news flow is only mildly positive/mixed and lacks a strong catalyst"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.88,
+      "sma_trend": 0.74,
+      "golden_cross": 0.58,
+      "macd": 0.86,
+      "adx": 0.72,
+      "stochastic": 0.49,
+      "williams_r": 0.43,
+      "bollinger_bands": 0.46,
+      "obv": 0.41,
+      "news_sentiment": 0.55
+    },
+    "sentiment_weight": 0.68,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -6.78,
+    "correct": true,
+    "logged_at": "2026-04-03T11:40:27.181924"
+  },
+  {
+    "date": "2024-03-06",
+    "predicted_direction": "down",
+    "predicted_probability": 70,
+    "predicted_return": -5.8,
+    "key_factors": [
+      "Strong bearish trend structure with price below EMA25/50/100 and negative 4/4 EMA alignment",
+      "MACD bearish with very strong ADX and -DI dominance, indicating a powerful established downtrend",
+      "News flow is mildly negative to mixed, with Magnificent Seven vulnerability commentary and Apple/Epic regulatory friction"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.95,
+      "sma_trend": 0.9,
+      "macd": 0.9,
+      "adx": 0.82,
+      "news_sentiment": 0.72,
+      "golden_cross": 0.58,
+      "rsi": 0.55,
+      "stochastic": 0.48,
+      "williams_r": 0.42,
+      "cci": 0.4,
+      "bollinger_bands": 0.46,
+      "obv": 0.44,
+      "volume_ratio": 0.28,
+      "atr": 0.2
+    },
+    "sentiment_weight": 0.68,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 1.19,
+    "correct": false,
+    "logged_at": "2026-04-03T11:40:33.657654"
+  },
+  {
+    "date": "2024-03-13",
+    "predicted_direction": "down",
+    "predicted_probability": 64,
+    "predicted_return": -4.8,
+    "key_factors": [
+      "Strong bearish trend structure with price below EMA25/50/100, negative EMA alignment, and no golden cross",
+      "MACD is bearish and ADX is high with -DI well above +DI, indicating a strong established downtrend",
+      "News flow is only mildly positive and mostly indirect, not strong enough to offset AAPL's weak technical setup"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.93,
+      "sma_trend": 0.89,
+      "golden_cross": 0.82,
+      "macd": 0.9,
+      "adx": 0.76,
+      "rsi": 0.58,
+      "stochastic": 0.55,
+      "williams_r": 0.49,
+      "bollinger_bands": 0.46,
+      "obv": 0.31,
+      "news_sentiment": 0.62
+    },
+    "sentiment_weight": 0.68,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 4.41,
+    "correct": false,
+    "logged_at": "2026-04-03T11:40:39.122525"
+  },
+  {
+    "date": "2024-03-20",
+    "predicted_direction": "down",
+    "predicted_probability": 61,
+    "predicted_return": -4.2,
+    "key_factors": [
+      "bearish higher-timeframe trend structure with price below EMA50/EMA100 and SMA50/SMA200, plus no golden cross",
+      "negative regulatory catalyst from imminent DOJ antitrust lawsuit, which is especially important given AAPL's high learned sentiment weight",
+      "MACD histogram has improved and ADX shows trend strength, but the rebound is occurring into mixed resistance with overbought short-term momentum"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.88,
+      "sma_trend": 0.87,
+      "golden_cross": 0.8,
+      "macd": 0.76,
+      "adx": 0.58,
+      "stochastic": 0.49,
+      "bollinger_bands": 0.42,
+      "volume_ratio": 0.31,
+      "obv": 0.34,
+      "news_sentiment": 0.84
+    },
+    "sentiment_weight": 0.68,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -3.0,
+    "correct": true,
+    "logged_at": "2026-04-03T11:40:44.856852"
+  },
+  {
+    "date": "2024-03-27",
+    "predicted_direction": "down",
+    "predicted_probability": 60,
+    "predicted_return": -4.2,
+    "key_factors": [
+      "Bearish primary trend with price below EMA25/50/100 and negative 4/4 EMA alignment",
+      "SMA structure remains weak with SMA50 below SMA200, reinforcing broader downtrend",
+      "News flow is mixed-to-negative, with China iPhone shipment weakness outweighing generic bullish Buffett-related commentary"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.92,
+      "sma_trend": 0.89,
+      "golden_cross": 0.82,
+      "macd": 0.76,
+      "news_sentiment": 0.74,
+      "adx": 0.48,
+      "obv": 0.42,
+      "rsi": 0.33,
+      "bollinger_bands": 0.29,
+      "volume_ratio": 0.24
+    },
+    "sentiment_weight": 0.68,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -2.59,
+    "correct": true,
+    "logged_at": "2026-04-03T11:40:50.620525"
+  },
+  {
+    "date": "2024-04-04",
+    "predicted_direction": "down",
+    "predicted_probability": 62,
+    "predicted_return": -4.8,
+    "key_factors": [
+      "Strong bearish trend structure with price below EMA25/50/100 and SMA20/50/200, plus negative EMA alignment and no golden cross",
+      "Historically predictive trend indicators for AAPL (ema_alignment, sma_trend, golden_cross, macd) remain net bearish despite a small positive MACD histogram",
+      "News flow is mixed-to-slightly negative for AAPL, with Vision Pro weakness offsetting longer-term India growth that is not an immediate 3-month catalyst"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.94,
+      "sma_trend": 0.91,
+      "golden_cross": 0.82,
+      "macd": 0.74,
+      "news_sentiment": 0.68,
+      "stochastic": 0.58,
+      "rsi": 0.52,
+      "williams_r": 0.49,
+      "adx": 0.46,
+      "obv": 0.41,
+      "bollinger_bands": 0.39,
+      "volume_ratio": 0.31
+    },
+    "sentiment_weight": 0.68,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 3.68,
+    "correct": false,
+    "logged_at": "2026-04-03T11:40:56.896163"
+  },
+  {
+    "date": "2024-04-11",
+    "predicted_direction": "up",
+    "predicted_probability": 58,
+    "predicted_return": 4.2,
+    "key_factors": [
+      "MACD has turned bullish with positive histogram and strong +DI/-DI spread, suggesting improving intermediate momentum",
+      "News flow is net positive with multiple analyst notes highlighting margin expansion, AI upgrade-cycle potential, and China turnaround optimism",
+      "Price reclaimed EMA25 with strong volume and rising OBV, indicating near-term accumulation despite longer-term trend damage"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.84,
+      "sma_trend": 0.82,
+      "golden_cross": 0.78,
+      "macd": 0.83,
+      "adx": 0.58,
+      "stochastic": 0.49,
+      "williams_r": 0.42,
+      "bollinger_bands": 0.46,
+      "volume_ratio": 0.44,
+      "obv": 0.47,
+      "news_sentiment": 0.86
+    },
+    "sentiment_weight": 0.68,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -4.57,
+    "correct": false,
+    "logged_at": "2026-04-03T11:41:02.937182"
+  },
+  {
+    "date": "2024-04-18",
+    "predicted_direction": "down",
+    "predicted_probability": 66,
+    "predicted_return": -6.2,
+    "key_factors": [
+      "Strong bearish trend structure with price below EMA25/50/100, negative EMA alignment, SMA50 below SMA200, and no golden cross",
+      "News flow is predominantly bearish for AAPL, especially around China weakness and market-share loss, which matters heavily given AAPL's high sentiment weighting",
+      "Weak confirmation from volume/flow indicators with OBV down and sub-average volume, while ADX shows bears still have directional control despite only modest trend strength"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.94,
+      "sma_trend": 0.9,
+      "golden_cross": 0.83,
+      "macd": 0.62,
+      "adx": 0.54,
+      "stochastic": 0.48,
+      "williams_r": 0.45,
+      "cci": 0.43,
+      "bollinger_bands": 0.51,
+      "volume_ratio": 0.39,
+      "obv": 0.47,
+      "news_sentiment": 0.88
+    },
+    "sentiment_weight": 0.68,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 1.71,
+    "correct": false,
+    "logged_at": "2026-04-03T11:41:09.152387"
+  },
+  {
+    "date": "2024-04-25",
+    "predicted_direction": "down",
+    "predicted_probability": 61,
+    "predicted_return": -4.2,
+    "key_factors": [
+      "bearish primary trend with price below EMA25/50/100 and negative 4/4 EMA alignment",
+      "SMA structure remains weak with SMA50 below SMA200, confirming longer-term downtrend bias",
+      "sector/news backdrop is mildly negative as Magnificent 7 risk-off sentiment and Meta-guidance weakness pressure mega-cap tech"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.95,
+      "sma_trend": 0.9,
+      "golden_cross": 0.84,
+      "macd": 0.72,
+      "adx": 0.68,
+      "obv": 0.42,
+      "news_sentiment": 0.64
+    },
+    "sentiment_weight": 0.68,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 1.85,
+    "correct": false,
+    "logged_at": "2026-04-03T11:41:14.468372"
+  },
+  {
+    "date": "2024-05-02",
+    "predicted_direction": "up",
+    "predicted_probability": 58,
+    "predicted_return": 4.2,
+    "key_factors": [
+      "post-earnings sentiment is net positive with beats and a massive $110B buyback",
+      "MACD bullish crossover with positive histogram and improving volume/OBV confirmation",
+      "price is above short-term averages with neutral momentum, suggesting room for continuation despite weak long-term trend"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.74,
+      "sma_trend": 0.76,
+      "golden_cross": 0.68,
+      "macd": 0.82,
+      "adx": 0.63,
+      "rsi": 0.46,
+      "stochastic": 0.41,
+      "bollinger_bands": 0.44,
+      "volume_ratio": 0.57,
+      "obv": 0.59,
+      "news_sentiment": 0.84
+    },
+    "sentiment_weight": 0.68,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 6.67,
+    "correct": true,
+    "logged_at": "2026-04-03T11:41:20.215018"
+  },
+  {
+    "date": "2024-05-09",
+    "predicted_direction": "up",
+    "predicted_probability": 61,
+    "predicted_return": 5.2,
+    "key_factors": [
+      "strong trend strength with bullish MACD and high ADX/+DI leadership",
+      "price holding above key moving averages despite no SMA50>SMA200 golden cross",
+      "recent news flow is modestly positive following earnings and supports sentiment"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.78,
+      "sma_trend": 0.76,
+      "golden_cross": 0.58,
+      "macd": 0.84,
+      "adx": 0.82,
+      "rsi": 0.55,
+      "stochastic": 0.67,
+      "williams_r": 0.52,
+      "cci": 0.56,
+      "bollinger_bands": 0.64,
+      "volume_ratio": 0.49,
+      "obv": 0.44,
+      "news_sentiment": 0.46
+    },
+    "sentiment_weight": 0.4,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 2.86,
+    "correct": true,
+    "logged_at": "2026-04-03T11:41:25.172342"
+  },
+  {
+    "date": "2024-05-16",
+    "predicted_direction": "up",
+    "predicted_probability": 62,
+    "predicted_return": 5.4,
+    "key_factors": [
+      "strong bullish trend with price above all major moving averages and positive MACD",
+      "very strong ADX with +DI far above -DI confirms trend persistence",
+      "recent news flow is mildly positive with post-earnings strength and no clear negative catalyst"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.86,
+      "sma_trend": 0.82,
+      "golden_cross": 0.58,
+      "macd": 0.84,
+      "adx": 0.83,
+      "rsi": 0.67,
+      "stochastic": 0.55,
+      "bollinger_bands": 0.49,
+      "volume_ratio": 0.36,
+      "obv": 0.41,
+      "news_sentiment": 0.44
+    },
+    "sentiment_weight": 0.64,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -1.56,
+    "correct": false,
+    "logged_at": "2026-04-03T11:41:30.699716"
+  },
+  {
+    "date": "2024-05-23",
+    "predicted_direction": "up",
+    "predicted_probability": 58,
+    "predicted_return": 4.2,
+    "key_factors": [
+      "strong trend structure with 4/4 EMA alignment and price above key moving averages",
+      "MACD remains bullish and ADX near 50 indicates a strong existing uptrend",
+      "news flow is mixed but generally supportive for large-cap quality tech, with no clear negative company-specific catalyst"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.9,
+      "sma_trend": 0.82,
+      "macd": 0.84,
+      "adx": 0.8,
+      "golden_cross": 0.55,
+      "rsi": 0.46,
+      "stochastic": 0.38,
+      "bollinger_bands": 0.34,
+      "volume_ratio": 0.28,
+      "obv": 0.31,
+      "news_sentiment": 0.62
+    },
+    "sentiment_weight": 0.64,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 2.87,
+    "correct": true,
+    "logged_at": "2026-04-03T11:41:35.701412"
+  },
+  {
+    "date": "2024-05-31",
+    "predicted_direction": "up",
+    "predicted_probability": 58,
+    "predicted_return": 4.2,
+    "key_factors": [
+      "strong multi-timeframe trend with 4/4 EMA alignment and price above key moving averages",
+      "ADX at 36.91 with +DI above -DI confirms a strong prevailing uptrend",
+      "volume confirmation from 1.26x volume and rising OBV supports continuation despite short-term overbought conditions"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.9,
+      "sma_trend": 0.84,
+      "macd": 0.76,
+      "adx": 0.8,
+      "stochastic": 0.68,
+      "williams_r": 0.62,
+      "bollinger_bands": 0.64,
+      "volume_ratio": 0.55,
+      "obv": 0.58,
+      "news_sentiment": 0.5
+    },
+    "sentiment_weight": 0.4,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 2.41,
+    "correct": true,
+    "logged_at": "2026-04-03T11:41:41.665908"
+  },
+  {
+    "date": "2024-06-07",
+    "predicted_direction": "up",
+    "predicted_probability": 58,
+    "predicted_return": 4.2,
+    "key_factors": [
+      "strong trend structure with 4/4 EMA alignment and price well above key moving averages",
+      "ADX near 40 with positive DI over negative DI confirms a strong ongoing uptrend",
+      "news flow is mildly positive/supportive with broad tech and market strength, and no clear negative company-specific catalyst"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.91,
+      "sma_trend": 0.86,
+      "macd": 0.82,
+      "adx": 0.8,
+      "news_sentiment": 0.62,
+      "rsi": 0.66,
+      "stochastic": 0.58,
+      "bollinger_bands": 0.57,
+      "obv": 0.41,
+      "volume_ratio": 0.28
+    },
+    "sentiment_weight": 0.6,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 7.92,
+    "correct": true,
+    "logged_at": "2026-04-03T11:41:47.812523"
+  },
+  {
+    "date": "2024-06-14",
+    "predicted_direction": "up",
+    "predicted_probability": 64,
+    "predicted_return": 6.8,
+    "key_factors": [
+      "very strong trend structure with full EMA/SMA alignment and active golden cross",
+      "bullish MACD and extremely strong ADX confirm persistent upside trend",
+      "news flow is broadly positive around AI positioning, market leadership, and favorable macro backdrop"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.94,
+      "sma_trend": 0.9,
+      "golden_cross": 0.72,
+      "macd": 0.91,
+      "adx": 0.89,
+      "rsi": 0.74,
+      "cci": 0.62,
+      "bollinger_bands": 0.68,
+      "obv": 0.55,
+      "news_sentiment": 0.83
+    },
+    "sentiment_weight": 0.6,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -2.05,
+    "correct": false,
+    "logged_at": "2026-04-03T11:41:53.411660"
+  },
+  {
+    "date": "2024-06-24",
+    "predicted_direction": "up",
+    "predicted_probability": 62,
+    "predicted_return": 6.8,
+    "key_factors": [
+      "strong multi-timeframe uptrend with full EMA alignment and confirmed golden cross",
+      "very strong trend strength via ADX above 50 with +DI materially above -DI",
+      "news flow is net bullish on Apple AI narrative despite some broader market breadth caution"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.92,
+      "sma_trend": 0.88,
+      "golden_cross": 0.74,
+      "macd": 0.86,
+      "adx": 0.84,
+      "rsi": 0.52,
+      "stochastic": 0.38,
+      "bollinger_bands": 0.41,
+      "volume_ratio": 0.44,
+      "obv": 0.49,
+      "news_sentiment": 0.72
+    },
+    "sentiment_weight": 0.6,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 4.14,
+    "correct": true,
+    "logged_at": "2026-04-03T11:41:58.840990"
+  },
+  {
+    "date": "2024-07-01",
+    "predicted_direction": "up",
+    "predicted_probability": 62,
+    "predicted_return": 6.8,
+    "key_factors": [
+      "strong multi-timeframe uptrend with full EMA alignment and bullish SMA structure including golden cross",
+      "high ADX confirms trend strength despite short-term momentum cooling",
+      "recent news flow is modestly positive with supportive analyst commentary and broader AI-driven mega-cap tech sentiment"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.92,
+      "sma_trend": 0.88,
+      "golden_cross": 0.72,
+      "macd": 0.9,
+      "adx": 0.86,
+      "rsi": 0.58,
+      "stochastic": 0.67,
+      "williams_r": 0.55,
+      "bollinger_bands": 0.52,
+      "volume_ratio": 0.48,
+      "obv": 0.44,
+      "news_sentiment": 0.7
+    },
+    "sentiment_weight": 0.6,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 5.5,
+    "correct": true,
+    "logged_at": "2026-04-03T11:42:05.128719"
+  },
+  {
+    "date": "2024-07-09",
+    "predicted_direction": "up",
+    "predicted_probability": 61,
+    "predicted_return": 5.2,
+    "key_factors": [
+      "very strong trend structure with full EMA/SMA alignment, golden cross, bullish MACD, and ADX near 55",
+      "news flow is broadly positive with improving PC demand, upbeat iPhone 16/AI upgrade expectations, and stronger services outlook",
+      "OBV is still rising, suggesting underlying accumulation despite light daily volume"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.92,
+      "sma_trend": 0.88,
+      "golden_cross": 0.72,
+      "macd": 0.86,
+      "adx": 0.84,
+      "rsi": 0.74,
+      "stochastic": 0.66,
+      "williams_r": 0.58,
+      "cci": 0.57,
+      "bollinger_bands": 0.63,
+      "volume_ratio": 0.46,
+      "obv": 0.51,
+      "news_sentiment": 0.79
+    },
+    "sentiment_weight": 0.6,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 2.68,
+    "correct": true,
+    "logged_at": "2026-04-03T11:42:11.753031"
+  },
+  {
+    "date": "2024-07-16",
+    "predicted_direction": "up",
+    "predicted_probability": 64,
+    "predicted_return": 6.8,
+    "key_factors": [
+      "very strong trend structure with 4/4 EMA alignment, bullish SMA trend, and golden cross",
+      "MACD remains bullish and ADX at 54.9 confirms a powerful uptrend",
+      "recent news flow is modestly positive with better-than-expected iPhone volumes and iOS 18/AI-related product catalysts"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.92,
+      "sma_trend": 0.86,
+      "golden_cross": 0.72,
+      "macd": 0.88,
+      "adx": 0.87,
+      "rsi": 0.69,
+      "stochastic": 0.61,
+      "cci": 0.66,
+      "bollinger_bands": 0.58,
+      "volume_ratio": 0.49,
+      "obv": 0.44,
+      "news_sentiment": 0.74
+    },
+    "sentiment_weight": 0.6,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -4.18,
+    "correct": false,
+    "logged_at": "2026-04-03T11:42:18.247224"
+  },
+  {
+    "date": "2024-07-23",
+    "predicted_direction": "up",
+    "predicted_probability": 58,
+    "predicted_return": 4.2,
+    "key_factors": [
+      "strong multi-timeframe uptrend with 4/4 EMA alignment and SMA50 well above SMA200",
+      "price remains above key moving averages despite short-term pullback, suggesting consolidation within an established uptrend",
+      "news flow is mostly neutral to mildly supportive and lacks clear AAPL-specific negative catalysts"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.88,
+      "sma_trend": 0.84,
+      "golden_cross": 0.65,
+      "macd": 0.82,
+      "adx": 0.76,
+      "rsi": 0.42,
+      "stochastic": 0.38,
+      "bollinger_bands": 0.34,
+      "volume_ratio": 0.48,
+      "obv": 0.52,
+      "news_sentiment": 0.44
+    },
+    "sentiment_weight": 0.6,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -2.76,
+    "correct": false,
+    "logged_at": "2026-04-03T11:42:24.358066"
+  },
+  {
+    "date": "2024-07-30",
+    "predicted_direction": "down",
+    "predicted_probability": 58,
+    "predicted_return": -4.0,
+    "key_factors": [
+      "bearish trend/momentum setup in AAPL's most predictive indicators: MACD histogram is negative, ADX is strong with -DI above +DI, and EMA alignment is only 2/4",
+      "price is below EMA25 and near the lower Bollinger Band, showing near-term weakness despite longer-term uptrend support from SMA50/SMA200",
+      "news flow is only mildly positive and mostly generic/pre-earnings optimism, not a strong stock-specific catalyst relative to the 60% sentiment weighting"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.82,
+      "sma_trend": 0.74,
+      "golden_cross": 0.58,
+      "macd": 0.9,
+      "adx": 0.86,
+      "stochastic": 0.62,
+      "williams_r": 0.55,
+      "cci": 0.78,
+      "bollinger_bands": 0.57,
+      "volume_ratio": 0.41,
+      "obv": 0.36,
+      "news_sentiment": 0.52
+    },
+    "sentiment_weight": 0.6,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -5.29,
+    "correct": true,
+    "logged_at": "2026-04-03T11:42:31.500034"
+  },
+  {
+    "date": "2024-08-06",
+    "predicted_direction": "down",
+    "predicted_probability": 67,
+    "predicted_return": -6.0,
+    "key_factors": [
+      "Bearish trend structure with price below EMA25/EMA50 and strongly negative MACD histogram",
+      "Strong downside trend confirmation from ADX 37.96 with -DI far above +DI, plus declining OBV",
+      "News flow is mixed-to-negative, including Buffett stake reduction and concerns about Apple's growth/device sales"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.84,
+      "sma_trend": 0.72,
+      "golden_cross": 0.42,
+      "macd": 0.9,
+      "adx": 0.88,
+      "rsi": 0.48,
+      "stochastic": 0.36,
+      "williams_r": 0.34,
+      "cci": 0.74,
+      "bollinger_bands": 0.58,
+      "atr": 0.29,
+      "volume_ratio": 0.31,
+      "obv": 0.63,
+      "news_sentiment": 0.68
+    },
+    "sentiment_weight": 0.6,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 6.78,
+    "correct": false,
+    "logged_at": "2026-04-03T11:42:37.241838"
+  },
+  {
+    "date": "2024-08-13",
+    "predicted_direction": "up",
+    "predicted_probability": 56,
+    "predicted_return": 4.2,
+    "key_factors": [
+      "strong multi-timeframe uptrend with full EMA alignment and SMA50 above SMA200",
+      "news flow is mildly positive for Apple and AI/mega-cap tech sentiment, which historically carries meaningful weight for AAPL",
+      "OBV is rising and price remains above key moving averages despite recent market sell-off"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.89,
+      "sma_trend": 0.82,
+      "golden_cross": 0.7,
+      "macd": 0.88,
+      "adx": 0.8,
+      "stochastic": 0.62,
+      "williams_r": 0.55,
+      "bollinger_bands": 0.48,
+      "volume_ratio": 0.42,
+      "obv": 0.5,
+      "news_sentiment": 0.74
+    },
+    "sentiment_weight": 0.6,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 2.37,
+    "correct": true,
+    "logged_at": "2026-04-03T11:42:43.148004"
+  },
+  {
+    "date": "2024-08-20",
+    "predicted_direction": "up",
+    "predicted_probability": 58,
+    "predicted_return": 4.6,
+    "key_factors": [
+      "strong multi-timeframe uptrend with full EMA alignment and SMA50/SMA200 golden cross",
+      "bullish MACD with positive histogram and ADX indicating a strengthening trend",
+      "news flow is mixed but not decisively negative, while OBV trend remains supportive"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.92,
+      "sma_trend": 0.86,
+      "golden_cross": 0.72,
+      "macd": 0.9,
+      "adx": 0.82,
+      "rsi": 0.58,
+      "stochastic": 0.7,
+      "williams_r": 0.63,
+      "cci": 0.5,
+      "bollinger_bands": 0.66,
+      "volume_ratio": 0.55,
+      "obv": 0.49,
+      "news_sentiment": 0.74
+    },
+    "sentiment_weight": 0.6,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 0.67,
+    "correct": true,
+    "logged_at": "2026-04-03T11:42:49.082317"
+  },
+  {
+    "date": "2024-08-27",
+    "predicted_direction": "up",
+    "predicted_probability": 61,
+    "predicted_return": 6.2,
+    "key_factors": [
+      "strong multi-timeframe uptrend with full EMA alignment and SMA50/SMA200 golden cross",
+      "bullish MACD and positive DI/-DI structure indicate trend continuation despite only moderate ADX",
+      "news flow is mildly positive/non-threatening and lacks negative catalysts, which matters given AAPL's higher sentiment weighting"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.9,
+      "sma_trend": 0.82,
+      "golden_cross": 0.7,
+      "macd": 0.88,
+      "adx": 0.74,
+      "stochastic": 0.63,
+      "williams_r": 0.58,
+      "bollinger_bands": 0.6,
+      "volume_ratio": 0.46,
+      "obv": 0.42,
+      "news_sentiment": 0.55
+    },
+    "sentiment_weight": 0.6,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -3.15,
+    "correct": false,
+    "logged_at": "2026-04-03T11:42:54.813951"
+  },
+  {
+    "date": "2024-09-04",
+    "predicted_direction": "down",
+    "predicted_probability": 60,
+    "predicted_return": -4.2,
+    "key_factors": [
+      "bearish trend confirmation from MACD histogram below zero and strong -DI dominance with ADX 25.9",
+      "price sits below short-term EMA25 and SMA20/SMA50 with weak 2/4 EMA alignment",
+      "news flow is mixed rather than clearly supportive, with uncertainty around the iPhone 16 event and AI monetization expectations"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.78,
+      "sma_trend": 0.74,
+      "golden_cross": 0.52,
+      "macd": 0.88,
+      "adx": 0.86,
+      "rsi": 0.55,
+      "stochastic": 0.5,
+      "williams_r": 0.48,
+      "bollinger_bands": 0.46,
+      "obv": 0.43,
+      "news_sentiment": 0.67
+    },
+    "sentiment_weight": 0.6,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 0.82,
+    "correct": false,
+    "logged_at": "2026-04-03T11:43:00.758902"
+  },
+  {
+    "date": "2024-09-11",
+    "predicted_direction": "up",
+    "predicted_probability": 56,
+    "predicted_return": 4.2,
+    "key_factors": [
+      "strong longer-term trend with 4/4 EMA alignment and SMA50/SMA200 golden cross",
+      "price remains above EMA50/EMA100 with neutral momentum, suggesting pullback rather than breakdown",
+      "news flow is mixed-to-slightly positive for Apple due to iPhone 16/Wi-Fi 7 supply chain optimism despite hotter CPI"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.88,
+      "sma_trend": 0.8,
+      "golden_cross": 0.72,
+      "macd": 0.86,
+      "adx": 0.78,
+      "rsi": 0.55,
+      "stochastic": 0.42,
+      "cci": 0.46,
+      "bollinger_bands": 0.4,
+      "obv": 0.38,
+      "news_sentiment": 0.7
+    },
+    "sentiment_weight": 0.6,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -0.88,
+    "correct": false,
+    "logged_at": "2026-04-03T11:43:06.483254"
+  },
+  {
+    "date": "2024-09-18",
+    "predicted_direction": "down",
+    "predicted_probability": 58,
+    "predicted_return": -4.2,
+    "key_factors": [
+      "MACD is bearish with a deeply negative histogram, indicating weakening intermediate momentum",
+      "Trend structure is mixed rather than strong bullish: price is below EMA25 and both SMA20/SMA50 while ADX shows slight bearish directional control",
+      "News flow is mostly mixed/macro-driven with no strong Apple-specific positive catalyst, and this stock's learned weighting favors sentiment heavily"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.76,
+      "sma_trend": 0.72,
+      "golden_cross": 0.55,
+      "macd": 0.88,
+      "adx": 0.74,
+      "rsi": 0.46,
+      "stochastic": 0.43,
+      "williams_r": 0.38,
+      "cci": 0.36,
+      "bollinger_bands": 0.41,
+      "volume_ratio": 0.32,
+      "obv": 0.35,
+      "news_sentiment": 0.69
+    },
+    "sentiment_weight": 0.6,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 2.57,
+    "correct": false,
+    "logged_at": "2026-04-03T11:43:12.859008"
+  },
+  {
+    "date": "2024-09-25",
+    "predicted_direction": "up",
+    "predicted_probability": 62,
+    "predicted_return": 6.4,
+    "key_factors": [
+      "Strong trend structure with 4/4 EMA alignment, price above key SMAs, and an active golden cross",
+      "Bullish MACD with positive histogram and ADX near trend-confirmation territory indicates upward momentum is intact",
+      "News flow is modestly positive and macro backdrop is supportive after the Fed rate cut, which generally benefits mega-cap tech multiples"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.9,
+      "sma_trend": 0.84,
+      "golden_cross": 0.72,
+      "macd": 0.88,
+      "adx": 0.8,
+      "rsi": 0.52,
+      "stochastic": 0.42,
+      "bollinger_bands": 0.46,
+      "volume_ratio": 0.58,
+      "obv": 0.56,
+      "news_sentiment": 0.64
+    },
+    "sentiment_weight": 0.6,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 0.18,
+    "correct": true,
+    "logged_at": "2026-04-03T11:43:18.249406"
+  },
+  {
+    "date": "2024-10-02",
+    "predicted_direction": "down",
+    "predicted_probability": 58,
+    "predicted_return": -4.2,
+    "key_factors": [
+      "news flow is skewed bearish with multiple reports of weaker-than-expected iPhone 16 demand and possible production cuts",
+      "trend structure is still positive but lacks strong confirmation as ADX is weak and price is only modestly above moving averages",
+      "momentum is neutral-to-soft with RSI near 53 and stochastic %K below %D, suggesting limited upside thrust"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.74,
+      "sma_trend": 0.71,
+      "golden_cross": 0.58,
+      "macd": 0.76,
+      "adx": 0.72,
+      "rsi": 0.49,
+      "stochastic": 0.53,
+      "bollinger_bands": 0.41,
+      "volume_ratio": 0.44,
+      "obv": 0.38,
+      "news_sentiment": 0.84
+    },
+    "sentiment_weight": 0.6,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 1.22,
+    "correct": false,
+    "logged_at": "2026-04-03T11:43:24.864847"
+  },
+  {
+    "date": "2024-10-09",
+    "predicted_direction": "up",
+    "predicted_probability": 58,
+    "predicted_return": 4.2,
+    "key_factors": [
+      "strong multi-timeframe uptrend with 4/4 EMA alignment and SMA50 above SMA200",
+      "momentum remains constructive but not overextended, with RSI neutral and Williams %R/CCI supportive",
+      "news flow is mixed but not decisively negative, with resilient iPhone brand loyalty offsetting valuation and macro yield concerns"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.9,
+      "sma_trend": 0.84,
+      "golden_cross": 0.72,
+      "macd": 0.83,
+      "adx": 0.76,
+      "williams_r": 0.62,
+      "rsi": 0.55,
+      "bollinger_bands": 0.48,
+      "volume_ratio": 0.41,
+      "obv": 0.39,
+      "news_sentiment": 0.68
+    },
+    "sentiment_weight": 0.6,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 0.98,
+    "correct": true,
+    "logged_at": "2026-04-03T11:43:30.583752"
+  },
+  {
+    "date": "2024-10-16",
+    "predicted_direction": "up",
+    "predicted_probability": 61,
+    "predicted_return": 5.4,
+    "key_factors": [
+      "strong multi-timeframe uptrend with 4/4 EMA alignment and SMA50 above SMA200",
+      "MACD bullish with positive histogram and ADX near 23 confirming a moderate trend",
+      "momentum is constructive but not overheated, with RSI neutral and Williams %R supportive"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.9,
+      "sma_trend": 0.82,
+      "golden_cross": 0.68,
+      "macd": 0.88,
+      "adx": 0.8,
+      "rsi": 0.55,
+      "stochastic": 0.42,
+      "williams_r": 0.7,
+      "cci": 0.46,
+      "bollinger_bands": 0.5,
+      "volume_ratio": 0.44,
+      "obv": 0.41,
+      "news_sentiment": 0.22
+    },
+    "sentiment_weight": 0.25,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -0.44,
+    "correct": false,
+    "logged_at": "2026-04-03T11:43:36.715802"
+  },
+  {
+    "date": "2024-10-23",
+    "predicted_direction": "up",
+    "predicted_probability": 57,
+    "predicted_return": 4.2,
+    "key_factors": [
+      "strong multi-timeframe uptrend with 4/4 EMA alignment and SMA50 above SMA200",
+      "MACD remains bullish and price is holding above key moving averages",
+      "momentum is neutral rather than overbought, leaving room for further upside if trend persists"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.89,
+      "sma_trend": 0.84,
+      "golden_cross": 0.72,
+      "macd": 0.87,
+      "adx": 0.74,
+      "williams_r": 0.63,
+      "rsi": 0.55,
+      "stochastic": 0.48,
+      "bollinger_bands": 0.42,
+      "volume_ratio": 0.36,
+      "obv": 0.58,
+      "news_sentiment": 0.69
+    },
+    "sentiment_weight": 0.63,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -0.29,
+    "correct": false,
+    "logged_at": "2026-04-03T11:43:42.208853"
+  },
+  {
+    "date": "2024-10-30",
+    "predicted_direction": "down",
+    "predicted_probability": 56,
+    "predicted_return": -3.2,
+    "key_factors": [
+      "MACD histogram is bearish with weak trend strength (ADX below 20), suggesting fading upside momentum",
+      "Price is stalling around short-term averages with only partial EMA alignment, while momentum indicators are neutral-to-soft rather than supportive",
+      "News flow is mixed-to-negative for AAPL specifically, with Buffett selling and rising Treasury yields creating valuation pressure on mega-cap tech"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.77,
+      "sma_trend": 0.72,
+      "golden_cross": 0.58,
+      "macd": 0.88,
+      "adx": 0.8,
+      "rsi": 0.46,
+      "stochastic": 0.52,
+      "williams_r": 0.69,
+      "bollinger_bands": 0.41,
+      "volume_ratio": 0.34,
+      "obv": 0.39,
+      "news_sentiment": 0.74
+    },
+    "sentiment_weight": 0.63,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -3.21,
+    "correct": true,
+    "logged_at": "2026-04-03T11:43:48.798500"
+  },
+  {
+    "date": "2024-11-06",
+    "predicted_direction": "down",
+    "predicted_probability": 61,
+    "predicted_return": -4.8,
+    "key_factors": [
+      "bearish trend structure with price below EMA25/EMA50 and negative MACD histogram",
+      "ADX shows a meaningful downside trend with -DI above +DI",
+      "news flow is mixed but skewed cautious due to Buffett trimming Apple despite solid results"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.84,
+      "sma_trend": 0.72,
+      "golden_cross": 0.41,
+      "macd": 0.88,
+      "adx": 0.82,
+      "rsi": 0.46,
+      "stochastic": 0.58,
+      "williams_r": 0.71,
+      "cci": 0.52,
+      "bollinger_bands": 0.55,
+      "volume_ratio": 0.34,
+      "obv": 0.49,
+      "news_sentiment": 0.63
+    },
+    "sentiment_weight": 0.63,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 1.08,
+    "correct": false,
+    "logged_at": "2026-04-03T11:43:54.176161"
+  },
+  {
+    "date": "2024-11-13",
+    "predicted_direction": "down",
+    "predicted_probability": 58,
+    "predicted_return": -4.2,
+    "key_factors": [
+      "Bearish trend setup with price below EMA25/EMA50 and negative MACD histogram",
+      "ADX with -DI above +DI indicates a modest but active downside trend",
+      "News flow is mostly weakly relevant or mixed, offering little positive catalyst to offset soft technicals"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.84,
+      "sma_trend": 0.72,
+      "golden_cross": 0.48,
+      "macd": 0.9,
+      "adx": 0.82,
+      "rsi": 0.46,
+      "stochastic": 0.38,
+      "williams_r": 0.63,
+      "cci": 0.41,
+      "bollinger_bands": 0.44,
+      "volume_ratio": 0.29,
+      "obv": 0.51,
+      "news_sentiment": 0.35
+    },
+    "sentiment_weight": 0.37,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 1.72,
+    "correct": false,
+    "logged_at": "2026-04-03T11:44:00.584833"
+  },
+  {
+    "date": "2024-11-20",
+    "predicted_direction": "up",
+    "predicted_probability": 58,
+    "predicted_return": 4.6,
+    "key_factors": [
+      "Strong multi-timeframe trend structure with 4/4 EMA alignment, price above key SMAs, and an active golden cross",
+      "MACD histogram is bullish and OBV is rising, suggesting underlying accumulation despite light volume",
+      "News flow is mixed-to-slightly positive overall, with broad mega-cap/AI optimism offsetting Buffett stake-trim headlines"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.9,
+      "macd": 0.86,
+      "sma_trend": 0.82,
+      "adx": 0.74,
+      "williams_r": 0.68,
+      "stochastic": 0.64,
+      "news_sentiment": 0.62,
+      "obv": 0.55,
+      "volume_ratio": 0.42,
+      "bollinger_bands": 0.4,
+      "rsi": 0.38
+    },
+    "sentiment_weight": 0.65,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 2.59,
+    "correct": true,
+    "logged_at": "2026-04-03T11:44:07.453048"
+  },
+  {
+    "date": "2024-11-27",
+    "predicted_direction": "up",
+    "predicted_probability": 62,
+    "predicted_return": 6.4,
+    "key_factors": [
+      "Strong trend structure with 4/4 EMA alignment, price above key moving averages, and an active golden cross",
+      "Bullish MACD histogram and ADX above 25 indicate a strengthening uptrend rather than a weak drift",
+      "News flow is mixed but not strongly negative, while broader tech momentum into year-end remains supportive"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.92,
+      "sma_trend": 0.86,
+      "golden_cross": 0.72,
+      "macd": 0.9,
+      "adx": 0.84,
+      "stochastic": 0.63,
+      "williams_r": 0.56,
+      "cci": 0.58,
+      "bollinger_bands": 0.67,
+      "volume_ratio": 0.44,
+      "obv": 0.41,
+      "news_sentiment": 0.61
+    },
+    "sentiment_weight": 0.65,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 3.45,
+    "correct": true,
+    "logged_at": "2026-04-03T11:44:12.861326"
+  },
+  {
+    "date": "2024-12-05",
+    "predicted_direction": "up",
+    "predicted_probability": 64,
+    "predicted_return": 6.2,
+    "key_factors": [
+      "strong multi-timeframe uptrend with full EMA/SMA alignment and active golden cross",
+      "bullish MACD and very strong ADX confirm trend persistence rather than a weak overbought bounce",
+      "news flow is modestly positive for Apple, centered on expected fiscal 2025-2026 growth and AI-capable iPhone catalyst"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.93,
+      "sma_trend": 0.88,
+      "golden_cross": 0.72,
+      "macd": 0.91,
+      "adx": 0.9,
+      "rsi": 0.67,
+      "stochastic": 0.58,
+      "williams_r": 0.7,
+      "cci": 0.52,
+      "bollinger_bands": 0.61,
+      "volume_ratio": 0.35,
+      "obv": 0.42,
+      "news_sentiment": 0.56
+    },
+    "sentiment_weight": 0.65,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 2.02,
+    "correct": true,
+    "logged_at": "2026-04-03T11:44:18.846895"
+  },
+  {
+    "date": "2024-12-12",
+    "predicted_direction": "up",
+    "predicted_probability": 63,
+    "predicted_return": 6.4,
+    "key_factors": [
+      "very strong trend structure with full EMA/SMA alignment and active golden cross",
+      "MACD bullish with extremely strong ADX, indicating persistent trend strength",
+      "news flow is mildly supportive to neutral for Apple, including positive read-through from insourcing chips despite limited direct catalysts"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.92,
+      "sma_trend": 0.88,
+      "golden_cross": 0.74,
+      "macd": 0.9,
+      "adx": 0.91,
+      "rsi": 0.63,
+      "stochastic": 0.56,
+      "williams_r": 0.72,
+      "bollinger_bands": 0.58,
+      "volume_ratio": 0.41,
+      "obv": 0.47,
+      "news_sentiment": 0.38
+    },
+    "sentiment_weight": 0.35,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 0.74,
+    "correct": true,
+    "logged_at": "2026-04-03T11:44:24.895823"
+  },
+  {
+    "date": "2024-12-19",
+    "predicted_direction": "up",
+    "predicted_probability": 61,
+    "predicted_return": 5.4,
+    "key_factors": [
+      "strong multi-timeframe trend with full EMA alignment and bullish SMA structure",
+      "very strong trend strength confirmed by ADX, positive MACD histogram, and rising OBV on above-average volume",
+      "momentum is firm but not yet at extreme overbought levels, leaving room for continuation"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.92,
+      "sma_trend": 0.86,
+      "golden_cross": 0.72,
+      "macd": 0.9,
+      "adx": 0.88,
+      "williams_r": 0.63,
+      "rsi": 0.55,
+      "stochastic": 0.46,
+      "bollinger_bands": 0.44,
+      "volume_ratio": 0.41,
+      "obv": 0.58,
+      "news_sentiment": 0.67
+    },
+    "sentiment_weight": 0.6,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": 2.32,
+    "correct": true,
+    "logged_at": "2026-04-03T11:44:30.955072"
+  },
+  {
+    "date": "2024-12-27",
+    "predicted_direction": "up",
+    "predicted_probability": 64,
+    "predicted_return": 6.8,
+    "key_factors": [
+      "strong multi-timeframe uptrend with full EMA alignment and bullish SMA structure",
+      "MACD remains positive and ADX near 61 signals a powerful established trend",
+      "news flow is mixed-to-slightly-negative but lacks a strong bearish catalyst and price/OBV still confirm accumulation"
+    ],
+    "indicator_importance": {
+      "ema_alignment": 0.95,
+      "macd": 0.9,
+      "sma_trend": 0.88,
+      "adx": 0.87,
+      "williams_r": 0.72,
+      "rsi": 0.64,
+      "bollinger_bands": 0.58,
+      "obv": 0.52,
+      "news_sentiment": 0.55
+    },
+    "sentiment_weight": 0.6,
+    "models_used": [
+      "gpt-5.4"
+    ],
+    "agreement": true,
+    "actual_return": -1.33,
+    "correct": false,
+    "logged_at": "2026-04-03T11:44:36.859074"
+  }
+]

@@ -182,7 +182,7 @@ def update_indicator_weights(ticker, prediction, correct):
         "correct": correct,
     })
     # Keep last 50 data points
-    ctx["indicator_history"] = ctx["indicator_history"][-50:]
+    # Keep all history for full learning coverage
 
     # Recompute weights from full history
     indicator_scores = defaultdict(list)
