@@ -18,7 +18,7 @@ TICKERS = ["AAPL", "NVDA", "META", "JPM", "TSLA", "MSFT", "AMZN", "GOOGL", "AVGO
 
 # Prediction Config
 PREDICTION_HORIZON_DAYS = 63   # ~3 months forward
-REBALANCE_DAYS = 21            # ~monthly rebalance
+REBALANCE_DAYS = 5             # ~weekly rebalance
 SAMPLE_INTERVAL_DAYS = 1       # collect training sample every trading day
 LOOKBACK_SEQUENCE = 60         # LSTM input sequence length (trading days)
 

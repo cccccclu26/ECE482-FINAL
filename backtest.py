@@ -136,8 +136,10 @@ def run_llm_backtest(start_date, end_date, tickers=None, prompt_version="v1",
             spy_ret = 0.0
         spy_value *= (1 + spy_ret)
 
-        # Update prediction actuals
-        for ticker in equity_tickers:
+        # Update prediction actuals for ALL tickers (not just held ones)
+        for ticker in tickers:
+            if ticker not in price_data:
+                continue
             td = price_data[ticker]
             entry_rows = td[td.index >= rebal_date]
             exit_rows = td[td.index >= next_rebal]
