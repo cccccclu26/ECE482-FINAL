@@ -97,7 +97,8 @@ def fetch_all_price_data(tickers, start_date, end_date):
 
 def fetch_news(ticker, date, limit=None):
     """
-    Fetch news articles for a ticker around a given date from Polygon.io.
+    Fetch news articles for a ticker around a given date.
+    Uses Polygon.io first, falls back to Google News RSS for historical data.
 
     Args:
         ticker: Stock ticker symbol
@@ -111,6 +112,18 @@ def fetch_news(ticker, date, limit=None):
     if isinstance(date, str):
         date = datetime.strptime(date, "%Y-%m-%d")
 
+    # Try Polygon.io first
+    news_list = _fetch_news_polygon(ticker, date, limit)
+
+    # Fallback to Google News RSS if Polygon returns nothing
+    if not news_list:
+        news_list = _fetch_news_google(ticker, date, limit)
+
+    return news_list
+
+
+def _fetch_news_polygon(ticker, date, limit):
+    """Fetch news from Polygon.io API."""
     end_str = date.strftime("%Y-%m-%d")
     start_str = (date - timedelta(days=config.NEWS_LOOKBACK_DAYS)).strftime("%Y-%m-%d")
 
@@ -127,8 +140,7 @@ def fetch_news(ticker, date, limit=None):
         r = requests.get(url, timeout=15)
         r.raise_for_status()
         articles = r.json().get("results", [])
-    except Exception as e:
-        print(f"  News fetch failed for {ticker}: {e}")
+    except Exception:
         return []
 
     news_list = []
@@ -140,7 +152,42 @@ def fetch_news(ticker, date, limit=None):
             "published_utc": a.get("published_utc", ""),
             "source": a.get("publisher", {}).get("name", "Unknown"),
         })
+    return news_list
 
+
+def _fetch_news_google(ticker, date, limit):
+    """Fetch historical news from Google News RSS (free, no API key)."""
+    import xml.etree.ElementTree as ET
+
+    end_str = date.strftime("%Y-%m-%d")
+    start_str = (date - timedelta(days=config.NEWS_LOOKBACK_DAYS)).strftime("%Y-%m-%d")
+
+    url = (
+        f"https://news.google.com/rss/search"
+        f"?q={ticker}+stock+after:{start_str}+before:{end_str}"
+        f"&hl=en-US&gl=US&ceid=US:en"
+    )
+
+    try:
+        r = requests.get(url, timeout=15, headers={"User-Agent": "Mozilla/5.0"})
+        r.raise_for_status()
+        root = ET.fromstring(r.content)
+        items = root.findall(".//item")
+    except Exception:
+        return []
+
+    news_list = []
+    for item in items[:limit]:
+        title_el = item.find("title")
+        pubdate_el = item.find("pubDate")
+        source_el = item.find("source")
+        news_list.append({
+            "ticker": ticker,
+            "title": title_el.text if title_el is not None else "",
+            "description": "",
+            "published_utc": pubdate_el.text if pubdate_el is not None else "",
+            "source": source_el.text if source_el is not None else "Google News",
+        })
     return news_list
 
 

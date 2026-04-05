@@ -200,8 +200,10 @@ def run_lstm_backtest(start_date, end_date, tickers=None,
     )
     print(f"Rebalance dates: {len(rebalance_dates)}\n")
 
-    portfolio_value = config.INITIAL_CAPITAL
-    spy_value = config.INITIAL_CAPITAL
+    weekly_deposit = config.INITIAL_CAPITAL  # $10,000 new capital each week
+    portfolio_value = 0.0
+    spy_value = 0.0
+    total_invested = 0.0
     history = []
 
     for r_idx, rebal_date in enumerate(rebalance_dates):
@@ -211,8 +213,13 @@ def run_lstm_backtest(start_date, end_date, tickers=None,
             future = valid_days[valid_days > rebal_date]
             next_rebal = future[-1] if len(future) > 0 else rebal_date
 
+        # Weekly deposit
+        portfolio_value += weekly_deposit
+        spy_value += weekly_deposit
+        total_invested += weekly_deposit
+
         date_str = rebal_date.strftime("%Y-%m-%d")
-        print(f"[{r_idx+1:02d}/{len(rebalance_dates)}] {date_str}")
+        print(f"[{r_idx+1:03d}/{len(rebalance_dates)}] {date_str} (invested ${total_invested:,.0f})")
 
         # LSTM predictions
         predictions = {}
@@ -233,6 +240,7 @@ def run_lstm_backtest(start_date, end_date, tickers=None,
         print(f"  Cash: {cash_pct:.0%}")
 
         period_return = _compute_period_return(weights, price_data, rebal_date, next_rebal)
+        week_pnl = portfolio_value * period_return
         portfolio_value *= (1 + period_return)
 
         spy_entry = spy_data[spy_data.index >= rebal_date]
@@ -243,18 +251,60 @@ def run_lstm_backtest(start_date, end_date, tickers=None,
             spy_ret = 0.0
         spy_value *= (1 + spy_ret)
 
-        print(f"  Return: {period_return:+.2%} | SPY: {spy_ret:+.2%} | Portfolio: ${portfolio_value:,.0f}")
+        total_pnl = portfolio_value - total_invested
+        print(f"  Return: {period_return:+.2%} | SPY: {spy_ret:+.2%} | "
+              f"Week PnL: ${week_pnl:+,.0f} | Portfolio: ${portfolio_value:,.0f} | "
+              f"Total PnL: ${total_pnl:+,.0f}")
 
         history.append({
             "date": date_str,
             "weights": {t: round(w, 4) for t, w in weights.items()},
             "period_return": round(period_return * 100, 2),
             "spy_return": round(spy_ret * 100, 2),
+            "total_invested": round(total_invested, 2),
             "portfolio_value": round(portfolio_value, 2),
             "spy_value": round(spy_value, 2),
         })
 
-    return _print_summary("LSTM", portfolio_value, spy_value, history, rebalance_dates, rebalance_days)
+    # Custom summary for DCA mode
+    total_pnl = portfolio_value - total_invested
+    spy_total_pnl = spy_value - total_invested
+
+    print(f"\n{'='*65}")
+    print(f"RESULTS - LSTM (weekly $10,000 deposits, threshold {threshold:.0%})")
+    print(f"{'='*65}")
+    print(f"{'Total Invested':30} ${total_invested:>11,.0f}")
+    print(f"{'Portfolio Value':30} ${portfolio_value:>11,.0f}")
+    print(f"{'Total PnL':30} ${total_pnl:>+11,.0f}")
+    print(f"{'Return on Investment':30} {total_pnl/total_invested*100:>+11.1f}%")
+    print(f"{'':30}")
+    print(f"{'SPY Value':30} ${spy_value:>11,.0f}")
+    print(f"{'SPY Total PnL':30} ${spy_total_pnl:>+11,.0f}")
+    print(f"{'SPY ROI':30} {spy_total_pnl/total_invested*100:>+11.1f}%")
+    print(f"{'':30}")
+    print(f"{'Alpha (PnL)':30} ${total_pnl - spy_total_pnl:>+11,.0f}")
+    print(f"{'Alpha (ROI)':30} {(total_pnl - spy_total_pnl)/total_invested*100:>+11.1f}%")
+    print(f"{'='*65}")
+
+    result = {
+        "method": "LSTM-DCA",
+        "total_invested": round(total_invested, 2),
+        "portfolio_value": round(portfolio_value, 2),
+        "total_pnl": round(total_pnl, 2),
+        "roi_pct": round(total_pnl / total_invested * 100, 2),
+        "spy_value": round(spy_value, 2),
+        "spy_pnl": round(spy_total_pnl, 2),
+        "spy_roi_pct": round(spy_total_pnl / total_invested * 100, 2),
+        "history": history,
+    }
+    os.makedirs(config.RESULTS_DIR, exist_ok=True)
+    ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+    result_path = os.path.join(config.RESULTS_DIR, f"backtest_lstm_dca_{ts}.json")
+    with open(result_path, "w") as f:
+        json.dump(result, f, indent=2)
+    print(f"\nSaved: {result_path}")
+
+    return result
 
 
 def run_llm_portfolio_backtest(start_date, end_date, tickers=None,
@@ -269,6 +319,7 @@ def run_llm_portfolio_backtest(start_date, end_date, tickers=None,
     import csv
     from llm_engine import call_llm, parse_json_response
     from technical import compute_indicators, format_indicators_for_prompt
+    from data_fetcher import fetch_news, format_news_for_prompt
     from memory import format_stock_context_for_prompt
 
     tickers = tickers or config.TICKERS
@@ -298,8 +349,10 @@ def run_llm_portfolio_backtest(start_date, end_date, tickers=None,
     )
     print(f"Rebalance dates: {len(rebalance_dates)}\n")
 
-    portfolio_value = config.INITIAL_CAPITAL
-    spy_value = config.INITIAL_CAPITAL
+    weekly_deposit = config.INITIAL_CAPITAL  # $10,000 new capital each week
+    portfolio_value = 0.0
+    spy_value = 0.0
+    total_invested = 0.0
     history = []
     paper_account = []  # detailed weekly log
 
@@ -310,9 +363,14 @@ def run_llm_portfolio_backtest(start_date, end_date, tickers=None,
             future = valid_days[valid_days > rebal_date]
             next_rebal = future[-1] if len(future) > 0 else rebal_date
 
+        # Weekly deposit: add $10,000 new capital
+        portfolio_value += weekly_deposit
+        spy_value += weekly_deposit
+        total_invested += weekly_deposit
+
         date_str = rebal_date.strftime("%Y-%m-%d")
         next_str = next_rebal.strftime("%Y-%m-%d")
-        print(f"[{r_idx+1:03d}/{len(rebalance_dates)}] {date_str} -> {next_str}")
+        print(f"[{r_idx+1:03d}/{len(rebalance_dates)}] {date_str} -> {next_str}  (deposited ${weekly_deposit:,.0f}, total invested ${total_invested:,.0f})")
 
         # Build combined data for all stocks
         stock_blocks = []
@@ -322,9 +380,15 @@ def run_llm_portfolio_backtest(start_date, end_date, tickers=None,
             indicators = compute_indicators(price_data[ticker], as_of_date=rebal_date)
             tech_text = format_indicators_for_prompt(indicators)
             context_text = format_stock_context_for_prompt(ticker)
+
+            # Fetch news for this stock around this date
+            news_list = fetch_news(ticker, date_str, limit=5)
+            news_text = format_news_for_prompt(news_list, max_articles=3)
+
             stock_blocks.append(
                 f"### {ticker}\n"
                 f"**Technical Indicators:**\n{tech_text}\n\n"
+                f"**Recent News:**\n{news_text}\n\n"
                 f"**Learned Context:**\n{context_text}\n"
             )
 
@@ -391,12 +455,12 @@ def run_llm_portfolio_backtest(start_date, end_date, tickers=None,
                     "pnl": round(dollar_pnl, 2),
                 }
 
-        # Compute portfolio return
+        # Compute portfolio return on TOTAL portfolio value
         period_return = _compute_period_return(weights, price_data, rebal_date, next_rebal)
         week_pnl = portfolio_value * period_return
         portfolio_value *= (1 + period_return)
 
-        # SPY return
+        # SPY return on TOTAL spy value
         spy_entry = spy_data[spy_data.index >= rebal_date]
         spy_exit = spy_data[spy_data.index >= next_rebal]
         if len(spy_entry) > 0 and len(spy_exit) > 0:
@@ -405,8 +469,12 @@ def run_llm_portfolio_backtest(start_date, end_date, tickers=None,
             spy_ret = 0.0
         spy_value *= (1 + spy_ret)
 
+        total_pnl = portfolio_value - total_invested
+        spy_total_pnl = spy_value - total_invested
+
         print(f"  Return: {period_return:+.2%} | SPY: {spy_ret:+.2%} | "
-              f"PnL: ${week_pnl:+,.0f} | Portfolio: ${portfolio_value:,.0f} | SPY: ${spy_value:,.0f}")
+              f"Week PnL: ${week_pnl:+,.0f} | Portfolio: ${portfolio_value:,.0f} | "
+              f"Total PnL: ${total_pnl:+,.0f}")
 
         # Paper account entry
         paper_entry = {
@@ -421,11 +489,14 @@ def run_llm_portfolio_backtest(start_date, end_date, tickers=None,
             "week_return_pct": round(period_return * 100, 2),
             "week_pnl": round(week_pnl, 2),
             "spy_return_pct": round(spy_ret * 100, 2),
+            "total_invested": round(total_invested, 2),
             "portfolio_value": round(portfolio_value, 2),
+            "total_pnl": round(total_pnl, 2),
             "spy_value": round(spy_value, 2),
+            "spy_total_pnl": round(spy_total_pnl, 2),
             "positions": per_stock_pnl,
         }
-        # Add per-stock weights as columns
+        # Add per-stock weights and pnl as columns
         for t in tickers:
             paper_entry[f"{t}_weight"] = round(weights.get(t, 0.0) * 100, 1)
             if t in per_stock_pnl:
@@ -439,6 +510,7 @@ def run_llm_portfolio_backtest(start_date, end_date, tickers=None,
             "weights": {t: round(w, 4) for t, w in weights.items()},
             "period_return": round(period_return * 100, 2),
             "spy_return": round(spy_ret * 100, 2),
+            "total_invested": round(total_invested, 2),
             "portfolio_value": round(portfolio_value, 2),
             "spy_value": round(spy_value, 2),
         })
@@ -450,7 +522,8 @@ def run_llm_portfolio_backtest(start_date, end_date, tickers=None,
     csv_columns = [
         "week", "date", "next_date", "market_outlook", "top_picks", "avoid",
         "cash_pct", "week_return_pct", "week_pnl", "spy_return_pct",
-        "portfolio_value", "spy_value", "reasoning",
+        "total_invested", "portfolio_value", "total_pnl",
+        "spy_value", "spy_total_pnl", "reasoning",
     ]
     for t in tickers:
         csv_columns.extend([f"{t}_weight", f"{t}_pnl"])
@@ -467,7 +540,40 @@ def run_llm_portfolio_backtest(start_date, end_date, tickers=None,
         json.dump(paper_account, f, indent=2, ensure_ascii=False)
     print(f"Detailed log saved: {json_path}")
 
-    return _print_summary("LLM-Portfolio", portfolio_value, spy_value, history, rebalance_dates, rebalance_days)
+    # Custom summary for DCA mode
+    print(f"\n{'='*65}")
+    print(f"RESULTS - LLM Portfolio (weekly $10,000 deposits)")
+    print(f"{'='*65}")
+    print(f"{'Total Invested':30} ${total_invested:>11,.0f}")
+    print(f"{'Portfolio Value':30} ${portfolio_value:>11,.0f}")
+    print(f"{'Total PnL':30} ${total_pnl:>+11,.0f}")
+    print(f"{'Return on Investment':30} {total_pnl/total_invested*100:>+11.1f}%")
+    print(f"{'':30}")
+    print(f"{'SPY Value':30} ${spy_value:>11,.0f}")
+    print(f"{'SPY Total PnL':30} ${spy_total_pnl:>+11,.0f}")
+    print(f"{'SPY ROI':30} {spy_total_pnl/total_invested*100:>+11.1f}%")
+    print(f"{'':30}")
+    print(f"{'Alpha (PnL)':30} ${total_pnl - spy_total_pnl:>+11,.0f}")
+    print(f"{'Alpha (ROI)':30} {(total_pnl - spy_total_pnl)/total_invested*100:>+11.1f}%")
+    print(f"{'='*65}")
+
+    result = {
+        "method": "LLM-Portfolio-DCA",
+        "total_invested": round(total_invested, 2),
+        "portfolio_value": round(portfolio_value, 2),
+        "total_pnl": round(total_pnl, 2),
+        "roi_pct": round(total_pnl / total_invested * 100, 2),
+        "spy_value": round(spy_value, 2),
+        "spy_pnl": round(spy_total_pnl, 2),
+        "spy_roi_pct": round(spy_total_pnl / total_invested * 100, 2),
+        "history": history,
+    }
+    result_path = os.path.join(config.RESULTS_DIR, f"backtest_llm_portfolio_dca_{ts}.json")
+    with open(result_path, "w") as f:
+        json.dump(result, f, indent=2)
+    print(f"\nSaved: {result_path}")
+
+    return result
 
 
 def _print_summary(method, portfolio_value, spy_value, history, rebalance_dates, rebalance_days):

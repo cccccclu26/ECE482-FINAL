@@ -1,0 +1,4350 @@
+{
+  "method": "LSTM-DCA",
+  "total_invested": 2520000.0,
+  "portfolio_value": 4393647.87,
+  "total_pnl": 1873647.87,
+  "roi_pct": 74.35,
+  "spy_value": 3802107.62,
+  "spy_pnl": 1282107.62,
+  "spy_roi_pct": 50.88,
+  "history": [
+    {
+      "date": "2016-01-04",
+      "weights": {
+        "AAPL": 0.0951,
+        "NVDA": 0.1025,
+        "META": 0.1008,
+        "TSLA": 0.0965,
+        "GOOGL": 0.1025,
+        "LLY": 0.1025,
+        "CASH": 0.4
+      },
+      "period_return": -3.28,
+      "spy_return": -4.43,
+      "total_invested": 10000.0,
+      "portfolio_value": 9671.8,
+      "spy_value": 9556.76
+    },
+    {
+      "date": "2016-01-11",
+      "weights": {
+        "AAPL": 0.0886,
+        "NVDA": 0.1037,
+        "META": 0.1006,
+        "TSLA": 0.0967,
+        "GOOGL": 0.1037,
+        "AVGO": 0.103,
+        "LLY": 0.1037,
+        "CASH": 0.3
+      },
+      "period_return": -1.82,
+      "spy_return": -2.11,
+      "total_invested": 20000.0,
+      "portfolio_value": 19313.06,
+      "spy_value": 19144.47
+    },
+    {
+      "date": "2016-01-19",
+      "weights": {
+        "AAPL": 0.0932,
+        "NVDA": 0.1089,
+        "META": 0.0941,
+        "TSLA": 0.0975,
+        "AMZN": 0.1036,
+        "AVGO": 0.0936,
+        "LLY": 0.1091,
+        "CASH": 0.3
+      },
+      "period_return": 1.19,
+      "spy_return": 1.14,
+      "total_invested": 30000.0,
+      "portfolio_value": 29663.16,
+      "spy_value": 29476.12
+    },
+    {
+      "date": "2016-01-26",
+      "weights": {
+        "NVDA": 0.1034,
+        "META": 0.1032,
+        "TSLA": 0.0951,
+        "GOOGL": 0.0945,
+        "LLY": 0.1038,
+        "CASH": 0.5
+      },
+      "period_return": 0.96,
+      "spy_return": -0.02,
+      "total_invested": 40000.0,
+      "portfolio_value": 40044.09,
+      "spy_value": 39467.81
+    },
+    {
+      "date": "2016-02-02",
+      "weights": {
+        "NVDA": 0.101,
+        "META": 0.101,
+        "TSLA": 0.0992,
+        "AMZN": 0.0978,
+        "LLY": 0.101,
+        "CASH": 0.5
+      },
+      "period_return": -5.71,
+      "spy_return": -2.49,
+      "total_invested": 50000.0,
+      "portfolio_value": 47188.39,
+      "spy_value": 48237.35
+    },
+    {
+      "date": "2016-02-09",
+      "weights": {
+        "NVDA": 0.1004,
+        "META": 0.1005,
+        "TSLA": 0.1004,
+        "AMZN": 0.0983,
+        "GOOGL": 0.1,
+        "LLY": 0.1005,
+        "CASH": 0.4
+      },
+      "period_return": 4.51,
+      "spy_return": 4.02,
+      "total_invested": 60000.0,
+      "portfolio_value": 59767.84,
+      "spy_value": 60577.16
+    },
+    {
+      "date": "2016-02-17",
+      "weights": {
+        "AAPL": 0.0905,
+        "META": 0.1017,
+        "TSLA": 0.1025,
+        "GOOGL": 0.1025,
+        "LLY": 0.1027,
+        "CASH": 0.5
+      },
+      "period_return": 0.37,
+      "spy_return": 0.17,
+      "total_invested": 70000.0,
+      "portfolio_value": 70024.95,
+      "spy_value": 70694.26
+    },
+    {
+      "date": "2016-02-24",
+      "weights": {
+        "AAPL": 0.0974,
+        "GOOGL": 0.101,
+        "LLY": 0.1016,
+        "CASH": 0.7
+      },
+      "period_return": 0.72,
+      "spy_return": 3.0,
+      "total_invested": 80000.0,
+      "portfolio_value": 80601.71,
+      "spy_value": 83116.75
+    },
+    {
+      "date": "2016-03-02",
+      "weights": {
+        "AAPL": 0.0973,
+        "MSFT": 0.1013,
+        "LLY": 0.1014,
+        "CASH": 0.7
+      },
+      "period_return": -0.05,
+      "spy_return": 0.19,
+      "total_invested": 90000.0,
+      "portfolio_value": 90555.42,
+      "spy_value": 93294.58
+    },
+    {
+      "date": "2016-03-09",
+      "weights": {
+        "AAPL": 0.0974,
+        "MSFT": 0.1013,
+        "LLY": 0.1013,
+        "CASH": 0.7
+      },
+      "period_return": 0.61,
+      "spy_return": 1.99,
+      "total_invested": 100000.0,
+      "portfolio_value": 101169.29,
+      "spy_value": 105346.16
+    },
+    {
+      "date": "2016-03-16",
+      "weights": {
+        "AAPL": 0.094,
+        "NVDA": 0.1028,
+        "MSFT": 0.1033,
+        "AMZN": 0.0965,
+        "AVGO": 0.1002,
+        "LLY": 0.1033,
+        "CASH": 0.4
+      },
+      "period_return": 0.38,
+      "spy_return": 0.45,
+      "total_invested": 110000.0,
+      "portfolio_value": 111596.4,
+      "spy_value": 115866.93
+    },
+    {
+      "date": "2016-03-23",
+      "weights": {
+        "AAPL": 0.0929,
+        "NVDA": 0.1018,
+        "JPM": 0.1014,
+        "MSFT": 0.1019,
+        "GOOGL": 0.1001,
+        "LLY": 0.1019,
+        "CASH": 0.4
+      },
+      "period_return": 0.91,
+      "spy_return": 1.14,
+      "total_invested": 120000.0,
+      "portfolio_value": 122705.58,
+      "spy_value": 127297.76
+    },
+    {
+      "date": "2016-03-31",
+      "weights": {
+        "AAPL": 0.0886,
+        "NVDA": 0.1018,
+        "JPM": 0.1017,
+        "MSFT": 0.102,
+        "AMZN": 0.102,
+        "GOOGL": 0.102,
+        "LLY": 0.102,
+        "CASH": 0.3
+      },
+      "period_return": -0.2,
+      "spy_return": -0.76,
+      "total_invested": 130000.0,
+      "portfolio_value": 132441.16,
+      "spy_value": 136248.89
+    },
+    {
+      "date": "2016-04-07",
+      "weights": {
+        "AAPL": 0.0919,
+        "NVDA": 0.1014,
+        "JPM": 0.1012,
+        "MSFT": 0.1014,
+        "AMZN": 0.1014,
+        "GOOGL": 0.1014,
+        "LLY": 0.1014,
+        "CASH": 0.3
+      },
+      "period_return": 2.65,
+      "spy_return": 1.99,
+      "total_invested": 140000.0,
+      "portfolio_value": 146216.36,
+      "spy_value": 149160.28
+    },
+    {
+      "date": "2016-04-14",
+      "weights": {
+        "AAPL": 0.09,
+        "NVDA": 0.1017,
+        "JPM": 0.1016,
+        "MSFT": 0.1017,
+        "AMZN": 0.1017,
+        "GOOGL": 0.1017,
+        "LLY": 0.1014,
+        "CASH": 0.3
+      },
+      "period_return": 0.09,
+      "spy_return": 0.46,
+      "total_invested": 150000.0,
+      "portfolio_value": 156359.95,
+      "spy_value": 159894.83
+    },
+    {
+      "date": "2016-04-21",
+      "weights": {
+        "AAPL": 0.0955,
+        "NVDA": 0.1025,
+        "JPM": 0.1024,
+        "TSLA": 0.1021,
+        "MSFT": 0.1025,
+        "AMZN": 0.1025,
+        "GOOGL": 0.1025,
+        "AVGO": 0.0875,
+        "LLY": 0.1024,
+        "CASH": 0.1
+      },
+      "period_return": -3.94,
+      "spy_return": -0.73,
+      "total_invested": 160000.0,
+      "portfolio_value": 159808.45,
+      "spy_value": 168659.04
+    },
+    {
+      "date": "2016-04-28",
+      "weights": {
+        "AAPL": 0.0892,
+        "NVDA": 0.1015,
+        "META": 0.1003,
+        "JPM": 0.1014,
+        "TSLA": 0.1014,
+        "MSFT": 0.1015,
+        "AMZN": 0.101,
+        "GOOGL": 0.1014,
+        "AVGO": 0.1005,
+        "LLY": 0.1015
+      },
+      "period_return": -1.63,
+      "spy_return": -1.2,
+      "total_invested": 170000.0,
+      "portfolio_value": 167046.16,
+      "spy_value": 176523.23
+    },
+    {
+      "date": "2016-05-05",
+      "weights": {
+        "AAPL": 0.089,
+        "NVDA": 0.1027,
+        "META": 0.1013,
+        "JPM": 0.1024,
+        "TSLA": 0.1014,
+        "MSFT": 0.1026,
+        "AMZN": 0.0957,
+        "GOOGL": 0.1024,
+        "AVGO": 0.0998,
+        "LLY": 0.1027
+      },
+      "period_return": 1.42,
+      "spy_return": 0.78,
+      "total_invested": 180000.0,
+      "portfolio_value": 179561.15,
+      "spy_value": 187970.13
+    },
+    {
+      "date": "2016-05-12",
+      "weights": {
+        "AAPL": 0.0944,
+        "NVDA": 0.1055,
+        "META": 0.1021,
+        "JPM": 0.1025,
+        "MSFT": 0.1055,
+        "AMZN": 0.0854,
+        "GOOGL": 0.1055,
+        "AVGO": 0.0938,
+        "LLY": 0.1055,
+        "CASH": 0.1
+      },
+      "period_return": 2.04,
+      "spy_return": -1.14,
+      "total_invested": 190000.0,
+      "portfolio_value": 193428.49,
+      "spy_value": 195708.28
+    },
+    {
+      "date": "2016-05-19",
+      "weights": {
+        "NVDA": 0.1023,
+        "META": 0.0933,
+        "MSFT": 0.1025,
+        "AMZN": 0.1021,
+        "GOOGL": 0.0975,
+        "LLY": 0.1025,
+        "CASH": 0.4
+      },
+      "period_return": 1.75,
+      "spy_return": 2.52,
+      "total_invested": 200000.0,
+      "portfolio_value": 206996.61,
+      "spy_value": 210886.17
+    },
+    {
+      "date": "2016-05-26",
+      "weights": {
+        "NVDA": 0.1014,
+        "META": 0.0943,
+        "JPM": 0.0946,
+        "MSFT": 0.1033,
+        "AMZN": 0.1033,
+        "LLY": 0.1033,
+        "CASH": 0.4
+      },
+      "period_return": 0.13,
+      "spy_return": 0.45,
+      "total_invested": 210000.0,
+      "portfolio_value": 217273.63,
+      "spy_value": 221878.09
+    },
+    {
+      "date": "2016-06-03",
+      "weights": {
+        "AAPL": 0.0903,
+        "NVDA": 0.0947,
+        "META": 0.0954,
+        "JPM": 0.1028,
+        "MSFT": 0.1055,
+        "AMZN": 0.1056,
+        "LLY": 0.1056,
+        "CASH": 0.3
+      },
+      "period_return": -0.59,
+      "spy_return": -0.1,
+      "total_invested": 220000.0,
+      "portfolio_value": 225937.15,
+      "spy_value": 231646.53
+    },
+    {
+      "date": "2016-06-10",
+      "weights": {
+        "AAPL": 0.1019,
+        "NVDA": 0.1038,
+        "META": 0.0918,
+        "JPM": 0.0976,
+        "MSFT": 0.1038,
+        "AMZN": 0.1039,
+        "AVGO": 0.0933,
+        "LLY": 0.1039,
+        "CASH": 0.2
+      },
+      "period_return": -1.47,
+      "spy_return": -1.18,
+      "total_invested": 230000.0,
+      "portfolio_value": 232472.01,
+      "spy_value": 238798.34
+    },
+    {
+      "date": "2016-06-17",
+      "weights": {
+        "AAPL": 0.0972,
+        "NVDA": 0.1013,
+        "META": 0.097,
+        "MSFT": 0.1011,
+        "AMZN": 0.1013,
+        "AVGO": 0.101,
+        "LLY": 0.1013,
+        "CASH": 0.3
+      },
+      "period_return": -1.07,
+      "spy_return": -1.59,
+      "total_invested": 240000.0,
+      "portfolio_value": 239887.96,
+      "spy_value": 244846.82
+    },
+    {
+      "date": "2016-06-24",
+      "weights": {
+        "AAPL": 0.0957,
+        "NVDA": 0.1024,
+        "META": 0.101,
+        "TSLA": 0.0914,
+        "MSFT": 0.1023,
+        "AMZN": 0.1024,
+        "AVGO": 0.1024,
+        "LLY": 0.1024,
+        "CASH": 0.2
+      },
+      "period_return": 3.44,
+      "spy_return": 3.29,
+      "total_invested": 250000.0,
+      "portfolio_value": 258479.68,
+      "spy_value": 263223.01
+    },
+    {
+      "date": "2016-07-01",
+      "weights": {
+        "AAPL": 0.086,
+        "NVDA": 0.1043,
+        "TSLA": 0.089,
+        "MSFT": 0.1042,
+        "AMZN": 0.1043,
+        "GOOGL": 0.1036,
+        "AVGO": 0.1041,
+        "LLY": 0.1043,
+        "CASH": 0.2
+      },
+      "period_return": 2.82,
+      "spy_return": 1.66,
+      "total_invested": 260000.0,
+      "portfolio_value": 276041.6,
+      "spy_value": 277752.49
+    },
+    {
+      "date": "2016-07-11",
+      "weights": {
+        "NVDA": 0.1019,
+        "META": 0.101,
+        "JPM": 0.1019,
+        "TSLA": 0.0946,
+        "MSFT": 0.0935,
+        "AMZN": 0.1019,
+        "GOOGL": 0.1018,
+        "AVGO": 0.1016,
+        "LLY": 0.1019,
+        "CASH": 0.1
+      },
+      "period_return": 1.45,
+      "spy_return": 1.41,
+      "total_invested": 270000.0,
+      "portfolio_value": 290178.25,
+      "spy_value": 291811.2
+    },
+    {
+      "date": "2016-07-18",
+      "weights": {
+        "AAPL": 0.0873,
+        "NVDA": 0.0997,
+        "JPM": 0.1036,
+        "TSLA": 0.0961,
+        "AMZN": 0.1036,
+        "GOOGL": 0.1028,
+        "AVGO": 0.1032,
+        "LLY": 0.1036,
+        "CASH": 0.2
+      },
+      "period_return": 0.65,
+      "spy_return": 0.11,
+      "total_invested": 280000.0,
+      "portfolio_value": 302121.34,
+      "spy_value": 302145.92
+    },
+    {
+      "date": "2016-07-25",
+      "weights": {
+        "AAPL": 0.0952,
+        "NVDA": 0.1018,
+        "JPM": 0.1018,
+        "TSLA": 0.0943,
+        "AMZN": 0.1019,
+        "GOOGL": 0.1012,
+        "AVGO": 0.1018,
+        "LLY": 0.1019,
+        "CASH": 0.2
+      },
+      "period_return": 2.39,
+      "spy_return": 0.13,
+      "total_invested": 290000.0,
+      "portfolio_value": 319572.76,
+      "spy_value": 312563.81
+    },
+    {
+      "date": "2016-08-01",
+      "weights": {
+        "NVDA": 0.1019,
+        "JPM": 0.0974,
+        "TSLA": 0.0932,
+        "MSFT": 0.1017,
+        "AMZN": 0.102,
+        "AVGO": 0.102,
+        "LLY": 0.102,
+        "CASH": 0.3
+      },
+      "period_return": 0.91,
+      "spy_return": 0.51,
+      "total_invested": 300000.0,
+      "portfolio_value": 332586.24,
+      "spy_value": 324214.22
+    },
+    {
+      "date": "2016-08-08",
+      "weights": {
+        "NVDA": 0.1041,
+        "JPM": 0.0904,
+        "TSLA": 0.0934,
+        "AMZN": 0.1041,
+        "AVGO": 0.104,
+        "LLY": 0.1041,
+        "CASH": 0.4
+      },
+      "period_return": 1.04,
+      "spy_return": 0.48,
+      "total_invested": 310000.0,
+      "portfolio_value": 346150.15,
+      "spy_value": 335808.17
+    },
+    {
+      "date": "2016-08-15",
+      "weights": {
+        "NVDA": 0.1025,
+        "JPM": 0.0922,
+        "TSLA": 0.0957,
+        "AMZN": 0.1034,
+        "AVGO": 0.103,
+        "LLY": 0.1032,
+        "CASH": 0.4
+      },
+      "period_return": -0.4,
+      "spy_return": -0.26,
+      "total_invested": 320000.0,
+      "portfolio_value": 354727.42,
+      "spy_value": 344924.33
+    },
+    {
+      "date": "2016-08-22",
+      "weights": {
+        "NVDA": 0.1046,
+        "JPM": 0.096,
+        "TSLA": 0.0915,
+        "AMZN": 0.1046,
+        "GOOGL": 0.0942,
+        "AVGO": 0.1045,
+        "LLY": 0.1046,
+        "CASH": 0.3
+      },
+      "period_return": -0.07,
+      "spy_return": -0.08,
+      "total_invested": 330000.0,
+      "portfolio_value": 364459.29,
+      "spy_value": 354648.25
+    },
+    {
+      "date": "2016-08-29",
+      "weights": {
+        "NVDA": 0.1016,
+        "TSLA": 0.0925,
+        "AMZN": 0.1016,
+        "GOOGL": 0.1015,
+        "AVGO": 0.1014,
+        "LLY": 0.1016,
+        "CASH": 0.4
+      },
+      "period_return": -0.33,
+      "spy_return": 0.31,
+      "total_invested": 340000.0,
+      "portfolio_value": 373218.96,
+      "spy_value": 365767.09
+    },
+    {
+      "date": "2016-09-06",
+      "weights": {
+        "NVDA": 0.1036,
+        "TSLA": 0.0905,
+        "AMZN": 0.1036,
+        "GOOGL": 0.1036,
+        "AVGO": 0.0949,
+        "LLY": 0.1036,
+        "CASH": 0.4
+      },
+      "period_return": -1.78,
+      "spy_return": -2.65,
+      "total_invested": 350000.0,
+      "portfolio_value": 376402.15,
+      "spy_value": 365816.59
+    },
+    {
+      "date": "2016-09-13",
+      "weights": {
+        "NVDA": 0.1017,
+        "TSLA": 0.0949,
+        "AMZN": 0.1017,
+        "GOOGL": 0.1017,
+        "AVGO": 0.0984,
+        "LLY": 0.1017,
+        "CASH": 0.4
+      },
+      "period_return": 1.75,
+      "spy_return": 0.59,
+      "total_invested": 360000.0,
+      "portfolio_value": 393169.81,
+      "spy_value": 378051.44
+    },
+    {
+      "date": "2016-09-20",
+      "weights": {
+        "NVDA": 0.1009,
+        "AMZN": 0.1009,
+        "AVGO": 0.0986,
+        "LLY": 0.0995,
+        "CASH": 0.6
+      },
+      "period_return": 1.29,
+      "spy_return": 1.01,
+      "total_invested": 370000.0,
+      "portfolio_value": 408390.81,
+      "spy_value": 391960.8
+    },
+    {
+      "date": "2016-09-27",
+      "weights": {
+        "NVDA": 0.1067,
+        "MSFT": 0.0909,
+        "AMZN": 0.1067,
+        "AVGO": 0.1029,
+        "LLY": 0.0929,
+        "CASH": 0.5
+      },
+      "period_return": 0.32,
+      "spy_return": -0.41,
+      "total_invested": 380000.0,
+      "portfolio_value": 419739.49,
+      "spy_value": 400301.34
+    },
+    {
+      "date": "2016-10-04",
+      "weights": {
+        "NVDA": 0.0976,
+        "META": 0.0857,
+        "JPM": 0.1041,
+        "MSFT": 0.1042,
+        "AMZN": 0.1042,
+        "AVGO": 0.1011,
+        "LLY": 0.103,
+        "CASH": 0.3
+      },
+      "period_return": 0.17,
+      "spy_return": -0.58,
+      "total_invested": 390000.0,
+      "portfolio_value": 430479.55,
+      "spy_value": 407912.2
+    },
+    {
+      "date": "2016-10-11",
+      "weights": {
+        "NVDA": 0.1061,
+        "META": 0.091,
+        "TSLA": 0.0898,
+        "MSFT": 0.1061,
+        "AMZN": 0.1061,
+        "AVGO": 0.1032,
+        "LLY": 0.0977,
+        "CASH": 0.3
+      },
+      "period_return": -0.38,
+      "spy_return": 0.13,
+      "total_invested": 400000.0,
+      "portfolio_value": 438824.4,
+      "spy_value": 418460.56
+    },
+    {
+      "date": "2016-10-18",
+      "weights": {
+        "AAPL": 0.0959,
+        "NVDA": 0.1033,
+        "META": 0.0943,
+        "JPM": 0.0934,
+        "MSFT": 0.1033,
+        "AMZN": 0.1033,
+        "AVGO": 0.1033,
+        "LLY": 0.1033,
+        "CASH": 0.2
+      },
+      "period_return": 2.08,
+      "spy_return": 0.22,
+      "total_invested": 410000.0,
+      "portfolio_value": 458146.13,
+      "spy_value": 429382.78
+    },
+    {
+      "date": "2016-10-25",
+      "weights": {
+        "AAPL": 0.0947,
+        "NVDA": 0.1039,
+        "META": 0.0965,
+        "MSFT": 0.1039,
+        "AMZN": 0.1039,
+        "GOOGL": 0.0948,
+        "AVGO": 0.0984,
+        "LLY": 0.1039,
+        "CASH": 0.2
+      },
+      "period_return": -3.15,
+      "spy_return": -1.48,
+      "total_invested": 420000.0,
+      "portfolio_value": 453396.38,
+      "spy_value": 432899.78
+    },
+    {
+      "date": "2016-11-01",
+      "weights": {
+        "AAPL": 0.0972,
+        "NVDA": 0.1033,
+        "META": 0.0834,
+        "MSFT": 0.1033,
+        "AMZN": 0.1033,
+        "GOOGL": 0.1028,
+        "AVGO": 0.1032,
+        "LLY": 0.1033,
+        "CASH": 0.2
+      },
+      "period_return": 0.87,
+      "spy_return": 1.47,
+      "total_invested": 430000.0,
+      "portfolio_value": 467410.52,
+      "spy_value": 449406.57
+    },
+    {
+      "date": "2016-11-08",
+      "weights": {
+        "AAPL": 0.0969,
+        "NVDA": 0.1015,
+        "META": 0.0951,
+        "MSFT": 0.1015,
+        "AMZN": 0.1015,
+        "GOOGL": 0.1007,
+        "AVGO": 0.1015,
+        "LLY": 0.1015,
+        "CASH": 0.2
+      },
+      "period_return": -0.05,
+      "spy_return": 1.95,
+      "total_invested": 440000.0,
+      "portfolio_value": 477156.02,
+      "spy_value": 468353.9
+    },
+    {
+      "date": "2016-11-15",
+      "weights": {
+        "AAPL": 0.089,
+        "NVDA": 0.1018,
+        "MSFT": 0.1019,
+        "AMZN": 0.1018,
+        "GOOGL": 0.1017,
+        "AVGO": 0.1019,
+        "LLY": 0.1019,
+        "CASH": 0.3
+      },
+      "period_return": 2.84,
+      "spy_return": 1.05,
+      "total_invested": 450000.0,
+      "portfolio_value": 500979.84,
+      "spy_value": 483394.43
+    },
+    {
+      "date": "2016-11-22",
+      "weights": {
+        "META": 0.0976,
+        "MSFT": 0.1005,
+        "AMZN": 0.1004,
+        "GOOGL": 0.1005,
+        "AVGO": 0.1004,
+        "LLY": 0.1005,
+        "CASH": 0.4
+      },
+      "period_return": -2.49,
+      "spy_return": -0.09,
+      "total_invested": 460000.0,
+      "portfolio_value": 498248.71,
+      "spy_value": 492947.03
+    },
+    {
+      "date": "2016-11-30",
+      "weights": {
+        "AAPL": 0.084,
+        "NVDA": 0.1031,
+        "META": 0.1032,
+        "MSFT": 0.1032,
+        "AMZN": 0.1032,
+        "LLY": 0.1032,
+        "CASH": 0.4
+      },
+      "period_return": 0.82,
+      "spy_return": 1.91,
+      "total_invested": 470000.0,
+      "portfolio_value": 512425.8,
+      "spy_value": 512577.87
+    },
+    {
+      "date": "2016-12-07",
+      "weights": {
+        "AAPL": 0.0971,
+        "NVDA": 0.1005,
+        "META": 0.1005,
+        "MSFT": 0.1005,
+        "AMZN": 0.1003,
+        "AVGO": 0.1004,
+        "LLY": 0.1005,
+        "CASH": 0.3
+      },
+      "period_return": 1.54,
+      "spy_return": 0.57,
+      "total_invested": 480000.0,
+      "portfolio_value": 530473.14,
+      "spy_value": 525556.09
+    },
+    {
+      "date": "2016-12-14",
+      "weights": {
+        "AAPL": 0.0915,
+        "NVDA": 0.1024,
+        "META": 0.1025,
+        "MSFT": 0.1025,
+        "AVGO": 0.0988,
+        "LLY": 0.1025,
+        "CASH": 0.4
+      },
+      "period_return": 2.29,
+      "spy_return": 0.54,
+      "total_invested": 490000.0,
+      "portfolio_value": 552846.68,
+      "spy_value": 538450.23
+    },
+    {
+      "date": "2016-12-21",
+      "weights": {
+        "AAPL": 0.0917,
+        "META": 0.1018,
+        "MSFT": 0.1018,
+        "GOOGL": 0.1011,
+        "AVGO": 0.1018,
+        "LLY": 0.1018,
+        "CASH": 0.4
+      },
+      "period_return": -0.57,
+      "spy_return": -0.63,
+      "total_invested": 500000.0,
+      "portfolio_value": 559658.21,
+      "spy_value": 545000.88
+    },
+    {
+      "date": "2016-12-29",
+      "weights": {
+        "AAPL": 0.0973,
+        "META": 0.1006,
+        "MSFT": 0.1005,
+        "GOOGL": 0.1006,
+        "AVGO": 0.1006,
+        "LLY": 0.1006,
+        "CASH": 0.4
+      },
+      "period_return": 1.08,
+      "spy_return": 1.27,
+      "total_invested": 510000.0,
+      "portfolio_value": 575831.98,
+      "spy_value": 562075.87
+    },
+    {
+      "date": "2017-01-06",
+      "weights": {
+        "AAPL": 0.0948,
+        "META": 0.1011,
+        "MSFT": 0.1011,
+        "GOOGL": 0.1011,
+        "AVGO": 0.1011,
+        "LLY": 0.1006,
+        "CASH": 0.4
+      },
+      "period_return": 0.99,
+      "spy_return": -0.07,
+      "total_invested": 520000.0,
+      "portfolio_value": 591653.76,
+      "spy_value": 571672.93
+    },
+    {
+      "date": "2017-01-13",
+      "weights": {
+        "AAPL": 0.0921,
+        "META": 0.1016,
+        "MSFT": 0.1016,
+        "GOOGL": 0.1016,
+        "AVGO": 0.1016,
+        "LLY": 0.1015,
+        "CASH": 0.4
+      },
+      "period_return": 0.79,
+      "spy_return": -0.4,
+      "total_invested": 530000.0,
+      "portfolio_value": 606386.33,
+      "spy_value": 579367.26
+    },
+    {
+      "date": "2017-01-23",
+      "weights": {
+        "AAPL": 0.0899,
+        "META": 0.1017,
+        "JPM": 0.1016,
+        "MSFT": 0.1016,
+        "GOOGL": 0.1017,
+        "AVGO": 0.1017,
+        "LLY": 0.1017,
+        "CASH": 0.3
+      },
+      "period_return": 1.1,
+      "spy_return": 0.62,
+      "total_invested": 540000.0,
+      "portfolio_value": 623144.15,
+      "spy_value": 593015.86
+    },
+    {
+      "date": "2017-01-30",
+      "weights": {
+        "AAPL": 0.0872,
+        "META": 0.1041,
+        "JPM": 0.1039,
+        "MSFT": 0.1039,
+        "GOOGL": 0.1041,
+        "AVGO": 0.0929,
+        "LLY": 0.1041,
+        "CASH": 0.3
+      },
+      "period_return": 1.12,
+      "spy_return": 0.61,
+      "total_invested": 550000.0,
+      "portfolio_value": 640230.54,
+      "spy_value": 606672.91
+    },
+    {
+      "date": "2017-02-06",
+      "weights": {
+        "META": 0.1019,
+        "JPM": 0.1008,
+        "MSFT": 0.1016,
+        "AMZN": 0.0901,
+        "GOOGL": 0.1019,
+        "AVGO": 0.1018,
+        "LLY": 0.1019,
+        "CASH": 0.3
+      },
+      "period_return": 1.09,
+      "spy_return": 1.68,
+      "total_invested": 560000.0,
+      "portfolio_value": 657328.79,
+      "spy_value": 627016.8
+    },
+    {
+      "date": "2017-02-13",
+      "weights": {
+        "NVDA": 0.0849,
+        "META": 0.1009,
+        "MSFT": 0.1029,
+        "AMZN": 0.1024,
+        "GOOGL": 0.1031,
+        "AVGO": 0.1029,
+        "LLY": 0.1029,
+        "CASH": 0.3
+      },
+      "period_return": 1.23,
+      "spy_return": 1.6,
+      "total_invested": 570000.0,
+      "portfolio_value": 675504.98,
+      "spy_value": 647197.15
+    },
+    {
+      "date": "2017-02-21",
+      "weights": {
+        "NVDA": 0.1008,
+        "JPM": 0.0884,
+        "MSFT": 0.1021,
+        "AMZN": 0.1023,
+        "GOOGL": 0.1023,
+        "AVGO": 0.102,
+        "LLY": 0.1019,
+        "CASH": 0.3
+      },
+      "period_return": -0.94,
+      "spy_return": -0.01,
+      "total_invested": 580000.0,
+      "portfolio_value": 679044.46,
+      "spy_value": 657141.6
+    },
+    {
+      "date": "2017-02-28",
+      "weights": {
+        "NVDA": 0.1002,
+        "MSFT": 0.0999,
+        "AMZN": 0.1002,
+        "GOOGL": 0.1002,
+        "AVGO": 0.0996,
+        "LLY": 0.1001,
+        "CASH": 0.4
+      },
+      "period_return": 0.26,
+      "spy_return": 0.22,
+      "total_invested": 590000.0,
+      "portfolio_value": 690868.57,
+      "spy_value": 668636.73
+    },
+    {
+      "date": "2017-03-07",
+      "weights": {
+        "NVDA": 0.1001,
+        "MSFT": 0.1,
+        "AMZN": 0.1001,
+        "GOOGL": 0.1001,
+        "LLY": 0.0999,
+        "CASH": 0.5
+      },
+      "period_return": 0.77,
+      "spy_return": -0.04,
+      "total_invested": 600000.0,
+      "portfolio_value": 706249.3,
+      "spy_value": 678350.65
+    },
+    {
+      "date": "2017-03-14",
+      "weights": {
+        "NVDA": 0.1025,
+        "TSLA": 0.0876,
+        "MSFT": 0.1025,
+        "AMZN": 0.1025,
+        "GOOGL": 0.1025,
+        "LLY": 0.1023,
+        "CASH": 0.4
+      },
+      "period_return": -0.25,
+      "spy_return": -0.91,
+      "total_invested": 610000.0,
+      "portfolio_value": 714447.21,
+      "spy_value": 682094.05
+    },
+    {
+      "date": "2017-03-21",
+      "weights": {
+        "NVDA": 0.1001,
+        "JPM": 0.0999,
+        "MSFT": 0.1001,
+        "GOOGL": 0.1001,
+        "LLY": 0.0996,
+        "CASH": 0.5
+      },
+      "period_return": 0.48,
+      "spy_return": 0.68,
+      "total_invested": 620000.0,
+      "portfolio_value": 727956.98,
+      "spy_value": 696802.25
+    },
+    {
+      "date": "2017-03-28",
+      "weights": {
+        "NVDA": 0.1013,
+        "JPM": 0.1012,
+        "MSFT": 0.1013,
+        "GOOGL": 0.1013,
+        "LLY": 0.095,
+        "CASH": 0.5
+      },
+      "period_return": -0.38,
+      "spy_return": 0.07,
+      "total_invested": 630000.0,
+      "portfolio_value": 735170.7,
+      "spy_value": 707282.69
+    },
+    {
+      "date": "2017-04-04",
+      "weights": {
+        "NVDA": 0.1036,
+        "JPM": 0.1036,
+        "MSFT": 0.1036,
+        "GOOGL": 0.1036,
+        "AVGO": 0.0993,
+        "LLY": 0.0863,
+        "CASH": 0.4
+      },
+      "period_return": -0.73,
+      "spy_return": -0.18,
+      "total_invested": 640000.0,
+      "portfolio_value": 739697.55,
+      "spy_value": 716003.46
+    },
+    {
+      "date": "2017-04-11",
+      "weights": {
+        "NVDA": 0.1042,
+        "META": 0.0875,
+        "JPM": 0.1042,
+        "MSFT": 0.1041,
+        "GOOGL": 0.1042,
+        "AVGO": 0.1018,
+        "LLY": 0.0941,
+        "CASH": 0.3
+      },
+      "period_return": -0.44,
+      "spy_return": -0.69,
+      "total_invested": 650000.0,
+      "portfolio_value": 746394.77,
+      "spy_value": 720999.86
+    },
+    {
+      "date": "2017-04-19",
+      "weights": {
+        "NVDA": 0.106,
+        "META": 0.0903,
+        "JPM": 0.106,
+        "MSFT": 0.106,
+        "AMZN": 0.0931,
+        "GOOGL": 0.092,
+        "AVGO": 0.1025,
+        "LLY": 0.1042,
+        "CASH": 0.2
+      },
+      "period_return": 2.54,
+      "spy_return": 2.12,
+      "total_invested": 660000.0,
+      "portfolio_value": 775582.42,
+      "spy_value": 746531.78
+    },
+    {
+      "date": "2017-04-26",
+      "weights": {
+        "NVDA": 0.0924,
+        "META": 0.0914,
+        "JPM": 0.1038,
+        "MSFT": 0.1037,
+        "AMZN": 0.1038,
+        "AVGO": 0.1013,
+        "LLY": 0.1038,
+        "CASH": 0.3
+      },
+      "period_return": 0.92,
+      "spy_return": 0.03,
+      "total_invested": 670000.0,
+      "portfolio_value": 792786.04,
+      "spy_value": 756785.63
+    },
+    {
+      "date": "2017-05-03",
+      "weights": {
+        "NVDA": 0.1014,
+        "META": 0.0912,
+        "JPM": 0.1017,
+        "MSFT": 0.1016,
+        "AMZN": 0.1017,
+        "AVGO": 0.1009,
+        "LLY": 0.1017,
+        "CASH": 0.3
+      },
+      "period_return": 2.0,
+      "spy_return": 0.58,
+      "total_invested": 680000.0,
+      "portfolio_value": 818834.53,
+      "spy_value": 771254.85
+    },
+    {
+      "date": "2017-05-10",
+      "weights": {
+        "NVDA": 0.1026,
+        "META": 0.0872,
+        "JPM": 0.1025,
+        "MSFT": 0.1024,
+        "AMZN": 0.1026,
+        "AVGO": 0.1002,
+        "LLY": 0.1026,
+        "CASH": 0.3
+      },
+      "period_return": -0.71,
+      "spy_return": -1.69,
+      "total_invested": 690000.0,
+      "portfolio_value": 822936.71,
+      "spy_value": 768064.21
+    },
+    {
+      "date": "2017-05-17",
+      "weights": {
+        "META": 0.086,
+        "JPM": 0.1035,
+        "MSFT": 0.1035,
+        "AMZN": 0.1036,
+        "AVGO": 0.0999,
+        "LLY": 0.1036,
+        "CASH": 0.4
+      },
+      "period_return": 1.41,
+      "spy_return": 2.03,
+      "total_invested": 700000.0,
+      "portfolio_value": 844705.86,
+      "spy_value": 793868.08
+    },
+    {
+      "date": "2017-05-24",
+      "weights": {
+        "JPM": 0.1027,
+        "TSLA": 0.0869,
+        "MSFT": 0.1028,
+        "AMZN": 0.1028,
+        "AVGO": 0.102,
+        "LLY": 0.1028,
+        "CASH": 0.4
+      },
+      "period_return": 0.94,
+      "spy_return": 1.14,
+      "total_invested": 710000.0,
+      "portfolio_value": 862771.33,
+      "spy_value": 813055.96
+    },
+    {
+      "date": "2017-06-01",
+      "weights": {
+        "META": 0.0878,
+        "JPM": 0.1023,
+        "MSFT": 0.1025,
+        "AMZN": 0.1024,
+        "AVGO": 0.1023,
+        "LLY": 0.1025,
+        "CASH": 0.4
+      },
+      "period_return": 1.74,
+      "spy_return": 0.17,
+      "total_invested": 720000.0,
+      "portfolio_value": 887934.32,
+      "spy_value": 824476.54
+    },
+    {
+      "date": "2017-06-08",
+      "weights": {
+        "META": 0.0901,
+        "JPM": 0.1025,
+        "MSFT": 0.1037,
+        "AMZN": 0.0999,
+        "LLY": 0.1037,
+        "CASH": 0.5
+      },
+      "period_return": -0.59,
+      "spy_return": -0.0,
+      "total_invested": 730000.0,
+      "portfolio_value": 892641.27,
+      "spy_value": 834442.38
+    },
+    {
+      "date": "2017-06-15",
+      "weights": {
+        "AAPL": 0.0916,
+        "JPM": 0.1028,
+        "MSFT": 0.103,
+        "AMZN": 0.0998,
+        "GOOGL": 0.103,
+        "LLY": 0.1,
+        "CASH": 0.4
+      },
+      "period_return": 1.03,
+      "spy_return": 0.1,
+      "total_invested": 740000.0,
+      "portfolio_value": 911914.26,
+      "spy_value": 845322.9
+    },
+    {
+      "date": "2017-06-22",
+      "weights": {
+        "AAPL": 0.0932,
+        "META": 0.0958,
+        "JPM": 0.1041,
+        "MSFT": 0.1042,
+        "AMZN": 0.1044,
+        "GOOGL": 0.1045,
+        "AVGO": 0.0892,
+        "LLY": 0.1045,
+        "CASH": 0.2
+      },
+      "period_return": -1.29,
+      "spy_return": -0.61,
+      "total_invested": 750000.0,
+      "portfolio_value": 910062.84,
+      "spy_value": 850074.86
+    },
+    {
+      "date": "2017-06-29",
+      "weights": {
+        "AAPL": 0.0968,
+        "META": 0.0931,
+        "JPM": 0.1017,
+        "MSFT": 0.1021,
+        "AMZN": 0.1022,
+        "GOOGL": 0.1022,
+        "AVGO": 0.1,
+        "LLY": 0.1021,
+        "CASH": 0.2
+      },
+      "period_return": 0.81,
+      "spy_return": 0.31,
+      "total_invested": 760000.0,
+      "portfolio_value": 927530.76,
+      "spy_value": 862783.04
+    },
+    {
+      "date": "2017-07-07",
+      "weights": {
+        "AAPL": 0.0994,
+        "NVDA": 0.1014,
+        "META": 0.099,
+        "JPM": 0.0993,
+        "MSFT": 0.1013,
+        "AMZN": 0.1012,
+        "AVGO": 0.0976,
+        "LLY": 0.1009,
+        "CASH": 0.2
+      },
+      "period_return": 3.39,
+      "spy_return": 1.42,
+      "total_invested": 770000.0,
+      "portfolio_value": 969309.71,
+      "spy_value": 885220.02
+    },
+    {
+      "date": "2017-07-14",
+      "weights": {
+        "AAPL": 0.0999,
+        "NVDA": 0.0981,
+        "META": 0.1008,
+        "JPM": 0.1013,
+        "MSFT": 0.1026,
+        "AMZN": 0.1026,
+        "AVGO": 0.0923,
+        "LLY": 0.1024,
+        "CASH": 0.2
+      },
+      "period_return": 0.93,
+      "spy_return": 0.54,
+      "total_invested": 780000.0,
+      "portfolio_value": 988414.66,
+      "spy_value": 900032.2
+    },
+    {
+      "date": "2017-07-21",
+      "weights": {
+        "AAPL": 0.0984,
+        "NVDA": 0.1037,
+        "META": 0.0985,
+        "JPM": 0.1026,
+        "MSFT": 0.1037,
+        "AMZN": 0.1037,
+        "AVGO": 0.086,
+        "LLY": 0.1036,
+        "CASH": 0.2
+      },
+      "period_return": -0.2,
+      "spy_return": 0.01,
+      "total_invested": 790000.0,
+      "portfolio_value": 996407.42,
+      "spy_value": 910142.84
+    },
+    {
+      "date": "2017-07-28",
+      "weights": {
+        "AAPL": 0.0988,
+        "NVDA": 0.1049,
+        "META": 0.0933,
+        "JPM": 0.0926,
+        "MSFT": 0.1049,
+        "AMZN": 0.1049,
+        "GOOGL": 0.1048,
+        "AVGO": 0.0952,
+        "LLY": 0.1005,
+        "CASH": 0.1
+      },
+      "period_return": 0.06,
+      "spy_return": 0.2,
+      "total_invested": 800000.0,
+      "portfolio_value": 1007011.83,
+      "spy_value": 922006.23
+    },
+    {
+      "date": "2017-08-04",
+      "weights": {
+        "AAPL": 0.0896,
+        "NVDA": 0.1055,
+        "META": 0.0929,
+        "JPM": 0.0888,
+        "MSFT": 0.1055,
+        "AMZN": 0.1055,
+        "GOOGL": 0.1055,
+        "AVGO": 0.1016,
+        "LLY": 0.1052,
+        "CASH": 0.1
+      },
+      "period_return": -1.6,
+      "spy_return": -1.33,
+      "total_invested": 810000.0,
+      "portfolio_value": 1000692.29,
+      "spy_value": 919612.57
+    },
+    {
+      "date": "2017-08-11",
+      "weights": {
+        "AAPL": 0.0891,
+        "NVDA": 0.1034,
+        "META": 0.093,
+        "JPM": 0.0975,
+        "MSFT": 0.1034,
+        "AMZN": 0.1034,
+        "GOOGL": 0.1034,
+        "AVGO": 0.1034,
+        "LLY": 0.1034,
+        "CASH": 0.1
+      },
+      "period_return": -0.13,
+      "spy_return": -0.58,
+      "total_invested": 820000.0,
+      "portfolio_value": 1009354.63,
+      "spy_value": 924243.28
+    },
+    {
+      "date": "2017-08-18",
+      "weights": {
+        "AAPL": 0.0949,
+        "NVDA": 0.1051,
+        "META": 0.0918,
+        "JPM": 0.088,
+        "MSFT": 0.1051,
+        "AMZN": 0.1051,
+        "AVGO": 0.1051,
+        "LLY": 0.1051,
+        "CASH": 0.2
+      },
+      "period_return": 0.33,
+      "spy_return": 0.76,
+      "total_invested": 830000.0,
+      "portfolio_value": 1022737.24,
+      "spy_value": 941364.28
+    },
+    {
+      "date": "2017-08-25",
+      "weights": {
+        "AAPL": 0.0975,
+        "NVDA": 0.1027,
+        "META": 0.089,
+        "MSFT": 0.1027,
+        "AMZN": 0.1027,
+        "AVGO": 0.1027,
+        "LLY": 0.1027,
+        "CASH": 0.3
+      },
+      "period_return": 1.96,
+      "spy_return": 1.34,
+      "total_invested": 840000.0,
+      "portfolio_value": 1052985.4,
+      "spy_value": 964123.83
+    },
+    {
+      "date": "2017-09-01",
+      "weights": {
+        "AAPL": 0.092,
+        "NVDA": 0.1018,
+        "MSFT": 0.1019,
+        "AMZN": 0.1005,
+        "AVGO": 0.1018,
+        "LLY": 0.1019,
+        "CASH": 0.4
+      },
+      "period_return": 0.0,
+      "spy_return": 0.55,
+      "total_invested": 850000.0,
+      "portfolio_value": 1063020.43,
+      "spy_value": 979508.69
+    },
+    {
+      "date": "2017-09-11",
+      "weights": {
+        "AAPL": 0.0967,
+        "META": 0.0885,
+        "JPM": 0.0993,
+        "MSFT": 0.1052,
+        "AVGO": 0.1052,
+        "LLY": 0.1052,
+        "CASH": 0.4
+      },
+      "period_return": 0.17,
+      "spy_return": 0.7,
+      "total_invested": 860000.0,
+      "portfolio_value": 1074868.69,
+      "spy_value": 996454.49
+    },
+    {
+      "date": "2017-09-18",
+      "weights": {
+        "AAPL": 0.0911,
+        "NVDA": 0.102,
+        "MSFT": 0.1023,
+        "AVGO": 0.1023,
+        "LLY": 0.1023,
+        "CASH": 0.5
+      },
+      "period_return": -1.95,
+      "spy_return": -0.32,
+      "total_invested": 870000.0,
+      "portfolio_value": 1063735.74,
+      "spy_value": 1003270.42
+    },
+    {
+      "date": "2017-09-25",
+      "weights": {
+        "AAPL": 0.0915,
+        "NVDA": 0.1021,
+        "MSFT": 0.1021,
+        "AVGO": 0.1021,
+        "LLY": 0.1021,
+        "CASH": 0.5
+      },
+      "period_return": 1.29,
+      "spy_return": 1.36,
+      "total_invested": 880000.0,
+      "portfolio_value": 1087538.68,
+      "spy_value": 1027069.54
+    },
+    {
+      "date": "2017-10-02",
+      "weights": {
+        "AAPL": 0.0922,
+        "NVDA": 0.1021,
+        "META": 0.0996,
+        "MSFT": 0.1021,
+        "AVGO": 0.1021,
+        "LLY": 0.1021,
+        "CASH": 0.4
+      },
+      "period_return": 1.23,
+      "spy_return": 0.65,
+      "total_invested": 890000.0,
+      "portfolio_value": 1111028.74,
+      "spy_value": 1043768.67
+    },
+    {
+      "date": "2017-10-09",
+      "weights": {
+        "AAPL": 0.1003,
+        "NVDA": 0.1012,
+        "META": 0.101,
+        "MSFT": 0.1021,
+        "GOOGL": 0.0915,
+        "AVGO": 0.1019,
+        "LLY": 0.1021,
+        "CASH": 0.3
+      },
+      "period_return": 1.28,
+      "spy_return": 0.53,
+      "total_invested": 900000.0,
+      "portfolio_value": 1135411.59,
+      "spy_value": 1059329.2
+    },
+    {
+      "date": "2017-10-16",
+      "weights": {
+        "AAPL": 0.0988,
+        "META": 0.0991,
+        "MSFT": 0.1008,
+        "AVGO": 0.1006,
+        "LLY": 0.1007,
+        "CASH": 0.5
+      },
+      "period_return": -0.21,
+      "spy_return": 0.32,
+      "total_invested": 910000.0,
+      "portfolio_value": 1142956.3,
+      "spy_value": 1072763.98
+    },
+    {
+      "date": "2017-10-23",
+      "weights": {
+        "AAPL": 0.1004,
+        "NVDA": 0.0883,
+        "META": 0.1011,
+        "MSFT": 0.1058,
+        "GOOGL": 0.0941,
+        "AVGO": 0.1057,
+        "LLY": 0.1045,
+        "CASH": 0.3
+      },
+      "period_return": 2.83,
+      "spy_return": 0.25,
+      "total_invested": 920000.0,
+      "portfolio_value": 1185638.71,
+      "spy_value": 1085469.65
+    },
+    {
+      "date": "2017-10-30",
+      "weights": {
+        "NVDA": 0.1013,
+        "META": 0.097,
+        "MSFT": 0.1012,
+        "GOOGL": 0.0987,
+        "AVGO": 0.1006,
+        "LLY": 0.1012,
+        "CASH": 0.4
+      },
+      "period_return": 1.13,
+      "spy_return": 0.82,
+      "total_invested": 930000.0,
+      "portfolio_value": 1209126.01,
+      "spy_value": 1104429.8
+    },
+    {
+      "date": "2017-11-06",
+      "weights": {
+        "NVDA": 0.1027,
+        "META": 0.092,
+        "MSFT": 0.1013,
+        "AVGO": 0.1012,
+        "LLY": 0.1029,
+        "CASH": 0.5
+      },
+      "period_return": -0.46,
+      "spy_return": -0.2,
+      "total_invested": 940000.0,
+      "portfolio_value": 1213573.1,
+      "spy_value": 1112190.84
+    },
+    {
+      "date": "2017-11-13",
+      "weights": {
+        "NVDA": 0.1043,
+        "META": 0.0923,
+        "JPM": 0.1041,
+        "MSFT": 0.1025,
+        "AMZN": 0.1043,
+        "GOOGL": 0.0848,
+        "AVGO": 0.1036,
+        "LLY": 0.1043,
+        "CASH": 0.2
+      },
+      "period_return": 0.48,
+      "spy_return": -0.01,
+      "total_invested": 950000.0,
+      "portfolio_value": 1229497.3,
+      "spy_value": 1122060.57
+    },
+    {
+      "date": "2017-11-20",
+      "weights": {
+        "NVDA": 0.1016,
+        "META": 0.0901,
+        "JPM": 0.1016,
+        "MSFT": 0.1006,
+        "AMZN": 0.1016,
+        "GOOGL": 0.1011,
+        "AVGO": 0.1016,
+        "LLY": 0.1016,
+        "CASH": 0.2
+      },
+      "period_return": 1.77,
+      "spy_return": 1.77,
+      "total_invested": 960000.0,
+      "portfolio_value": 1261422.07,
+      "spy_value": 1152089.93
+    },
+    {
+      "date": "2017-11-28",
+      "weights": {
+        "NVDA": 0.1014,
+        "META": 0.0915,
+        "JPM": 0.1013,
+        "MSFT": 0.1004,
+        "AMZN": 0.1014,
+        "GOOGL": 0.1013,
+        "AVGO": 0.1014,
+        "LLY": 0.1014,
+        "CASH": 0.2
+      },
+      "period_return": -2.85,
+      "spy_return": 0.12,
+      "total_invested": 970000.0,
+      "portfolio_value": 1235146.7,
+      "spy_value": 1163504.61
+    },
+    {
+      "date": "2017-12-05",
+      "weights": {
+        "AAPL": 0.0924,
+        "NVDA": 0.1038,
+        "META": 0.0878,
+        "JPM": 0.0977,
+        "MSFT": 0.1037,
+        "AMZN": 0.1033,
+        "GOOGL": 0.1038,
+        "AVGO": 0.1038,
+        "LLY": 0.1038,
+        "CASH": 0.1
+      },
+      "period_return": 1.58,
+      "spy_return": 1.36,
+      "total_invested": 980000.0,
+      "portfolio_value": 1264767.58,
+      "spy_value": 1189511.35
+    },
+    {
+      "date": "2017-12-12",
+      "weights": {
+        "AAPL": 0.0939,
+        "NVDA": 0.1013,
+        "META": 0.0995,
+        "MSFT": 0.1012,
+        "AMZN": 0.1012,
+        "AVGO": 0.1013,
+        "LLY": 0.1013,
+        "CASH": 0.3
+      },
+      "period_return": 1.07,
+      "spy_return": 0.66,
+      "total_invested": 990000.0,
+      "portfolio_value": 1288361.64,
+      "spy_value": 1207405.1
+    },
+    {
+      "date": "2017-12-19",
+      "weights": {
+        "AAPL": 0.0908,
+        "NVDA": 0.102,
+        "META": 0.1003,
+        "MSFT": 0.1008,
+        "AMZN": 0.102,
+        "AVGO": 0.102,
+        "LLY": 0.102,
+        "CASH": 0.3
+      },
+      "period_return": -0.68,
+      "spy_return": 0.06,
+      "total_invested": 1000000.0,
+      "portfolio_value": 1289591.87,
+      "spy_value": 1218088.65
+    },
+    {
+      "date": "2017-12-27",
+      "weights": {
+        "AAPL": 0.0966,
+        "NVDA": 0.1007,
+        "META": 0.0999,
+        "MSFT": 0.1005,
+        "AMZN": 0.1007,
+        "AVGO": 0.1007,
+        "LLY": 0.1006,
+        "CASH": 0.3
+      },
+      "period_return": 2.22,
+      "spy_return": 1.6,
+      "total_invested": 1010000.0,
+      "portfolio_value": 1328443.51,
+      "spy_value": 1247797.23
+    },
+    {
+      "date": "2018-01-04",
+      "weights": {
+        "AAPL": 0.0961,
+        "NVDA": 0.0985,
+        "META": 0.1007,
+        "AMZN": 0.1016,
+        "AVGO": 0.1016,
+        "LLY": 0.1016,
+        "CASH": 0.4
+      },
+      "period_return": 1.22,
+      "spy_return": 1.66,
+      "total_invested": 1020000.0,
+      "portfolio_value": 1354747.51,
+      "spy_value": 1278682.7
+    },
+    {
+      "date": "2018-01-11",
+      "weights": {
+        "AAPL": 0.0989,
+        "META": 0.1016,
+        "TSLA": 0.0969,
+        "AMZN": 0.1041,
+        "GOOGL": 0.0906,
+        "AVGO": 0.1041,
+        "LLY": 0.104,
+        "CASH": 0.3
+      },
+      "period_return": 0.58,
+      "spy_return": 1.55,
+      "total_invested": 1030000.0,
+      "portfolio_value": 1372702.79,
+      "spy_value": 1308704.6
+    },
+    {
+      "date": "2018-01-19",
+      "weights": {
+        "AAPL": 0.0901,
+        "NVDA": 0.1043,
+        "META": 0.0973,
+        "TSLA": 0.0971,
+        "AMZN": 0.0995,
+        "GOOGL": 0.103,
+        "AVGO": 0.1043,
+        "LLY": 0.1043,
+        "CASH": 0.2
+      },
+      "period_return": 1.32,
+      "spy_return": 2.2,
+      "total_invested": 1040000.0,
+      "portfolio_value": 1400995.38,
+      "spy_value": 1347720.52
+    },
+    {
+      "date": "2018-01-26",
+      "weights": {
+        "AAPL": 0.0951,
+        "NVDA": 0.1061,
+        "META": 0.1021,
+        "TSLA": 0.0941,
+        "MSFT": 0.0906,
+        "AVGO": 0.1061,
+        "LLY": 0.1059,
+        "CASH": 0.3
+      },
+      "period_return": -2.58,
+      "spy_return": -3.88,
+      "total_invested": 1050000.0,
+      "portfolio_value": 1374545.71,
+      "spy_value": 1304990.35
+    },
+    {
+      "date": "2018-02-02",
+      "weights": {
+        "AAPL": 0.0884,
+        "NVDA": 0.1052,
+        "META": 0.0953,
+        "GOOGL": 0.101,
+        "AVGO": 0.1051,
+        "LLY": 0.1051,
+        "CASH": 0.4
+      },
+      "period_return": -2.26,
+      "spy_return": -5.06,
+      "total_invested": 1060000.0,
+      "portfolio_value": 1353222.5,
+      "spy_value": 1248393.66
+    },
+    {
+      "date": "2018-02-09",
+      "weights": {
+        "AAPL": 0.0873,
+        "NVDA": 0.1046,
+        "META": 0.0946,
+        "JPM": 0.1044,
+        "GOOGL": 0.1046,
+        "LLY": 0.1046,
+        "CASH": 0.4
+      },
+      "period_return": 2.88,
+      "spy_return": 4.44,
+      "total_invested": 1070000.0,
+      "portfolio_value": 1402480.99,
+      "spy_value": 1314263.49
+    },
+    {
+      "date": "2018-02-16",
+      "weights": {
+        "NVDA": 0.1008,
+        "META": 0.0998,
+        "JPM": 0.1006,
+        "MSFT": 0.0978,
+        "GOOGL": 0.1001,
+        "LLY": 0.1008,
+        "CASH": 0.4
+      },
+      "period_return": 1.86,
+      "spy_return": 1.75,
+      "total_invested": 1080000.0,
+      "portfolio_value": 1438796.36,
+      "spy_value": 1347489.17
+    },
+    {
+      "date": "2018-02-26",
+      "weights": {
+        "NVDA": 0.1,
+        "LLY": 0.1,
+        "CASH": 0.8
+      },
+      "period_return": -0.75,
+      "spy_return": -2.05,
+      "total_invested": 1090000.0,
+      "portfolio_value": 1437893.11,
+      "spy_value": 1329596.76
+    },
+    {
+      "date": "2018-03-05",
+      "weights": {
+        "NVDA": 0.1001,
+        "META": 0.0997,
+        "LLY": 0.1001,
+        "CASH": 0.7
+      },
+      "period_return": 1.01,
+      "spy_return": 2.33,
+      "total_invested": 1100000.0,
+      "portfolio_value": 1462564.66,
+      "spy_value": 1370750.47
+    },
+    {
+      "date": "2018-03-12",
+      "weights": {
+        "NVDA": 0.1001,
+        "META": 0.0997,
+        "LLY": 0.1001,
+        "CASH": 0.7
+      },
+      "period_return": -1.05,
+      "spy_return": -2.49,
+      "total_invested": 1110000.0,
+      "portfolio_value": 1457116.98,
+      "spy_value": 1346312.72
+    },
+    {
+      "date": "2018-03-19",
+      "weights": {
+        "AAPL": 0.0957,
+        "NVDA": 0.1014,
+        "META": 0.099,
+        "GOOGL": 0.1014,
+        "AVGO": 0.1011,
+        "LLY": 0.1014,
+        "CASH": 0.4
+      },
+      "period_return": -1.2,
+      "spy_return": -1.99,
+      "total_invested": 1120000.0,
+      "portfolio_value": 1449565.04,
+      "spy_value": 1329335.64
+    },
+    {
+      "date": "2018-03-26",
+      "weights": {
+        "AAPL": 0.0916,
+        "NVDA": 0.102,
+        "META": 0.1017,
+        "MSFT": 0.0989,
+        "GOOGL": 0.102,
+        "AVGO": 0.102,
+        "LLY": 0.102,
+        "CASH": 0.3
+      },
+      "period_return": -2.32,
+      "spy_return": -1.64,
+      "total_invested": 1130000.0,
+      "portfolio_value": 1425683.56,
+      "spy_value": 1317409.95
+    },
+    {
+      "date": "2018-04-03",
+      "weights": {
+        "AAPL": 0.0885,
+        "NVDA": 0.1025,
+        "META": 0.1025,
+        "MSFT": 0.1021,
+        "GOOGL": 0.102,
+        "AVGO": 0.0999,
+        "LLY": 0.1025,
+        "CASH": 0.3
+      },
+      "period_return": 1.84,
+      "spy_return": 1.68,
+      "total_invested": 1140000.0,
+      "portfolio_value": 1462168.21,
+      "spy_value": 1349705.99
+    },
+    {
+      "date": "2018-04-10",
+      "weights": {
+        "NVDA": 0.1,
+        "META": 0.1,
+        "MSFT": 0.0999,
+        "GOOGL": 0.1,
+        "LLY": 0.1,
+        "CASH": 0.5
+      },
+      "period_return": 1.49,
+      "spy_return": 1.9,
+      "total_invested": 1150000.0,
+      "portfolio_value": 1494061.53,
+      "spy_value": 1385551.39
+    },
+    {
+      "date": "2018-04-17",
+      "weights": {
+        "AAPL": 0.0843,
+        "NVDA": 0.1028,
+        "META": 0.1028,
+        "MSFT": 0.1023,
+        "AMZN": 0.1023,
+        "GOOGL": 0.1028,
+        "LLY": 0.1028,
+        "CASH": 0.3
+      },
+      "period_return": -3.11,
+      "spy_return": -2.67,
+      "total_invested": 1160000.0,
+      "portfolio_value": 1457328.82,
+      "spy_value": 1358310.66
+    },
+    {
+      "date": "2018-04-24",
+      "weights": {
+        "AAPL": 0.0941,
+        "NVDA": 0.1012,
+        "META": 0.1012,
+        "MSFT": 0.1003,
+        "AMZN": 0.1011,
+        "GOOGL": 0.1007,
+        "LLY": 0.1012,
+        "CASH": 0.3
+      },
+      "period_return": 2.62,
+      "spy_return": 0.76,
+      "total_invested": 1170000.0,
+      "portfolio_value": 1505833.65,
+      "spy_value": 1378717.2
+    },
+    {
+      "date": "2018-05-01",
+      "weights": {
+        "NVDA": 0.1001,
+        "META": 0.1001,
+        "MSFT": 0.1,
+        "AMZN": 0.1001,
+        "GOOGL": 0.0998,
+        "LLY": 0.1001,
+        "CASH": 0.4
+      },
+      "period_return": 1.61,
+      "spy_return": 0.73,
+      "total_invested": 1180000.0,
+      "portfolio_value": 1540272.28,
+      "spy_value": 1398884.49
+    },
+    {
+      "date": "2018-05-08",
+      "weights": {
+        "NVDA": 0.1,
+        "META": 0.1,
+        "MSFT": 0.0999,
+        "AMZN": 0.1,
+        "GOOGL": 0.0999,
+        "LLY": 0.1,
+        "CASH": 0.4
+      },
+      "period_return": 0.83,
+      "spy_return": 1.57,
+      "total_invested": 1190000.0,
+      "portfolio_value": 1563205.29,
+      "spy_value": 1430947.91
+    },
+    {
+      "date": "2018-05-15",
+      "weights": {
+        "NVDA": 0.1008,
+        "META": 0.1018,
+        "JPM": 0.0904,
+        "MSFT": 0.1017,
+        "AMZN": 0.1018,
+        "GOOGL": 0.1016,
+        "LLY": 0.1018,
+        "CASH": 0.3
+      },
+      "period_return": -0.07,
+      "spy_return": 0.56,
+      "total_invested": 1200000.0,
+      "portfolio_value": 1572124.2,
+      "spy_value": 1448973.43
+    },
+    {
+      "date": "2018-05-22",
+      "weights": {
+        "NVDA": 0.0982,
+        "META": 0.1006,
+        "JPM": 0.0995,
+        "MSFT": 0.1005,
+        "AMZN": 0.1006,
+        "LLY": 0.1006,
+        "CASH": 0.4
+      },
+      "period_return": 0.85,
+      "spy_return": 0.0,
+      "total_invested": 1210000.0,
+      "portfolio_value": 1595587.67,
+      "spy_value": 1458973.43
+    },
+    {
+      "date": "2018-05-30",
+      "weights": {
+        "NVDA": 0.1001,
+        "META": 0.0999,
+        "MSFT": 0.1,
+        "AMZN": 0.1001,
+        "LLY": 0.1001,
+        "CASH": 0.5
+      },
+      "period_return": 1.72,
+      "spy_return": 1.76,
+      "total_invested": 1220000.0,
+      "portfolio_value": 1633158.4,
+      "spy_value": 1494784.6
+    },
+    {
+      "date": "2018-06-06",
+      "weights": {
+        "META": 0.0934,
+        "MSFT": 0.1021,
+        "AMZN": 0.1023,
+        "LLY": 0.1023,
+        "CASH": 0.6
+      },
+      "period_return": -0.08,
+      "spy_return": 0.23,
+      "total_invested": 1230000.0,
+      "portfolio_value": 1641824.84,
+      "spy_value": 1508202.05
+    },
+    {
+      "date": "2018-06-13",
+      "weights": {
+        "NVDA": 0.1006,
+        "MSFT": 0.1004,
+        "AMZN": 0.1004,
+        "GOOGL": 0.0973,
+        "AVGO": 0.1004,
+        "LLY": 0.1007,
+        "CASH": 0.4
+      },
+      "period_return": 0.81,
+      "spy_return": -0.3,
+      "total_invested": 1240000.0,
+      "portfolio_value": 1665249.42,
+      "spy_value": 1513720.25
+    },
+    {
+      "date": "2018-06-20",
+      "weights": {
+        "NVDA": 0.1001,
+        "MSFT": 0.0998,
+        "AVGO": 0.1001,
+        "LLY": 0.1,
+        "CASH": 0.6
+      },
+      "period_return": -2.17,
+      "spy_return": -2.4,
+      "total_invested": 1250000.0,
+      "portfolio_value": 1638960.19,
+      "spy_value": 1487169.87
+    },
+    {
+      "date": "2018-06-27",
+      "weights": {
+        "NVDA": 0.1024,
+        "JPM": 0.089,
+        "MSFT": 0.1023,
+        "GOOGL": 0.1021,
+        "AVGO": 0.1024,
+        "LLY": 0.102,
+        "CASH": 0.4
+      },
+      "period_return": 1.01,
+      "spy_return": 1.4,
+      "total_invested": 1260000.0,
+      "portfolio_value": 1665555.28,
+      "spy_value": 1518068.99
+    },
+    {
+      "date": "2018-07-05",
+      "weights": {
+        "NVDA": 0.1029,
+        "JPM": 0.0904,
+        "MSFT": 0.1027,
+        "GOOGL": 0.1029,
+        "AVGO": 0.1029,
+        "LLY": 0.0983,
+        "CASH": 0.4
+      },
+      "period_return": 0.41,
+      "spy_return": 2.29,
+      "total_invested": 1270000.0,
+      "portfolio_value": 1682453.96,
+      "spy_value": 1563094.13
+    },
+    {
+      "date": "2018-07-12",
+      "weights": {
+        "AAPL": 0.1026,
+        "NVDA": 0.1046,
+        "JPM": 0.0901,
+        "TSLA": 0.0958,
+        "MSFT": 0.1044,
+        "AMZN": 0.1029,
+        "GOOGL": 0.1046,
+        "AVGO": 0.1046,
+        "LLY": 0.0906,
+        "CASH": 0.1
+      },
+      "period_return": 0.61,
+      "spy_return": 0.23,
+      "total_invested": 1280000.0,
+      "portfolio_value": 1702779.63,
+      "spy_value": 1576641.44
+    },
+    {
+      "date": "2018-07-19",
+      "weights": {
+        "AAPL": 0.0993,
+        "NVDA": 0.1025,
+        "TSLA": 0.0956,
+        "AMZN": 0.1028,
+        "GOOGL": 0.1027,
+        "AVGO": 0.1027,
+        "LLY": 0.0946,
+        "CASH": 0.3
+      },
+      "period_return": 1.77,
+      "spy_return": 1.19,
+      "total_invested": 1290000.0,
+      "portfolio_value": 1743168.21,
+      "spy_value": 1605568.3
+    },
+    {
+      "date": "2018-07-26",
+      "weights": {
+        "AAPL": 0.0952,
+        "NVDA": 0.1007,
+        "JPM": 0.1009,
+        "TSLA": 0.0961,
+        "MSFT": 0.1011,
+        "AMZN": 0.1021,
+        "GOOGL": 0.1021,
+        "AVGO": 0.1019,
+        "LLY": 0.0998,
+        "CASH": 0.1
+      },
+      "period_return": 1.68,
+      "spy_return": -0.34,
+      "total_invested": 1300000.0,
+      "portfolio_value": 1782684.71,
+      "spy_value": 1610151.52
+    },
+    {
+      "date": "2018-08-02",
+      "weights": {
+        "NVDA": 0.1032,
+        "META": 0.0859,
+        "JPM": 0.103,
+        "TSLA": 0.0939,
+        "MSFT": 0.1028,
+        "AMZN": 0.1031,
+        "GOOGL": 0.1032,
+        "AVGO": 0.1018,
+        "LLY": 0.103,
+        "CASH": 0.1
+      },
+      "period_return": 1.76,
+      "spy_return": 0.95,
+      "total_invested": 1310000.0,
+      "portfolio_value": 1824214.58,
+      "spy_value": 1635527.01
+    },
+    {
+      "date": "2018-08-09",
+      "weights": {
+        "NVDA": 0.1032,
+        "META": 0.1012,
+        "JPM": 0.1029,
+        "AMZN": 0.1032,
+        "GOOGL": 0.1032,
+        "AVGO": 0.0833,
+        "LLY": 0.1031,
+        "CASH": 0.3
+      },
+      "period_return": -1.03,
+      "spy_return": -0.35,
+      "total_invested": 1320000.0,
+      "portfolio_value": 1815293.24,
+      "spy_value": 1639696.86
+    },
+    {
+      "date": "2018-08-16",
+      "weights": {
+        "NVDA": 0.1002,
+        "META": 0.0996,
+        "JPM": 0.0998,
+        "AMZN": 0.1002,
+        "GOOGL": 0.1002,
+        "LLY": 0.1001,
+        "CASH": 0.4
+      },
+      "period_return": 0.37,
+      "spy_return": 0.61,
+      "total_invested": 1330000.0,
+      "portfolio_value": 1831993.68,
+      "spy_value": 1659744.01
+    },
+    {
+      "date": "2018-08-23",
+      "weights": {
+        "META": 0.1018,
+        "JPM": 0.0874,
+        "MSFT": 0.102,
+        "AMZN": 0.103,
+        "GOOGL": 0.103,
+        "LLY": 0.1028,
+        "CASH": 0.4
+      },
+      "period_return": 1.61,
+      "spy_return": 1.58,
+      "total_invested": 1340000.0,
+      "portfolio_value": 1871729.8,
+      "spy_value": 1696093.83
+    },
+    {
+      "date": "2018-08-30",
+      "weights": {
+        "META": 0.1035,
+        "JPM": 0.083,
+        "MSFT": 0.103,
+        "AMZN": 0.1036,
+        "GOOGL": 0.1036,
+        "LLY": 0.1033,
+        "CASH": 0.4
+      },
+      "period_return": -2.0,
+      "spy_return": -0.93,
+      "total_invested": 1350000.0,
+      "portfolio_value": 1844082.08,
+      "spy_value": 1690226.21
+    },
+    {
+      "date": "2018-09-07",
+      "weights": {
+        "NVDA": 0.1003,
+        "META": 0.1026,
+        "JPM": 0.093,
+        "TSLA": 0.0952,
+        "MSFT": 0.1025,
+        "AMZN": 0.1024,
+        "GOOGL": 0.1019,
+        "LLY": 0.102,
+        "CASH": 0.2
+      },
+      "period_return": 1.68,
+      "spy_return": 1.14,
+      "total_invested": 1360000.0,
+      "portfolio_value": 1885232.66,
+      "spy_value": 1719616.88
+    },
+    {
+      "date": "2018-09-14",
+      "weights": {
+        "NVDA": 0.1047,
+        "META": 0.1047,
+        "JPM": 0.0879,
+        "MSFT": 0.1046,
+        "AMZN": 0.1044,
+        "GOOGL": 0.0852,
+        "AVGO": 0.1046,
+        "LLY": 0.1038,
+        "CASH": 0.2
+      },
+      "period_return": 0.29,
+      "spy_return": 0.84,
+      "total_invested": 1370000.0,
+      "portfolio_value": 1900722.01,
+      "spy_value": 1744076.26
+    },
+    {
+      "date": "2018-09-21",
+      "weights": {
+        "NVDA": 0.101,
+        "META": 0.101,
+        "TSLA": 0.0949,
+        "MSFT": 0.1006,
+        "AMZN": 0.101,
+        "GOOGL": 0.1003,
+        "AVGO": 0.101,
+        "CASH": 0.3
+      },
+      "period_return": 0.4,
+      "spy_return": -0.43,
+      "total_invested": 1380000.0,
+      "portfolio_value": 1918310.76,
+      "spy_value": 1746446.86
+    },
+    {
+      "date": "2018-09-28",
+      "weights": {
+        "NVDA": 0.1022,
+        "META": 0.1022,
+        "JPM": 0.0894,
+        "MSFT": 0.102,
+        "AMZN": 0.1022,
+        "AVGO": 0.1022,
+        "CASH": 0.4
+      },
+      "period_return": -1.53,
+      "spy_return": -1.0,
+      "total_invested": 1390000.0,
+      "portfolio_value": 1898896.81,
+      "spy_value": 1738926.01
+    },
+    {
+      "date": "2018-10-05",
+      "weights": {
+        "NVDA": 0.1,
+        "META": 0.1,
+        "MSFT": 0.0998,
+        "AMZN": 0.1,
+        "AVGO": 0.1,
+        "CASH": 0.5
+      },
+      "period_return": -2.32,
+      "spy_return": -4.12,
+      "total_invested": 1400000.0,
+      "portfolio_value": 1864654.78,
+      "spy_value": 1676798.85
+    },
+    {
+      "date": "2018-10-12",
+      "weights": {
+        "NVDA": 0.1005,
+        "META": 0.1005,
+        "TSLA": 0.0979,
+        "MSFT": 0.1003,
+        "AMZN": 0.1005,
+        "AVGO": 0.1005,
+        "CASH": 0.4
+      },
+      "period_return": -1.06,
+      "spy_return": 0.11,
+      "total_invested": 1410000.0,
+      "portfolio_value": 1854704.45,
+      "spy_value": 1688632.02
+    },
+    {
+      "date": "2018-10-19",
+      "weights": {
+        "NVDA": 0.1,
+        "META": 0.1,
+        "MSFT": 0.0999,
+        "AMZN": 0.1,
+        "AVGO": 0.1,
+        "CASH": 0.5
+      },
+      "period_return": -3.42,
+      "spy_return": -3.95,
+      "total_invested": 1420000.0,
+      "portfolio_value": 1800971.41,
+      "spy_value": 1631486.78
+    },
+    {
+      "date": "2018-10-26",
+      "weights": {
+        "NVDA": 0.1,
+        "META": 0.1,
+        "MSFT": 0.1,
+        "AMZN": 0.1,
+        "AVGO": 0.1,
+        "LLY": 0.1,
+        "CASH": 0.4
+      },
+      "period_return": 1.64,
+      "spy_return": 2.47,
+      "total_invested": 1430000.0,
+      "portfolio_value": 1840600.47,
+      "spy_value": 1682070.93
+    },
+    {
+      "date": "2018-11-02",
+      "weights": {
+        "NVDA": 0.0912,
+        "META": 0.1023,
+        "MSFT": 0.1022,
+        "AMZN": 0.0997,
+        "AVGO": 0.1022,
+        "LLY": 0.1023,
+        "CASH": 0.4
+      },
+      "period_return": 1.22,
+      "spy_return": 2.16,
+      "total_invested": 1440000.0,
+      "portfolio_value": 1873120.56,
+      "spy_value": 1728601.76
+    },
+    {
+      "date": "2018-11-09",
+      "weights": {
+        "NVDA": 0.1013,
+        "META": 0.1014,
+        "MSFT": 0.1013,
+        "AMZN": 0.0959,
+        "GOOGL": 0.098,
+        "AVGO": 0.1013,
+        "LLY": 0.1009,
+        "CASH": 0.3
+      },
+      "period_return": -3.09,
+      "spy_return": -1.45,
+      "total_invested": 1450000.0,
+      "portfolio_value": 1824874.86,
+      "spy_value": 1713376.19
+    },
+    {
+      "date": "2018-11-16",
+      "weights": {
+        "NVDA": 0.1013,
+        "META": 0.1043,
+        "MSFT": 0.1038,
+        "AMZN": 0.0985,
+        "AVGO": 0.1041,
+        "LLY": 0.088,
+        "CASH": 0.4
+      },
+      "period_return": -1.4,
+      "spy_return": -2.28,
+      "total_invested": 1460000.0,
+      "portfolio_value": 1809214.29,
+      "spy_value": 1684152.67
+    },
+    {
+      "date": "2018-11-26",
+      "weights": {
+        "NVDA": 0.0989,
+        "META": 0.1028,
+        "AMZN": 0.0957,
+        "AVGO": 0.1026,
+        "CASH": 0.6
+      },
+      "period_return": 2.91,
+      "spy_return": 4.41,
+      "total_invested": 1470000.0,
+      "portfolio_value": 1872240.29,
+      "spy_value": 1768885.59
+    },
+    {
+      "date": "2018-12-03",
+      "weights": {
+        "NVDA": 0.1003,
+        "META": 0.1059,
+        "JPM": 0.1029,
+        "AMZN": 0.1028,
+        "GOOGL": 0.0899,
+        "AVGO": 0.0976,
+        "LLY": 0.1006,
+        "CASH": 0.3
+      },
+      "period_return": -3.64,
+      "spy_return": -5.43,
+      "total_invested": 1480000.0,
+      "portfolio_value": 1813708.41,
+      "spy_value": 1682266.42
+    },
+    {
+      "date": "2018-12-11",
+      "weights": {
+        "AAPL": 0.0856,
+        "NVDA": 0.103,
+        "META": 0.1043,
+        "JPM": 0.1037,
+        "GOOGL": 0.1043,
+        "LLY": 0.0991,
+        "CASH": 0.4
+      },
+      "period_return": -1.16,
+      "spy_return": -3.43,
+      "total_invested": 1490000.0,
+      "portfolio_value": 1802525.4,
+      "spy_value": 1634284.06
+    },
+    {
+      "date": "2018-12-18",
+      "weights": {
+        "AAPL": 0.0882,
+        "NVDA": 0.1025,
+        "META": 0.1025,
+        "GOOGL": 0.1025,
+        "AVGO": 0.1019,
+        "LLY": 0.1025,
+        "CASH": 0.4
+      },
+      "period_return": -1.69,
+      "spy_return": -2.93,
+      "total_invested": 1500000.0,
+      "portfolio_value": 1781867.43,
+      "spy_value": 1596179.66
+    },
+    {
+      "date": "2018-12-26",
+      "weights": {
+        "AAPL": 0.0873,
+        "NVDA": 0.1047,
+        "META": 0.1048,
+        "AMZN": 0.1004,
+        "AVGO": 0.1048,
+        "LLY": 0.0978,
+        "CASH": 0.4
+      },
+      "period_return": -1.93,
+      "spy_return": -0.8,
+      "total_invested": 1510000.0,
+      "portfolio_value": 1757266.56,
+      "spy_value": 1593326.79
+    },
+    {
+      "date": "2019-01-03",
+      "weights": {
+        "AAPL": 0.0865,
+        "NVDA": 0.1049,
+        "META": 0.105,
+        "AVGO": 0.105,
+        "LLY": 0.0986,
+        "CASH": 0.5
+      },
+      "period_return": 4.37,
+      "spy_return": 6.01,
+      "total_invested": 1520000.0,
+      "portfolio_value": 1844430.06,
+      "spy_value": 1699640.6
+    },
+    {
+      "date": "2019-01-10",
+      "weights": {
+        "NVDA": 0.0999,
+        "META": 0.1001,
+        "AVGO": 0.1001,
+        "CASH": 0.7
+      },
+      "period_return": 0.96,
+      "spy_return": 1.58,
+      "total_invested": 1530000.0,
+      "portfolio_value": 1872303.08,
+      "spy_value": 1736585.31
+    },
+    {
+      "date": "2019-01-17",
+      "weights": {
+        "NVDA": 0.1012,
+        "META": 0.1017,
+        "AVGO": 0.1017,
+        "LLY": 0.0955,
+        "CASH": 0.6
+      },
+      "period_return": 0.78,
+      "spy_return": 1.07,
+      "total_invested": 1540000.0,
+      "portfolio_value": 1896940.07,
+      "spy_value": 1765315.4
+    },
+    {
+      "date": "2019-01-25",
+      "weights": {
+        "AAPL": 0.0908,
+        "NVDA": 0.102,
+        "META": 0.102,
+        "JPM": 0.1018,
+        "AVGO": 0.1019,
+        "LLY": 0.1016,
+        "CASH": 0.4
+      },
+      "period_return": 1.19,
+      "spy_return": 1.61,
+      "total_invested": 1550000.0,
+      "portfolio_value": 1929697.03,
+      "spy_value": 1803904.41
+    },
+    {
+      "date": "2019-02-01",
+      "weights": {
+        "META": 0.1002,
+        "JPM": 0.0994,
+        "MSFT": 0.1001,
+        "AVGO": 0.1002,
+        "CASH": 0.6
+      },
+      "period_return": 0.41,
+      "spy_return": 0.15,
+      "total_invested": 1560000.0,
+      "portfolio_value": 1947662.72,
+      "spy_value": 1816657.9
+    },
+    {
+      "date": "2019-02-08",
+      "weights": {
+        "META": 0.1001,
+        "JPM": 0.0999,
+        "AVGO": 0.1001,
+        "CASH": 0.7
+      },
+      "period_return": 0.41,
+      "spy_return": 2.55,
+      "total_invested": 1570000.0,
+      "portfolio_value": 1965715.35,
+      "spy_value": 1873258.19
+    },
+    {
+      "date": "2019-02-15",
+      "weights": {
+        "NVDA": 0.0867,
+        "META": 0.1066,
+        "JPM": 0.1064,
+        "AVGO": 0.1065,
+        "LLY": 0.0938,
+        "CASH": 0.5
+      },
+      "period_return": 0.25,
+      "spy_return": 0.78,
+      "total_invested": 1580000.0,
+      "portfolio_value": 1980676.37,
+      "spy_value": 1897856.14
+    },
+    {
+      "date": "2019-02-25",
+      "weights": {
+        "NVDA": 0.1008,
+        "META": 0.1008,
+        "JPM": 0.1006,
+        "AVGO": 0.1008,
+        "LLY": 0.0969,
+        "CASH": 0.5
+      },
+      "period_return": 0.02,
+      "spy_return": -0.04,
+      "total_invested": 1590000.0,
+      "portfolio_value": 1991097.02,
+      "spy_value": 1907037.48
+    },
+    {
+      "date": "2019-03-04",
+      "weights": {
+        "NVDA": 0.102,
+        "META": 0.093,
+        "JPM": 0.1019,
+        "MSFT": 0.1002,
+        "AMZN": 0.1017,
+        "AVGO": 0.102,
+        "LLY": 0.0991,
+        "CASH": 0.3
+      },
+      "period_return": -0.07,
+      "spy_return": -0.34,
+      "total_invested": 1600000.0,
+      "portfolio_value": 1999779.52,
+      "spy_value": 1910450.56
+    },
+    {
+      "date": "2019-03-11",
+      "weights": {
+        "NVDA": 0.1005,
+        "JPM": 0.1005,
+        "MSFT": 0.1004,
+        "AMZN": 0.1006,
+        "AVGO": 0.1006,
+        "LLY": 0.0974,
+        "CASH": 0.4
+      },
+      "period_return": 2.68,
+      "spy_return": 1.84,
+      "total_invested": 1610000.0,
+      "portfolio_value": 2063579.87,
+      "spy_value": 1955857.69
+    },
+    {
+      "date": "2019-03-18",
+      "weights": {
+        "NVDA": 0.0909,
+        "JPM": 0.1024,
+        "MSFT": 0.1023,
+        "AMZN": 0.1025,
+        "GOOGL": 0.1011,
+        "AVGO": 0.1009,
+        "CASH": 0.4
+      },
+      "period_return": -0.23,
+      "spy_return": -1.17,
+      "total_invested": 1620000.0,
+      "portfolio_value": 2068910.06,
+      "spy_value": 1942949.86
+    },
+    {
+      "date": "2019-03-25",
+      "weights": {
+        "NVDA": 0.0993,
+        "JPM": 0.099,
+        "MSFT": 0.1017,
+        "AMZN": 0.1019,
+        "AVGO": 0.1013,
+        "LLY": 0.0968,
+        "CASH": 0.4
+      },
+      "period_return": 1.82,
+      "spy_return": 2.43,
+      "total_invested": 1630000.0,
+      "portfolio_value": 2116646.01,
+      "spy_value": 2000471.22
+    },
+    {
+      "date": "2019-04-01",
+      "weights": {
+        "NVDA": 0.1001,
+        "MSFT": 0.1,
+        "AMZN": 0.1003,
+        "GOOGL": 0.1001,
+        "AVGO": 0.0996,
+        "CASH": 0.5
+      },
+      "period_return": 0.83,
+      "spy_return": 1.04,
+      "total_invested": 1640000.0,
+      "portfolio_value": 2144312.53,
+      "spy_value": 2031291.29
+    },
+    {
+      "date": "2019-04-08",
+      "weights": {
+        "NVDA": 0.1003,
+        "MSFT": 0.0989,
+        "AMZN": 0.1003,
+        "GOOGL": 0.1003,
+        "AVGO": 0.1002,
+        "LLY": 0.1002,
+        "CASH": 0.4
+      },
+      "period_return": -0.0,
+      "spy_return": 0.41,
+      "total_invested": 1650000.0,
+      "portfolio_value": 2154219.39,
+      "spy_value": 2049632.54
+    },
+    {
+      "date": "2019-04-15",
+      "weights": {
+        "NVDA": 0.1005,
+        "JPM": 0.0993,
+        "MSFT": 0.0994,
+        "AMZN": 0.1005,
+        "GOOGL": 0.1005,
+        "AVGO": 0.0995,
+        "LLY": 0.1005,
+        "CASH": 0.3
+      },
+      "period_return": 1.26,
+      "spy_return": 1.0,
+      "total_invested": 1660000.0,
+      "portfolio_value": 2191517.74,
+      "spy_value": 2080302.02
+    },
+    {
+      "date": "2019-04-23",
+      "weights": {
+        "NVDA": 0.1005,
+        "JPM": 0.1002,
+        "MSFT": 0.0983,
+        "AMZN": 0.1002,
+        "GOOGL": 0.1004,
+        "LLY": 0.1005,
+        "CASH": 0.4
+      },
+      "period_return": -0.49,
+      "spy_return": 0.39,
+      "total_invested": 1670000.0,
+      "portfolio_value": 2190686.49,
+      "spy_value": 2098437.75
+    },
+    {
+      "date": "2019-04-30",
+      "weights": {
+        "NVDA": 0.1028,
+        "META": 0.0883,
+        "JPM": 0.1023,
+        "TSLA": 0.1021,
+        "MSFT": 0.099,
+        "GOOGL": 0.1028,
+        "LLY": 0.1028,
+        "CASH": 0.3
+      },
+      "period_return": -1.25,
+      "spy_return": -2.07,
+      "total_invested": 1680000.0,
+      "portfolio_value": 2173233.34,
+      "spy_value": 2064766.42
+    },
+    {
+      "date": "2019-05-07",
+      "weights": {
+        "NVDA": 0.1025,
+        "META": 0.0913,
+        "JPM": 0.1018,
+        "TSLA": 0.101,
+        "MSFT": 0.0985,
+        "GOOGL": 0.1025,
+        "LLY": 0.1025,
+        "CASH": 0.3
+      },
+      "period_return": -2.48,
+      "spy_return": -1.57,
+      "total_invested": 1690000.0,
+      "portfolio_value": 2128994.02,
+      "spy_value": 2042123.92
+    },
+    {
+      "date": "2019-05-14",
+      "weights": {
+        "NVDA": 0.1044,
+        "META": 0.088,
+        "MSFT": 0.1043,
+        "GOOGL": 0.1044,
+        "AVGO": 0.0944,
+        "LLY": 0.1044,
+        "CASH": 0.4
+      },
+      "period_return": -0.38,
+      "spy_return": 1.1,
+      "total_invested": 1700000.0,
+      "portfolio_value": 2130856.16,
+      "spy_value": 2074643.28
+    },
+    {
+      "date": "2019-05-21",
+      "weights": {
+        "NVDA": 0.1043,
+        "META": 0.0954,
+        "TSLA": 0.1038,
+        "MSFT": 0.1041,
+        "AMZN": 0.0897,
+        "GOOGL": 0.0952,
+        "AVGO": 0.1031,
+        "LLY": 0.1043,
+        "CASH": 0.2
+      },
+      "period_return": -3.42,
+      "spy_return": -2.88,
+      "total_invested": 1710000.0,
+      "portfolio_value": 2067662.93,
+      "spy_value": 2024688.99
+    },
+    {
+      "date": "2019-05-29",
+      "weights": {
+        "AAPL": 0.0847,
+        "NVDA": 0.1055,
+        "META": 0.1008,
+        "TSLA": 0.1054,
+        "MSFT": 0.102,
+        "AMZN": 0.1053,
+        "AVGO": 0.0908,
+        "LLY": 0.1055,
+        "CASH": 0.2
+      },
+      "period_return": 0.09,
+      "spy_return": 1.69,
+      "total_invested": 1720000.0,
+      "portfolio_value": 2079465.31,
+      "spy_value": 2068982.28
+    },
+    {
+      "date": "2019-06-05",
+      "weights": {
+        "NVDA": 0.1008,
+        "META": 0.098,
+        "TSLA": 0.0988,
+        "MSFT": 0.1007,
+        "AMZN": 0.1008,
+        "LLY": 0.1008,
+        "CASH": 0.4
+      },
+      "period_return": 2.37,
+      "spy_return": 1.92,
+      "total_invested": 1730000.0,
+      "portfolio_value": 2138890.66,
+      "spy_value": 2118878.24
+    },
+    {
+      "date": "2019-06-12",
+      "weights": {
+        "NVDA": 0.1007,
+        "META": 0.0981,
+        "MSFT": 0.0999,
+        "AMZN": 0.1007,
+        "LLY": 0.1007,
+        "CASH": 0.5
+      },
+      "period_return": 1.78,
+      "spy_return": 1.62,
+      "total_invested": 1740000.0,
+      "portfolio_value": 2187180.73,
+      "spy_value": 2163350.98
+    },
+    {
+      "date": "2019-06-19",
+      "weights": {
+        "NVDA": 0.1013,
+        "META": 0.0991,
+        "JPM": 0.0969,
+        "AMZN": 0.1013,
+        "LLY": 0.1013,
+        "CASH": 0.5
+      },
+      "period_return": -0.11,
+      "spy_return": -0.4,
+      "total_invested": 1750000.0,
+      "portfolio_value": 2194753.61,
+      "spy_value": 2164621.61
+    },
+    {
+      "date": "2019-06-26",
+      "weights": {
+        "NVDA": 0.1015,
+        "META": 0.0954,
+        "AMZN": 0.1015,
+        "LLY": 0.1015,
+        "CASH": 0.6
+      },
+      "period_return": 1.21,
+      "spy_return": 2.87,
+      "total_invested": 1760000.0,
+      "portfolio_value": 2231402.36,
+      "spy_value": 2236983.77
+    },
+    {
+      "date": "2019-07-03",
+      "weights": {
+        "NVDA": 0.1016,
+        "META": 0.0958,
+        "MSFT": 0.0994,
+        "AMZN": 0.1016,
+        "LLY": 0.1016,
+        "CASH": 0.5
+      },
+      "period_return": 0.4,
+      "spy_return": 0.17,
+      "total_invested": 1770000.0,
+      "portfolio_value": 2250388.34,
+      "spy_value": 2250818.3
+    },
+    {
+      "date": "2019-07-11",
+      "weights": {
+        "NVDA": 0.1019,
+        "META": 0.0945,
+        "AMZN": 0.1018,
+        "LLY": 0.1019,
+        "CASH": 0.6
+      },
+      "period_return": -0.04,
+      "spy_return": -0.16,
+      "total_invested": 1780000.0,
+      "portfolio_value": 2259544.52,
+      "spy_value": 2257193.37
+    },
+    {
+      "date": "2019-07-18",
+      "weights": {
+        "AAPL": 0.0977,
+        "NVDA": 0.104,
+        "META": 0.0943,
+        "LLY": 0.104,
+        "CASH": 0.6
+      },
+      "period_return": 0.21,
+      "spy_return": 0.39,
+      "total_invested": 1790000.0,
+      "portfolio_value": 2274242.46,
+      "spy_value": 2276070.63
+    },
+    {
+      "date": "2019-07-25",
+      "weights": {
+        "AAPL": 0.0998,
+        "NVDA": 0.1055,
+        "MSFT": 0.0891,
+        "LLY": 0.1055,
+        "CASH": 0.6
+      },
+      "period_return": -0.32,
+      "spy_return": -1.72,
+      "total_invested": 1800000.0,
+      "portfolio_value": 2276955.55,
+      "spy_value": 2246749.86
+    },
+    {
+      "date": "2019-08-01",
+      "weights": {
+        "NVDA": 0.1045,
+        "TSLA": 0.0978,
+        "MSFT": 0.1027,
+        "AMZN": 0.0906,
+        "LLY": 0.1045,
+        "CASH": 0.5
+      },
+      "period_return": 0.04,
+      "spy_return": -0.41,
+      "total_invested": 1810000.0,
+      "portfolio_value": 2287950.88,
+      "spy_value": 2247412.51
+    },
+    {
+      "date": "2019-08-08",
+      "weights": {
+        "AAPL": 0.0849,
+        "NVDA": 0.1036,
+        "META": 0.1009,
+        "JPM": 0.1035,
+        "TSLA": 0.0982,
+        "MSFT": 0.1033,
+        "AMZN": 0.0999,
+        "GOOGL": 0.1021,
+        "LLY": 0.1036,
+        "CASH": 0.1
+      },
+      "period_return": -3.69,
+      "spy_return": -3.05,
+      "total_invested": 1820000.0,
+      "portfolio_value": 2213057.65,
+      "spy_value": 2188448.83
+    },
+    {
+      "date": "2019-08-15",
+      "weights": {
+        "NVDA": 0.1009,
+        "META": 0.1,
+        "JPM": 0.1008,
+        "TSLA": 0.096,
+        "MSFT": 0.1006,
+        "GOOGL": 0.1009,
+        "LLY": 0.1009,
+        "CASH": 0.3
+      },
+      "period_return": 2.76,
+      "spy_return": 2.71,
+      "total_invested": 1830000.0,
+      "portfolio_value": 2284486.08,
+      "spy_value": 2257995.52
+    },
+    {
+      "date": "2019-08-22",
+      "weights": {
+        "NVDA": 0.1009,
+        "META": 0.1005,
+        "JPM": 0.1008,
+        "TSLA": 0.096,
+        "MSFT": 0.1009,
+        "AMZN": 0.0992,
+        "GOOGL": 0.1009,
+        "LLY": 0.1009,
+        "CASH": 0.2
+      },
+      "period_return": -0.03,
+      "spy_return": 0.08,
+      "total_invested": 1840000.0,
+      "portfolio_value": 2293884.63,
+      "spy_value": 2269702.27
+    },
+    {
+      "date": "2019-08-29",
+      "weights": {
+        "NVDA": 0.1008,
+        "META": 0.1005,
+        "JPM": 0.1008,
+        "TSLA": 0.0953,
+        "MSFT": 0.1008,
+        "AMZN": 0.1002,
+        "GOOGL": 0.1008,
+        "LLY": 0.1008,
+        "CASH": 0.2
+      },
+      "period_return": 1.97,
+      "spy_return": 1.87,
+      "total_invested": 1850000.0,
+      "portfolio_value": 2349181.84,
+      "spy_value": 2322322.78
+    },
+    {
+      "date": "2019-09-06",
+      "weights": {
+        "AAPL": 0.0966,
+        "NVDA": 0.1014,
+        "META": 0.1013,
+        "JPM": 0.1014,
+        "TSLA": 0.0954,
+        "MSFT": 0.1014,
+        "GOOGL": 0.1014,
+        "LLY": 0.1014,
+        "CASH": 0.2
+      },
+      "period_return": 1.72,
+      "spy_return": 1.02,
+      "total_invested": 1860000.0,
+      "portfolio_value": 2399805.96,
+      "spy_value": 2356112.44
+    },
+    {
+      "date": "2019-09-13",
+      "weights": {
+        "AAPL": 0.0878,
+        "NVDA": 0.1025,
+        "META": 0.1025,
+        "JPM": 0.1024,
+        "TSLA": 0.0975,
+        "MSFT": 0.1025,
+        "GOOGL": 0.1021,
+        "LLY": 0.1025,
+        "CASH": 0.2
+      },
+      "period_return": -0.15,
+      "spy_return": -0.48,
+      "total_invested": 1870000.0,
+      "portfolio_value": 2406289.65,
+      "spy_value": 2354854.09
+    },
+    {
+      "date": "2019-09-20",
+      "weights": {
+        "AAPL": 0.0913,
+        "NVDA": 0.1017,
+        "META": 0.1017,
+        "JPM": 0.1016,
+        "TSLA": 0.0971,
+        "MSFT": 0.1017,
+        "GOOGL": 0.1017,
+        "AVGO": 0.1013,
+        "LLY": 0.1017,
+        "CASH": 0.1
+      },
+      "period_return": -1.59,
+      "spy_return": -0.97,
+      "total_invested": 1880000.0,
+      "portfolio_value": 2377967.41,
+      "spy_value": 2342020.69
+    },
+    {
+      "date": "2019-09-27",
+      "weights": {
+        "AAPL": 0.096,
+        "NVDA": 0.1014,
+        "META": 0.101,
+        "JPM": 0.1013,
+        "TSLA": 0.0948,
+        "MSFT": 0.1014,
+        "GOOGL": 0.1014,
+        "AVGO": 0.1014,
+        "LLY": 0.1014,
+        "CASH": 0.1
+      },
+      "period_return": 0.34,
+      "spy_return": -0.36,
+      "total_invested": 1890000.0,
+      "portfolio_value": 2396194.43,
+      "spy_value": 2343660.18
+    },
+    {
+      "date": "2019-10-04",
+      "weights": {
+        "AAPL": 0.0905,
+        "NVDA": 0.1028,
+        "JPM": 0.1017,
+        "TSLA": 0.0938,
+        "MSFT": 0.1028,
+        "GOOGL": 0.1028,
+        "AVGO": 0.1028,
+        "LLY": 0.1028,
+        "CASH": 0.2
+      },
+      "period_return": 1.55,
+      "spy_return": 0.66,
+      "total_invested": 1900000.0,
+      "portfolio_value": 2443463.73,
+      "spy_value": 2369093.17
+    },
+    {
+      "date": "2019-10-11",
+      "weights": {
+        "AAPL": 0.0866,
+        "NVDA": 0.1045,
+        "JPM": 0.0908,
+        "MSFT": 0.1045,
+        "GOOGL": 0.1045,
+        "AVGO": 0.1044,
+        "LLY": 0.1045,
+        "CASH": 0.3
+      },
+      "period_return": 0.93,
+      "spy_return": 0.57,
+      "total_invested": 1910000.0,
+      "portfolio_value": 2476189.8,
+      "spy_value": 2392663.54
+    },
+    {
+      "date": "2019-10-18",
+      "weights": {
+        "AAPL": 0.0934,
+        "NVDA": 0.1025,
+        "JPM": 0.0939,
+        "MSFT": 0.1025,
+        "GOOGL": 0.1025,
+        "AVGO": 0.1024,
+        "LLY": 0.1025,
+        "CASH": 0.3
+      },
+      "period_return": 2.25,
+      "spy_return": 1.22,
+      "total_invested": 1920000.0,
+      "portfolio_value": 2542223.28,
+      "spy_value": 2431933.89
+    },
+    {
+      "date": "2019-10-25",
+      "weights": {
+        "NVDA": 0.1006,
+        "JPM": 0.0972,
+        "MSFT": 0.1006,
+        "GOOGL": 0.1006,
+        "AVGO": 0.1005,
+        "LLY": 0.1006,
+        "CASH": 0.4
+      },
+      "period_return": 0.76,
+      "spy_return": 1.51,
+      "total_invested": 1930000.0,
+      "portfolio_value": 2571699.59,
+      "spy_value": 2478692.19
+    },
+    {
+      "date": "2019-11-01",
+      "weights": {
+        "NVDA": 0.1,
+        "MSFT": 0.1,
+        "GOOGL": 0.1,
+        "AVGO": 0.0999,
+        "LLY": 0.1,
+        "CASH": 0.5
+      },
+      "period_return": 1.36,
+      "spy_return": 0.91,
+      "total_invested": 1940000.0,
+      "portfolio_value": 2616768.78,
+      "spy_value": 2511454.26
+    },
+    {
+      "date": "2019-11-08",
+      "weights": {
+        "NVDA": 0.1001,
+        "MSFT": 0.1,
+        "GOOGL": 0.1,
+        "AVGO": 0.1,
+        "LLY": 0.1001,
+        "CASH": 0.5
+      },
+      "period_return": 0.3,
+      "spy_return": 0.92,
+      "total_invested": 1950000.0,
+      "portfolio_value": 2634664.93,
+      "spy_value": 2544715.06
+    },
+    {
+      "date": "2019-11-15",
+      "weights": {
+        "NVDA": 0.1,
+        "MSFT": 0.1,
+        "GOOGL": 0.0999,
+        "AVGO": 0.0999,
+        "LLY": 0.1,
+        "CASH": 0.5
+      },
+      "period_return": 0.37,
+      "spy_return": -0.27,
+      "total_invested": 1960000.0,
+      "portfolio_value": 2654404.96,
+      "spy_value": 2547913.8
+    },
+    {
+      "date": "2019-11-22",
+      "weights": {
+        "NVDA": 0.1,
+        "MSFT": 0.1,
+        "GOOGL": 0.1,
+        "AVGO": 0.0999,
+        "LLY": 0.1,
+        "CASH": 0.5
+      },
+      "period_return": -0.2,
+      "spy_return": 0.22,
+      "total_invested": 1970000.0,
+      "portfolio_value": 2659153.33,
+      "spy_value": 2563508.66
+    },
+    {
+      "date": "2019-12-02",
+      "weights": {
+        "NVDA": 0.1,
+        "MSFT": 0.1,
+        "GOOGL": 0.1,
+        "AVGO": 0.0999,
+        "LLY": 0.1,
+        "CASH": 0.5
+      },
+      "period_return": 1.1,
+      "spy_return": 0.72,
+      "total_invested": 1980000.0,
+      "portfolio_value": 2698467.59,
+      "spy_value": 2592006.47
+    },
+    {
+      "date": "2019-12-09",
+      "weights": {
+        "NVDA": 0.1005,
+        "MSFT": 0.1005,
+        "GOOGL": 0.1005,
+        "AVGO": 0.098,
+        "LLY": 0.1005,
+        "CASH": 0.5
+      },
+      "period_return": 1.52,
+      "spy_return": 1.79,
+      "total_invested": 1990000.0,
+      "portfolio_value": 2749505.21,
+      "spy_value": 2648594.93
+    },
+    {
+      "date": "2019-12-16",
+      "weights": {
+        "NVDA": 0.1005,
+        "MSFT": 0.1005,
+        "GOOGL": 0.1005,
+        "AVGO": 0.098,
+        "LLY": 0.1006,
+        "CASH": 0.5
+      },
+      "period_return": 1.33,
+      "spy_return": 1.03,
+      "total_invested": 2000000.0,
+      "portfolio_value": 2796088.53,
+      "spy_value": 2686047.32
+    },
+    {
+      "date": "2019-12-23",
+      "weights": {
+        "NVDA": 0.0998,
+        "MSFT": 0.1004,
+        "GOOGL": 0.1003,
+        "AVGO": 0.0991,
+        "LLY": 0.1005,
+        "CASH": 0.5
+      },
+      "period_return": -0.3,
+      "spy_return": 0.2,
+      "total_invested": 2010000.0,
+      "portfolio_value": 2797687.02,
+      "spy_value": 2701419.16
+    },
+    {
+      "date": "2019-12-31",
+      "weights": {
+        "NVDA": 0.1008,
+        "MSFT": 0.1003,
+        "AMZN": 0.0968,
+        "GOOGL": 0.1008,
+        "AVGO": 0.1005,
+        "LLY": 0.1007,
+        "CASH": 0.4
+      },
+      "period_return": 1.04,
+      "spy_return": 0.8,
+      "total_invested": 2020000.0,
+      "portfolio_value": 2836836.85,
+      "spy_value": 2733238.69
+    },
+    {
+      "date": "2020-01-08",
+      "weights": {
+        "NVDA": 0.1002,
+        "MSFT": 0.0995,
+        "AMZN": 0.1001,
+        "GOOGL": 0.1001,
+        "AVGO": 0.1001,
+        "LLY": 0.1,
+        "CASH": 0.4
+      },
+      "period_return": 0.87,
+      "spy_return": 1.15,
+      "total_invested": 2030000.0,
+      "portfolio_value": 2871466.82,
+      "spy_value": 2774860.38
+    },
+    {
+      "date": "2020-01-15",
+      "weights": {
+        "NVDA": 0.1025,
+        "JPM": 0.1017,
+        "MSFT": 0.0867,
+        "AMZN": 0.1024,
+        "GOOGL": 0.1022,
+        "AVGO": 0.1022,
+        "LLY": 0.1024,
+        "CASH": 0.3
+      },
+      "period_return": 1.49,
+      "spy_return": 1.08,
+      "total_invested": 2040000.0,
+      "portfolio_value": 2924393.54,
+      "spy_value": 2814814.52
+    },
+    {
+      "date": "2020-01-23",
+      "weights": {
+        "NVDA": 0.103,
+        "META": 0.0923,
+        "JPM": 0.1028,
+        "MSFT": 0.0975,
+        "AMZN": 0.1029,
+        "GOOGL": 0.1026,
+        "AVGO": 0.096,
+        "LLY": 0.1029,
+        "CASH": 0.2
+      },
+      "period_return": -0.72,
+      "spy_return": -1.22,
+      "total_invested": 2050000.0,
+      "portfolio_value": 2913129.68,
+      "spy_value": 2790410.77
+    },
+    {
+      "date": "2020-01-30",
+      "weights": {
+        "NVDA": 0.1003,
+        "JPM": 0.1003,
+        "MSFT": 0.0994,
+        "AMZN": 0.1003,
+        "GOOGL": 0.0998,
+        "AVGO": 0.1003,
+        "LLY": 0.0999,
+        "CASH": 0.3
+      },
+      "period_return": 2.67,
+      "spy_return": 1.92,
+      "total_invested": 2060000.0,
+      "portfolio_value": 3001271.05,
+      "spy_value": 2854251.28
+    },
+    {
+      "date": "2020-02-06",
+      "weights": {
+        "NVDA": 0.1024,
+        "META": 0.0943,
+        "JPM": 0.1024,
+        "MSFT": 0.0992,
+        "AMZN": 0.0955,
+        "GOOGL": 0.1023,
+        "AVGO": 0.1023,
+        "LLY": 0.1017,
+        "CASH": 0.2
+      },
+      "period_return": 1.32,
+      "spy_return": 0.92,
+      "total_invested": 2070000.0,
+      "portfolio_value": 3051141.12,
+      "spy_value": 2890666.16
+    },
+    {
+      "date": "2020-02-13",
+      "weights": {
+        "NVDA": 0.1018,
+        "META": 0.1006,
+        "JPM": 0.1013,
+        "MSFT": 0.0912,
+        "AMZN": 0.1017,
+        "GOOGL": 0.1012,
+        "AVGO": 0.1018,
+        "LLY": 0.1005,
+        "CASH": 0.2
+      },
+      "period_return": -0.7,
+      "spy_return": -1.06,
+      "total_invested": 2080000.0,
+      "portfolio_value": 3039835.55,
+      "spy_value": 2869857.53
+    },
+    {
+      "date": "2020-02-21",
+      "weights": {
+        "NVDA": 0.101,
+        "META": 0.1018,
+        "JPM": 0.0949,
+        "AMZN": 0.1029,
+        "GOOGL": 0.0966,
+        "AVGO": 0.1028,
+        "CASH": 0.4
+      },
+      "period_return": -6.11,
+      "spy_return": -11.16,
+      "total_invested": 2090000.0,
+      "portfolio_value": 2863486.01,
+      "spy_value": 2558434.3
+    },
+    {
+      "date": "2020-02-28",
+      "weights": {
+        "META": 0.0975,
+        "AMZN": 0.1006,
+        "GOOGL": 0.1006,
+        "AVGO": 0.1006,
+        "LLY": 0.1006,
+        "CASH": 0.5
+      },
+      "period_return": 0.3,
+      "spy_return": 0.41,
+      "total_invested": 2100000.0,
+      "portfolio_value": 2881968.64,
+      "spy_value": 2578837.81
+    },
+    {
+      "date": "2020-03-06",
+      "weights": {
+        "AMZN": 0.1022,
+        "GOOGL": 0.0934,
+        "AVGO": 0.1021,
+        "LLY": 0.1022,
+        "CASH": 0.6
+      },
+      "period_return": -2.7,
+      "spy_return": -9.46,
+      "total_invested": 2110000.0,
+      "portfolio_value": 2813944.02,
+      "spy_value": 2343930.77
+    },
+    {
+      "date": "2020-03-13",
+      "weights": {
+        "META": 0.0982,
+        "AMZN": 0.1021,
+        "AVGO": 0.098,
+        "LLY": 0.1017,
+        "CASH": 0.6
+      },
+      "period_return": -3.69,
+      "spy_return": -14.55,
+      "total_invested": 2120000.0,
+      "portfolio_value": 2719605.8,
+      "spy_value": 2011534.42
+    },
+    {
+      "date": "2020-03-20",
+      "weights": {
+        "META": 0.1016,
+        "MSFT": 0.0946,
+        "AMZN": 0.1014,
+        "GOOGL": 0.1006,
+        "LLY": 0.1019,
+        "CASH": 0.5
+      },
+      "period_return": 3.0,
+      "spy_return": 10.76,
+      "total_invested": 2130000.0,
+      "portfolio_value": 2811409.43,
+      "spy_value": 2239061.15
+    },
+    {
+      "date": "2020-03-27",
+      "weights": {
+        "META": 0.1026,
+        "MSFT": 0.0953,
+        "AMZN": 0.1025,
+        "GOOGL": 0.097,
+        "LLY": 0.1026,
+        "CASH": 0.5
+      },
+      "period_return": 0.4,
+      "spy_return": -2.06,
+      "total_invested": 2140000.0,
+      "portfolio_value": 2832651.4,
+      "spy_value": 2202646.05
+    },
+    {
+      "date": "2020-04-03",
+      "weights": {
+        "META": 0.1007,
+        "TSLA": 0.098,
+        "MSFT": 0.1,
+        "AMZN": 0.1007,
+        "GOOGL": 0.1005,
+        "CASH": 0.5
+      },
+      "period_return": 8.06,
+      "spy_return": 11.07,
+      "total_invested": 2150000.0,
+      "portfolio_value": 3071898.11,
+      "spy_value": 2457544.42
+    },
+    {
+      "date": "2020-04-13",
+      "weights": {
+        "AAPL": 0.0862,
+        "META": 0.1063,
+        "MSFT": 0.1012,
+        "AMZN": 0.1063,
+        "CASH": 0.6
+      },
+      "period_return": 2.01,
+      "spy_return": 2.15,
+      "total_invested": 2160000.0,
+      "portfolio_value": 3143883.9,
+      "spy_value": 2520626.05
+    },
+    {
+      "date": "2020-04-20",
+      "weights": {
+        "AAPL": 0.0958,
+        "META": 0.1021,
+        "AMZN": 0.1021,
+        "CASH": 0.7
+      },
+      "period_return": 0.67,
+      "spy_return": 1.94,
+      "total_invested": 2170000.0,
+      "portfolio_value": 3175052.31,
+      "spy_value": 2579694.47
+    },
+    {
+      "date": "2020-04-27",
+      "weights": {
+        "AAPL": 0.0984,
+        "META": 0.1009,
+        "AMZN": 0.1008,
+        "CASH": 0.7
+      },
+      "period_return": 1.05,
+      "spy_return": -1.21,
+      "total_invested": 2180000.0,
+      "portfolio_value": 3218429.57,
+      "spy_value": 2558299.82
+    },
+    {
+      "date": "2020-05-04",
+      "weights": {
+        "AAPL": 0.0984,
+        "NVDA": 0.0953,
+        "META": 0.1076,
+        "AMZN": 0.0924,
+        "GOOGL": 0.1064,
+        "CASH": 0.5
+      },
+      "period_return": 3.22,
+      "spy_return": 3.15,
+      "total_invested": 2190000.0,
+      "portfolio_value": 3332442.2,
+      "spy_value": 2649178.46
+    },
+    {
+      "date": "2020-05-11",
+      "weights": {
+        "AAPL": 0.0908,
+        "NVDA": 0.1042,
+        "META": 0.105,
+        "CASH": 0.7
+      },
+      "period_return": 0.88,
+      "spy_return": 0.85,
+      "total_invested": 2200000.0,
+      "portfolio_value": 3371979.56,
+      "spy_value": 2681906.4
+    },
+    {
+      "date": "2020-05-18",
+      "weights": {
+        "AAPL": 0.0936,
+        "NVDA": 0.1064,
+        "META": 0.1065,
+        "GOOGL": 0.0936,
+        "CASH": 0.6
+      },
+      "period_return": 1.21,
+      "spy_return": 1.38,
+      "total_invested": 2210000.0,
+      "portfolio_value": 3422798.89,
+      "spy_value": 2729136.06
+    },
+    {
+      "date": "2020-05-26",
+      "weights": {
+        "AAPL": 0.097,
+        "NVDA": 0.1025,
+        "META": 0.1025,
+        "LLY": 0.0981,
+        "CASH": 0.6
+      },
+      "period_return": 0.74,
+      "spy_return": 3.01,
+      "total_invested": 2220000.0,
+      "portfolio_value": 3458295.86,
+      "spy_value": 2821563.75
+    },
+    {
+      "date": "2020-06-02",
+      "weights": {
+        "AAPL": 0.0962,
+        "NVDA": 0.1025,
+        "META": 0.1023,
+        "LLY": 0.0989,
+        "CASH": 0.6
+      },
+      "period_return": 0.83,
+      "spy_return": 4.13,
+      "total_invested": 2230000.0,
+      "portfolio_value": 3497186.0,
+      "spy_value": 2948381.42
+    },
+    {
+      "date": "2020-06-09",
+      "weights": {
+        "AAPL": 0.0876,
+        "NVDA": 0.1065,
+        "META": 0.0941,
+        "JPM": 0.1053,
+        "LLY": 0.1065,
+        "CASH": 0.5
+      },
+      "period_return": 0.35,
+      "spy_return": -2.44,
+      "total_invested": 2240000.0,
+      "portfolio_value": 3519342.53,
+      "spy_value": 2886171.47
+    },
+    {
+      "date": "2020-06-16",
+      "weights": {
+        "NVDA": 0.103,
+        "JPM": 0.1028,
+        "MSFT": 0.0941,
+        "GOOGL": 0.0971,
+        "LLY": 0.103,
+        "CASH": 0.5
+      },
+      "period_return": 0.27,
+      "spy_return": 0.15,
+      "total_invested": 2250000.0,
+      "portfolio_value": 3538714.16,
+      "spy_value": 2900458.17
+    },
+    {
+      "date": "2020-06-23",
+      "weights": {
+        "NVDA": 0.1007,
+        "JPM": 0.1006,
+        "GOOGL": 0.0982,
+        "LLY": 0.1006,
+        "CASH": 0.6
+      },
+      "period_return": -0.35,
+      "spy_return": -1.18,
+      "total_invested": 2260000.0,
+      "portfolio_value": 3536327.56,
+      "spy_value": 2876041.99
+    },
+    {
+      "date": "2020-06-30",
+      "weights": {
+        "NVDA": 0.1042,
+        "JPM": 0.104,
+        "GOOGL": 0.1042,
+        "LLY": 0.0875,
+        "CASH": 0.6
+      },
+      "period_return": 1.7,
+      "spy_return": 2.54,
+      "total_invested": 2270000.0,
+      "portfolio_value": 3606521.07,
+      "spy_value": 2959231.83
+    },
+    {
+      "date": "2020-07-08",
+      "weights": {
+        "NVDA": 0.1001,
+        "JPM": 0.0999,
+        "GOOGL": 0.1001,
+        "CASH": 0.7
+      },
+      "period_return": 0.79,
+      "spy_return": 1.79,
+      "total_invested": 2280000.0,
+      "portfolio_value": 3645006.87,
+      "spy_value": 3022478.03
+    },
+    {
+      "date": "2020-07-15",
+      "weights": {
+        "NVDA": 0.1021,
+        "JPM": 0.102,
+        "GOOGL": 0.102,
+        "AVGO": 0.0991,
+        "LLY": 0.0948,
+        "CASH": 0.5
+      },
+      "period_return": 0.39,
+      "spy_return": 1.56,
+      "total_invested": 2290000.0,
+      "portfolio_value": 3669375.89,
+      "spy_value": 3079682.74
+    },
+    {
+      "date": "2020-07-22",
+      "weights": {
+        "NVDA": 0.1008,
+        "JPM": 0.1006,
+        "GOOGL": 0.1007,
+        "AVGO": 0.0985,
+        "LLY": 0.0995,
+        "CASH": 0.5
+      },
+      "period_return": -0.48,
+      "spy_return": -0.53,
+      "total_invested": 2300000.0,
+      "portfolio_value": 3661675.61,
+      "spy_value": 3073235.62
+    },
+    {
+      "date": "2020-07-29",
+      "weights": {
+        "NVDA": 0.1012,
+        "META": 0.0987,
+        "JPM": 0.1011,
+        "GOOGL": 0.1012,
+        "AVGO": 0.0975,
+        "LLY": 0.1003,
+        "CASH": 0.4
+      },
+      "period_return": 1.11,
+      "spy_return": 2.15,
+      "total_invested": 2310000.0,
+      "portfolio_value": 3712492.5,
+      "spy_value": 3149524.03
+    },
+    {
+      "date": "2020-08-05",
+      "weights": {
+        "NVDA": 0.103,
+        "META": 0.101,
+        "JPM": 0.1028,
+        "GOOGL": 0.103,
+        "AVGO": 0.0873,
+        "LLY": 0.1029,
+        "CASH": 0.4
+      },
+      "period_return": 1.37,
+      "spy_return": 1.6,
+      "total_invested": 2320000.0,
+      "portfolio_value": 3773412.84,
+      "spy_value": 3210231.48
+    },
+    {
+      "date": "2020-08-12",
+      "weights": {
+        "NVDA": 0.1011,
+        "META": 0.0942,
+        "JPM": 0.1009,
+        "MSFT": 0.1009,
+        "GOOGL": 0.1011,
+        "AVGO": 0.1008,
+        "LLY": 0.1011,
+        "CASH": 0.3
+      },
+      "period_return": 0.48,
+      "spy_return": -0.06,
+      "total_invested": 2330000.0,
+      "portfolio_value": 3801664.84,
+      "spy_value": 3218227.87
+    },
+    {
+      "date": "2020-08-19",
+      "weights": {
+        "NVDA": 0.1012,
+        "META": 0.0938,
+        "JPM": 0.101,
+        "MSFT": 0.1003,
+        "GOOGL": 0.1012,
+        "AVGO": 0.1012,
+        "LLY": 0.1012,
+        "CASH": 0.3
+      },
+      "period_return": 3.38,
+      "spy_return": 3.07,
+      "total_invested": 2340000.0,
+      "portfolio_value": 3940530.89,
+      "spy_value": 3327209.09
+    },
+    {
+      "date": "2020-08-26",
+      "weights": {
+        "NVDA": 0.1018,
+        "META": 0.0945,
+        "JPM": 0.1016,
+        "GOOGL": 0.1017,
+        "AVGO": 0.0986,
+        "LLY": 0.1018,
+        "CASH": 0.4
+      },
+      "period_return": 2.98,
+      "spy_return": 2.91,
+      "total_invested": 2350000.0,
+      "portfolio_value": 4068072.33,
+      "spy_value": 3434473.83
+    },
+    {
+      "date": "2020-09-02",
+      "weights": {
+        "NVDA": 0.0941,
+        "META": 0.0963,
+        "JPM": 0.1023,
+        "GOOGL": 0.1023,
+        "AVGO": 0.1022,
+        "LLY": 0.1027,
+        "CASH": 0.4
+      },
+      "period_return": -4.47,
+      "spy_return": -6.66,
+      "total_invested": 2360000.0,
+      "portfolio_value": 3895731.68,
+      "spy_value": 3215194.37
+    },
+    {
+      "date": "2020-09-10",
+      "weights": {
+        "META": 0.09,
+        "JPM": 0.1023,
+        "GOOGL": 0.1027,
+        "AVGO": 0.1024,
+        "LLY": 0.1027,
+        "CASH": 0.5
+      },
+      "period_return": -0.15,
+      "spy_return": 0.58,
+      "total_invested": 2370000.0,
+      "portfolio_value": 3900030.34,
+      "spy_value": 3244030.68
+    },
+    {
+      "date": "2020-09-17",
+      "weights": {
+        "META": 0.097,
+        "JPM": 0.0973,
+        "GOOGL": 0.1029,
+        "AVGO": 0.0999,
+        "LLY": 0.1029,
+        "CASH": 0.5
+      },
+      "period_return": -1.75,
+      "spy_return": -3.29,
+      "total_invested": 2380000.0,
+      "portfolio_value": 3841488.35,
+      "spy_value": 3147012.6
+    },
+    {
+      "date": "2020-09-24",
+      "weights": {
+        "META": 0.103,
+        "GOOGL": 0.0886,
+        "AVGO": 0.1041,
+        "LLY": 0.1043,
+        "CASH": 0.6
+      },
+      "period_return": 1.27,
+      "spy_return": 4.19,
+      "total_invested": 2390000.0,
+      "portfolio_value": 3900348.53,
+      "spy_value": 3289148.32
+    },
+    {
+      "date": "2020-10-01",
+      "weights": {
+        "META": 0.0998,
+        "AMZN": 0.0996,
+        "GOOGL": 0.1003,
+        "LLY": 0.1003,
+        "CASH": 0.6
+      },
+      "period_return": 0.41,
+      "spy_return": 2.0,
+      "total_invested": 2400000.0,
+      "portfolio_value": 3926291.32,
+      "spy_value": 3365123.8
+    },
+    {
+      "date": "2020-10-08",
+      "weights": {
+        "META": 0.0995,
+        "MSFT": 0.1001,
+        "AMZN": 0.1001,
+        "GOOGL": 0.1001,
+        "AVGO": 0.1001,
+        "LLY": 0.1002,
+        "CASH": 0.4
+      },
+      "period_return": 1.23,
+      "spy_return": 1.08,
+      "total_invested": 2410000.0,
+      "portfolio_value": 3984792.14,
+      "spy_value": 3411645.15
+    },
+    {
+      "date": "2020-10-15",
+      "weights": {
+        "NVDA": 0.0834,
+        "META": 0.1029,
+        "MSFT": 0.1041,
+        "AMZN": 0.1041,
+        "GOOGL": 0.0973,
+        "AVGO": 0.104,
+        "LLY": 0.1041,
+        "CASH": 0.3
+      },
+      "period_return": -0.88,
+      "spy_return": -0.83,
+      "total_invested": 2420000.0,
+      "portfolio_value": 3959655.14,
+      "spy_value": 3393188.49
+    },
+    {
+      "date": "2020-10-22",
+      "weights": {
+        "NVDA": 0.1011,
+        "META": 0.0996,
+        "JPM": 0.1007,
+        "MSFT": 0.1013,
+        "AMZN": 0.1013,
+        "GOOGL": 0.0935,
+        "AVGO": 0.1012,
+        "LLY": 0.1013,
+        "CASH": 0.2
+      },
+      "period_return": -2.52,
+      "spy_return": -4.25,
+      "total_invested": 2430000.0,
+      "portfolio_value": 3869457.57,
+      "spy_value": 3258710.08
+    },
+    {
+      "date": "2020-10-29",
+      "weights": {
+        "NVDA": 0.1005,
+        "META": 0.0972,
+        "JPM": 0.1001,
+        "MSFT": 0.1005,
+        "AMZN": 0.1005,
+        "GOOGL": 0.1,
+        "AVGO": 0.1005,
+        "LLY": 0.1005,
+        "CASH": 0.2
+      },
+      "period_return": 6.39,
+      "spy_return": 6.14,
+      "total_invested": 2440000.0,
+      "portfolio_value": 4127449.9,
+      "spy_value": 3469402.3
+    },
+    {
+      "date": "2020-11-05",
+      "weights": {
+        "NVDA": 0.1005,
+        "META": 0.0983,
+        "JPM": 0.0995,
+        "MSFT": 0.1005,
+        "AMZN": 0.1005,
+        "LLY": 0.1005,
+        "CASH": 0.4
+      },
+      "period_return": -1.55,
+      "spy_return": 0.85,
+      "total_invested": 2450000.0,
+      "portfolio_value": 4073431.78,
+      "spy_value": 3508906.68
+    },
+    {
+      "date": "2020-11-12",
+      "weights": {
+        "AAPL": 0.0877,
+        "NVDA": 0.1037,
+        "META": 0.1015,
+        "MSFT": 0.1037,
+        "AMZN": 0.1037,
+        "AVGO": 0.0959,
+        "LLY": 0.1037,
+        "CASH": 0.3
+      },
+      "period_return": 0.31,
+      "spy_return": 1.29,
+      "total_invested": 2460000.0,
+      "portfolio_value": 4096141.27,
+      "spy_value": 3564437.16
+    },
+    {
+      "date": "2020-11-19",
+      "weights": {
+        "AAPL": 0.1016,
+        "NVDA": 0.1055,
+        "META": 0.1043,
+        "JPM": 0.0858,
+        "MSFT": 0.1055,
+        "AMZN": 0.1055,
+        "GOOGL": 0.0875,
+        "AVGO": 0.0987,
+        "LLY": 0.1055,
+        "CASH": 0.1
+      },
+      "period_return": 1.41,
+      "spy_return": 1.65,
+      "total_invested": 2470000.0,
+      "portfolio_value": 4163859.79,
+      "spy_value": 3633280.51
+    },
+    {
+      "date": "2020-11-27",
+      "weights": {
+        "AAPL": 0.0993,
+        "NVDA": 0.1028,
+        "META": 0.1018,
+        "JPM": 0.0861,
+        "MSFT": 0.1028,
+        "AMZN": 0.1027,
+        "GOOGL": 0.0987,
+        "AVGO": 0.1028,
+        "LLY": 0.1028,
+        "CASH": 0.1
+      },
+      "period_return": 1.43,
+      "spy_return": 1.7,
+      "total_invested": 2480000.0,
+      "portfolio_value": 4233402.49,
+      "spy_value": 3705192.75
+    },
+    {
+      "date": "2020-12-04",
+      "weights": {
+        "AAPL": 0.0947,
+        "NVDA": 0.1013,
+        "META": 0.0997,
+        "MSFT": 0.1014,
+        "AVGO": 0.1013,
+        "LLY": 0.1014,
+        "CASH": 0.4
+      },
+      "period_return": -0.02,
+      "spy_return": -0.96,
+      "total_invested": 2490000.0,
+      "portfolio_value": 4242616.15,
+      "spy_value": 3679533.04
+    },
+    {
+      "date": "2020-12-11",
+      "weights": {
+        "AAPL": 0.0967,
+        "NVDA": 0.1027,
+        "META": 0.1,
+        "MSFT": 0.1028,
+        "GOOGL": 0.0956,
+        "AVGO": 0.0993,
+        "LLY": 0.1028,
+        "CASH": 0.3
+      },
+      "period_return": 2.16,
+      "spy_return": 1.22,
+      "total_invested": 2500000.0,
+      "portfolio_value": 4344615.6,
+      "spy_value": 3734392.39
+    },
+    {
+      "date": "2020-12-18",
+      "weights": {
+        "AAPL": 0.0872,
+        "NVDA": 0.1032,
+        "META": 0.1019,
+        "MSFT": 0.1032,
+        "GOOGL": 0.1032,
+        "AVGO": 0.0982,
+        "LLY": 0.1032,
+        "CASH": 0.3
+      },
+      "period_return": 0.65,
+      "spy_return": 0.81,
+      "total_invested": 2510000.0,
+      "portfolio_value": 4383084.42,
+      "spy_value": 3774717.84
+    },
+    {
+      "date": "2020-12-28",
+      "weights": {
+        "NVDA": 0.1021,
+        "META": 0.1012,
+        "MSFT": 0.1021,
+        "GOOGL": 0.1021,
+        "AVGO": 0.0904,
+        "LLY": 0.1021,
+        "CASH": 0.4
+      },
+      "period_return": 0.01,
+      "spy_return": 0.46,
+      "total_invested": 2520000.0,
+      "portfolio_value": 4393647.87,
+      "spy_value": 3802107.62
+    }
+  ]
+}
